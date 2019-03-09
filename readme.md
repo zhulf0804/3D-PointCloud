@@ -1,7 +1,5 @@
-### It's a paper collection mainly about Segmentation. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
-
-
----
+## About
+It's a paper collection mainly about Segmentation. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
 
 ## Artificial Intelligence
 + Journal
@@ -20,7 +18,6 @@
 	+ ECCV (European Conference on Computer Vision) [CCF-B]
 	+ ICLR (International Conference on Learning Representations) [not in CCF list]
 
----
 
 ## CVPR2019
 
