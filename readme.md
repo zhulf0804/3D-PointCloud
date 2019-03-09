@@ -1,5 +1,5 @@
 ## About
-It's a paper collection mainly about Segmentation. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
+It's a paper collection mainly about ***Image Segmentation***. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
 
 ## Artificial Intelligence
 + Journal
