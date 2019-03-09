@@ -1,4 +1,26 @@
-### It's a paper collection about Segmentation.
+### It's a paper collection mainly about Segmentation. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
+
+
+---
+
+## Artificial Intelligence
++ Journal
+	+ AI (Artifical Intelligence)
+	+ TPAMI (IEEE Trans on Pattern Analysis and Machine Intelligence)
+	+ IJCV (International Journal of Computer Vision)
+	+ JMLR (Journal of Machine Learning Research)
++ Conference
+	+ AAAI (AAAI Conference on Artificial Intelligence)
+	+ CVPR (IEEE Conference on Computer Vision and Pattern Recognition)
+	+ ICCV (International Conference on Computer Vision)
+	+ ICML (International Conference on Machine Learning)
+	+ IJCAL (International Joint Conference on Artificial Intelligence)
+	+ NIPS (International Joint Conference on Artificial Intelligence)
+	+ ACL (Annual Meeting of the Association for Computational Linguistics)
+	+ ECCV (European Conference on Computer Vision) [CCF-B]
+	+ ICLR (International Conference on Learning Representations) [not in CCF list]
+
+---
 
 ## CVPR2019
 
@@ -227,9 +249,110 @@
 
 	Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, Alan L. Yuille
 
+## <span id="others">Others(Classification, Object detection, Real-time and so on)</span>
+
+#### Real-time
+
+- [ ] [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.pdf) [CVPR2018]
+
+	Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
+
+
+- [ ] [Mobilenets: Efficient convolutional neural networks for mobile vision applications.](https://arxiv.org/pdf/1704.04861.pdf) [arXiv2017]
+
+	Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam
+	
+- [ ] [Xception: Deep Learning With Depthwise Separable Convolutions](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [CVPR2017]
+
+	Francois Chollet
+	
+#### Object detection
+
+- [X] [Yolov3: An incremental improvement](https://arxiv.org/pdf/1804.02767.pdf) [arXiv2018]
+
+	Redmon, Joseph, and Ali Farhadi
+
+- [X] [YOLO9000: Better, Faster, Stronger](http://openaccess.thecvf.com/content_cvpr_2017/papers/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf)  [CVPR2017]
+
+	Joseph Redmon, Ali Farhadi
+	
+- [ ] [Mask R-CNN](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) [ICCV2017]
+
+	Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick
+	
+- [X] [You Only Look Once: Unified, Real-Time Object Detection](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) [CVPR2016]
+
+	Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi
+
+- [X] [Ssd: Single shot multibox detector](https://arxiv.org/pdf/1512.02325.pdf) [ECCV2016]
+
+	Liu, Wei, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C. Berg
+	
+- [X] [Faster r-cnn: Towards real-time object detection with region proposal networks](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf) [NIPS2015]
+
+	Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun
+
+- [X] [Fast R-CNN](http://openaccess.thecvf.com/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf) [ICCV2015]
+
+	Ross Girshick
+
+- [X] [Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [CVPR2014]
+
+	Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik
+
+#### Image Classification
+
+- [X] [Densely Connected Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) [CVPR2017]
+
+	Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger
+
+- [ ] [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14806/14311) [AAAI2017]
+
+	Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alexander A Alemi
+
+- [ ] [Rethinking the Inception Architecture for Computer Vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [CVPR2016]
+
+	Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, Zbigniew Wojna
+
+- [X] [Deep Residual Learning for Image Recognition](http://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) [CVPR2016]
+
+	Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+	
+- [ ] [Identity mappings in deep residual networks](https://arxiv.org/pdf/1603.05027.pdf) [ECCV2016]
+
+	He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun
+
+- [X] [Batch normalization: Accelerating deep network training by reducing internal covariate shift](https://arxiv.org/pdf/1502.03167.pdf) [arXiv2015]
+
+	Ioffe, Sergey, and Christian Szegedy.
+
+- [X] [Going Deeper With Convolutions](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf) [CVPR2015]
+
+	Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich
+
+- [X] [Spatial pyramid pooling in deep convolutional networks for visual recognition](https://arxiv.org/pdf/1406.4729.pdf) [PAMI2015]
+
+	He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun
+
+- [X] [Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf) [arXiv2014] 
+
+	Simonyan, Karen, and Andrew Zisserman
+
+- [ ] [Visualizing and understanding convolutional networks](https://link.springer.com/content/pdf/10.1007%2F978-3-319-10590-1.pdf) (ECCV2014)
+
+	Zeiler, M.D. and Fergus, R.
+
+- [ ] [Network in network](https://arxiv.org/pdf/1312.4400.pdf) [arXiv2013]
+
+	Min Lin, Qiang Chen, Shuicheng Yan
+	
+- [X] [Imagenet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) [[Supp](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks-supplemental.zip)] [NIPS2012]
+
+	Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton
 
 ## Reference
 
 + [http://openaccess.thecvf.com/menu.py](http://openaccess.thecvf.com/menu.py)
 + [https://github.com/wutianyiRosun](https://github.com/wutianyiRosun)
 + [https://arxiv.org/](https://arxiv.org/)
++ [https://www.ccf.org.cn/xspj/rgzn/](https://www.ccf.org.cn/xspj/rgzn/)
