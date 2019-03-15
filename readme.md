@@ -90,6 +90,12 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 	
 	Chen, Liang-Chieh, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L. Yuille.
 	
+## arXiv2018
+
+- [ ] [Panoptic segmentation](https://arxiv.org/pdf/1801.00868.pdf)
+
+	Kirillov, Alexander, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár
+	
 ## CVPR2017
 
 - [ ] [Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network](http://openaccess.thecvf.com/content_cvpr_2017/papers/Peng_Large_Kernel_Matters_CVPR_2017_paper.pdf)
@@ -124,6 +130,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [ ] [Full-Resolution Residual Networks for Semantic Segmentation in Street Scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Pohlen_Full-Resolution_Residual_Networks_CVPR_2017_paper.pdf)
 
 	Tobias Pohlen, Alexander Hermans, Markus Mathias, Bastian Leibe
+
+- [ ] [Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Not_All_Pixels_CVPR_2017_paper.pdf) [[poster](http://openaccess.thecvf.com/content_cvpr_2017/poster/1176_POSTER.pdf)]
+
+	Xiaoxiao Li, Ziwei Liu, Ping Luo, Chen Change Loy, Xiaoou Tang
 
 
 ## ICCV2017
@@ -167,6 +177,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [X] [Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 
 	Liang-Chieh Chen, George Papandreou, Florian Schroff, Hartwig Adam
+
+- [ ] [Real-time Semantic Image Segmentation via Spatial Sparsity](https://arxiv.org/pdf/1712.00213.pdf)
+
+	Wu, Zifeng, Chunhua Shen, and Anton van den Hengel
 	
 ## ECCV2016
 
@@ -250,16 +264,16 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 
 #### Real-time
 
-- [ ] [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.pdf) [CVPR2018]
+- [X] [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.pdf) [CVPR2018]
 
 	Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
 
 
-- [ ] [Mobilenets: Efficient convolutional neural networks for mobile vision applications.](https://arxiv.org/pdf/1704.04861.pdf) [arXiv2017]
+- [X] [Mobilenets: Efficient convolutional neural networks for mobile vision applications.](https://arxiv.org/pdf/1704.04861.pdf) [arXiv2017]
 
 	Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam
 	
-- [ ] [Xception: Deep Learning With Depthwise Separable Convolutions](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [CVPR2017]
+- [X] [Xception: Deep Learning With Depthwise Separable Convolutions](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [CVPR2017]
 
 	Francois Chollet
 	
@@ -302,6 +316,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [X] [Densely Connected Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) [CVPR2017]
 
 	Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger
+	
+- [ ] [Aggregated Residual Transformations for Deep Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) [CVPR2017]
+
+	Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, Kaiming He
 
 - [ ] [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14806/14311) [AAAI2017]
 
