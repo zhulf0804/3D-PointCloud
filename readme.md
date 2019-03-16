@@ -25,11 +25,38 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 
 	Zhaojin Huang, Lichao Huang, Yongchao Gong, Chang Huang, Xinggang Wang
 
+- [ ] [Structured Knowledge Distillation for Semantic Segmentation](https://arxiv.org/pdf/1903.04197.pdf)
+
+	Yifan Liu, Ke Chen, Chris Liu, Zengchang Qin, Zhenbo Luo, Jingdong Wang
+
+	
+- [ ] [Knowledge Adaptation for Efficient Semantic Segmentation](https://arxiv.org/pdf/1903.04688.pdf)
+
+	Tong He, Chunhua Shen, Zhi Tian, Dong Gong, Changming Sun, Youliang Yan
+
+	
+- [ ] [FickleNet: Weakly and Semi-supervised Semantic Image Segmentation using Stochastic Inference](https://arxiv.org/pdf/1902.10421.pdf)
+
+	Jungbeom Lee, Eunji Kim, Sungmin Lee, Jangho Lee, Sungroh Yoon
+	
+- [ ] [CANet: Class-Agnostic Segmentation Networks with Iterative Refinement and Attentive Few-Shot Learning](https://arxiv.org/pdf/1903.02351.pdf)
+
+	Chi Zhang, Guosheng Lin, Fayao Liu, Rui Yao, Chunhua Shen
+	
+- [ ] [Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation](https://arxiv.org/pdf/1903.02120.pdf)
+
+	Zhi Tian, Tong He, Chunhua Shen, Youliang Yan
+	
+- [ ] [An End-to-End Network for Panoptic Segmentation](https://arxiv.org/pdf/1903.05027.pdf)
+
+	Huanyu Liu, Chao Peng, Changqian Yu, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang
+
 ## CVPR2018
 
 - [ ] [Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
 	
 	Yu, Changqian, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, and Nong Sang. 
+	
 - [X] [DenseASPP for Semantic Segmentation in StreetScenes](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_DenseASPP_for_Semantic_CVPR_2018_paper.pdf)
 
 	Maoke Yang, Kun Yu, Chi Zhang, Zhiwei Li, Kuiyuan Yang
@@ -134,6 +161,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [ ] [Not All Pixels Are Equal: Difficulty-Aware Semantic Segmentation via Deep Layer Cascade](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Not_All_Pixels_CVPR_2017_paper.pdf) [[poster](http://openaccess.thecvf.com/content_cvpr_2017/poster/1176_POSTER.pdf)]
 
 	Xiaoxiao Li, Ziwei Liu, Ping Luo, Chen Change Loy, Xiaoou Tang
+	
+- [ ] [Fully Convolutional Instance-Aware Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Fully_Convolutional_Instance-Aware_CVPR_2017_paper.pdf) [[video](https://www.youtube.com/watch?v=cYqQzpnbnn4)] [[github](https://github.com/msracver/FCIS)]
+
+	Yi Li, Haozhi Qi, Jifeng Dai, Xiangyang Ji, Yichen Wei
 
 
 ## ICCV2017
