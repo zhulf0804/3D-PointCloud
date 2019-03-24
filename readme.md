@@ -1,5 +1,5 @@
 ## About
-It's a paper collection mainly about ***Image Segmentation***. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time and so on.
+It's a paper collection mainly about ***Image Segmentation***. In the [Others](#others) module, it contains some paper collections about Image classifcation, Object detection , Real-time, GANs and so on.
 
 ## Artificial Intelligence
 + Journal
@@ -19,7 +19,43 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 	+ ICLR (International Conference on Learning Representations) [not in CCF list]
 
 
-## CVPR2019
+## CVPR2019	
+
+- [ ] [RVOS: End-to-End Recurrent Network for Video Object Segmentation](https://arxiv.org/pdf/1903.05612.pdf)
+
+	Carles Ventura, Miriam Bellver, Andreu Girbau, Amaia Salvador, Ferran Marques, Xavier Giro-i-Nieto
+
+- [ ] [MS-TCN: Multi-Stage Temporal Convolutional Network for Action Segmentation](https://arxiv.org/pdf/1903.01945.pdf)
+
+	Yazan Abu Farha, Juergen Gall
+
+- [ ] [Object Counting and Instance Segmentation with Image-level Supervision](https://arxiv.org/pdf/1903.02494.pdf)
+
+	Hisham Cholakkal, Guolei Sun (equal contribution), Fahad Shahbaz Khan, Ling Shao
+
+- [ ] [Hybrid Task Cascade for Instance Segmentation](https://arxiv.org/pdf/1901.07518.pdf) [[github](https://github.com/open-mmlab/mmdetection)]
+
+	Kai Chen, Jiangmiao Pang, Jiaqi Wang, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, Chen Change Loy, Dahua Lin
+
+- [ ] [Dual Attention Network for Scene Segmentation](https://arxiv.org/pdf/1809.02983.pdf) [[github](https://github.com/junfu1115/DANet)]
+
+	Jun Fu, Jing Liu, Haijie Tian, Yong Li, Yongjun Bao, Zhiwei Fang, Hanqing Lu
+
+- [ ] [Data augmentation using learned transforms for one-shot medical image segmentation](https://arxiv.org/pdf/1902.09383.pdf)
+
+	Amy Zhao, Guha Balakrishnan, Frédo Durand, John V. Guttag, Adrian V. Dalca
+
+- [ ] [Associatively Segmenting Instances and Semantics in Point Clouds](https://arxiv.org/pdf/1902.09852.pdf) [[github](https://github.com/WXinlong/ASIS)]
+
+	Xinlong Wang, Shu Liu, Xiaoyong Shen, Chunhua Shen, Jiaya Jia
+
+- [ ] [FEELVOS: Fast End-to-End Embedding Learning for Video Object Segmentation](https://arxiv.org/pdf/1902.09513.pdf)
+
+	Paul Voigtlaender, Yuning Chai, Florian Schroff, Hartwig Adam, Bastian Leibe, Liang-Chieh Chen
+
+- [ ] [Attention-guided Unified Network for Panoptic Segmentation](https://arxiv.org/pdf/1812.03904.pdf)
+
+	Yanwei Li, Xinze Chen, Zheng Zhu, Lingxi Xie, Guan Huang, Dalong Du, Xingang Wang
 
 - [ ] [Mask Scoring R-CNN](https://arxiv.org/pdf/1903.00241.pdf) &nbsp; [[github](https://github.com/zjhuang22/maskscoring_rcnn)]
 
@@ -53,6 +89,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 
 ## CVPR2018
 
+- [ ] [Learning Superpixels With Segmentation-Aware Affinity Loss](http://openaccess.thecvf.com/content_cvpr_2018/papers/Tu_Learning_Superpixels_With_CVPR_2018_paper.pdf)
+
+	Wei-Chih Tu, Ming-Yu Liu, Varun Jampani, Deqing Sun, Shao-Yi Chien, Ming-Hsuan Yang, Jan Kautz
+
 - [ ] [Learning a Discriminative Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1804.09337.pdf)
 	
 	Yu, Changqian, Jingbo Wang, Chao Peng, Changxin Gao, Gang Yu, and Nong Sang. 
@@ -80,6 +120,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [ ] [Dense Decoder Shortcut Connections for Single-Pass Semantic Segmentation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Bilinski_Dense_Decoder_Shortcut_CVPR_2018_paper.pdf)
 
 	Piotr Bilinski, Victor Prisacariu
+
+- [ ] [Interactive Image Segmentation With Latent Diversity](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Interactive_Image_Segmentation_CVPR_2018_paper.pdf)
+
+	Zhuwen Li, Qifeng Chen, Vladlen Koltun
 	
 ## ECCV2018
 
@@ -344,6 +388,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 
 #### Image Classification
 
+- [ ] [Squeeze-and-Excitation Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) [[Supp](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/1287-supp.pdf)] [CVPR2018]
+
+	Jie Hu, Li Shen, Gang Sun
+
 - [X] [Densely Connected Convolutional Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) [CVPR2017]
 
 	Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger
@@ -376,6 +424,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 
 	Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich
 
+- [ ] [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf) [ICCV2015]
+
+	Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+
 - [X] [Spatial pyramid pooling in deep convolutional networks for visual recognition](https://arxiv.org/pdf/1406.4729.pdf) [PAMI2015]
 
 	He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun
@@ -395,6 +447,12 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [X] [Imagenet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) [[Supp](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks-supplemental.zip)] [NIPS2012]
 
 	Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton
+	
+#### GANs
+
+- [ ] [Deep Photo Enhancer: Unpaired Learning for Image Enhancement From Photographs With GANs](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Deep_Photo_Enhancer_CVPR_2018_paper.pdf) [CVPR2018]
+
+	Yu-Sheng Chen, Yu-Ching Wang, Man-Hsin Kao, Yung-Yu Chuang
 
 ## Reference
 
@@ -402,3 +460,4 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 + [https://github.com/wutianyiRosun](https://github.com/wutianyiRosun)
 + [https://arxiv.org/](https://arxiv.org/)
 + [https://www.ccf.org.cn/xspj/rgzn/](https://www.ccf.org.cn/xspj/rgzn/)
++ [http://bbs.cvmart.net/topics/302/cvpr2019paper](http://bbs.cvmart.net/topics/302/cvpr2019paper)
