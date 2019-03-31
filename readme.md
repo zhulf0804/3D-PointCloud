@@ -86,6 +86,13 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [ ] [An End-to-End Network for Panoptic Segmentation](https://arxiv.org/pdf/1903.05027.pdf)
 
 	Huanyu Liu, Chao Peng, Changqian Yu, Jingbo Wang, Xu Liu, Gang Yu, Wei Jiang
+	
+## arXiv2019
+
+- [ ][TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/pdf/1903.12174.pdf)
+	
+	Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar
+	
 
 ## CVPR2018
 
@@ -365,7 +372,11 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 - [ ] [Mask R-CNN](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) [ICCV2017]
 
 	Kaiming He, Georgia Gkioxari, Piotr Dollar, Ross Girshick
-	
+
+- [ ] [Focal Loss for Dense Object Detection](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[video](https://www.youtube.com/watch?v=44tlnmmt3h0)][ICCV2017]
+
+	Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, Piotr Dollar	
+
 - [X] [You Only Look Once: Unified, Real-Time Object Detection](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) [CVPR2016]
 
 	Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi
@@ -387,6 +398,10 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 	Ross Girshick, Jeff Donahue, Trevor Darrell, Jitendra Malik
 
 #### Image Classification
+
+- [ ] [Selective Kernel Networks](https://arxiv.org/pdf/1903.06586.pdf) [CVPR2019]
+
+	Xiang Li, Wenhai Wang, Xiaolin Hu, Jian Yang
 
 - [ ] [Squeeze-and-Excitation Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) [[Supp](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/1287-supp.pdf)] [CVPR2018]
 
