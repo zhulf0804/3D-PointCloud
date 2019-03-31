@@ -89,7 +89,7 @@ It's a paper collection mainly about ***Image Segmentation***. In the [Others](#
 	
 ## arXiv2019
 
-- [ ][TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/pdf/1903.12174.pdf)
+- [ ] [TensorMask: A Foundation for Dense Object Segmentation](https://arxiv.org/pdf/1903.12174.pdf)
 	
 	Xinlei Chen, Ross Girshick, Kaiming He, and Piotr Dollar
 	
