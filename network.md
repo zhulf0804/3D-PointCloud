@@ -3,6 +3,10 @@ It's a paper collection mainly about ***Image Classification, Network Architectu
 
 ## Real-time
 
+- [ ] [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/pdf/1904.05049.pdf)
+
+	Yunpeng Chen, Haoqi Fan, Bing Xu, Zhicheng Yan, Yannis Kalantidis, Marcus Rohrbach, Shuicheng Yan, Jiashi Feng
+
 - [X] [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_ShuffleNet_An_Extremely_CVPR_2018_paper.pdf) [CVPR2018]
 
 	Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
