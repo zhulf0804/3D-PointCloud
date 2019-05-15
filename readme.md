@@ -5,13 +5,13 @@ It's a paper collection mainly about ***Image Segmentation, Object Detection, Po
 	+ Semantic Segmentation
 	+ Instance Segmentation
 	+ Panoptic Segmentation
-- [X] [Object Dectection](https://github.com/zhulf0804/Segmentation-Papers/blob/master/detection.md)
-- [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/point_cloud.md)
+- [X] [Object Dectection and AutonomousDriving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/detection.md)
 - [ ] [network architecture](https://github.com/zhulf0804/Segmentation-Papers/blob/master/network.md)
 	+ Image Classification
 	+ Efficient CNNs
 	+ Real-Time
 - [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/Segmentation-Papers/blob/master/gan.md)
+- [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/point_cloud.md)
 
 ## Artificial Intelligence
 + Journal
