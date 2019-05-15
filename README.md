@@ -5,7 +5,8 @@ It's a paper collection mainly about ***Image Segmentation, Object Detection, Po
 	+ Semantic Segmentation
 	+ Instance Segmentation
 	+ Panoptic Segmentation
-- [X] [Object Dectection and AutonomousDriving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
+- [X] [Object Dectection and Autonomous
+Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
 - [ ] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
 	+ Image Classification
 	+ Efficient CNNs
