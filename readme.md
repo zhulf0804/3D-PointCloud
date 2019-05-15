@@ -1,17 +1,17 @@
 ## About
 It's a paper collection mainly about ***Image Segmentation, Object Detection, Point Cloud, Network Architecure, and GANs***. 
 
-- [X] [Image Segmentation](https://github.com/zhulf0804/Segmentation-Papers/blob/master/segmentation.md)
+- [X] [Image Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Image_Segmentation.md)
 	+ Semantic Segmentation
 	+ Instance Segmentation
 	+ Panoptic Segmentation
-- [X] [Object Dectection and AutonomousDriving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/detection.md)
-- [ ] [network architecture](https://github.com/zhulf0804/Segmentation-Papers/blob/master/network.md)
+- [X] [Object Dectection and AutonomousDriving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
+- [ ] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
 	+ Image Classification
 	+ Efficient CNNs
 	+ Real-Time
-- [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/Segmentation-Papers/blob/master/gan.md)
-- [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/point_cloud.md)
+- [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md)
+- [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud.md)
 
 ## Artificial Intelligence
 + Journal
