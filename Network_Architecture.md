@@ -1,12 +1,14 @@
 ## About
-It's a paper collection mainly about ***Image Classification, Network Architecture and Real Time***.
+It's a paper collection mainly about ***Network Architecture***.
 
-## Real-time
+- [ ] [Selective Kernel Networks](https://arxiv.org/pdf/1903.06586.pdf) [CVPR2019]
+
+	Xiang Li, Wenhai Wang, Xiaolin Hu, Jian Yang
 
 - [ ] [Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution](https://arxiv.org/pdf/1904.05049.pdf) [arXiv2019]
 
 	Yunpeng Chen, Haoqi Fan, Bing Xu, Zhicheng Yan, Yannis Kalantidis, Marcus Rohrbach, Shuicheng Yan, Jiashi Feng
-	
+
 - [ ] [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) [CVPR2018]
 
 	Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
@@ -16,27 +18,21 @@ It's a paper collection mainly about ***Image Classification, Network Architectu
 	Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
 
 
-- [X] [Mobilenets: Efficient convolutional neural networks for mobile vision applications.](https://arxiv.org/pdf/1704.04861.pdf) [arXiv2017]
-
-	Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam
-	
-- [X] [Xception: Deep Learning With Depthwise Separable Convolutions](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [CVPR2017]
-
-	Francois Chollet
-
-## Image Classification
-
-- [ ] [Selective Kernel Networks](https://arxiv.org/pdf/1903.06586.pdf) [CVPR2019]
-
-	Xiang Li, Wenhai Wang, Xiaolin Hu, Jian Yang
-
 - [ ] [Deep Layer Aggregation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.pdf)
 
 	Fisher Yu, Dequan Wang, Evan Shelhamer, Trevor Darrell
+	
+- [ ] [Non-local Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf) [CVPR2018]
+
+	Xiaolong Wang, Ross Girshick, Abhinav Gupta, Kaiming He
 
 - [ ] [Squeeze-and-Excitation Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) [[Supp](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/1287-supp.pdf)] [CVPR2018]
 
 	Jie Hu, Li Shen, Gang Sun
+
+- [ ] [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) [NIPS2017]
+
+	Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob, Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
 
 - [ ] [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)
 
@@ -46,6 +42,10 @@ It's a paper collection mainly about ***Image Classification, Network Architectu
 
 	Gao Huang, Zhuang Liu, Laurens van der Maaten, Kilian Q. Weinberger
 	
+- [X] [Xception: Deep Learning With Depthwise Separable Convolutions](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chollet_Xception_Deep_Learning_CVPR_2017_paper.pdf)  [CVPR2017]
+
+	Francois Chollet
+	
 - [ ] [Aggregated Residual Transformations for Deep Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) [CVPR2017]
 
 	Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, Kaiming He
@@ -53,6 +53,10 @@ It's a paper collection mainly about ***Image Classification, Network Architectu
 - [ ] [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14806/14311) [AAAI2017]
 
 	Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alexander A Alemi
+
+- [X] [Mobilenets: Efficient convolutional neural networks for mobile vision applications.](https://arxiv.org/pdf/1704.04861.pdf) [arXiv2017]
+
+	Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam
 
 - [ ] [Rethinking the Inception Architecture for Computer Vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [CVPR2016]
 

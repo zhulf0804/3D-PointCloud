@@ -1,5 +1,8 @@
 ## About
-It's a paper collection mainly about ***Image Segmentation, Object Detection, Point Cloud, Network Architecure, and GANs***. 
++ Paper lists about ***Image Segmentation, Object Detection, Point Cloud, Network Architecure, GANs and Others***. 
++ Datasets about ***Semantic Segmentation and Object Detection***.
+
+## Papers
 
 - [X] [Image Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Image_Segmentation.md)
 	+ Semantic Segmentation
@@ -7,12 +10,23 @@ It's a paper collection mainly about ***Image Segmentation, Object Detection, Po
 	+ Panoptic Segmentation
 - [X] [Object Dectection and Autonomous
 Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
-- [ ] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
-	+ Image Classification
-	+ Efficient CNNs
-	+ Real-Time
+- [X] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
 - [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md)
 - [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud.md)
+- [ ] [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md)
+
+## Datasets
+
++ [PASCAL VOC(Visual Object Classes) 2012](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#voc)
++ [PASCAL-Context](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#pascal_context)
++ [NYUDv2](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#nyudv2)
++ [SUN-RGBD](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#sun_rgbd)
++ [Microsoft COCO](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#coco)
++ [Cityscape](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#cityscape)
++ [CamVid](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#camvid)
++ [ADE20K](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#ade20k)
+
+
 
 ## Artificial Intelligence
 + Journal

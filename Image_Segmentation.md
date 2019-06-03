@@ -7,6 +7,14 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 ## CVPR2019	
 
+- [ ] [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf)
+
+	Chenxi Liu, Liang-Chieh Chen, Florian Schroff, Hartwig Adam, Wei Hua, Alan Yuille, Li Fei-Fei
+
+- [ ] [UPSNet: A Unified Panoptic Segmentation Network](https://arxiv.org/pdf/1901.03784.pdf) [[github](https://github.com/uber-research/UPSNet)]
+
+	Yuwen Xiong, Renjie Liao, Hengshuang Zhao, Rui Hu, Min Bai, Ersin Yumer, Raquel Urtasun
+
 - [X] [DFANet: Deep Feature Aggregation for Real-Time Semantic Segmentation](https://arxiv.org/pdf/1904.02216.pdf)
 
 	Hanchao Li, Pengfei Xiong, Haoqiang Fan, Jian Sun
@@ -233,11 +241,22 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 	Zhenli Zhang, Xiangyu Zhang, Chao Peng, Xiangyang Xue, Jian Sun
 	
+- [ ] [MSCOCO & Mapillary Panoptic Segmentation
+Challenge 2018](http://presentations.cocodataset.org/ECCV18/COCO18-Panoptic-Megvii.pdf)
+
+	Megvii
+	
 ## PAMI2018
 
 - [X] [Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs.](https://arxiv.org/pdf/1606.00915.pdf)
 	
 	Chen, Liang-Chieh, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and Alan L. Yuille.
+	
+## NIPS2018
+
+- [ ] [Searching for efficient multi-scale architectures for dense image prediction](https://arxiv.org/pdf/1809.04184.pdf)
+
+	Liang-Chieh Chen, Maxwell Collins, Yukun Zhu, George Papandreou, Barret Zoph, Florian Schroff, Hartwig Adam, Jon Shlens
 	
 ## arXiv2018
 
@@ -245,6 +264,14 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 	Kirillov, Alexander, Kaiming He, Ross Girshick, Carsten Rother, and Piotr Dollár
 	
+- [ ] [CCNet: Criss-Cross Attention for Semantic Segmentation](https://arxiv.org/pdf/1811.11721.pdf) [[github](https://github.com/speedinghzl/CCNet)]
+
+	Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, Wenyu Liu
+	
+- [ ] [OCNet: Object Context Network for Scene Parsing](https://arxiv.org/pdf/1809.00916.pdf) [[github](https://github.com/PkuRainBow/OCNet.pytorch)]
+
+	Yuhui Yuan, Jingdong Wang
+
 ## Others 2018
 
 - [ ] [Pyramid Attention Network for Semantic Segmentation](https://arxiv.org/pdf/1805.10180.pdf) [BMVC]
@@ -372,6 +399,10 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 	Guosheng Lin, Chunhua Shen, Anton van den Hengel, Ian Reid
 
+- [ ] [Laplacian Pyramid Reconstruction and Refinement for Semantic Segmentation](https://arxiv.org/pdf/1605.02264.pdf%5D)
+
+	Golnaz Ghiasi, Charless C. Fowlkes
+
 ## NIBS2016
 
 - [ ] [Speeding up semantic segmentation for autonomous driving](https://www.researchgate.net/profile/Thomas_Unterthiner2/publication/309935608_Speeding_up_Semantic_Segmentation_for_Autonomous_Driving/links/58524adf08ae7d33e01a58a7.pdf)
@@ -402,6 +433,13 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 	Zifeng Wu, Chunhua Shen, Anton van den Hengel
 	
+## ICLR2016
+
+- [ ] [Multi-Scale Context Aggregation by Dilated Convolutions](https://arxiv.org/pdf/1511.07122.pdf)
+
+	Fisher Yu, Vladlen Koltun
+
+	
 ## CVPR2015
 
 - [X] [Fully Convolutional Networks for Semantic Segmentation](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
@@ -422,6 +460,10 @@ It's a paper collection mainly about ***Image Segmentation***.
 
 	Ziwei Liu, Xiaoxiao Li, Ping Luo, Chen-Change Loy, Xiaoou Tang
 	
+- [ ] [Conditional Random Fields as Recurrent Neural Networks](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Conditional_Random_Fields_ICCV_2015_paper.pdf)
+
+	Shuai Zheng, Sadeep Jayasumana, Bernardino Romera-Paredes, Vibhav Vineet, Zhizhong Su, Dalong Du, Chang Huang, Philip H. S. Torr
+	
 ## MICCAI2015
 
 - [X] [U-net: Convolutional networks for biomedical image segmentation](https://arxiv.org/pdf/1505.04597v1.pdf)
@@ -433,6 +475,10 @@ It's a paper collection mainly about ***Image Segmentation***.
 - [ ] [Learning Dense Convolutional Embeddings for Semantic Segmentation](https://arxiv.org/pdf/1511.04377.pdf)
 	
 	Adam W. Harley, Konstantinos G. Derpanis, Iasonas Kokkinos
+	
+- [ ] [ParseNet: Looking Wider to See Better](https://arxiv.org/pdf/1506.04579.pdf) [[github](https://github.com/weiliu89/caffe/tree/fcn)]
+
+	Wei Liu, Andrew Rabinovich, Alexander C. Berg
 	
 ## arXiv2014
 
