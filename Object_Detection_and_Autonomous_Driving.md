@@ -1,6 +1,16 @@
 ## About
 It's a paper collection mainly about ***Object detection and Autonomous driving***.
 
+## Survey
+
+- [ ] [Object Detection in 20 Years: A Survey](https://arxiv.org/pdf/1905.05055.pdf)
+
+	Zhengxia Zou, Zhenwei Shi, Yuhong Guo, Jieping Ye
+
+- [ ] [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/pdf/1809.02165.pdf) [arXiv 2018]
+
+	Li Liu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Xinwang Liu, Matti Pietikäinen
+
 ## CVPR 2019
 
 - [ ] [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf) [[github](https://github.com/mileyan/pseudo_lidar)]
@@ -291,11 +301,6 @@ It's a paper collection mainly about ***Object detection and Autonomous driving*
 	Tong Yang, Xiangyu Zhang, Zeming Li, Wenqiang Zhang, Jian Sun	
 
 ## arXiv 2018
-
-- [ ] [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/pdf/1809.02165.pdf)
-
-	Li Liu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Xinwang Liu, Matti Pietikäinen
-	
 
 - [X] [Yolov3: An incremental improvement](https://arxiv.org/pdf/1804.02767.pdf)
 
