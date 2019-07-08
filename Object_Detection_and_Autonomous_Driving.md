@@ -3,15 +3,24 @@ It's a paper collection mainly about ***Object detection and Autonomous driving*
 
 ## Survey
 
-- [ ] [Object Detection in 20 Years: A Survey](https://arxiv.org/pdf/1905.05055.pdf)
+- [ ] [Object Detection in 20 Years: A Survey](https://arxiv.org/pdf/1905.05055.pdf) [arXiv 2019]
 
 	Zhengxia Zou, Zhenwei Shi, Yuhong Guo, Jieping Ye
 
 - [ ] [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/pdf/1809.02165.pdf) [arXiv 2018]
 
 	Li Liu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Xinwang Liu, Matti Pietikäinen
+	
+- [ ] [Recent Advances in Object Detection in the Age
+of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [arXiv 2018]
+
+	Shivang Agarwal, Jean Ogier du Terrail, Fr´ed´eric Jurie
 
 ## CVPR 2019
+
+- [ ] [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/pdf/1812.04244.pdf) [[github](https://github.com/sshaoshuai/PointRCNN)]
+
+	Shaoshuai Shi, Xiaogang Wang, Hongsheng Li
 
 - [ ] [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](https://arxiv.org/pdf/1812.07179.pdf) [[github](https://github.com/mileyan/pseudo_lidar)]
 
@@ -154,6 +163,10 @@ It's a paper collection mainly about ***Object detection and Autonomous driving*
 - [ ] [YUVMultiNet: Real-time YUV multi-task CNN for autonomous driving](https://arxiv.org/pdf/1904.05673.pdf)
 
 	Thomas Boulay, Said El-Hachimi, Mani Kumar Surisetti, Pullarao Maddu, Saranya Kandan
+
+- [ ] [Hybrid Task Cascade for Instance Segmentation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid_Task_Cascade_for_Instance_Segmentation_CVPR_2019_paper.pdf) [[github](https://github.com/open-mmlab/mmdetection)]
+
+	Kai Chen, Jiangmiao Pang, Jiaqi Wang, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, Chen Change Loy, Dahua Lin
 	
 - [ ] [L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving](https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf)
 
@@ -181,6 +194,23 @@ It's a paper collection mainly about ***Object detection and Autonomous driving*
 
 	Hongyang Li, Bo Dai, Shaoshuai Shi, Wanli Ouyang, Xiaogang Wang
 	
+## arXiv 2019
+
+- [ ] [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/pdf/1901.01892.pdf) 
+
+	Yanghao Li, Yuntao Chen, Naiyan Wang, Zhaoxiang Zhang
+	
+- [ ] [SimpleDet: A Simple and Versatile Distributed Framework for Object Detection and Instance Recognition](https://arxiv.org/pdf/1903.05831.pdf) [[github](https://github.com/tusimple/simpledet)]
+
+	Yuntao Chen, Chenxia Han, Yanghao Li, Zehao Huang, Yi Jiang, Naiyan Wang, Zhaoxiang Zhang
+	
+- [ ] [CornerNet-Lite: Efficient Keypoint Based Object Detection](https://arxiv.org/pdf/1904.08900.pdf) [[github](https://github.com/princeton-vl/CornerNet-Lite)]
+
+	Hei Law, Yun Teng, Olga Russakovsky, Jia Deng
+	
+- [ ] [Cascade R-CNN: High Quality Object Detection and Instance Segmentation](https://arxiv.org/pdf/1906.09756.pdf) [[Caffe](https://github.com/zhaoweicai/cascade-rcnn), [Detectron](https://github.com/zhaoweicai/Detectron-Cascade-RCNN)]
+
+	Zhaowei Cai, Nuno Vasconcelos
 
 ## CVPR 2018
 

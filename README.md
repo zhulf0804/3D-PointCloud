@@ -54,3 +54,4 @@ Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and
 + [https://www.ccf.org.cn/xspj/rgzn/](https://www.ccf.org.cn/xspj/rgzn/)
 + [http://bbs.cvmart.net/topics/302/cvpr2019paper](http://bbs.cvmart.net/topics/302/cvpr2019paper)
 + [https://github.com/hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
++ [https://github.com/amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
