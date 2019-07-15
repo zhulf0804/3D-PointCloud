@@ -18,6 +18,10 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 
 ## CVPR 2019
 
+- [ ] [Bottom-Up Object Detection by Grouping Extreme and Center Points](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhou_Bottom-Up_Object_Detection_by_Grouping_Extreme_and_Center_Points_CVPR_2019_paper.pdf)
+
+	Xingyi Zhou, Jiacheng Zhuo, Philipp Krahenbuhl
+
 - [ ] [PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud](https://arxiv.org/pdf/1812.04244.pdf) [[github](https://github.com/sshaoshuai/PointRCNN)]
 
 	Shaoshuai Shi, Xiaogang Wang, Hongsheng Li
@@ -362,6 +366,10 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 
 ## CVPR 2017
 
+- [ ] [Speed/accuracy trade-offs for modern convolutional object detectors](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_SpeedAccuracy_Trade-Offs_for_CVPR_2017_paper.pdf)
+
+	Jonathan Huang, Vivek Rathod, Chen Sun, Menglong Zhu, Anoop Korattikara, Alireza Fathi, Ian Fischer, Zbigniew Wojna, Yang Song, Sergio Guadarrama, Kevin Murphy
+
 - [ ] [Beyond Skip Connections: Top-Down Modulation for Object Detection](https://arxiv.org/pdf/1612.06851.pdf)
 
 	Abhinav Shrivastava, Rahul Sukthankar, Jitendra Malik, Abhinav Gupta
@@ -442,6 +450,10 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 
 	Shaoqing Ren, Kaiming He, Ross Girshick, Xiangyu Zhang, Jian Sun
 	
+- [ ] [Enhancement of SSD by concatenating feature maps for object detection](https://arxiv.org/pdf/1705.09587)
+
+	Jisoo Jeong, Hyojin Park, Nojun Kwak
+	
 ## Others 2017
 
 - [ ] [Vote3Deep: Fast object detection in 3D point clouds using efficient convolutional neural networks](https://arxiv.org/pdf/1609.06666.pdf) [ICRA]
@@ -451,6 +463,10 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 - [ ] [3D fully convolutional network for vehicle detection in point cloud](https://arxiv.org/pdf/1611.08069.pdf) [IROS]
 
 	Bo Li
+	
+- [ ] [Me r-cnn: Multi-expert r-cnn for object detection](https://arxiv.org/pdf/1704.01069.pdf)
+
+	Hyungtae Lee, Sungmin Eum, Heesung Kwon
 
 ## CVPR 2016
 
@@ -505,6 +521,11 @@ Bin Yang, Zhe Wang, Hui Zhou , and Xiaogang Wang
 
 	Zhaowei Cai, Quanfu FanRogerio S. FerisNuno Vasconcelos
 	
+- [ ] [Gated bi-directional cnn for object detection](https://pdfs.semanticscholar.org/9312/82732f0be57f7fb895238e94bdda00a52cad.pdf)
+
+	Xingyu Zeng, Wanli Ouyang, Bin Yang, Junjie Yan, Xiaogang Wang
+	
+	
 ## Others 2016
 
 - [ ] [R-FCN: Object Detection via Region-based Fully Convolutional Networks](http://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf) [[github](https://github.com/daijifeng001/r-fcn)] [NIPS]
@@ -542,6 +563,10 @@ Bin Yang, Zhe Wang, Hui Zhou , and Xiaogang Wang
 - [ ] [Object Detection via a Multi-Region and Semantic Segmentation-Aware CNN Model](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Gidaris_Object_Detection_via_ICCV_2015_paper.pdf) [[github](https://github.com/gidariss/mrcnn-object-detection)]
 
 	Spyros Gidaris, Nikos Komodakis
+	
+- [ ] [Object Detection via a Multi-Region and Semantic Segmentation-Aware CNN Model](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Gidaris_Object_Detection_via_ICCV_2015_paper.pdf)
+
+	Spyros Gidaris, Nikos Komodakis
 
 - [ ] [DeepBox: Learning Objectness With Convolutional Networks](http://openaccess.thecvf.com/content_iccv_2015/papers/Kuo_DeepBox_Learning_Objectness_ICCV_2015_paper.pdf) [[github](https://github.com/weichengkuo/DeepBox)]
 
@@ -554,6 +579,13 @@ Bin Yang, Zhe Wang, Hui Zhou , and Xiaogang Wang
 - [ ] [DeepProposal: Hunting Objects by Cascading Deep Convolutional Layers](http://openaccess.thecvf.com/content_iccv_2015/papers/Ghodrati_DeepProposal_Hunting_Objects_ICCV_2015_paper.pdf) [[github](https://github.com/aghodrati/deepproposal)]
 
 	Amir Ghodrati, Ali Diba, Marco Pedersoli, Tinne Tuytelaars, Luc Van Gool
+	
+## arXiv 2015
+
+- [ ] [DenseBox: Unifying Landmark Localization with End to End Object Detection](https://arxiv.org/pdf/1509.04874.pdf)
+
+	Lichao Huang, Yi Yang, Yafeng Deng, Yinan Yu
+
 	
 ## Others 2015
 
