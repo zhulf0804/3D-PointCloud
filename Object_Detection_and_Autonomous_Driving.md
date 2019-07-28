@@ -15,6 +15,49 @@ It's a paper collection mainly about ***Object detection and Autonomous driving*
 of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [arXiv 2018]
 
 	Shivang Agarwal, Jean Ogier du Terrail, Fr´ed´eric Jurie
+	
+## Datasets
+
+- [ ] [Objects365](https://www.objects365.org/overview.html)
+	
+## ICCV 2019
+
+- [ ] [ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/pdf/1903.11752.pdf)
+
+	Zheng Qin, Zeming Li, Zhaoning Zhang, Yiping Bao, Gang Yu, Yuxing Peng, Jian Sun
+
+
+- [ ] [Few-shot Object Detection via Feature Reweighting](https://arxiv.org/pdf/1812.01866.pdf)
+
+	Bingyi Kang, Zhuang Liu, Xin Wang, Fisher Yu, Jiashi Feng, Trevor Darrell
+	
+- [ ] [Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection](https://arxiv.org/pdf/1907.10164.pdf)
+
+	Keren Ye, Mingda Zhang, Adriana Kovashka, Wei Li, Danfeng Qin, Jesse Berent
+	
+- [ ] [Towards Adversarially Robust Object Detection](https://arxiv.org/pdf/1907.10310.pdf)
+
+	Haichao Zhang, Jianyu Wang
+	
+- [ ] [Multi-adversarial Faster-RCNN for Unrestricted Object Detection](https://arxiv.org/pdf/1907.10343.pdf)
+
+	Zhenwei He, Lei Zhang
+	
+- [ ] [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/pdf/1904.01355.pdf) [[Pytorch](https://github.com/tianzhi0549/FCOS/)]
+
+	Zhi Tian, Chunhua Shen, Hao Chen, Tong He
+	
+- [ ] [Selectivity or Invariance: Boundary-aware Salient Object Detection](https://arxiv.org/pdf/1812.10066.pdf)
+
+	Jinming Su, Jia Li, Yu Zhang, Changqun Xia, Yonghong Tian
+	
+- [ ] [Joint Monocular 3D Vehicle Detection and Tracking](https://arxiv.org/pdf/1811.10742.pdf) [[Pytorch](https://github.com/ucbdrive/3d-vehicle-tracking)] [[Project](https://eborboihuc.github.io/Mono-3DT/?fbclid=IwAR1maTNHE5z-vEwAJKIcNEpbMWwBcjWJQ0gEHOwHB-u51w5dfeiZNCh0y-U)]
+
+	Hou-Ning Hu, Qi-Zhi Cai, Dequan Wang, Ji Lin, Min Sun, Philipp Krähenbühl, Trevor Darrell, Fisher Yu
+	
+- [ ] [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf) [[Pytorch](https://github.com/felipecode/coiltraine)]
+
+	Felipe Codevilla, Eder Santana, Antonio M. López, Adrien Gaidon
 
 ## CVPR 2019
 
@@ -199,6 +242,18 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	Hongyang Li, Bo Dai, Shaoshuai Shi, Wanli Ouyang, Xiaogang Wang
 	
 ## arXiv 2019
+
+- [ ] [CenterNet: Keypoint Triplets for Object Detection](https://arxiv.org/pdf/1904.08189.pdf) [[Pytorch](https://github.com/Duankaiwen/CenterNet)]
+
+	Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, Qi Tian
+
+- [ ] [Objects as Points](https://arxiv.org/pdf/1904.07850.pdf) [[Pytorch](https://github.com/xingyizhou/CenterNet)]
+
+	Xingyi Zhou, Dequan Wang, Philipp Krähenbühl
+
+- [ ] [FoveaBox: Beyond Anchor-based Object Detector](https://arxiv.org/pdf/1904.03797.pdf)
+
+	Tao Kong, Fuchun Sun, Huaping Liu, Yuning Jiang, Jianbo Shi
 
 - [ ] [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/pdf/1901.01892.pdf) 
 

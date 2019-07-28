@@ -12,7 +12,7 @@
 Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
 - [X] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
 - [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md)
-- [ ] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud.md)
+- [X] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud.md)
 - [ ] [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md)
 
 ## Datasets
@@ -55,3 +55,4 @@ Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and
 + [http://bbs.cvmart.net/topics/302/cvpr2019paper](http://bbs.cvmart.net/topics/302/cvpr2019paper)
 + [https://github.com/hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
 + [https://github.com/amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
++ [https://github.com/extreme-assistant/iccv2019](https://github.com/extreme-assistant/iccv2019)
