@@ -1,18 +1,16 @@
-## About
-+ Paper lists about ***Image Segmentation, Object Detection, Point Cloud, Network Architecure, GANs and Others***. 
-+ Datasets about ***Semantic Segmentation and Object Detection***.
+## Introduction
++ Paper collections about [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md), [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md), [Point Cloud and Autonomous
+Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md), [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md), [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md) and [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md). 
++ Datasets about `Semantic Segmentation` and `Object Detection`.
 
 ## Papers
 
-- [X] [Image Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Image_Segmentation.md)
-	+ Semantic Segmentation
-	+ Instance Segmentation
-	+ Panoptic Segmentation
-- [X] [Object Dectection and Autonomous
-Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and_Autonomous_Driving.md)
-- [X] [Network Architecture](https://github.com/zhulf0804/CV-Papers/blob/master/Network_Architecture.md)
+- [X] [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md)
+- [X] [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md)
+- [X] [Point Cloud and Autonomous
+Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md)
+- [X] [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md)
 - [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md)
-- [X] [Point Cloud](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud.md)
 - [ ] [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md)
 
 ## Datasets
@@ -25,15 +23,11 @@ Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and
 + [Cityscape](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#cityscape)
 + [CamVid](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#camvid)
 + [ADE20K](https://github.com/zhulf0804/CV-Papers/blob/master/Datasets.md#ade20k)
++ Kitti
 
 
 
 ## Artificial Intelligence
-+ Journal
-	+ AI (Artifical Intelligence)
-	+ TPAMI (IEEE Trans on Pattern Analysis and Machine Intelligence)
-	+ IJCV (International Journal of Computer Vision)
-	+ JMLR (Journal of Machine Learning Research)
 + Conference
 	+ AAAI (AAAI Conference on Artificial Intelligence)
 	+ CVPR (IEEE Conference on Computer Vision and Pattern Recognition)
@@ -45,6 +39,19 @@ Driving](https://github.com/zhulf0804/CV-Papers/blob/master/Object_Detection_and
 	+ ECCV (European Conference on Computer Vision) [CCF-B]
 	+ ICLR (International Conference on Learning Representations) [not in CCF list]
 
++ Journal
+	+ AI (Artifical Intelligence)
+	+ TPAMI (IEEE Trans on Pattern Analysis and Machine Intelligence)
+	+ IJCV (International Journal of Computer Vision)
+	+ JMLR (Journal of Machine Learning Research)
+
+## Robotics
++ Conference
+	+ ICRA (International Conference on Robotics and Automation)
+	+ IROS (International Conference on Intelligent Robots and Systems)
+	+ RSS (Robotics: Science and Systems)
+	
++ Journal
 
 ## Reference
 
