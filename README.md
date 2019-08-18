@@ -1,12 +1,12 @@
 ## Introduction
-+ Paper collections about [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md), [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md), [Point Cloud and Autonomous
++ Paper collections about [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md), [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md), [Point Cloud and Autonomous
 Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md), [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md), [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md) and [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md). 
 + Datasets about `Semantic Segmentation` and `Object Detection`.
 
 ## Papers
 
-- [X] [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md)
 - [X] [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md)
+- [X] [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md)
 - [X] [Point Cloud and Autonomous
 Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md)
 - [X] [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md)
