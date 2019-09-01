@@ -56,10 +56,10 @@ Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Clou
 ## Reference
 
 + [http://openaccess.thecvf.com/menu.py](http://openaccess.thecvf.com/menu.py)
-+ [https://github.com/wutianyiRosun](https://github.com/wutianyiRosun)
 + [https://arxiv.org/](https://arxiv.org/)
 + [https://www.ccf.org.cn/xspj/rgzn/](https://www.ccf.org.cn/xspj/rgzn/)
 + [http://bbs.cvmart.net/topics/302/cvpr2019paper](http://bbs.cvmart.net/topics/302/cvpr2019paper)
 + [https://github.com/hoya012/deep_learning_object_detection](https://github.com/hoya012/deep_learning_object_detection)
++ [https://github.com/wutianyiRosun/Segmentation.X](https://github.com/wutianyiRosun/Segmentation.X)
 + [https://github.com/amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
 + [https://github.com/extreme-assistant/iccv2019](https://github.com/extreme-assistant/iccv2019)

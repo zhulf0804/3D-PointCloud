@@ -1,5 +1,13 @@
 ## 2019
 + ICCV
+	- [ ] [DUP-Net: Denoiser and Upsampler Network for 3D Adversarial Point Clouds Defense](https://arxiv.org/pdf/1812.11017.pdf)
+
+		Hang Zhou, Kejiang Chen, Weiming Zhang, Han Fang, Wenbo Zhou, Nenghai Yu
+
+	- [ ] [Efficient Learning on Point Clouds with Basis Point Sets](https://arxiv.org/pdf/1908.09186.pdf)
+		
+		Sergey Prokudin, Christoph Lassner, Javier Romero
+		
 	- [ ] [PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows](https://arxiv.org/pdf/1906.12320.pdf) [[Pytorch](https://github.com/stevenygd/PointFlow)]
 	
 		Guandao Yang, Xun Huang, Zekun Hao, Ming-Yu Liu, Serge Belongie, Bharath Hariharan
@@ -288,3 +296,13 @@
 	- [ ] [Depthcn: vehicle detection using 3d-lidar and convnet](http://home.isr.uc.pt/~cpremebida/files_cp/DepthCN_preprint.pdf) [ITSC]
 		
 		Alireza Asvadi, Luis Garrote, Cristiano Premebida, Paulo Peixoto and Urbano J. Nunes
+		
+## Datasets
+|  Dataset   | Paper | Confonerence | Github | Others
+|  ----  | ----  | ----  | ----  | ----  |
+| [Kitti](http://www.cvlibs.net/datasets/kitti/)  | [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | CVPR 2012 |  | |
+| [ModelNet](https://modelnet.cs.princeton.edu) | [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) | CVPR 2015 |  |  |
+| [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html)  | [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) | SIGGRAPH Asia 2016 |  |  |
+| [3D Semantic Parsing Datasets](http://buildingparser.stanford.edu/) | [3D Semantic Parsing of Large-Scale Indoor Spaces](http://buildingparser.stanford.edu/images/3D_Semantic_Parsing.pdf) | CVPR 2016 |  |  |
+| [ScanNet](http://www.scan-net.org/) | [Scannet: Richly-annotated 3d reconstructions of indoor scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf) | CVPR 2017 | [Github](https://github.com/ScanNet/ScanNet) |  |
+| [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html) | [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) | CVPR 2015 |  |  |

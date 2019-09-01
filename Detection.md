@@ -20,7 +20,17 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 
 ## 2019
 + ICCV
+	- [ ] [InstaBoost: Boosting Instance Segmentation via Probability Map Guided Copy-Pasting](https://arxiv.org/pdf/1908.07801.pdf) [[Pytorch](https://github.com/GothicAi/InstaBoost)]
+
+		Hao-Shu Fang, Jianhua Sun, Runzhong Wang, Minghao Gou, Yong-Lu Li, Cewu Lu
+
+	- [ ] [SCRDet: Towards More Robust Detection for Small, Cluttered and Rotated Objects](https://arxiv.org/pdf/1811.07126.pdf)
+
+		Xue Yang, Jirui Yang, Junchi Yan, Yue Zhang, Tengfei Zhang, Zhi Guo, Sun Xian, Kun Fu
 	
+	- [ ] [Relation Distillation Networks for Video Object Detection](https://arxiv.org/pdf/1908.09511.pdf)
+
+		Jiajun Deng, Yingwei Pan, Ting Yao, Wengang Zhou, Houqiang Li, Tao Mei
 
 	- [ ] [ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/pdf/1903.11752.pdf)
 	

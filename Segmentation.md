@@ -1,5 +1,9 @@
 ## 2019
 + ICCV
+	- [ ] [SPGNet: Semantic Prediction Guidance for Scene Parsing](https://arxiv.org/pdf/1908.09798.pdf)
+
+		Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas Huang, Wen-Mei Hwu, Honghui Shi
+	
 	- [ ] [ACE: Adapting to Changing Environments for Semantic Segmentation](https://arxiv.org/pdf/1904.06268.pdf)
 
 		Zuxuan Wu, Xin Wang, Joseph E. Gonzalez, Tom Goldstein, Larry S. Davis
