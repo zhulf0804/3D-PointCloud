@@ -15,7 +15,7 @@
 	Yunpeng Chen, Haoqi Fan, Bing Xu, Zhicheng Yan, Yannis Kalantidis, Marcus Rohrbach, Shuicheng Yan, Jiashi Feng
 
 ## 2018
-- [ ] [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) [CVPR]
+- [X] [MobileNetV2: Inverted Residuals and Linear Bottlenecks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) [CVPR]
 
 	Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, Liang-Chieh Chen
 
@@ -23,7 +23,7 @@
 
 	Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun
 	
-- [ ] [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.pdf)
+- [X] [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ningning_Light-weight_CNN_Architecture_ECCV_2018_paper.pdf)
 
 	Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun
 
@@ -35,7 +35,7 @@
 
 	Xiaolong Wang, Ross Girshick, Abhinav Gupta, Kaiming He
 
-- [ ] [Squeeze-and-Excitation Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) [[Supp](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/1287-supp.pdf)] [CVPR]
+- [X] [Squeeze-and-Excitation Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) [[Supp](http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/1287-supp.pdf)] [CVPR]
 
 	Jie Hu, Li Shen, Gang Sun
 
@@ -44,7 +44,7 @@
 
 	Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob, Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
 
-- [ ] [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) [CVPR]
+- [X] [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf) [CVPR]
 
 	Charles R. Qi, Hao Su, Kaichun Mo, Leonidas J. Guibas
 	
@@ -73,7 +73,7 @@
 	Howard, Andrew G., Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, and Hartwig Adam
 
 ## 2016
-- [ ] [Rethinking the Inception Architecture for Computer Vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [CVPR]
+- [X] [Rethinking the Inception Architecture for Computer Vision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Szegedy_Rethinking_the_Inception_CVPR_2016_paper.pdf) [CVPR]
 
 	Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, Zbigniew Wojna
 

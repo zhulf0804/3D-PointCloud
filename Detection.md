@@ -20,6 +20,15 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 
 ## 2019
 + ICCV
+	
+	- [ ] [Clustered Object Detection in Aerial Images](https://arxiv.org/pdf/1904.08008.pdf)
+
+		Fan Yang, Heng Fan, Peng Chu, Erik Blasch, Haibin Ling
+
+	- [ ] [Structured Modeling of Joint Deep Feature and Prediction Refinement for Salient Object Detection](https://arxiv.org/pdf/1909.04366.pdf)
+
+		Yingyue Xu, Dan Xu, Xiaopeng Hong, Wanli Ouyang, Rongrong Ji, Min Xu, Guoying Zhao
+
 	- [ ] [InstaBoost: Boosting Instance Segmentation via Probability Map Guided Copy-Pasting](https://arxiv.org/pdf/1908.07801.pdf) [[Pytorch](https://github.com/GothicAi/InstaBoost)]
 
 		Hao-Shu Fang, Jianhua Sun, Runzhong Wang, Minghao Gou, Yong-Lu Li, Cewu Lu
@@ -72,6 +81,14 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	- [ ] [Optimizing the F-measure for Threshold-free Salient Object Detection](http://data.kaizhao.net/publications/iccv2019fmeasure.pdf)
 
 		Kai Zhao, Shanghua Gao, Wenguan Wang, Ming-ming Cheng
+	
+	- [ ] [WSOD^2: Learning Bottom-up and Top-down Objectness Distillation for Weakly-supervised Object Detection](https://arxiv.org/pdf/1909.04972.pdf)
+
+		Zhaoyang Zeng, Bei Liu, Jianlong Fu, Hongyang Chao, Lei Zhang
+	
+	- [ ] [Scaling Object Detection by Transferring Classification Weights](https://arxiv.org/pdf/1909.06804.pdf) [[PyTorch](https://github.com/xternalz/AE-WTN)]
+
+		Jason Kuen, Federico Perazzi, Zhe Lin, Jianming Zhang, Yap-Peng Tan
 
 + CVPR
 	- [ ] [RepMet: Representative-Based Metric Learning for Classification and Few-Shot Object Detection](http://openaccess.thecvf.com/content_CVPR_2019/papers/Karlinsky_RepMet_Representative-Based_Metric_Learning_for_Classification_and_Few-Shot_Object_Detection_CVPR_2019_paper.pdf)
@@ -222,6 +239,18 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	
 + arXiv
 
+	- [ ] [YOLO Nano: a Highly Compact You Only Look Once Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf)
+
+		Alexander Wong, Mahmoud Famuori, Mohammad Javad Shafiee, Francis Li, Brendan Chwyl, Jonathan Chung
+	
+	- [ ] [PolarMask: Single Shot Instance Segmentation with Polar Representation](https://arxiv.org/pdf/1909.13226.pdf) [[github](https://github.com/xieenze/PolarMask)]
+
+		Enze Xie, Peize Sun, Xiaoge Song, Wenhai Wang, Xuebo Liu, Ding Liang, Chunhua Shen, Ping Luo
+
+	- [ ] [CBNet: A Novel Composite Backbone Network Architecture for Object Detection](https://arxiv.org/pdf/1909.03625.pdf) [[github](https://github.com/PKUbahuangliuhe/CBNet)]
+
+		Yudong Liu, Yongtao Wang, Siwei Wang, TingTing Liang, Qijie Zhao, Zhi Tang, Haibin Ling
+
 	- [ ] [Revisiting Feature Alignment for One-stage Object Detection](https://arxiv.org/pdf/1908.01570.pdf)
 
 		Yuntao Chen, Chenxia Han, Naiyan Wang, Zhaoxiang Zhang
@@ -238,7 +267,7 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	
 		Kaiwen Duan, Song Bai, Lingxi Xie, Honggang Qi, Qingming Huang, Qi Tian
 	
-	- [ ] [Objects as Points](https://arxiv.org/pdf/1904.07850.pdf) [[Pytorch](https://github.com/xingyizhou/CenterNet)]
+	- [X] [Objects as Points](https://arxiv.org/pdf/1904.07850.pdf) [[Pytorch](https://github.com/xingyizhou/CenterNet)]
 	
 		Xingyi Zhou, Dequan Wang, Philipp Krähenbühl
 	
@@ -339,7 +368,7 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	
 		Qingyi Tao, Hao Yang, Jianfei Cai
 		
-	- [ ] [CornerNet: Detecting Objects as Paired Keypoints](http://openaccess.thecvf.com/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf) [[github](https://github.com/princeton-vl/CornerNet)]
+	- [X] [CornerNet: Detecting Objects as Paired Keypoints](http://openaccess.thecvf.com/content_ECCV_2018/papers/Hei_Law_CornerNet_Detecting_Objects_ECCV_2018_paper.pdf) [[github](https://github.com/princeton-vl/CornerNet)]
 	
 		Hei Law, Jia Deng
 	

@@ -1,5 +1,14 @@
 ## 2019
 + ICCV
+
+	- [ ] [ACFNet: Attentional Class Feature Network for Semantic Segmentation](https://arxiv.org/pdf/1909.09408.pdf)
+
+		Fan Zhang, Yanqin Chen, Zhihang Li, Zhibin Hong, Jingtuo Liu, Feifei Ma, Junyu Han, Errui Ding
+
+	- [ ] [SSAP: Single-Shot Instance Segmentation With Affinity Pyramid](https://arxiv.org/pdf/1909.01616.pdf)
+
+		Naiyu Gao, Yanhu Shan, Yupei Wang, Xin Zhao, Yinan Yu, Ming Yang, Kaiqi Huang
+
 	- [ ] [SPGNet: Semantic Prediction Guidance for Scene Parsing](https://arxiv.org/pdf/1908.09798.pdf)
 
 		Bowen Cheng, Liang-Chieh Chen, Yunchao Wei, Yukun Zhu, Zilong Huang, Jinjun Xiong, Thomas Huang, Wen-Mei Hwu, Honghui Shi
@@ -253,7 +262,8 @@
 	
 		Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, Hartwig Adam
 	
-	- [ ] [Multi-Scale Context Intertwiningfor Semantic Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Di_Lin_Multi-Scale_Context_Intertwining_ECCV_2018_paper.pdf)
+	- [ ] [Multi-Scale Context Intertwining
+for Semantic Segmentation](http://openaccess.thecvf.com/content_ECCV_2018/papers/Di_Lin_Multi-Scale_Context_Intertwining_ECCV_2018_paper.pdf)
 	
 		Di Lin, Yuanfeng Ji, Dani Lischinski, Daniel Cohen-Or, Hui Huang
 	
