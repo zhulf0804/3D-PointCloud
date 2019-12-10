@@ -1,3 +1,15 @@
+## Survay papers
++ [Understanding Deep Learning Techniques for Image Segmentation](https://arxiv.org/pdf/1907.06119.pdf) [ACM Computing Surveys (CSUR) 2019]
+
++ [Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation](https://arxiv.org/pdf/1908.10454.pdf) [arXiv 2019]
+
++ [Deep Semantic Segmentation of Natural and Medical Images: A Review] [arXiv 2019]
+
++ [Deep learning for cardiac image segmentation: A review](https://arxiv.org/pdf/1911.03723.pdf) [arXiv 2019]
+
++ [Machine Learning Techniques for Biomedical Image Segmentation: An Overview of Technical Aspects and Introduction to State-of-Art Applications](https://arxiv.org/pdf/1911.02521.pdf) [arXiv 2019]
+
+
 ## 2019
 + ICCV
 

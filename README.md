@@ -1,6 +1,6 @@
 ## Introduction
 + Paper collections about [Detection](https://github.com/zhulf0804/CV-Papers/blob/master/Detection.md), [Segmentation](https://github.com/zhulf0804/CV-Papers/blob/master/Segmentation.md), [Point Cloud and Autonomous
-Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md), [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md), [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md) and [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md). 
+Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md), [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md), [ReID](https://github.com/zhulf0804/CV-Papers/blob/master/ReID.md), [Pose](https://github.com/zhulf0804/CV-Papers/blob/master/Pose.md), [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md) and [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md). 
 + Datasets about `Semantic Segmentation` and `Object Detection`.
 
 ## Papers
@@ -10,6 +10,8 @@ Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Clou
 - [X] [Point Cloud and Autonomous
 Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Cloud_and_Autonomous_Driving.md)
 - [X] [Network](https://github.com/zhulf0804/CV-Papers/blob/master/Network.md)
+- [ ] [ReID](https://github.com/zhulf0804/CV-Papers/blob/master/ReID.md)
+- [ ] [Pose](https://github.com/zhulf0804/CV-Papers/blob/master/Pose.md)
 - [ ] [Generative Adversarial Networks (GANs)](https://github.com/zhulf0804/CV-Papers/blob/master/GANs.md)
 - [ ] [Others](https://github.com/zhulf0804/CV-Papers/blob/master/Others.md)
 
@@ -63,3 +65,4 @@ Driving](https://github.com/zhulf0804/Segmentation-Papers/blob/master/Point_Clou
 + [https://github.com/wutianyiRosun/Segmentation.X](https://github.com/wutianyiRosun/Segmentation.X)
 + [https://github.com/amusi/awesome-object-detection](https://github.com/amusi/awesome-object-detection)
 + [https://github.com/extreme-assistant/iccv2019](https://github.com/extreme-assistant/iccv2019)
++ [https://github.com/amusi/daily-paper-computer-vision](https://github.com/amusi/daily-paper-computer-vision)

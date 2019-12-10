@@ -1,21 +1,9 @@
 ## Survey papers
++ [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/pdf/1908.03673.pdf) [arXiv 2019]
++ [Object Detection in 20 Years: A Survey](https://arxiv.org/pdf/1905.05055.pdf) [arXiv 2019]
++ [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/pdf/1809.02165.pdf) [arXiv 2018]
++ [Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [arXiv 2018]
 
-- [ ] [Recent Advances in Deep Learning for Object Detection](https://arxiv.org/pdf/1908.03673.pdf)
-
-	Xiongwei Wu, Doyen Sahoo, Steven C.H. Hoi
-
-- [X] [Object Detection in 20 Years: A Survey](https://arxiv.org/pdf/1905.05055.pdf) [arXiv 2019]
-
-	Zhengxia Zou, Zhenwei Shi, Yuhong Guo, Jieping Ye
-
-- [X] [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/pdf/1809.02165.pdf) [arXiv 2018]
-
-	Li Liu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Xinwang Liu, Matti Pietikäinen
-	
-- [ ] [Recent Advances in Object Detection in the Age
-of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [arXiv 2018]
-
-	Shivang Agarwal, Jean Ogier du Terrail, Fr´ed´eric Jurie
 	
 
 ## 2019
@@ -236,8 +224,72 @@ of Deep Convolutional Neural Networks](https://arxiv.org/pdf/1809.03193.pdf) [ar
 	- [ ] [Feature Intertwiner for Object Detection](https://openreview.net/pdf?id=SyxZJn05YX)
 	
 		Hongyang Li, Bo Dai, Shaoshuai Shi, Wanli Ouyang, Xiaogang Wang
-	
+
++ NIPS
+	- [ ] [One-Shot Object Detection with Co-Attention and Co-Excitation](https://arxiv.org/pdf/1911.12529.pdf) [[PyTorch](https://github.com/timy90022/One-Shot-Object-Detection)]
+
+		Ting-I Hsieh, Yi-Chen Lo, Hwann-Tzong Chen, Tyng-Luh Liu
 + arXiv
+
+	- [ ] [Soft Anchor-Point Object Detection](https://arxiv.org/pdf/1911.12448.pdf)
+
+		Chenchen Zhu, Fangyi Chen, Zhiqiang Shen, Marios Savvides
+
+	- [ ] [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/pdf/1911.09070.pdf)
+
+		Mingxing Tan, Ruoming Pang, Quoc V. Le
+
+	- [ ] [Multiple Anchor Learning for Visual Object Detection](https://arxiv.org/pdf/1912.02252.pdf)
+
+		Wei Ke, Tianliang Zhang, Zeyi Huang, Qixiang Ye, Jianzhuang Liu, Dong Huang
+
+	- [ ] [Mixture-Model-based Bounding Box Density Estimation for Object Detection](https://arxiv.org/pdf/1911.12721.pdf)
+
+		Jaeyoung Yoo, Geonseok Seo, Nojun Kwak
+
+	- [ ] [Bridging the Gap Between Anchor-based and Anchor-free Detection via Adaptive Training Sample Selection](https://arxiv.org/pdf/1912.02424.pdf) [[PyTorch](https://github.com/sfzhang15/ATSS)]
+
+		Shifeng Zhang, Cheng Chi, Yongqiang Yao, Zhen Lei, Stan Z. Li
+
+	- [ ] [IENet: Interacting Embranchment One Stage Anchor Free Detector for Orientation Aerial Object Detection](https://arxiv.org/pdf/1912.00969.pdf)
+
+		Youtian Lin, Pengming Feng, Jian Guan
+
+	- [ ] [IPG-Net: Image Pyramid Guidance Network for Object Detection](https://arxiv.org/abs/1912.00632)
+
+		Ziming Liu, Guangyu Gao, Lin Sun
+
+	- [ ] [MnasFPN: Learning Latency-aware Pyramid Architecture for Object Detection on Mobile Devices](https://arxiv.org/pdf/1912.01106.pdf)
+
+		Bo Chen, Golnaz Ghiasi, Hanxiao Liu, Tsung-Yi Lin, Dmitry Kalenichenko, Hartwig Adams, Quoc V. Le
+
+	- [ ] [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/pdf/1911.11929.pdf) [[Github](https://github.com/WongKinYiu/CrossStagePartialNetworks)]
+
+		Chien-Yao Wang, Hong-Yuan Mark Liao, I-Hau Yeh, Yueh-Hua Wu, Ping-Yang Chen, Jun-Wei Hsieh
+
+    - [ ] [Gliding vertex on the horizontal bounding box for multi-oriented object detection](https://arxiv.org/pdf/1911.09358.pdf)
+    
+        Yongchao Xu, Mingtao Fu, Qimeng Wang, Yukang Wang, Kai Chen, Gui-Song Xia, Xiang Bai
+
+	- [ ] [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://arxiv.org/pdf/1911.09929.pdf)
+
+		Lewei Yao, Hang Xu, Wei Zhang, Xiaodan Liang, Zhenguo Li
+
+	- [ ] [Empirical Upper-bound in Object Detection and More](https://arxiv.org/pdf/1911.12451.pdf)
+
+		Ali Borji, Seyed Mehdi Iranmanesh
+
+	- [ ] [Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://arxiv.org/pdf/1911.08287.pdf)
+
+		Zhaohui Zheng, Ping Wang, Wei Liu, Jinze Li, Rongguang Ye, Dongwei Ren
+
+	- [ ] [WSOD with PSNet and Box Regression](https://arxiv.org/pdf/1911.11512.pdf)
+
+		Sheng Yi, Xi Li, Huimin Ma
+
+	- [ ] [Residual Bi-Fusion Feature Pyramid Network for Accurate Single-shot Object Detection](https://arxiv.org/pdf/1911.12051.pdf)
+
+		Ping-Yang Chen, Jun-Wei Hsieh, Chien-Yao Wang, Mark Hong-Yuan Liao, Munkhjargal Gochoo
 
 	- [ ] [YOLO Nano: a Highly Compact You Only Look Once Convolutional Neural Network for Object Detection](https://arxiv.org/pdf/1910.01271.pdf)
 
