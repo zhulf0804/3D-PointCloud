@@ -3,7 +3,7 @@
 
 + [Embracing Imperfect Datasets: A Review of Deep Learning Solutions for Medical Image Segmentation](https://arxiv.org/pdf/1908.10454.pdf) [arXiv 2019]
 
-+ [Deep Semantic Segmentation of Natural and Medical Images: A Review] [arXiv 2019]
++ [Deep Semantic Segmentation of Natural and Medical Images: A Review](https://arxiv.org/pdf/1910.07655.pdf) [arXiv 2019]
 
 + [Deep learning for cardiac image segmentation: A review](https://arxiv.org/pdf/1911.03723.pdf) [arXiv 2019]
 
