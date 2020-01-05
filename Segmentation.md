@@ -207,6 +207,10 @@
 
 	
 + arXiv
+
+	- [PointRend: Image Segmentation as Rendering](https://arxiv.org/pdf/1912.08193.pdf)
+
+		Alexander Kirillov, Yuxin Wu, Kaiming He, Ross Girshick
 	
 	- [YOLACT: Real-time Instance Segmentation](https://arxiv.org/pdf/1904.02689.pdf) [[github](https://github.com/dbolya/yolact)]
 	

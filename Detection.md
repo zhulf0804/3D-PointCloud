@@ -229,9 +229,48 @@
 	- [One-Shot Object Detection with Co-Attention and Co-Excitation](https://arxiv.org/pdf/1911.12529.pdf) [[PyTorch](https://github.com/timy90022/One-Shot-Object-Detection)]
 
 		Ting-I Hsieh, Yi-Chen Lo, Hwann-Tzong Chen, Tyng-Luh Liu
+
 + arXiv
 
-	- []
+	- [Computation Reallocation for Object Detection](https://arxiv.org/pdf/1912.11234.pdf)
+
+		Feng Liang, Chen Lin, Ronghao Guo, Ming Sun, Wei Wu, Junjie Yan, Wanli Ouyang
+
+	- [Dense RepPoints: Representing Visual Objects with Dense Point Sets](https://arxiv.org/pdf/1912.11473.pdf)
+
+		Ze Yang, Yinghao Xu, Han Xue, Zheng Zhang, Raquel Urtasun, Liwei Wang, Stephen Lin, Han Hu
+
+	- [Oriented Objects as pairs of Middle Lines](https://arxiv.org/pdf/1912.10694.pdf)
+
+		Haoran Wei, Lin Zhou, Yue Zhang, Hao Li, Rongxin Guo, Hongqi Wang
+
+	- [Scale Match for Tiny Person Detection](https://arxiv.org/pdf/1912.10664.pdf) [[Github](https://github.com/ucas-vg/TinyBenchmark)]
+
+		Xuehui Yu, Yuqi Gong, Nan Jiang, Qixiang Ye, Zhenjun Han
+
+	- [MFPN: A Novel Mixture Feature Pyramid Network of Multiple Architectures for Object Detection](https://arxiv.org/pdf/1912.09748.pdf)
+
+		Tingting Liang, Yongtao Wang, Qijie Zhao, huan zhang, Zhi Tang, Haibin Ling
+
+	- [YOLACT++: Better Real-time Instance Segmentation](https://arxiv.org/pdf/1912.06218.pdf)
+
+		Daniel Bolya, Chong Zhou, Fanyi Xiao, Yong Jae Lee
+
+	- [Generating Positive Bounding Boxes for Balanced Training of Object Detectors](https://arxiv.org/pdf/1909.09777.pdf) [[Github](https://github.com/kemaloksuz/BoundingBoxGenerator)]
+
+		Kemal Oksuz, Baris Can Cam, Emre Akbas, Sinan Kalkan
+
+	- [Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector](https://arxiv.org/pdf/1908.01998.pdf) [[Github](https://github.com/fanq15/Few-Shot-Object-Detection-Dataset)]
+
+		Qi Fan, Wei Zhuo, Chi-Keung Tang, Yu-Wing Tai
+
+	- [APRICOT: A Dataset of Physical Adversarial Attacks on Object Detection](https://arxiv.org/pdf/1912.08166.pdf)
+
+		Anneliese Braunegg, Amartya Chakraborty, Michael Krumdick, Nicole Lape, Sara Leary, Keith Manville, Elizabeth Merkhofer, Laura Strickhart, Matthew Walmer
+
+	- [Benchmark for Generic Product Detection: A strong baseline for Dense Object Detection](https://arxiv.org/pdf/1912.09476.pdf) [[Github](https://github.com/ParallelDots/generic-sku-detection-benchmark)]
+
+		Srikrishna Varadarajan, Sonaal Kant, Muktabh Mayank Srivastava
 
 	- [Soft Anchor-Point Object Detection](https://arxiv.org/pdf/1911.12448.pdf)
 

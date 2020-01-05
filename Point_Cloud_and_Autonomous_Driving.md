@@ -2,6 +2,11 @@
 + [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [arXiv 2019]
 
 ## 2019
+
++ NeurIPS
+	- [Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds](https://arxiv.org/pdf/1906.01140.pdf) [[Tensorflow](https://github.com/Yang7879/3D-BoNet)]
+
+		Bo Yang, Jianan Wang, Ronald Clark, Qingyong Hu, Sen Wang, Andrew Markham, Niki Trigoni
 + ICCV
 
 	- [Hierarchical Point-Edge Interaction Network for Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1909.10469.pdf)
