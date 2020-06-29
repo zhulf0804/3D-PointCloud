@@ -1,6 +1,25 @@
 ## Survey papers
 + [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [arXiv 2019]
 
+## 2020
+
++ CVPR
+ 	- [PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling](https://arxiv.org/pdf/2003.00492.pdf) [[Tensorflow](https://github.com/yanx27/PointASNL)]
+	- [Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds](https://arxiv.org/pdf/2003.12971.pdf) [[PyTorch](https://github.com/raoyongming/PointGLR)]
+	- [Grid-GCN for Fast and Scalable Point Cloud Learning](https://arxiv.org/pdf/1912.02984.pdf) [[mxnet](https://github.com/Xharlie/Grid-GCN)]
+	- [FPConv: Learning Local Flattening for Point Convolution](https://arxiv.org/pdf/2002.10701.pdf) [[PyTorch](https://github.com/lyqun/FPConv)]
+	- [PointAugment: an Auto-Augmentation Framework for Point Cloud Classification](https://arxiv.org/pdf/2002.10876.pdf) [[github](https://github.com/liruihui/PointAugment/)]
+	- [RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://arxiv.org/pdf/1911.11236.pdf) [[Tensorflow](https://github.com/QingyongHu/RandLA-Net)]
+	- [Weakly Supervised Semantic Point Cloud Segmentation:Towards 10X Fewer Labels](https://arxiv.org/pdf/2004.04091.pdf) [[Tensorflow](https://github.com/alex-xun-xu/WeakSupPointCloudSeg)]
+	- [PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/pdf/2003.14032.pdf) [[PyTorch](https://github.com/edwardzhou130/PolarSeg)]
+	- [Learning to Segment 3D Point Clouds in 2D Image Space](https://arxiv.org/pdf/2003.05593.pdf) [[Keras](https://github.com/Zhang-VISLab/Learning-to-Segment-3D-Point-Clouds-in-2D-Image-Space)]
+	- [PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation](https://arxiv.org/pdf/2004.01658.pdf) [[PyTorch](https://github.com/Jia-Research-Lab/PointGroup)]
+	- [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/pdf/2003.03164.pdf) [[Tensorflow](https://github.com/XuyangBai/D3Feat)]
+	- [RPM-Net: Robust Point Matching using Learned Features](https://arxiv.org/pdf/2003.13479.pdf) [[PyTorch](https://github.com/yewzijian/RPMNet)]
+	- [Cascaded Refinement Network for Point Cloud Completion](https://arxiv.org/pdf/2004.03327.pdf) [[Tensorflow](https://github.com/xiaogangw/cascaded-point-completion)]
+	- [P2B: Point-to-Box Network for 3D Object Tracking in Point Clouds](https://arxiv.org/pdf/2005.13888.pdf) [[PyTorch](https://github.com/HaozheQi/P2B)]
+	- [An Efficient PointLSTM for Point Clouds Based Gesture Recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Min_An_Efficient_PointLSTM_for_Point_Clouds_Based_Gesture_Recognition_CVPR_2020_paper.pdf) [[PyTorch](https://github.com/Blueprintf/pointlstm-gesture-recognition-pytorch)]
+
 ## 2019
 
 + NeurIPS
