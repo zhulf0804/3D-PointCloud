@@ -7,14 +7,15 @@
 + [A Quick Review on Recent Trends in 3D Point Cloud Data Compression Techniques and the Challenges of Direct Processing in 3D Compressed Domain](https://arxiv.org/pdf/2007.05038.pdf) [arXiv 2020]
 + [Deep Learning for LiDAR Point Clouds in Autonomous Driving: A Review](https://arxiv.org/pdf/2005.09830.pdf) [arXiv 2020]
 
-
 ## 2020
 + ECCV
-	- [Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618.pdf) [[PyTorch](https://github.com/autonomousvision/convolutional_occupancy_networks)]
-	- [Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration](https://arxiv.org/pdf/1910.10328.pdf) [[PyTorch](https://github.com/jiahaowork/idam)]
-	- [A Closer Look at Local Aggregation Operators in Point Cloud Analysis](https://arxiv.org/pdf/2007.01294.pdf) [[Code](https://github.com/zeliu98/CloserLook3D)]
+	- [Quaternion Equivariant Capsule Networks for 3D Point Clouds](https://arxiv.org/pdf/1912.12098.pdf) [[PyTorch](https://github.com/tolgabirdal/qecnetworks)]
+	- [PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding](https://arxiv.org/pdf/2007.10985.pdf) [**Unsupervised**, cls, seg, det]
+	- [Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618.pdf) [reconstruction, [PyTorch](https://github.com/autonomousvision/convolutional_occupancy_networks)]
+	- [Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration](https://arxiv.org/pdf/1910.10328.pdf) [registration, [PyTorch](https://github.com/jiahaowork/idam)]
+	- [A Closer Look at Local Aggregation Operators in Point Cloud Analysis](https://arxiv.org/pdf/2007.01294.pdf) [cls, seg; [Code](https://github.com/zeliu98/CloserLook3D)]
 	- [Multimodal Shape Completion via Conditional Generative Adversarial Networks](https://arxiv.org/pdf/2003.07717.pdf) [[PyTorch](https://github.com/ChrisWu1997/Multimodal-Shape-Completion)]
-	- [GRNet: Gridding Residual Network for Dense Point Cloud Completion](https://arxiv.org/pdf/2006.03761.pdf) [[PyTorch](https://github.com/hzxie/GRNet)]
+	- [GRNet: Gridding Residual Network for Dense Point Cloud Completion](https://arxiv.org/pdf/2006.03761.pdf) [completion, [PyTorch](https://github.com/hzxie/GRNet)]
 	- [3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection](https://arxiv.org/pdf/2004.12636.pdf)
 	- [Progressive Point Cloud Deconvolution Generation Network](https://arxiv.org/pdf/2007.05361.pdf) [[github](https://github.com/fpthink/PDGN)]
 + CVPR
@@ -24,13 +25,13 @@
 	- [MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment](https://openaccess.thecvf.com/content_CVPR_2020/papers/Bernard_MINA_Convex_Mixed-Integer_Programming_for_Non-Rigid_Shape_Alignment_CVPR_2020_paper.pdf)
 	- [SampleNet: Differentiable Point Cloud Sampling](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lang_SampleNet_Differentiable_Point_Cloud_Sampling_CVPR_2020_paper.pdf) [[PyTorch](https://github.com/itailang/SampleNet)]
 	- [Learning multiview 3D point cloud registration](https://arxiv.org/pdf/2001.05119.pdf) [[PyTorch](https://github.com/zgojcic/3D_multiview_reg)]
-	- [Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences](https://arxiv.org/pdf/2005.01014.pdf) [[PyTorch](https://github.com/XiaoshuiHuang/fmr)] 
+	- [Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences](https://arxiv.org/pdf/2005.01014.pdf) [reg; [PyTorch](https://github.com/XiaoshuiHuang/fmr)] 
  	- [PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling](https://arxiv.org/pdf/2003.00492.pdf) [[Tensorflow](https://github.com/yanx27/PointASNL)]
 	- [Global-Local Bidirectional Reasoning for Unsupervised Representation Learning of 3D Point Clouds](https://arxiv.org/pdf/2003.12971.pdf) [[PyTorch](https://github.com/raoyongming/PointGLR)]
 	- [Grid-GCN for Fast and Scalable Point Cloud Learning](https://arxiv.org/pdf/1912.02984.pdf) [[mxnet](https://github.com/Xharlie/Grid-GCN)]
 	- [FPConv: Learning Local Flattening for Point Convolution](https://arxiv.org/pdf/2002.10701.pdf) [[PyTorch](https://github.com/lyqun/FPConv)]
 	- [PointAugment: an Auto-Augmentation Framework for Point Cloud Classification](https://arxiv.org/pdf/2002.10876.pdf) [[github](https://github.com/liruihui/PointAugment/)]
-	- [RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://arxiv.org/pdf/1911.11236.pdf) [[Tensorflow](https://github.com/QingyongHu/RandLA-Net)]
+	- [RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://arxiv.org/pdf/1911.11236.pdf) [seg; [Tensorflow](https://github.com/QingyongHu/RandLA-Net)]
 	- [Weakly Supervised Semantic Point Cloud Segmentation:Towards 10X Fewer Labels](https://arxiv.org/pdf/2004.04091.pdf) [[Tensorflow](https://github.com/alex-xun-xu/WeakSupPointCloudSeg)]
 	- [PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation](https://arxiv.org/pdf/2003.14032.pdf) [[PyTorch](https://github.com/edwardzhou130/PolarSeg)]
 	- [Learning to Segment 3D Point Clouds in 2D Image Space](https://arxiv.org/pdf/2003.05593.pdf) [[Keras](https://github.com/Zhang-VISLab/Learning-to-Segment-3D-Point-Clouds-in-2D-Image-Space)]
@@ -68,6 +69,10 @@
 	- [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf) [[Pytorch](https://github.com/felipecode/coiltraine)]
 	- [PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows](https://arxiv.org/pdf/1906.12320.pdf) [[PyTorch](https://github.com/stevenygd/PointFlow)]
 + CVPR
+	- [Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Modeling_Point_Clouds_With_Self-Attention_and_Gumbel_Subset_Sampling_CVPR_2019_paper.pdf) 
+	- [Learning to Sample](https://arxiv.org/pdf/1812.01659.pdf) [[Tensorflow](https://github.com/orendv/learning_to_sample)]
+	- [PointConv: Deep Convolutional Networks on 3D Point Clouds](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.pdf) [[Tensorflow](https://github.com/DylanWusee/pointconv)]
+	- [The Perfect Match: 3D Point Cloud Matching With Smoothed Densities](https://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf) [[code](https://github.com/zgojcic/3DSmoothNet)]
 	- [PointNetLK: Point Cloud Registration using PointNet](https://arxiv.org/pdf/1903.05711.pdf) [[PyTorch](https://github.com/hmgoforth/PointNetLK)]
 	- [PointRCNN: 3D Object Proposal Generation and Detection From Point Cloud](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.pdf) [[PyTorch](https://github.com/sshaoshuai/PointRCNN)]		
 	- [PointPillars: Fast Encoders for Object Detection From Point Clouds](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lang_PointPillars_Fast_Encoders_for_Object_Detection_From_Point_Clouds_CVPR_2019_paper.pdf) [[Pytorch](https://github.com/nutonomy/second.pytorch)]
@@ -103,8 +108,10 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 + Others
 	- [Second: Sparsely embedded convolutional detection](https://www.mdpi.com/1424-8220/18/10/3337/pdf) [Sensors]	
 	- [Rt3d: Real-time 3-d vehicle detection in lidar point cloud for autonomous driving](https://ieeexplore.ieee.org/abstract/document/#) [IEEE Robotics and Automation Letters]
-	- [HDNET: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [CoRL]	
+	- [HDNET: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [CoRL]
+	- [Flex-Convolution (Million-Scale Point-Cloud Learning Beyond Grid-Worlds)](https://arxiv.org/pdf/1803.07289.pdf) [ACCV]	
 + arXiv
+	- [Point Convolutional Neural Networks by Extension Operators](https://arxiv.org/pdf/1803.10091.pdf)
 	- [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf) [[Tensorflow](https://github.com/MVIG-SJTU/pointSIFT)]
 	- [Roarnet: A robust 3d object detection based on region approximation refinement](https://arxiv.org/pdf/1811.03818.pdf)
 	- [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199)
@@ -155,15 +162,19 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 	- [Are we ready for autonomous driving? the kitti vision benchmark suite](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR]
 
 		
-## Datasets
-|  Dataset   | Paper | Confonerence | Github | Others
+## Datasets(Updating)
+
+|  Dataset   | Paper | Page | Downloads | 
 |  ----  | ----  | ----  | ----  | ----  |
-| [Kitti](http://www.cvlibs.net/datasets/kitti/)  | [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | CVPR 2012 |  | |
-| [ModelNet](https://modelnet.cs.princeton.edu) | [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) | CVPR 2015 |  |  [HDF5](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip)|
-| [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html)  | [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) | SIGGRAPH Asia 2016 |  |  |
-| [3D Semantic Parsing Datasets](http://buildingparser.stanford.edu/) | [3D Semantic Parsing of Large-Scale Indoor Spaces](http://buildingparser.stanford.edu/images/3D_Semantic_Parsing.pdf) | CVPR 2016 |  |  |
-| [ScanNet](http://www.scan-net.org/) | [Scannet: Richly-annotated 3d reconstructions of indoor scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf) | CVPR 2017 | [Github](https://github.com/ScanNet/ScanNet) |  |
-| [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html) | [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) | CVPR 2015 |  |  |
+| [Kitti](http://www.cvlibs.net/datasets/kitti/)  | [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR 2012] |  |  |
+| [ModelNet](https://modelnet.cs.princeton.edu) | [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) [CVPR 2015]| https://modelnet.cs.princeton.edu/ | [raw](http://modelnet.cs.princeton.edu/ModelNet40.zip), [hdf5](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip), [normal](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip)|
+| [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html)  | [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) [SIGGRAPH Asia 2016] |  |  |
+| [3D Semantic Parsing Datasets](http://buildingparser.stanford.edu/) | [3D Semantic Parsing of Large-Scale Indoor Spaces](http://buildingparser.stanford.edu/images/3D_Semantic_Parsing.pdf) [CVPR 2016] | |  |
+| [ScanNet](http://www.scan-net.org/) | [Scannet: Richly-annotated 3d reconstructions of indoor scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf) [CVPR 2017 ]| | [Github](https://github.com/ScanNet/ScanNet) |
+| [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html) | [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) [CVPR 2015]| |  |
+| S3DIS |  |  |  |  |
+| SemanticKITTI |  |  |  |  |
+| Semantic3D | | | | |
 
 ## Reference
 + [https://github.com/amusi/ECCV2020-Code](https://github.com/amusi/ECCV2020-Code)
