@@ -10,6 +10,7 @@
 
 ## 2020
 + ECCV
+	- [DeepGMR: Learning Latent Gaussian Mixture Models for Registration](https://arxiv.org/pdf/2008.09088.pdf) [`registration`; [PyTorch](https://github.com/wentaoyuan/deepgmr)]
 	- [Quaternion Equivariant Capsule Networks for 3D Point Clouds](https://arxiv.org/pdf/1912.12098.pdf) [[PyTorch](https://github.com/tolgabirdal/qecnetworks)]
 	- [PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding](https://arxiv.org/pdf/2007.10985.pdf) [`unsupervised`; `cls`, `seg`, `det`]
 	- [Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618.pdf) [`reconstruction`; [PyTorch](https://github.com/autonomousvision/convolutional_occupancy_networks)]
@@ -20,6 +21,7 @@
 	- [3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection](https://arxiv.org/pdf/2004.12636.pdf) [`det`]
 	- [Progressive Point Cloud Deconvolution Generation Network](https://arxiv.org/pdf/2007.05361.pdf) [`generation`; [github](https://github.com/fpthink/PDGN)]
 + CVPR
+	- [Deep Global Registration](https://arxiv.org/pdf/2004.11540.pdf) [`registration`; [PyTorch](https://github.com/chrischoy/DeepGlobalRegistration)]
 	- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.pdf) [`det`; [code](https://github.com/open-mmlab/OpenPCDet)]
 	- [SA-SSD: Structure Aware Single-stage 3D Object Detection from Point Cloud](https://www4.comp.polyu.edu.hk/~cslzhang/paper/SA-SSD.pdf) [`det`; [PtTorch](https://github.com/skyhehe123/SA-SSD)]
 	- [3DRegNet: A Deep Neural Network for 3D Point Registration](https://openaccess.thecvf.com/content_CVPR_2020/papers/Pais_3DRegNet_A_Deep_Neural_Network_for_3D_Point_Registration_CVPR_2020_paper.pdf) [`registration`; [Tensorflow](https://github.com/3DVisionISR/3DRegNet)]
@@ -47,6 +49,9 @@
 	- [TANet: Robust 3D Object Detection from Point Clouds with Triple Attention](https://arxiv.org/pdf/1912.05163.pdf) [`det`; [PyTorch](https://github.com/happinesslz/TANet)]
 	- [Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling](https://arxiv.org/pdf/1912.10775.pdf) [`cls`, `seg`]
 	- [Pointwise Rotation-Invariant Network with Adaptive Sampling and 3D Spherical Voxel Convolution](https://arxiv.org/pdf/1811.09361.pdf) [`cls`, `seg`, `matching`]
++ arXiv
+	- [Multi-Resolution Graph Neural Network for Large-Scale Pointcloud Segmentation](https://arxiv.org/pdf/2009.08924.pdf) [`seg`]
+	- [A Density-Aware PointRCNN for 3D Objection Detection in Point Clouds](https://arxiv.org/pdf/2009.05307.pdf) [`det`]
 
 ## 2019
 
@@ -134,6 +139,7 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 
 ## Before 2016 
 + 2016
+	- [Fast Global Registration](https://www.researchgate.net/profile/Vladlen_Koltun/publication/305983982_Fast_Global_Registration/links/57a8086908aefe6167bc8366/Fast-Global-Registration.pdf) [`registration`; ECCV; [Github](https://github.com/intel-isl/FastGlobalRegistration)]
 	- [Monocular 3D Object Detection for Autonomous Driving](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Chen_Monocular_3D_Object_CVPR_2016_paper.pdf) [CVPR]
 	- [Volumetric and Multi-View CNNs for Object Classification on 3D Data](http://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Volumetric_and_Multi-View_CVPR_2016_paper.pdf) [CVPR]
 	- [Three-Dimensional Object Detection and Layout Prediction Using Clouds of Oriented Gradients](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Ren_Three-Dimensional_Object_Detection_CVPR_2016_paper.pdf) [CVPR]
@@ -141,6 +147,7 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 	- [Fpnn: Field probing neural networks for 3d data](http://papers.nips.cc/paper/6416-fpnn-field-probing-neural-networks-for-3d-data.pdf) [NIPS]
 	- [Vehicle Detection from 3D Lidar Using Fully Convolutional Network](https://arxiv.org/pdf/1608.07916) [RSS]
 + 2015
+	- [Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration](https://arxiv.org/pdf/1605.03344.pdf) [`registration`; TPAMI; [Github](https://github.com/yangjiaolong/Go-ICP)] 
 	- [3D ShapeNets: A Deep Representation for Volumetric Shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) [CVPR]
 	- [SUN RGB-D: A RGB-D Scene Understanding Benchmark Suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) [CVPR]
 	- [Data-Driven 3D Voxel Patterns for Object Category Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Xiang_Data-Driven_3D_Voxel_2015_CVPR_paper.pdf) [CVPR]
@@ -154,6 +161,10 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 
 - 2012
 	- [Are we ready for autonomous driving? the kitti vision benchmark suite](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR]
+- 1992
+	- [A method for registration of 3-D shapes ](https://www.researchgate.net/publication/3191994_A_method_for_registration_of_3-D_shapes_IEEE_Trans_Pattern_Anal_Mach_Intell) [`registration`; TPAMI]
+- 1987
+	- [Least-squares fitting of two 3-D point sets](https://www.researchgate.net/publication/224378053_Least-squares_fitting_of_two_3-D_point_sets_IEEE_T_Pattern_Anal) [`registration`; TPAMI]
 
 ## Reference
 + [https://github.com/amusi/ECCV2020-Code](https://github.com/amusi/ECCV2020-Code)
