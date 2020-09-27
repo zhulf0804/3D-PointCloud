@@ -49,9 +49,12 @@
 	- [TANet: Robust 3D Object Detection from Point Clouds with Triple Attention](https://arxiv.org/pdf/1912.05163.pdf) [`det`; [PyTorch](https://github.com/happinesslz/TANet)]
 	- [Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling](https://arxiv.org/pdf/1912.10775.pdf) [`cls`, `seg`]
 	- [Pointwise Rotation-Invariant Network with Adaptive Sampling and 3D Spherical Voxel Convolution](https://arxiv.org/pdf/1811.09361.pdf) [`cls`, `seg`, `matching`]
++ Others
+	- [Dilated Point Convolutions: On the Receptive Field Size of Point Convolutions on 3D Point Clouds](https://arxiv.org/pdf/1907.12046.pdf) [`seg`, `cls`; [Project](https://francisengelmann.github.io/DPC/); ICRA]
 + arXiv
 	- [Multi-Resolution Graph Neural Network for Large-Scale Pointcloud Segmentation](https://arxiv.org/pdf/2009.08924.pdf) [`seg`]
 	- [A Density-Aware PointRCNN for 3D Objection Detection in Point Clouds](https://arxiv.org/pdf/2009.05307.pdf) [`det`]
+	- [TEASER: Fast and Certifiable Point Cloud Registration](https://arxiv.org/pdf/2001.07715.pdf) [`registration`; [Github](https://github.com/MIT-SPARK/TEASER-plusplus)]
 
 ## 2019
 
@@ -60,6 +63,13 @@
 	- [PRNet: Self-Supervised Learning for Partial-to-Partial Registration](http://papers.nips.cc/paper/9085-prnet-self-supervised-learning-for-partial-to-partial-registration.pdf) [`registration`, `cls`; [PyTorch](https://github.com/WangYueFt/prnet)]
 	- [Point-Voxel CNN for Efficient 3D Deep Learning](https://arxiv.org/pdf/1907.03739.pdf) [`seg`, `det`; [PyTorch](https://github.com/mit-han-lab/pvcnn)]
 + ICCV
+	- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://openaccess.thecvf.com/content_ICCV_2019/papers/Behley_SemanticKITTI_A_Dataset_for_Semantic_Scene_Understanding_of_LiDAR_Sequences_ICCV_2019_paper.pdf) [`dataset`]
+	- [MeteorNet: Deep Learning on Dynamic 3D Point Cloud Sequences](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_MeteorNet_Deep_Learning_on_Dynamic_3D_Point_Cloud_Sequences_ICCV_2019_paper.pdf) [`cls`, `seg`, `flow estimation`; [Tensorflow](https://github.com/xingyul/meteornet)]
+	- [DeepGCNs: Can GCNs Go as Deep as CNNs?](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_DeepGCNs_Can_GCNs_Go_As_Deep_As_CNNs_ICCV_2019_paper.pdf) [`seg`; [Tensorflow](https://github.com/lightaime/deep_gcns)]
+	- [VV-NET: Voxel VAE Net with Group Convolutions for Point Cloud Segmentation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Meng_VV-Net_Voxel_VAE_Net_With_Group_Convolutions_for_Point_Cloud_ICCV_2019_paper.pdf) [`seg`; [Github](https://github.com/xianyuMeng/VV-Net-Voxel-VAE-Net-with-Group-Convolutions-for-Point-Cloud-Segmentation)]
+	- [Interpolated Convolutional Networks for 3D Point Cloud Understanding](https://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf) [`cls`, `seg`]
+	- [Dynamic Points Agglomeration for Hierarchical Point Sets Learning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Dynamic_Points_Agglomeration_for_Hierarchical_Point_Sets_Learning_ICCV_2019_paper.pdf) [`cls`, `seg`]
+	- [ShellNet: Efficient Point Cloud Convolutional Neural Networks using Concentric Shells Statistics](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_ShellNet_Efficient_Point_Cloud_Convolutional_Neural_Networks_Using_Concentric_Shells_ICCV_2019_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/hkust-vgd/shellnet)]
 	- [Fast Point R-CNN](https://arxiv.org/pdf/1908.02990.pdf) [`det`]
 	- [Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data](https://openaccess.thecvf.com/content_ICCV_2019/papers/Uy_Revisiting_Point_Cloud_Classification_A_New_Benchmark_Dataset_and_Classification_ICCV_2019_paper.pdf) [`dataset`; `cls`; [Tensorflow](https://github.com/hkust-vgd/scanobjectnn)]
 	- [KPConv: Flexible and Deformable Convolution for Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Thomas_KPConv_Flexible_and_Deformable_Convolution_for_Point_Clouds_ICCV_2019_paper.pdf) [`cls`, `seg`; [code](https://github.com/HuguesTHOMAS/KPConv)]
@@ -77,6 +87,17 @@
 	- [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf) [`autonomous driving`; [Pytorch](https://github.com/felipecode/coiltraine)]
 
 + CVPR
+	- [Relation-Shape Convolutional Neural Network for Point Cloud Analysis](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Relation-Shape_Convolutional_Neural_Network_for_Point_Cloud_Analysis_CVPR_2019_paper.pdf) [`cls`, `seg`, `normal estimation`; [PyTorch](https://github.com/Yochengliu/Relation-Shape-CNN)]
+	- [Modeling Local Geometric Structure of
+	3D Point Clouds using Geo-CNN](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lan_Modeling_Local_Geometric_Structure_of_3D_Point_Clouds_Using_Geo-CNN_CVPR_2019_paper.pdf) [`cls`, `det`; [Tensorflow](https://github.com/voidrank/Geo-CNN)]
+	- [4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://openaccess.thecvf.com/content_CVPR_2019/papers/Choy_4D_Spatio-Temporal_ConvNets_Minkowski_Convolutional_Neural_Networks_CVPR_2019_paper.pdf) [`seg`; [PyTorch](https://github.com/chrischoy/SpatioTemporalSegmentation)]
+	- [PCAN: 3D Attention Map Learning Using Contextual Information for Point Cloud Based Retrieval](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_PCAN_3D_Attention_Map_Learning_Using_Contextual_Information_for_Point_CVPR_2019_paper.pdf) [`retrieval`; [Tensorflow](https://github.com/XLechter/PCAN)]
+	- [Attentional PointNet for 3D-Object Detection in Point Clouds](https://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Paigwar_Attentional_PointNet_for_3D-Object_Detection_in_Point_Clouds_CVPRW_2019_paper.pdf) [`det`; [PyTorch](https://github.com/anshulpaigwar/Attentional-PointNet)]
+	- [Octree guided CNN with Spherical Kernels for 3D Point Clouds](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lei_Octree_Guided_CNN_With_Spherical_Kernels_for_3D_Point_Clouds_CVPR_2019_paper.pdf) [`cls`, `seg`; [Github](https://github.com/hlei-ziyan/psicnn)]
+	- [A-CNN: Annularly Convolutional Neural Networks on Point Clouds](https://openaccess.thecvf.com/content_CVPR_2019/papers/Komarichev_A-CNN_Annularly_Convolutional_Neural_Networks_on_Point_Clouds_CVPR_2019_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/artemkomarichev/a-cnn)]
+	- [ClusterNet: Deep Hierarchical Cluster Network with Rigorously Rotation-Invariant Representation for Point Cloud Analysis](https://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_ClusterNet_Deep_Hierarchical_Cluster_Network_With_Rigorously_Rotation-Invariant_Representation_for_CVPR_2019_paper.pdf) [`cls`]
+	- [Graph Attention Convolution for Point Cloud Semantic Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Graph_Attention_Convolution_for_Point_Cloud_Semantic_Segmentation_CVPR_2019_paper.pdf) [`seg`; [PyTorch-unofficial](https://github.com/yanx27/GACNet)]
+	- [PointWeb: Enhancing Local Neighborhood Features for Point Cloud Processing](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhao_PointWeb_Enhancing_Local_Neighborhood_Features_for_Point_Cloud_Processing_CVPR_2019_paper.pdf) [`seg`, `cls`; [PyTorch](https://github.com/hszhao/PointWeb)]
 	- [Modeling Point Clouds with Self-Attention and Gumbel Subset Sampling](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Modeling_Point_Clouds_With_Self-Attention_and_Gumbel_Subset_Sampling_CVPR_2019_paper.pdf) [`cls`, `seg`, `gesture`]
 	- [Learning to Sample](https://arxiv.org/pdf/1812.01659.pdf) [`cls`, `retrieval`, `reconstruction`; [Tensorflow](https://github.com/orendv/learning_to_sample)]
 	- [PointConv: Deep Convolutional Networks on 3D Point Clouds](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wu_PointConv_Deep_Convolutional_Networks_on_3D_Point_Clouds_CVPR_2019_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/DylanWusee/pointconv)]
@@ -91,32 +112,57 @@
 	- [LaserNet: An Efficient Probabilistic 3D Object Detector for Autonomous Driving](https://arxiv.org/pdf/1903.08701.pdf) [`det`]
 	- [GS3D: An Efficient 3D Object Detection Framework for Autonomous Driving](https://arxiv.org/pdf/1903.10955.pdf) [`det`, `autonomous driving`]
 	- [L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving](https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf) [`autonomous driving`]
+
++ Others
+	- [Dynamic Graph CNN for Learning on Point Clouds](https://arxiv.org/pdf/1801.07829.pdf) [`cls`, `seg`; [Github](https://github.com/WangYueFt/dgcnn); TOG]
+	- [SqueezeSegV2: Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud](https://arxiv.org/pdf/1809.08495.pdf) [`seg`; [Tensorflow](https://github.com/xuanyuzhou98/SqueezeSegV2); ICRA]
+	- [RangeNet++: Fast and Accurate LiDAR Semantic Segmentation](https://www.researchgate.net/profile/Cyrill_Stachniss/publication/338937998_RangeNet_Fast_and_Accurate_LiDAR_Semantic_Segmentation/links/5f609d4ba6fdcc1164133ac9/RangeNet-Fast-and-Accurate-LiDAR-Semantic-Segmentation.pdf) [`seg`; [PyTorch](https://github.com/PRBonn/lidar-bonnetal); IROS]
+
 + arXiv
+	- [LSANet: Feature Learning on Point Sets by Local Spatial Aware Layer](https://arxiv.org/pdf/1905.05442.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/LinZhuoChen/LSANet)]
 	- [Adversarial Sensor Attack on LiDAR-based Perception in Autonomous Driving](https://arxiv.org/pdf/1907.06826.pdf) [`autonomous driving`]
 
 ## 2018
 + CVPR
+	- [Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1573.pdf) [`cls`, `seg`; [Code](http://www.merl.com/research/license#KCNet)]
+	- [Tangent Convolutions for Dense Prediction in 3D](http://vladlen.info/papers/tangent-convolutions.pdf) [`seg`; [Tensorflow](https://github.com/tatarchm/tangent_conv)]
+	- [PointGrid: A Deep Network for 3D Shape Understanding](https://openaccess.thecvf.com/content_cvpr_2018/papers/Le_PointGrid_A_Deep_CVPR_2018_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/trucleduc/PointGrid)]
+	- [3D Semantic Segmentation with Submanifold Sparse Convolutional Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Graham_3D_Semantic_Segmentation_CVPR_2018_paper.pdf) [`seg`; [Github](https://github.com/facebookresearch/SparseConvNet)]
+	- [Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs](https://openaccess.thecvf.com/content_cvpr_2018/papers/Landrieu_Large-Scale_Point_Cloud_CVPR_2018_paper.pdf) [`seg`; [PyTorch](https://github.com/loicland/superpoint_graph)]
+	- [SPLATNet: Sparse Lattice Networks for Point Cloud Processing](https://openaccess.thecvf.com/content_cvpr_2018/papers/Su_SPLATNet_Sparse_Lattice_CVPR_2018_paper.pdf) [`seg`; [Caffe](https://github.com/NVlabs/splatnet)]
+	- [Pointwise Convolutional Neural Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hua_Pointwise_Convolutional_Neural_CVPR_2018_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/hkust-vgd/pointwise)]
+	- [SO-Net: Self-Organizing Network for Point Cloud Analysis](https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_SO-Net_Self-Organizing_Network_CVPR_2018_paper.pdf) [`autoencoder`, `cls`, `seg`; [PyTorch](https://github.com/lijx10/SO-Net)]
+	- [Recurrent Slice Networks for 3D Segmentation of Point Clouds](https://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Recurrent_Slice_Networks_CVPR_2018_paper.pdf) [`seg`; [PyTorch](https://github.com/qianguih/RSNet/blob/master/README.md)]
+	- [PPFNet: Global Context Aware Local Features for Robust 3D Point Matching](https://openaccess.thecvf.com/content_cvpr_2018/papers/Deng_PPFNet_Global_Context_CVPR_2018_paper.pdf) [`registration`]
 	- [PIXOR: Real-Time 3D Object Detection From Point Clouds](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_PIXOR_Real-Time_3D_CVPR_2018_paper.pdf) [`det`; [PyTorch](https://github.com/philip-huang/PIXOR)]
 	- [Frustum PointNets for 3D Object Detection From RGB-D Data](http://openaccess.thecvf.com/content_cvpr_2018/papers/Qi_Frustum_PointNets_for_CVPR_2018_paper.pdf) [`det`; [Tensorflow](https://github.com/charlesq34/frustum-pointnets)]		
 	- [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf) [`det`]
 	- [3D-RCNN: Instance-Level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [`reconstruction`]
 	- [Multi-Level Fusion Based 3D Object Detection From Monocular Images](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf) [`det`]		
 + ECCV
+	- [Local Spectral Graph Convolution for Point Set Feature Learning](https://arxiv.org/pdf/1803.05827.pdf) [`cls`, `seg`]
+	- [3D Recurrent Neural Networks with Context Fusion for Point Cloud Semantic Segmentation](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaoqing_Ye_3D_Recurrent_Neural_ECCV_2018_paper.pdf) [`seg`]
+	- [Fully-Convolutional Point Networks for Large-Scale Point Clouds](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dario_Rethage_Fully-Convolutional_Point_Networks_ECCV_2018_paper.pdf) [`seg`, `captioning`; [Tensorflow](https://github.com/drethage/fully-convolutional-point-network)]
+	- [PPF-FoldNet: Unsupervised Learning of Rotation Invariant 3D Local Descriptors](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tolga_Birdal_PPF-FoldNet_Unsupervised_Learning_ECCV_2018_paper.pdf) [`registration`; [PyTorch](https://github.com/XuyangBai/PPF-FoldNet)]
 	- [Deep Continuous Fusion for Multi-Sensor 3D Object Detection](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ming_Liang_Deep_Continuous_Fusion_ECCV_2018_paper.pdf) [`det`]
 	- [3DFeat-Net: Weakly Supervised Local 3D
-Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECCV_2018/papers/Zi_Jian_Yew_3DFeat-Net_Weakly_Supervised_ECCV_2018_paper.pdf) [`match`, `registration`; [Tensorflow](https://github.com/yewzijian/3DFeatNet)]
+	Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECCV_2018/papers/Zi_Jian_Yew_3DFeat-Net_Weakly_Supervised_ECCV_2018_paper.pdf) [`match`, `registration`; [Tensorflow](https://github.com/yewzijian/3DFeatNet)]
 	- [Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](http://openaccess.thecvf.com/content_ECCV_2018/papers/Peiliang_LI_Stereo_Vision-based_Semantic_ECCV_2018_paper.pdf) [`autonomous driving`]
 + Others
+	- [PointCNN: Convolution On X -Transformed Points](http://papers.neurips.cc/paper/7362-pointcnn-convolution-on-x-transformed-points.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/yangyanli/PointCNN); NeurIPS]
 	- [Second: Sparsely embedded convolutional detection](https://www.mdpi.com/1424-8220/18/10/3337/pdf) [`det`; `Sensors`]	
 	- [Rt3d: Real-time 3-d vehicle detection in lidar point cloud for autonomous driving](https://ieeexplore.ieee.org/abstract/document/#) [`det`, `autonomous driving`; IEEE Robotics and Automation Letters]
 	- [HDNET: Exploiting HD Maps for 3D Object Detection](http://proceedings.mlr.press/v87/yang18b/yang18b.pdf) [`det`, `autonomous driving`; CoRL]
 	- [Joint 3D Proposal Generation and Object Detection from View Aggregation](https://arxiv.org/pdf/1712.02294.pdf) [`det`, `autonomous driving`; IROS]
-	- [Flex-Convolution(Million-Scale Point-Cloud Learning Beyond Grid-Worlds)](https://arxiv.org/pdf/1803.07289.pdf) [`cls`, `seg`; ACCV; [Tensorflow](https://github.com/cgtuebingen/Flex-Convolution)]
+	- [Flex-Convolution(Million-Scale Point-Cloud Learning Beyond Grid-Worlds)](https://arxiv.org/pdf/1803.07289.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/cgtuebingen/Flex-Convolution); ACCV]
+	- [SqueezeSeg: Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud](https://arxiv.org/pdf/1710.07368.pdf) [`seg`; [Tensorflow](https://github.com/BichenWuUCB/SqueezeSeg); ICRA]
+	- [Semantic Classification of 3D Point Clouds with Multiscale Spherical Neighborhoods](https://arxiv.org/pdf/1808.00495.pdf) [`seg`; 3DV]
 + arXiv
 	- [Point Convolutional Neural Networks by Extension Operators](https://arxiv.org/pdf/1803.10091.pdf) [`cls`, `seg`, `normal estimation`; [Tensorflow](https://github.com/matanatz/pcnn)]
 	- [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf) [`seg`; [Tensorflow](https://github.com/MVIG-SJTU/pointSIFT)]
 	- [Roarnet: A robust 3d object detection based on region approximation refinement](https://arxiv.org/pdf/1811.03818.pdf) [`det`]
 	- [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199) [`det`; [PyTorch](https://github.com/AI-liu/Complex-YOLO)]
+	- [Classification of Point Cloud Scenes with Multiscale Voxel Deep Network](https://arxiv.org/pdf/1804.03583.pdf) [`seg`]
 
 ## 2017
 + CVPR
@@ -128,6 +174,7 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 	- [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zeng_3DMatch_Learning_Local_CVPR_2017_paper.pdf) [`match`, `registration`; [project](http://3dmatch.cs.princeton.edu/)]
 	- [3D Point Cloud Registration for Localization using a Deep Neural Network Auto-Encoder](https://openaccess.thecvf.com/content_cvpr_2017/papers/Elbaz_3D_Point_Cloud_CVPR_2017_paper.pdf) [`registration`; [github](https://github.com/gilbaz/LORAX)]
 + ICCV
+	- [Learning Compact Geometric Features](https://openaccess.thecvf.com/content_ICCV_2017/papers/Khoury_Learning_Compact_Geometric_ICCV_2017_paper.pdf) [`registration`; [Github](https://github.com/marckhoury/CGF)]
 	- [2D-Driven 3D Object Detection in RGB-D Images](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.pdf) [`det`]
 + TPAMI
 	- [3D Object Proposals Using Stereo Imagery for Accurate Object Class Detection](https://arxiv.org/pdf/1608.07711.pdf) [`det`, `autonomous driving`]
@@ -136,6 +183,7 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 + Others
 	- [Vote3deep: Fast object detection in 3d point clouds using efficient convolutional neural networks](https://arxiv.org/pdf/1609.06666.pdf) [`det`; ICRA]
 	- [3d fully convolutional network for vehicle detection in point cloud](https://arxiv.org/pdf/1611.08069.pdf) [`det`; IROS; [Tensorflow](https://github.com/yukitsuji/3D_CNN_tensorflow)]
+	- [SEGCloud: Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/1710.07563.pdf) [`seg`; 3DV]
 
 ## Before 2016 
 + 2016
@@ -161,6 +209,9 @@ Features for Point Cloud Registration](https://openaccess.thecvf.com/content_ECC
 
 - 2012
 	- [Are we ready for autonomous driving? the kitti vision benchmark suite](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR]
+
+- 2009 
+	- [Fast point feature histograms (FPFH) for 3D registration](https://www.cvl.iis.u-tokyo.ac.jp/class2016/2016w/papers/6.3DdataProcessing/Rusu_FPFH_ICRA2009.pdf) [`registration`; ICRA]
 - 1992
 	- [A method for registration of 3-D shapes ](https://www.researchgate.net/publication/3191994_A_method_for_registration_of_3-D_shapes_IEEE_Trans_Pattern_Anal_Mach_Intell) [`registration`; TPAMI]
 - 1987
