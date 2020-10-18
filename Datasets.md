@@ -3,6 +3,7 @@
 - [ModelNet](https://modelnet.cs.princeton.edu): [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html): [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html): [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) [SIGGRAPH Asia 2016]
+- [3DMatch](http://3dmatch.cs.princeton.edu/): [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](https://arxiv.org/pdf/1603.08182.pdf) [CVPR 2017]
 - [ScanNet](http://www.scan-net.org/): [Scannet: Richly-annotated 3d reconstructions of indoor scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf) [CVPR 2017 ]
 - [S3DIS](http://buildingparser.stanford.edu/dataset.html): [Joint 2D-3D-Semantic Data for Indoor Scene Understanding](https://arxiv.org/pdf/1702.01105.pdf) [arXiv 2017]
 - [Semantic3D](http://www.semantic3d.net/): [Semantic3D.net: A new Large-scale Point Cloud Classification Benchmark](https://arxiv.org/pdf/1704.03847.pdf) [arXiv 2017]
