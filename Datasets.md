@@ -1,5 +1,7 @@
 ## Datasets
 - [KITTI](http://www.cvlibs.net/datasets/kitti/):  [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR 2012]
+- [ICL-NUIM](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html): [A Benchmark for RGB-D Visual Odometry, 3D Reconstruction and SLAM](http://mural.maynoothuniversity.ie/8309/1/JM-Benchmark-2014.pdf) [ICRA 2014]
+- [Augmented ICL-NUIM](http://redwood-data.org/indoor/dataset.html): [Robust Reconstruction of Indoor Scenes](https://www.researchgate.net/profile/Vladlen_Koltun/publication/279751165_Robust_Reconstruction_of_Indoor_Scenes/links/5599867708ae5d8f393633dc/Robust-Reconstruction-of-Indoor-Scenes.pdf) [CVPR 2015]
 - [ModelNet](https://modelnet.cs.princeton.edu): [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html): [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html): [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) [SIGGRAPH Asia 2016]
@@ -10,6 +12,8 @@
 - [SemanticKITTI](http://semantic-kitti.org/): [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/pdf/1904.01416.pdf) [ICCV 2019]
 - [PartNet](https://cs.stanford.edu/~kaichun/partnet/): [PartNet: A Large-scale Benchmark for Fine-grained and
 Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.02713.pdf) [CVPR 2019]
+- [Waymo Open Dataset](https://github.com/waymo-research/waymo-open-dataset): [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf) [CVPR 2020]
+- [SensatUrban](https://github.com/QingyongHu/SensatUrban): [Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges](https://arxiv.org/pdf/2009.03137.pdf) [arXiv 2020]
 
 <hr />
 
@@ -67,4 +71,3 @@ space(1, 197w), lobby(3, 242w), lounge(3, 146w), pantry(3, 58w), copy room(2, 52
 | **Total** | column | clutter | chair | window | beam | floor | wall | ceiling | door | bookcase | board | table | sofa | stairs |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **9833** | 254 | 3882 | 1363 | 168 | 159 | 284 | 1547 | 385 | 543 | 584 | 137 | 455 | 55 | 17 |
-
