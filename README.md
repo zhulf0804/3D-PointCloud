@@ -13,6 +13,7 @@
 - ECCV
 	- [SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf) [`completion`, `cls`; [Github](https://github.com/wangyida/softpool)]
 	- [Detail Preserved Point Cloud Completion via Separated Feature Aggregation](https://arxiv.org/pdf/2007.02374.pdf) [`completion`; [Tensorflow](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA)]
+	- [PointPWC-Net: A Coarse-to-Fine Network for Supervised and Self-Supervised Scene Flow Estimation on 3D Point Clouds](https://arxiv.org/pdf/1911.12408.pdf) [`flow estimation`; [PyTorch](https://github.com/DylanWusee/PointPWC)]
 	- [JSENet: Joint Semantic Segmentation and Edge Detection Network for 3D Point Clouds](https://arxiv.org/pdf/2007.06888.pdf) [`seg`; [Tensorflow](https://github.com/hzykent/JSENet)]
 	- [A Closer Look at Local Aggregation Operators in Point Cloud Analysis](https://arxiv.org/pdf/2007.01294.pdf) [`cls`, `seg`; [Code](https://github.com/zeliu98/CloserLook3D)]
 	- [Multimodal Shape Completion via Conditional Generative Adversarial Networks](https://arxiv.org/pdf/2003.07717.pdf) [`completion`; [PyTorch](https://github.com/ChrisWu1997/Multimodal-Shape-Completion)]
@@ -39,6 +40,11 @@
 	- [Rotation-robust Intersection over Union for 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650460.pdf)
 - CVPR
 	- [Deep Global Registration](https://arxiv.org/pdf/2004.11540.pdf) [`registration`; [PyTorch](https://github.com/chrischoy/DeepGlobalRegistration)]
+	- [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Point-GNN_Graph_Neural_Network_for_3D_Object_Detection_in_a_CVPR_2020_paper.pdf) [`det`; [Tensorflow](https://github.com/WeijingShi/Point-GNN)]
+	- [Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation](https://arxiv.org/pdf/2003.06233.pdf) [`seg`; [PyTorch](https://github.com/jzhzhang/FusionAwareConv)]
+	- [MLCVNet: Multi-Level Context VoteNet for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_MLCVNet_Multi-Level_Context_VoteNet_for_3D_Object_Detection_CVPR_2020_paper.pdf) [`det`; [PyTorch](https://github.com/NUAAXQ/MLCVNet)]
+	- [Going Deeper with Lean Point Networks](https://openaccess.thecvf.com/content_CVPR_2020/papers/Le_Going_Deeper_With_Lean_Point_Networks_CVPR_2020_paper.pdf) [`seg`; [PyTorch](https://github.com/erictuanle/GoingDeeperwPointNetworks)]
+	- [Unsupervised Learning of Intrinsic Structural Representation Points](https://arxiv.org/pdf/2003.01661.pdf) [[PyTorch](https://github.com/NolenChen/3DStructurePoints)]
 	- [PF-Net: Point Fractal Network for 3D Point Cloud Completion](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_PF-Net_Point_Fractal_Network_for_3D_Point_Cloud_Completion_CVPR_2020_paper.pdf) [`completion`; [PyTorch](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)]
 	- [PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.pdf) [`det`; [code](https://github.com/open-mmlab/OpenPCDet)]
 	- [SA-SSD: Structure Aware Single-stage 3D Object Detection from Point Cloud](https://www4.comp.polyu.edu.hk/~cslzhang/paper/SA-SSD.pdf) [`det`; [PtTorch](https://github.com/skyhehe123/SA-SSD)]
@@ -72,8 +78,10 @@
 	- [Tranquil Clouds: Neural Networks for Learning Temporally Coherent Features in Point Clouds](https://arxiv.org/pdf/1907.05279.pdf) [ICLR]
 	- [MSN: Morphing and Sampling Network for Dense Point Cloud Completion](https://cseweb.ucsd.edu/~mil070/projects/AAAI2020/paper.pdf) [`completion`; [PyTorch](https://github.com/Colin97/MSN-Point-Cloud-Completion); AAAI]
 	- [TANet: Robust 3D Object Detection from Point Clouds with Triple Attention](https://arxiv.org/pdf/1912.05163.pdf) [`det`; [PyTorch](https://github.com/happinesslz/TANet); AAAI]
+	- [JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/1912.09654.pdf) [`seg`; [Tensorflow](https://github.com/dlinzhao/JSNet)]
 	- [Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling](https://arxiv.org/pdf/1912.10775.pdf) [`cls`, `seg`; AAAI]
 	- [Pointwise Rotation-Invariant Network with Adaptive Sampling and 3D Spherical Voxel Convolution](https://arxiv.org/pdf/1811.09361.pdf) [`cls`, `seg`, `matching`; AAAI]
+	- [Differentiable Manifold Reconstruction for Point Cloud Denoising](https://arxiv.org/pdf/2007.13551.pdf) [`denoising`; [PyTorch](https://github.com/luost26/DMRDenoise)]
 	- [Weakly Supervised 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2007.13970.pdf) [`det`; [Tensorflow](https://github.com/Zengyi-Qin/Weakly-Supervised-3D-Object-Detection); ACM MM]
 	- [Dilated Point Convolutions: On the Receptive Field Size of Point Convolutions on 3D Point Clouds](https://arxiv.org/pdf/1907.12046.pdf) [`seg`, `cls`; [Project](https://francisengelmann.github.io/DPC/); ICRA]
 	- [Fast and Automatic Registration of Terrestrial Point Clouds Using 2D Line Features](https://www.researchgate.net/publication/340771096_Fast_and_Automatic_Registration_of_Terrestrial_Point_Clouds_Using_2D_Line_Features/fulltext/5ea05e5545851564fc34cb0c/Fast-and-Automatic-Registration-of-Terrestrial-Point-Clouds-Using-2D-Line-Features.pdf) [`registration`; Remote Sensing]
@@ -82,6 +90,7 @@
 	- [Multi-Resolution Graph Neural Network for Large-Scale Pointcloud Segmentation](https://arxiv.org/pdf/2009.08924.pdf) [`seg`]
 	- [A Density-Aware PointRCNN for 3D Objection Detection in Point Clouds](https://arxiv.org/pdf/2009.05307.pdf) [`det`]
 	- [TEASER: Fast and Certifiable Point Cloud Registration](https://arxiv.org/pdf/2001.07715.pdf) [`registration`; [Github](https://github.com/MIT-SPARK/TEASER-plusplus)]
+	- [Part-Aware Data Augmentation for 3D Object Detection in Point Cloud](https://arxiv.org/pdf/2007.13373.pdf) [`det`, `augmentation`; [PyTorch](https://github.com/sky77764/pa-aug.pytorch)]
 
 ## 2019
 - ICCV
