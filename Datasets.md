@@ -1,14 +1,19 @@
 ## Datasets
 - [KITTI](http://www.cvlibs.net/datasets/kitti/):  [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR 2012]
+- [NYUV2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html): [Indoor Segmentation and Support Inference
+from RGBD Images](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) [ECCV 2012]
 - [ICL-NUIM](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html): [A Benchmark for RGB-D Visual Odometry, 3D Reconstruction and SLAM](http://mural.maynoothuniversity.ie/8309/1/JM-Benchmark-2014.pdf) [ICRA 2014]
 - [Augmented ICL-NUIM](http://redwood-data.org/indoor/dataset.html): [Robust Reconstruction of Indoor Scenes](https://www.researchgate.net/profile/Vladlen_Koltun/publication/279751165_Robust_Reconstruction_of_Indoor_Scenes/links/5599867708ae5d8f393633dc/Robust-Reconstruction-of-Indoor-Scenes.pdf) [CVPR 2015]
 - [ModelNet](https://modelnet.cs.princeton.edu): [3d shapenets: A deep representation for volumetric shapes](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wu_3D_ShapeNets_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [SUN RGB-D](http://rgbd.cs.princeton.edu/challenge.html): [Sun rgb-d: A rgb-d scene understanding benchmark suite](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_SUN_RGB-D_A_2015_CVPR_paper.pdf) [CVPR 2015]
 - [ShapeNet Part](https://cs.stanford.edu/~ericyi/project_page/part_annotation/index.html): [A Scalable Active Framework for Region Annotation in 3D Shape Collections](https://www-cs.stanford.edu/~ericyi/papers/part_annotation_16_small.pdf) [SIGGRAPH Asia 2016]
+- [SceneNN](http://103.24.77.34/scenenn/home/): [SceneNN: A Scene Meshes Dataset with aNNotations](https://www.researchgate.net/profile/Binh-Son_Hua/publication/311758430_SceneNN_A_Scene_Meshes_Dataset_with_aNNotations/links/5a6078300f7e9bfbc3f753f4/SceneNN-A-Scene-Meshes-Dataset-with-aNNotations.pdf) [3DV 2016]
 - [Oxford RobotCar](https://robotcar-dataset.robots.ox.ac.uk/): [1 Year, 1000km: The Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf) [IJRR 2016]
+- [Redwood](http://redwood-data.org/3dscan/): [A large dataset of object scans](https://arxiv.org/pdf/1602.02481.pdf) [arXiv 2016]
+- [S3DIS](http://buildingparser.stanford.edu/dataset.html): [3D Semantic Parsing of Large-Scale Indoor Spaces](https://openaccess.thecvf.com/content_cvpr_2016/papers/Armeni_3D_Semantic_Parsing_CVPR_2016_paper.pdf) [CVPR 2016], [Joint 2D-3D-Semantic Data for Indoor Scene Understanding](https://arxiv.org/pdf/1702.01105.pdf) [arXiv 2017]
 - [3DMatch](http://3dmatch.cs.princeton.edu/): [3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions](https://arxiv.org/pdf/1603.08182.pdf) [CVPR 2017]
+- [SUNCG](https://sscnet.cs.princeton.edu/): [Semantic Scene Completion from a Single Depth Image](https://openaccess.thecvf.com/content_cvpr_2017/papers/Song_Semantic_Scene_Completion_CVPR_2017_paper.pdf) [CVPR 2017]
 - [ScanNet](http://www.scan-net.org/): [Scannet: Richly-annotated 3d reconstructions of indoor scenes](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_ScanNet_Richly-Annotated_3D_CVPR_2017_paper.pdf) [CVPR 2017 ]
-- [S3DIS](http://buildingparser.stanford.edu/dataset.html): [Joint 2D-3D-Semantic Data for Indoor Scene Understanding](https://arxiv.org/pdf/1702.01105.pdf) [arXiv 2017]
 - [Semantic3D](http://www.semantic3d.net/): [Semantic3D.net: A new Large-scale Point Cloud Classification Benchmark](https://arxiv.org/pdf/1704.03847.pdf) [arXiv 2017]
 - [SemanticKITTI](http://semantic-kitti.org/): [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/pdf/1904.01416.pdf) [ICCV 2019]
 - [PartNet](https://cs.stanford.edu/~kaichun/partnet/): [PartNet: A Large-scale Benchmark for Fine-grained and
