@@ -30,7 +30,7 @@
 	- [Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://arxiv.org/pdf/2007.16100.pdf) [`seg`, `det`; [PyTorch](https://github.com/mit-han-lab/e3d)]
 	- [DeepGMR: Learning Latent Gaussian Mixture Models for Registration](https://arxiv.org/pdf/2008.09088.pdf) [`registration`; [PyTorch](https://github.com/wentaoyuan/deepgmr)]
 	- [Quaternion Equivariant Capsule Networks for 3D Point Clouds](https://arxiv.org/pdf/1912.12098.pdf) [[PyTorch](https://github.com/tolgabirdal/qecnetworks)]
-	- [PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding](https://arxiv.org/pdf/2007.10985.pdf) [`unsupervised`; `cls`, `seg`, `det`]
+	- [PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding](https://arxiv.org/pdf/2007.10985.pdf) [`unsupervised`; `cls`, `seg`, `det`; [PyTorch](https://github.com/facebookresearch/PointContrast)]
 	- [Convolutional Occupancy Networks](https://arxiv.org/pdf/2003.04618.pdf) [`reconstruction`; [PyTorch](https://github.com/autonomousvision/convolutional_occupancy_networks)]
 	- [Iterative Distance-Aware Similarity Matrix Convolution with Mutual-Supervised Point Elimination for Efficient Point Cloud Registration](https://arxiv.org/pdf/1910.10328.pdf) [`registration`; [PyTorch](https://github.com/jiahaowork/idam)]
 	- [Progressive Point Cloud Deconvolution Generation Network](https://arxiv.org/pdf/2007.05361.pdf) [`generation`; [github](https://github.com/fpthink/PDGN)]
@@ -184,6 +184,7 @@
 - CVPR
 	- [Large-scale Point Cloud Semantic Segmentation with Superpoint Graphs](https://openaccess.thecvf.com/content_cvpr_2018/papers/Landrieu_Large-Scale_Point_Cloud_CVPR_2018_paper.pdf) [`seg`; [PyTorch](https://github.com/loicland/superpoint_graph)]
 	- [FoldingNet: Point Cloud Auto-encoder via Deep Grid Deformation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf) [`autoencoder`, `unsupervised`; [code](https://www.merl.com/research/license#FoldingNet)]
+	- [PointNetVLAD: Deep Point Cloud Based Retrieval for Large-Scale Place Recognition](https://openaccess.thecvf.com/content_cvpr_2018/papers/Uy_PointNetVLAD_Deep_Point_CVPR_2018_paper.pdf) [`retrieval`, `place recognition`; [Tensorflow](https://github.com/mikacuy/pointnetvlad)]
 	- [PU-Net: Point Cloud Upsampling Network](https://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_PU-Net_Point_Cloud_CVPR_2018_paper.pdf) [`upsampling`; [Tensorflow](https://github.com/yulequan/PU-Net)]
 	- [SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SGPN_Similarity_Group_CVPR_2018_paper.pdf) [`seg`; [Tensorflow](https://github.com/laughtervv/SGPN)]
 	- [Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1573.pdf) [`cls`, `seg`; [Code](http://www.merl.com/research/license#KCNet)]
@@ -202,6 +203,8 @@
 	- [3D-RCNN: Instance-Level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [`reconstruction`]
 	- [Multi-Level Fusion Based 3D Object Detection From Monocular Images](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf) [`det`]
 - ECCV
+	- [HGMR: Hierarchical Gaussian Mixtures for
+	Adaptive 3D Registration](https://openaccess.thecvf.com/content_ECCV_2018/papers/Benjamin_Eckart_Fast_and_Accurate_ECCV_2018_paper.pdf) [`registration`; [unofficial code](https://github.com/somanshu25/GPU-Accelerated-Point-Cloud-Registration-Using-Hierarchical-GMM)]
 	- [EC-Net: an Edge-aware Point set Consolidation Network](https://arxiv.org/pdf/1807.06010.pdf) [`consolidation`; [Tensorflow](https://github.com/yulequan/EC-Net)]
 	- [Learning and Matching Multi-View Descriptors for Registration of Point Clouds](https://openaccess.thecvf.com/content_ECCV_2018/papers/Lei_Zhou_Learning_and_Matching_ECCV_2018_paper.pdf) [`registration`]
 	- [Local Spectral Graph Convolution for Point Set Feature Learning](https://arxiv.org/pdf/1803.05827.pdf) [`cls`, `seg`]
@@ -236,6 +239,7 @@
 
 ## 2017
 - CVPR
+	- [A Point Set Generation Network for 3D Object Reconstruction From a Single Image](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fan_A_Point_Set_CVPR_2017_paper.pdf) [`reconstruction`; [Tensorflow](https://github.com/fanhqme/PointSetGeneration)]
 	- [Multi-View 3D Object Detection Network for Autonomous Driving](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chen_Multi-View_3D_Object_CVPR_2017_paper.pdf) [`det`, `autonomous driving`; [Tensorflow](https://github.com/bostondiditeam/MV3D)]
 	- [Deep MANTA: A Coarse-To-Fine Many-Task Network for Joint 2D and 3D Vehicle Analysis From Monocular Image](http://openaccess.thecvf.com/content_cvpr_2017/papers/Chabot_Deep_MANTA_A_CVPR_2017_paper.pdf) [`autonomous driving`]
 	- **[PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)** [`cls`, `seg`; [Tensorflow](https://github.com/charlesq34/pointnet)]
