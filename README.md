@@ -93,6 +93,8 @@
 	- [Fast and Automatic Registration of Terrestrial Point Clouds Using 2D Line Features](https://www.researchgate.net/publication/340771096_Fast_and_Automatic_Registration_of_Terrestrial_Point_Clouds_Using_2D_Line_Features/fulltext/5ea05e5545851564fc34cb0c/Fast-and-Automatic-Registration-of-Terrestrial-Point-Clouds-Using-2D-Line-Features.pdf) [`registration`; Remote Sensing]
 	- [ConvPoint: Continuous Convolutions for Point Cloud Processing](https://arxiv.org/pdf/1904.02375.pdf) [`cls`, `seg`; [PyTorch](https://github.com/aboulch/ConvPoint); Computers & Graphics]
 - arXiv
+	- [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/pdf/2011.10033.pdf) [`seg`; [PyTorch](https://github.com/xinge008/Cylinder3D)]
+	- [OcCo: Pre-Training by Completing Point Clouds](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`, `completion`; [Github](https://github.com/hansen7/OcCo)]
 	- [Learning 3D-3D Correspondences for One-shot Partial-to-partial Registration](https://arxiv.org/pdf/2006.04523.pdf) [`registration`]
 	- [PRE-TRAINING BY COMPLETING POINT CLOUDS](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`, `cls`, `seg`; [Github](https://github.com/hansen7/OcCo)]
 	- [Continuous Geodesic Convolutions for Learning on 3D Shapes](https://arxiv.org/pdf/2002.02506.pdf) [`descriptor`, `match`, `seg`]
