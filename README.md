@@ -75,6 +75,10 @@
 	- [An Efficient PointLSTM for Point Clouds Based Gesture Recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Min_An_Efficient_PointLSTM_for_Point_Clouds_Based_Gesture_Recognition_CVPR_2020_paper.pdf) [`gesture`; [PyTorch](https://github.com/Blueprintf/pointlstm-gesture-recognition-pytorch)]
 
 - Others
+	- [Group Contextual Encoding for 3D Point Clouds](https://papers.nips.cc/paper/2020/file/9b72e31dac81715466cd580a448cf823-Paper.pdf) [`det`, `cls`; [PyTorch](https://github.com/AsahiLiu/PointDetectron); NeurIPS]
+	- [CaSPR: Learning Canonical Spatiotemporal
+	Point Cloud Representations](https://arxiv.org/pdf/2008.02792.pdf) [`dynamic sequences`; [Github](https://github.com/davrempe/caspr); NeurIPS]
+	- [Skeleton-bridged Point Completion: From Global Inference to Local Adjustment](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf) [`completion`; NeurIPS]
 	- [Self-Supervised Few-Shot Learning on Point Clouds](https://arxiv.org/pdf/2009.14168.pdf) [`cls`, `seg`; NeurIPS]
 	- [Rotation-Invariant Local-to-Global Representation Learning for 3D Point Cloud](https://arxiv.org/pdf/2010.03318.pdf) [`cls`; NeurIPS]
 	- [PIE-NET: Parametric Inference of Point Cloud Edges](https://arxiv.org/pdf/2007.04883.pdf) [`edge det`; NeurIPS]
@@ -90,6 +94,14 @@
 	- [Weakly Supervised 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2007.13970.pdf) [`det`; [Tensorflow](https://github.com/Zengyi-Qin/Weakly-Supervised-3D-Object-Detection); ACM MM]
 	- [Unsupervised Detection of Distinctive Regions on 3D Shapes](https://arxiv.org/pdf/1905.01684.pdf) [`unsupervised`; [Tensorflow](https://github.com/nini-lxz/Unsupervised-Shape-Distinction-Detection); TOG]
 	- [Dilated Point Convolutions: On the Receptive Field Size of Point Convolutions on 3D Point Clouds](https://arxiv.org/pdf/1907.12046.pdf) [`seg`, `cls`; [Project](https://francisengelmann.github.io/DPC/); ICRA]
+	- [FKAConv: Feature-Kernel Alignment for Point Cloud Convolution](https://openaccess.thecvf.com/content/ACCV2020/papers/Boulch_FKAConv_Feature-Kernel_Alignment_for_Point_Cloud_Convolution_ACCV_2020_paper.pdf) [`conv`, `cls`, `seg`; [PyTorch](https://github.com/valeoai/LightConvPoint); ACCV]
+	- [Sparse Convolutions on Continuous Domains for Point Cloud and Event Stream Networks](https://openaccess.thecvf.com/content/ACCV2020/papers/Jack_Sparse_Convolutions_on_Continuous_Domains_for_Point_Cloud_and_Event_ACCV_2020_paper.pdf) [`conv`, `cls`; ACCV]
+	- [Reconstructing Human Body Mesh from Point Clouds by Adversarial GP Network](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_Reconstructing_Human_Body_Mesh_from_Point_Clouds_by_Adversarial_GP_ACCV_2020_paper.pdf) [`reconstruction`; ACCV]
+	- [Bi-Directional Attention for Joint Instance and Semantic Segmentation in Point Clouds](https://openaccess.thecvf.com/content/ACCV2020/papers/Wu_Bi-Directional_Attention_for_Joint_Instance_and_Semantic_Segmentation_in_Point_ACCV_2020_paper.pdf) [`seg`; [Tensorflow](https://github.com/pumpkinnan/BAN); ACCV]
+	- [SDP-Net: Scene Flow Based Real-time Object Detection and Prediction from Sequential 3D Point Clouds](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhang_SDP-Net_Scene_Flow_Based_Real-time_Object_Detection_and_Prediction_from_ACCV_2020_paper.pdf) [`det`; ACCV]
+	- [Best Buddies Registration for Point Clouds](https://openaccess.thecvf.com/content/ACCV2020/papers/Drory_Best_Buddies_Registration_for_Point_Clouds_ACCV_2020_paper.pdf) [`registration`; [PyTorch](https://github.com/AmnonDrory/BestBuddiesRegistration); ACCV]
+	- [HPGCNN: Hierarchical Parallel Group Convolutional Neural Networks for Point Clouds Processing](https://openaccess.thecvf.com/content/ACCV2020/papers/Dang_HPGCNN_Hierarchical_Parallel_Group_Convolutional_Neural_Networks_for_Point_Clouds_ACCV_2020_paper.pdf) [`conv`, `cls`, `seg`; ACCV]
+	- [SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion](https://openaccess.thecvf.com/content/ACCV2020/papers/Son_SAUM_Symmetry-Aware_Upsampling_Module_for_Consistent_Point_Cloud_Completion_ACCV_2020_paper.pdf) [`completion`; [Tensorflow](https://github.com/countywest/SAUM); ACCV]
 	- [Fast and Automatic Registration of Terrestrial Point Clouds Using 2D Line Features](https://www.researchgate.net/publication/340771096_Fast_and_Automatic_Registration_of_Terrestrial_Point_Clouds_Using_2D_Line_Features/fulltext/5ea05e5545851564fc34cb0c/Fast-and-Automatic-Registration-of-Terrestrial-Point-Clouds-Using-2D-Line-Features.pdf) [`registration`; Remote Sensing]
 	- [ConvPoint: Continuous Convolutions for Point Cloud Processing](https://arxiv.org/pdf/1904.02375.pdf) [`cls`, `seg`; [PyTorch](https://github.com/aboulch/ConvPoint); Computers & Graphics]
 - arXiv

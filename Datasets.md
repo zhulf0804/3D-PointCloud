@@ -1,4 +1,6 @@
 ## Datasets
+
+- [Stanford Bunny](http://graphics.stanford.edu/data/3Dscanrep/): [A Volumetric Method for Building Complex Models from Range Images](https://graphics.stanford.edu/papers/volrange/volrange.pdf) [SIGGRAPH 1996]
 - [KITTI](http://www.cvlibs.net/datasets/kitti/):  [Are we ready for autonomous driving? the KITTI vision benchmark suite](http://www.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR 2012]
 - [NYUV2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html): [Indoor Segmentation and Support Inference
 from RGBD Images](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/shkf_eccv2012.pdf) [ECCV 2012]
