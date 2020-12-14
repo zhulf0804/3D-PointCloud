@@ -9,7 +9,14 @@
 - [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [TPAMI 2020]
 - [A Comprehensive Performance Evaluation of 3D Local Feature Descriptors](https://www.researchgate.net/profile/Yulan_Guo/publication/274387466_A_Comprehensive_Performance_Evaluation_of_3D_Local_Feature_Descriptors/links/552b4a5b0cf29b22c9c1a6d2/A-Comprehensive-Performance-Evaluation-of-3D-Local-Feature-Descriptors.pdf) [IJCV 2016]
 
+## 2021
+
+- AAAI
+	- [CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud](https://arxiv.org/pdf/2012.03015.pdf) [`det`; [PyTorch](https://github.com/Vegeta2020/CIA-SSD)]
+	- [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net)]
+
 ## 2020
+
 - ECCV
 	- [SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf) [`completion`, `cls`; [Github](https://github.com/wangyida/softpool)]
 	- [Detail Preserved Point Cloud Completion via Separated Feature Aggregation](https://arxiv.org/pdf/2007.02374.pdf) [`completion`; [Tensorflow](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA)]
@@ -41,6 +48,8 @@
 	- [Rotation-robust Intersection over Union for 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650460.pdf)
 - CVPR
 	- [Deep Global Registration](https://arxiv.org/pdf/2004.11540.pdf) [`registration`; [PyTorch](https://github.com/chrischoy/DeepGlobalRegistration)]
+	- [3D-MPA: Multi Proposal Aggregation for 3D Semantic Instance Segmentation](https://arxiv.org/pdf/2003.13867.pdf) [`seg`; [Github](https://github.com/francisengelmann/3D-MPA)]
+	- [PointGMM: a Neural GMM Network for Point Clouds](https://openaccess.thecvf.com/content_CVPR_2020/papers/Hertz_PointGMM_A_Neural_GMM_Network_for_Point_Clouds_CVPR_2020_paper.pdf) [`generation`, `registration`; [PyTorch](https://github.com/amirhertz/pointgmm)]
 	- [Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Point-GNN_Graph_Neural_Network_for_3D_Object_Detection_in_a_CVPR_2020_paper.pdf) [`det`; [Tensorflow](https://github.com/WeijingShi/Point-GNN)]
 	- [ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qi_ImVoteNet_Boosting_3D_Object_Detection_in_Point_Clouds_With_Image_CVPR_2020_paper.pdf) [`det`]
 	- [OccuSeg: Occupancy-aware 3D Instance Segmentation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_OccuSeg_Occupancy-Aware_3D_Instance_Segmentation_CVPR_2020_paper.pdf) [`seg`]
@@ -94,6 +103,8 @@
 	- [Weakly Supervised 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2007.13970.pdf) [`det`; [Tensorflow](https://github.com/Zengyi-Qin/Weakly-Supervised-3D-Object-Detection); ACM MM]
 	- [Unsupervised Detection of Distinctive Regions on 3D Shapes](https://arxiv.org/pdf/1905.01684.pdf) [`unsupervised`; [Tensorflow](https://github.com/nini-lxz/Unsupervised-Shape-Distinction-Detection); TOG]
 	- [Dilated Point Convolutions: On the Receptive Field Size of Point Convolutions on 3D Point Clouds](https://arxiv.org/pdf/1907.12046.pdf) [`seg`, `cls`; [Project](https://francisengelmann.github.io/DPC/); ICRA]
+	- [Semantic Graph Based Place Recognition for 3D Point Clouds](https://ras.papercept.net/proceedings/IROS20/0170.pdf) [`place recognition`; [PyTorch](https://github.com/kxhit/SG_PR); IROS]
+	- [End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences](https://ras.papercept.net/proceedings/IROS20/1105.pdf) [`registration`; [PyTorch](https://github.com/qiaozhijian/VCR-Net); IROS]
 	- [FKAConv: Feature-Kernel Alignment for Point Cloud Convolution](https://openaccess.thecvf.com/content/ACCV2020/papers/Boulch_FKAConv_Feature-Kernel_Alignment_for_Point_Cloud_Convolution_ACCV_2020_paper.pdf) [`conv`, `cls`, `seg`; [PyTorch](https://github.com/valeoai/LightConvPoint); ACCV]
 	- [Sparse Convolutions on Continuous Domains for Point Cloud and Event Stream Networks](https://openaccess.thecvf.com/content/ACCV2020/papers/Jack_Sparse_Convolutions_on_Continuous_Domains_for_Point_Cloud_and_Event_ACCV_2020_paper.pdf) [`conv`, `cls`; ACCV]
 	- [Reconstructing Human Body Mesh from Point Clouds by Adversarial GP Network](https://openaccess.thecvf.com/content/ACCV2020/papers/Zhou_Reconstructing_Human_Body_Mesh_from_Point_Clouds_by_Adversarial_GP_ACCV_2020_paper.pdf) [`reconstruction`; ACCV]
@@ -105,6 +116,10 @@
 	- [Fast and Automatic Registration of Terrestrial Point Clouds Using 2D Line Features](https://www.researchgate.net/publication/340771096_Fast_and_Automatic_Registration_of_Terrestrial_Point_Clouds_Using_2D_Line_Features/fulltext/5ea05e5545851564fc34cb0c/Fast-and-Automatic-Registration-of-Terrestrial-Point-Clouds-Using-2D-Line-Features.pdf) [`registration`; Remote Sensing]
 	- [ConvPoint: Continuous Convolutions for Point Cloud Processing](https://arxiv.org/pdf/1904.02375.pdf) [`cls`, `seg`; [PyTorch](https://github.com/aboulch/ConvPoint); Computers & Graphics]
 - arXiv
+	- [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
+	- [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/pdf/2011.13005.pdf) [`registration`; [PyTorch](https://github.com/ShengyuH/OverlapPredator)]
+	- [Deterministic PointNetLK for Generalized Registration](https://arxiv.org/pdf/2008.09527.pdf) [`registration`]
+	- [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/pdf/2011.13005.pdf) [`registration`; [PyTorch](https://github.com/ShengyuH/OverlapPredator)]
 	- [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/pdf/2011.10033.pdf) [`seg`; [PyTorch](https://github.com/xinge008/Cylinder3D)]
 	- [OcCo: Pre-Training by Completing Point Clouds](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`, `completion`; [Github](https://github.com/hansen7/OcCo)]
 	- [Learning 3D-3D Correspondences for One-shot Partial-to-partial Registration](https://arxiv.org/pdf/2006.04523.pdf) [`registration`]
@@ -118,6 +133,8 @@
 ## 2019
 - ICCV
 	- [USIP: Unsupervised Stable Interest Point Detection from 3D Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_USIP_Unsupervised_Stable_Interest_Point_Detection_From_3D_Point_Clouds_ICCV_2019_paper.pdf) [`keypoints`, `registration`; [PyTorch](https://github.com/lijx10/USIP)]
+	- [LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and
+	Environment Analysis](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_LPD-Net_3D_Point_Cloud_Learning_for_Large-Scale_Place_Recognition_and_ICCV_2019_paper.pdf) [`place recognition`]
 	- [Unsupervised Multi-Task Feature Learning on Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hassani_Unsupervised_Multi-Task_Feature_Learning_on_Point_Clouds_ICCV_2019_paper.pdf) [`cls`, `seg`]
 	- [Multi-Angle Point Cloud-VAE: Unsupervised Feature Learning for 3D Point Clouds from Multiple Angles by Joint Self-Reconstruction and Half-to-Half Prediction](https://arxiv.org/pdf/1907.12704.pdf) [`unsupervised`, `cls`, `generation`, `seg`, `completion`]
 	- [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://openaccess.thecvf.com/content_ICCV_2019/papers/Behley_SemanticKITTI_A_Dataset_for_Semantic_Scene_Understanding_of_LiDAR_Sequences_ICCV_2019_paper.pdf) [`dataset`]
