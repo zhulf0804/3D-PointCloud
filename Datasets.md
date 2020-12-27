@@ -41,7 +41,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 | 数据集 | modelnet40_normal_resampled.zip | modelnet40_ply_hdf5_2048.zip | ModelNet40.zip |
 | :---: | :---: | :---: | :---: |
 | 文件大小 | 1.71G | 435M | 2.04G |
-| 内容 | point: x, y, z, normal_x, normal_y, normal_z;  <br /> shape: 10k points | point: x, y, z;  <br /> shape: 2048 points | off格式, 具体参考[这里](https://segeval.cs.princeton.edu/public/off_format.html) | 
+| 内容 | point: x, y, z, normal_x, normal_y, normal_z;  <br /> shape: 10k points | point: x, y, z; normal_x, normal_y, normal_z;  <br /> shape: 2048 points | off格式, 具体参考[这里](https://segeval.cs.princeton.edu/public/off_format.html) | 
 | 训练集 / 测试集 | 9843 / 2468 | 9840 / 2468 | 9844 / 2468 |
 | 下载地址 | [modelnet40_normal_resampled.zip](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) | [modelnet40_ply_hdf5_2048.zip](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip) | [ModelNet40.zip](http://modelnet.cs.princeton.edu/ModelNet40.zip) |
 
@@ -73,10 +73,10 @@ ShapeNet Part是从ShapeNetCore数据集选择了16类并进行语义信息标�
 | Table | 3 | 5263 | 2722 |
 | **Total** | **50** | **16846** | **2616** |
 
-
 ### 三、S3DIS(语义分割)
 
 S3DIS是3D室内场景的数据集, 主要用于点云的语义分割任务。主页[http://buildingparser.stanford.edu/dataset.html](http://buildingparser.stanford.edu/dataset.html). (但官方主页我暂时访问不了了, 关于数据集背景的介绍性说明就不写了). 关于S3DIS的论文是[Joint 2D-3D-Semantic Data for Indoor Scene Understanding](https://arxiv.org/pdf/1702.01105.pdf) [arXiv 2017]和[3D Semantic Parsing of Large-Scale Indoor Spaces](http://svl.stanford.edu/assets/papers/3D_Semantic_Parsing.pdf) [CVPR 2016]. S3DIS从3个building的6个Area采集得到, Area1, Area3, Area6属于buidling 1, Area2和Area4属于building 2, Area5属于building 3. 常用的数据下载格式包括如下三种:
+
 - [Stanford3dDataset_v1.2_Aligned_Version.zip](https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1), 比如: [RandLA-Net](https://github.com/QingyongHu/RandLA-Net)
 - [Stanford3dDataset_v1.2.zip](https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1), 比如: [CloserLook3D](https://github.com/zeliu98/CloserLook3D/tree/master/pytorch)
 - [indoor3d_sem_seg_hdf5_data.zip](https://shapenet.cs.stanford.edu/media/indoor3d_sem_seg_hdf5_data.zip), 比如: [PointNet](https://github.com/charlesq34/pointnet)
