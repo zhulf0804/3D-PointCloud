@@ -14,12 +14,18 @@
 - ICML
   - [PointCutMix: Regularization Strategy for Point Cloud Classification](https://arxiv.org/pdf/2101.01461.pdf) [`cls`; [code](https://github.com/cuge1995/PointCutMix)]
 - AAAI
+  - [PointINet: Point Cloud Frame Interpolation Network](https://arxiv.org/pdf/2012.10066.pdf) [`frame interpolation`; [PyTorch](https://github.com/ispc-lab/PointINet)]
   - [Boundary-Aware Geometric Encoding for Semantic Segmentation of Point Clouds](https://arxiv.org/pdf/2101.02381.pdf) [`seg`; [code](https://github.com/JchenXu/BoundaryAwareGEM)]
   - [Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection](https://arxiv.org/pdf/2012.15712.pdf) [`det`]
   - [Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud](https://arxiv.org/pdf/2012.10921.pdf) [`cls`, `seg`]
   - [CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud](https://arxiv.org/pdf/2012.03015.pdf) [`det`; [PyTorch](https://github.com/Vegeta2020/CIA-SSD)]
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net)]
 - arXiv
+  - [EfficientLPS: Efficient LiDAR Panoptic
+Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
+  - [HyperPocket: Generative Point Cloud Completion](https://arxiv.org/pdf/2102.05973.pdf) [`completion`]
+  - [Point-set Distances for Learning Representations of 3D Point Clouds](https://arxiv.org/pdf/2102.04014.pdf) [`representation`]
+  - [DPointNet: A Density-Oriented PointNet for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2102.03747.pdf) [`det`]
   - [PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection](https://arxiv.org/pdf/2102.00463.pdf) [`det`; [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)]
   - [Self-Attention Based Context-Aware 3D Object Detection](https://arxiv.org/pdf/2101.02672.pdf) [`det`; [PyTorch](https://github.com/AutoVision-cloud/SA-Det3D)]
   - [A two-stage data association approach for 3D Multi-object Tracking](https://arxiv.org/pdf/2101.08684.pdf) [`tracking`]
@@ -168,6 +174,8 @@
 ## 2019
 
 - ICCV
+  - [Total Denoising: Unsupervised Learning of 3D Point Cloud Cleaning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hermosilla_Total_Denoising_Unsupervised_Learning_of_3D_Point_Cloud_Cleaning_ICCV_2019_paper.pdf) [`denoising`; [Tensorflow](https://github.com/phermosilla/TotalDenoising)]
+  - [3D Point Cloud Generative Adversarial Network Based on Tree Structured Graph Convolutions](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shu_3D_Point_Cloud_Generative_Adversarial_Network_Based_on_Tree_Structured_ICCV_2019_paper.pdf) [`generation`; [PyTorch](https://github.com/seowok/TreeGAN)]
   - [STD: Sparse-to-Dense 3D Object Detector for Point Cloud](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_STD_Sparse-to-Dense_3D_Object_Detector_for_Point_Cloud_ICCV_2019_paper.pdf) [`det`]
   - [USIP: Unsupervised Stable Interest Point Detection from 3D Point Clouds](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_USIP_Unsupervised_Stable_Interest_Point_Detection_From_3D_Point_Clouds_ICCV_2019_paper.pdf) [`keypoints`, `registration`; [PyTorch](https://github.com/lijx10/USIP)]
   - [LPD-Net: 3D Point Cloud Learning for Large-Scale Place Recognition and
@@ -324,6 +332,7 @@
   - [Flex-Convolution(Million-Scale Point-Cloud Learning Beyond Grid-Worlds)](https://arxiv.org/pdf/1803.07289.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/cgtuebingen/Flex-Convolution); ACCV]
   - [SqueezeSeg: Convolutional Neural Nets with Recurrent CRF for Real-Time Road-Object Segmentation from 3D LiDAR Point Cloud](https://arxiv.org/pdf/1710.07368.pdf) [`seg`; [Tensorflow](https://github.com/BichenWuUCB/SqueezeSeg); ICRA]
   - [Monte Carlo Convolution for Learning on Non-Uniformly Sampled Point Clouds](https://arxiv.org/pdf/1806.01759.pdf) [`seg`, `cls`, `normal estimation`; [Tensorflow](https://github.com/viscom-ulm/MCCNN); TOG]
+  - [Learning Efficient Point Cloud Generation for Dense 3D Object Reconstruction](https://arxiv.org/pdf/1706.07036.pdf) [`reconstruction`; [Tensorflow](https://github.com/chenhsuanlin/3D-point-cloud-generation); AAAI]
 - arXiv
   - [Spherical Convolutional Neural Network
   for 3D Point Clouds](https://arxiv.org/pdf/1805.07872.pdf) [`cls`]
