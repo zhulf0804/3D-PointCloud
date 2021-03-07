@@ -6,12 +6,21 @@
 
 ## Survey papers
 
+- [A comprehensive survey on point cloud registration](https://arxiv.org/pdf/2103.02690.pdf) [arXiv 2021]
 - [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [TPAMI 2020]
 - [A Comprehensive Performance Evaluation of 3D Local Feature Descriptors](https://www.researchgate.net/profile/Yulan_Guo/publication/274387466_A_Comprehensive_Performance_Evaluation_of_3D_Local_Feature_Descriptors/links/552b4a5b0cf29b22c9c1a6d2/A-Comprehensive-Performance-Evaluation-of-3D-Local-Feature-Descriptors.pdf) [IJCV 2016]
 
 ## 2021
 
 - CVPR
+  - [RfD-Net: Point Scene Understanding by Semantic Instance Reconstruction](https://arxiv.org/pdf/2011.14744.pdf) [`reconstruction`]
+  - [MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization](https://arxiv.org/pdf/2101.06605.pdf) [`motion analysis`; [Github](https://github.com/huangjh-pub/multibody-sync)]
+  - [TPCN: Temporal Point Cloud Networks for Motion Forecasting](https://arxiv.org/pdf/2103.03067.pdf) [`motion forecasting`]
+  - [Self-supervised Geometric Perception](https://arxiv.org/pdf/2103.03114.pdf) [`self-supervised`; [Github](https://github.com/theNded/SGP)]
+  - [PointGuard: Provably Robust 3D Point Cloud Classification](https://arxiv.org/pdf/2103.03046.pdf) [`cls`]
+  - [Point 4D Transformer Networks for Spatio-Temporal Modeling in Point Cloud Videos](None)
+  - [SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud](None) [`det`; [Github](https://github.com/Vegeta2020/SE-SSD)]
+  - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
   - [Center-based 3D Object Detection and Tracking](https://arxiv.org/pdf/2006.11275.pdf) [`det`, `tracking`; [PyTorch](https://github.com/tianweiy/CenterPoint)]
   - [3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection](https://arxiv.org/pdf/2012.04355.pdf) [`det`; [PyTorch](https://github.com/thu17cyz/3DIoUMatch)]
   - [Style-based Point Generator with Adversarial Rendering for Point Cloud Completion](https://arxiv.org/pdf/2103.02535.pdf) [`completion`]
@@ -21,6 +30,7 @@
   - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
 - Others
+  - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
   - [CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds](https://arxiv.org/pdf/2103.01977.pdf) [`pose estimation`; [Tensorflow](https://github.com/GeeeG/CloudAAE); ICRA]
   - [PointCutMix: Regularization Strategy for Point Cloud Classification](https://arxiv.org/pdf/2101.01461.pdf) [`cls`; [code](https://github.com/cuge1995/PointCutMix); ICML]
   - [PointINet: Point Cloud Frame Interpolation Network](https://arxiv.org/pdf/2012.10066.pdf) [`frame interpolation`; [PyTorch](https://github.com/ispc-lab/PointINet); AAAI]
