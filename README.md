@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Deep Learning based 3D Segmentation: A Survey](https://arxiv.org/pdf/2103.05423.pdf) [arXiv 2021]
 - [A comprehensive survey on point cloud registration](https://arxiv.org/pdf/2103.02690.pdf) [arXiv 2021]
 - [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [TPAMI 2020]
 - [A Comprehensive Performance Evaluation of 3D Local Feature Descriptors](https://www.researchgate.net/profile/Yulan_Guo/publication/274387466_A_Comprehensive_Performance_Evaluation_of_3D_Local_Feature_Descriptors/links/552b4a5b0cf29b22c9c1a6d2/A-Comprehensive-Performance-Evaluation-of-3D-Local-Feature-Descriptors.pdf) [IJCV 2016]
@@ -13,6 +14,9 @@
 ## 2021
 
 - CVPR
+  - [PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency](https://arxiv.org/pdf/2103.05465.pdf) [`registration`; [PyTorch](https://github.com/XuyangBai/PointDSC)]
+  - [ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection](https://arxiv.org/pdf/2103.05346.pdf) [`det`; [OpenPCDet](https://github.com/CVMI-Lab/ST3D)]
+  - [Robust Point Cloud Registration Framework Based on Deep Graph Matching](https://arxiv.org/pdf/2103.04256.pdf) [`registration`; [Github](https://github.com/fukexue/RGM)]
   - [RfD-Net: Point Scene Understanding by Semantic Instance Reconstruction](https://arxiv.org/pdf/2011.14744.pdf) [`reconstruction`]
   - [MultiBodySync: Multi-Body Segmentation and Motion Estimation via 3D Scan Synchronization](https://arxiv.org/pdf/2101.06605.pdf) [`motion analysis`; [Github](https://github.com/huangjh-pub/multibody-sync)]
   - [TPCN: Temporal Point Cloud Networks for Motion Forecasting](https://arxiv.org/pdf/2103.03067.pdf) [`motion forecasting`]
@@ -31,6 +35,7 @@
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
 - Others
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
+  - [ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building](https://arxiv.org/pdf/2103.04316.pdf) [`static map`; ICRA]
   - [CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds](https://arxiv.org/pdf/2103.01977.pdf) [`pose estimation`; [Tensorflow](https://github.com/GeeeG/CloudAAE); ICRA]
   - [PointCutMix: Regularization Strategy for Point Cloud Classification](https://arxiv.org/pdf/2101.01461.pdf) [`cls`; [code](https://github.com/cuge1995/PointCutMix); ICML]
   - [PointINet: Point Cloud Frame Interpolation Network](https://arxiv.org/pdf/2012.10066.pdf) [`frame interpolation`; [PyTorch](https://github.com/ispc-lab/PointINet); AAAI]
@@ -39,7 +44,13 @@
   - [Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud](https://arxiv.org/pdf/2012.10921.pdf) [`cls`, `seg`; AAAI]
   - [CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud](https://arxiv.org/pdf/2012.03015.pdf) [`det`; [PyTorch](https://github.com/Vegeta2020/CIA-SSD); AAAI]
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
+  - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
+  - [Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences](https://arxiv.org/pdf/2103.06028.pdf) [`autonomous driving`; [Github](https://github.com/TuSimple/LiDAR_SOT)]
+  - [MapFusion: A General Framework for 3D Object Detection with HDMaps](https://arxiv.org/pdf/2103.05929.pdf) [`det`]
+  - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/pdf/2103.05073.pdf) [`det`]
+  - [A Simple and Efficient Multi-task Network for 3D Object Detection and Road Understanding](https://arxiv.org/pdf/2103.04056.pdf) [`det`; [PyTorch](https://github.com/frankfengdi/LidarMTL)]
+  - [IRON: Invariant-based Highly Robust Point Cloud Registration](https://arxiv.org/pdf/2103.04357.pdf) [`registration`]
   - [EllipsoidNet: Ellipsoid Representation for Point Cloud Classification and Segmentation](https://arxiv.org/pdf/2103.02517.pdf) [`cls`, `seg`]
   - [Pseudo-labeling for Scalable 3D Object Detection](https://arxiv.org/pdf/2103.02093.pdf) [`det`]
   - [LiDAR-based Recurrent 3D Semantic Segmentation with Temporal Memory Alignment](https://arxiv.org/pdf/2103.02263.pdf) [`seg`]
