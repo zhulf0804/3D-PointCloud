@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [3D Semantic Scene Completion: a Survey](https://arxiv.org/pdf/2103.07466.pdf) [arXiv 2021]
 - [Deep Learning based 3D Segmentation: A Survey](https://arxiv.org/pdf/2103.05423.pdf) [arXiv 2021]
 - [A comprehensive survey on point cloud registration](https://arxiv.org/pdf/2103.02690.pdf) [arXiv 2021]
 - [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [TPAMI 2020]
@@ -14,6 +15,9 @@
 ## 2021
 
 - CVPR
+  - [Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding](https://arxiv.org/pdf/2103.07838.pdf) [`completion`]
+  - [Monte Carlo Scene Search for 3D Scene Understanding](https://arxiv.org/pdf/2103.07969.pdf)
+  - [Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion](https://arxiv.org/pdf/2103.07074.pdf) [`seg`; [Github](https://github.com/ShiQiu0419/BAAF-Net)]
   - [PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency](https://arxiv.org/pdf/2103.05465.pdf) [`registration`; [PyTorch](https://github.com/XuyangBai/PointDSC)]
   - [ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection](https://arxiv.org/pdf/2103.05346.pdf) [`det`; [OpenPCDet](https://github.com/CVMI-Lab/ST3D)]
   - [Robust Point Cloud Registration Framework Based on Deep Graph Matching](https://arxiv.org/pdf/2103.04256.pdf) [`registration`; [Github](https://github.com/fukexue/RGM)]
@@ -24,20 +28,23 @@
   - [PointGuard: Provably Robust 3D Point Cloud Classification](https://arxiv.org/pdf/2103.03046.pdf) [`cls`]
   - [Point 4D Transformer Networks for Spatio-Temporal Modeling in Point Cloud Videos](None)
   - [SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud](None) [`det`; [Github](https://github.com/Vegeta2020/SE-SSD)]
-  - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
   - [Center-based 3D Object Detection and Tracking](https://arxiv.org/pdf/2006.11275.pdf) [`det`, `tracking`; [PyTorch](https://github.com/tianweiy/CenterPoint)]
   - [3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection](https://arxiv.org/pdf/2012.04355.pdf) [`det`; [PyTorch](https://github.com/thu17cyz/3DIoUMatch)]
   - [Style-based Point Generator with Adversarial Rendering for Point Cloud Completion](https://arxiv.org/pdf/2103.02535.pdf) [`completion`]
   - [FFB6D: A Full Flow Bidirectional Fusion Network for 6D Pose Estimation](https://arxiv.org/pdf/2103.02242.pdf) [`pose estimation`; [Github](https://github.com/ethnhe/FFB6D)]
   - [Diffusion Probabilistic Models for 3D Point Cloud Generation](https://arxiv.org/pdf/2103.01458.pdf) [`generation`; [Github](https://github.com/luost26/diffusion-point-cloud)]
+  - [GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation](https://arxiv.org/pdf/2102.12145.pdf) [`pose estimation`; [Github](https://github.com/THU-DA-6D-Pose-Group/GDR-Net)]
+  - [PCLs: Geometry-aware Neural Reconstruction of 3D Pose with Perspective Crop Layers](https://arxiv.org/pdf/2011.13607.pdf) [`reconstruction`]
   - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/pdf/2011.13005.pdf) [`registration`; [PyTorch](https://github.com/ShengyuH/OverlapPredator)]
   - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
 - Others
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
+  - [YOLOStereo3D: A Step Back to 2D for Efficient Stereo 3D Detection](https://arxiv.org/pdf/2103.09422.pdf) [`det`; [PyTorch](https://github.com/Owen-Liuyuxuan/visualDet3D); ICRA]
   - [ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building](https://arxiv.org/pdf/2103.04316.pdf) [`static map`; ICRA]
   - [CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds](https://arxiv.org/pdf/2103.01977.pdf) [`pose estimation`; [Tensorflow](https://github.com/GeeeG/CloudAAE); ICRA]
   - [PointCutMix: Regularization Strategy for Point Cloud Classification](https://arxiv.org/pdf/2101.01461.pdf) [`cls`; [code](https://github.com/cuge1995/PointCutMix); ICML]
+  - [Investigate Indistinguishable Points in Semantic Segmentation of 3D Point Cloud](https://arxiv.org/pdf/2103.10339.pdf) [`seg`; [Github](https://github.com/MingyeXu/IAF-Net); AAAI]
   - [PointINet: Point Cloud Frame Interpolation Network](https://arxiv.org/pdf/2012.10066.pdf) [`frame interpolation`; [PyTorch](https://github.com/ispc-lab/PointINet); AAAI]
   - [Boundary-Aware Geometric Encoding for Semantic Segmentation of Point Clouds](https://arxiv.org/pdf/2101.02381.pdf) [`seg`; [code](https://github.com/JchenXu/BoundaryAwareGEM); AAAI]
   - [Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection](https://arxiv.org/pdf/2012.15712.pdf) [`det`; AAAI]
@@ -46,6 +53,11 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
+  - [RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) [`det`]
+  - [SparsePoint: Fully End-to-End Sparse 3D Object Detector](https://arxiv.org/pdf/2103.10042.pdf) [`det`]
+  - [S3Net: 3D LiDAR Sparse Semantic Segmentation Network](https://arxiv.org/pdf/2103.08745.pdf) [`seg`]
+  - [Lite-HDSeg: LiDAR Semantic Segmentation Using Lite Harmonic Dense Convolutions](https://arxiv.org/pdf/2103.08852.pdf) [`seg`]
+  - [R-PointHop: A Green, Accurate and Unsupervised Point Cloud Registration Method](https://arxiv.org/pdf/2103.08129.pdf) [`registration`; [Github](https://github.com/pranavkdm/R-PointHop)]
   - [Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences](https://arxiv.org/pdf/2103.06028.pdf) [`autonomous driving`; [Github](https://github.com/TuSimple/LiDAR_SOT)]
   - [MapFusion: A General Framework for 3D Object Detection with HDMaps](https://arxiv.org/pdf/2103.05929.pdf) [`det`]
   - [Offboard 3D Object Detection from Point Cloud Sequences](https://arxiv.org/pdf/2103.05073.pdf) [`det`]
