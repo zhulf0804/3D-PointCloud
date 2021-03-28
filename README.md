@@ -15,6 +15,7 @@
 ## 2021
 
 - CVPR
+  - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/pdf/2103.13164.pdf) [`det`; [Github](https://github.com/mumianyuxin/M3DSSD)]
   - [Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding](https://arxiv.org/pdf/2103.07838.pdf) [`completion`]
   - [Monte Carlo Scene Search for 3D Scene Understanding](https://arxiv.org/pdf/2103.07969.pdf)
   - [Semantic Segmentation for Real Point Cloud Scenes via Bilateral Augmentation and Adaptive Fusion](https://arxiv.org/pdf/2103.07074.pdf) [`seg`; [Github](https://github.com/ShiQiu0419/BAAF-Net)]
@@ -38,8 +39,16 @@
   - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/pdf/2011.13005.pdf) [`registration`; [PyTorch](https://github.com/ShengyuH/OverlapPredator)]
   - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
+  - [Multimodal Motion Prediction with Stacked Transformers](https://arxiv.org/pdf/2103.11624.pdf) [`motion prediction`; [Github](https://github.com/decisionforce/mmTransformer)]
+  - [Model-based 3D Hand Reconstruction via Self-Supervised Learning](https://arxiv.org/abs/2103.11703) [`reconstruction`]
+  - [MonoRUn: Monocular 3D Object Detection by Self-Supervised Reconstruction and Uncertainty Propagation](https://arxiv.org/pdf/2103.12605.pdf) [`det`; [Github](https://github.com/tjiiv-cprg/MonoRUn)]
+  - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
+  - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
 - Others
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
+  - [3D3L: Deep Learned 3D Keypoint Detection and Description for LiDARs](https://arxiv.org/pdf/2103.13808.pdf) [`keypoint`; [Github](https://github.com/ethz-asl/3d3l); ICRA]
+  - [NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation](https://arxiv.org/pdf/2103.12292.pdf) [`localisation`; ICRA]
+  - [Volumetric Propagation Network: Stereo-LiDAR Fusion for Long-Range Depth Estimation](https://arxiv.org/pdf/2103.12964.pdf) [`depth estimation`; ICRA]
   - [YOLOStereo3D: A Step Back to 2D for Efficient Stereo 3D Detection](https://arxiv.org/pdf/2103.09422.pdf) [`det`; [PyTorch](https://github.com/Owen-Liuyuxuan/visualDet3D); ICRA]
   - [ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic Object Removal for Static 3D Point Cloud Map Building](https://arxiv.org/pdf/2103.04316.pdf) [`static map`; ICRA]
   - [CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds](https://arxiv.org/pdf/2103.01977.pdf) [`pose estimation`; [Tensorflow](https://github.com/GeeeG/CloudAAE); ICRA]
@@ -53,6 +62,10 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
+  - [Multi-view 3D Reconstruction with Transformer](https://arxiv.org/pdf/2103.12957.pdf) [`reconstruction`]
+  - [X-view: Non-egocentric Multi-View 3D Object Detector](https://arxiv.org/pdf/2103.13001.pdf) [`det`]
+  - [RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation](https://arxiv.org/pdf/2103.12978.pdf) [`seg`]
+  - [3DMNDT: 3D multi-view registration method based on the normal distributions transform](https://arxiv.org/pdf/2103.11084.pdf) [`registration`]
   - [RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) [`det`]
   - [SparsePoint: Fully End-to-End Sparse 3D Object Detector](https://arxiv.org/pdf/2103.10042.pdf) [`det`]
   - [S3Net: 3D LiDAR Sparse Semantic Segmentation Network](https://arxiv.org/pdf/2103.08745.pdf) [`seg`]
