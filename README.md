@@ -15,6 +15,13 @@
 ## 2021
 
 - CVPR
+  - [Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation](https://arxiv.org/pdf/2103.14962.pdf) [`seg`; [PyTorch](https://github.com/edwardzhou130/Panoptic-PolarNet)]
+  - [ReAgent: Point Cloud Registration using Imitation and Reinforcement Learning](https://arxiv.org/pdf/2103.15231.pdf) [`reg`; [PyTorch](https://github.com/dornik/reagent)]
+  - [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/pdf/2103.15297.pdf) [`det`; [Github](https://github.com/TuSimple/LiDAR_RCNN)]
+  - [Equivariant Point Network for 3D Point Cloud Analysis](https://arxiv.org/pdf/2103.14147.pdf) [[Github](https://github.com/nintendops/EPN_PointCloud)]
+  - [PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/pdf/2103.14635.pdf) [`cls`, `det`; [Github](https://github.com/CVMI-Lab/PAConv)]
+  - [Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.16470.pdf) [`det`; [Github](https://github.com/fudan-zvg/DDMP)]
+  - [Delving into Localization Errors for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.16237.pdf) [`det`; [Github](https://github.com/xinzhuma/monodle)]
   - [M3DSSD: Monocular 3D Single Stage Object Detector](https://arxiv.org/pdf/2103.13164.pdf) [`det`; [Github](https://github.com/mumianyuxin/M3DSSD)]
   - [Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding](https://arxiv.org/pdf/2103.07838.pdf) [`completion`]
   - [Monte Carlo Scene Search for 3D Scene Understanding](https://arxiv.org/pdf/2103.07969.pdf)
@@ -40,12 +47,15 @@
   - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
   - [Multimodal Motion Prediction with Stacked Transformers](https://arxiv.org/pdf/2103.11624.pdf) [`motion prediction`; [Github](https://github.com/decisionforce/mmTransformer)]
+  - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.17202.pdf) [`det`; [PyTorch](https://github.com/abhi1kumar/groomed_nms)]
   - [Model-based 3D Hand Reconstruction via Self-Supervised Learning](https://arxiv.org/abs/2103.11703) [`reconstruction`]
   - [MonoRUn: Monocular 3D Object Detection by Self-Supervised Reconstruction and Uncertainty Propagation](https://arxiv.org/pdf/2103.12605.pdf) [`det`; [Github](https://github.com/tjiiv-cprg/MonoRUn)]
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
 - Others
+  - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
+  - [Exploiting Local Geometry for Feature and Graph Construction for Better 3D Point Cloud Processing with Graph Neural Networks](https://arxiv.org/pdf/2103.15226.pdf) [`cls`, `seg`; [](); ICRA]
   - [3D3L: Deep Learned 3D Keypoint Detection and Description for LiDARs](https://arxiv.org/pdf/2103.13808.pdf) [`keypoint`; [Github](https://github.com/ethz-asl/3d3l); ICRA]
   - [NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation](https://arxiv.org/pdf/2103.12292.pdf) [`localisation`; ICRA]
   - [Volumetric Propagation Network: Stereo-LiDAR Fusion for Long-Range Depth Estimation](https://arxiv.org/pdf/2103.12964.pdf) [`depth estimation`; ICRA]
@@ -62,6 +72,10 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
+  - [Group-Free 3D Object Detection via Transformers](`https://arxiv.org/pdf/2104.00678.pdf`) [`det`; [PyTorch](https://github.com/zeliu98/Group-Free-3D)]
+  - [3D-MAN: 3D Multi-frame Attention Network for Object Detection](https://arxiv.org/pdf/2103.16054.pdf) [`det`]
+  - [SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud](https://arxiv.org/pdf/2103.15396.pdf) [`det`; [Github](https://github.com/Liz66666/SIENet)]
+  - [3D Point Cloud Registration with Multi-Scale Architecture and Self-supervised Fine-tuning](https://arxiv.org/pdf/2103.14533.pdf) [`registration`; [Github](https://github.com/humanpose1/MS-SVConv)]
   - [Multi-view 3D Reconstruction with Transformer](https://arxiv.org/pdf/2103.12957.pdf) [`reconstruction`]
   - [X-view: Non-egocentric Multi-View 3D Object Detector](https://arxiv.org/pdf/2103.13001.pdf) [`det`]
   - [RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation](https://arxiv.org/pdf/2103.12978.pdf) [`seg`]
