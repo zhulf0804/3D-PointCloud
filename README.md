@@ -15,6 +15,11 @@
 ## 2021
 
 - CVPR
+  - [Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2104.06114.pdf) [`det`; [Github](https://github.com/cheng052/BRNet)]
+  - [RPSRNet: End-to-End Trainable Rigid Point Set Registration Network using Barnes-Hut 2D-Tree Representation](https://arxiv.org/pdf/2104.05328.pdf) [`registration`]
+  - [Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/pdf/2104.02323.pdf) [`det`; [Github](https://github.com/zhangyp15/MonoFlex)]
+  - [FESTA: Flow Estimation via Spatial-Temporal Attention for Scene Point Clouds](https://arxiv.org/pdf/2104.00798.pdf) [`scene flow`]
+  - [HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection](https://arxiv.org/pdf/2104.00902.pdf) [`det`]
   - [Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation](https://arxiv.org/pdf/2103.14962.pdf) [`seg`; [PyTorch](https://github.com/edwardzhou130/Panoptic-PolarNet)]
   - [ReAgent: Point Cloud Registration using Imitation and Reinforcement Learning](https://arxiv.org/pdf/2103.15231.pdf) [`reg`; [PyTorch](https://github.com/dornik/reagent)]
   - [LiDAR R-CNN: An Efficient and Universal 3D Object Detector](https://arxiv.org/pdf/2103.15297.pdf) [`det`; [Github](https://github.com/TuSimple/LiDAR_RCNN)]
@@ -72,7 +77,16 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
-  - [Group-Free 3D Object Detection via Transformers](`https://arxiv.org/pdf/2104.00678.pdf`) [`det`; [PyTorch](https://github.com/zeliu98/Group-Free-3D)]
+  - [Geometry-aware data augmentation for monocular 3D object detection](https://arxiv.org/pdf/2104.05858.pdf) [`det`]
+  - [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/pdf/2104.06041.pdf) [`det`]
+  - [Towards Efficient Graph Convolutional Networks for Point Cloud Handling](https://arxiv.org/pdf/2104.05706.pdf) [`network`; [Github](https://github.com/ofsoundof/EfficientGCN)]
+  - [Occlusion Guided Self-supervised Scene Flow Estimation on 3D Point Clouds](https://arxiv.org/pdf/2104.04724.pdf) [`scene flow`]
+  - [A Learnable Self-supervised Task for Unsupervised Domain Adaptation on Point Clouds](https://arxiv.org/pdf/2104.05164.pdf) [`UDA`]
+  - [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds with 1000× Fewer Labels](https://arxiv.org/pdf/2104.04891.pdf) [`seg`; [Github](https://github.com/QingyongHu/SQN)]
+  - [View-Guided Point Cloud Completion](https://arxiv.org/pdf/2104.05666.pdf) [`completion`]
+  - [One Thing One Click: A Self-Training Approach for Weakly Supervised 3D Semantic Segmentation](https://arxiv.org/pdf/2104.02246.pdf) [`seg`]
+  - [Potential Convolution: Embedding Point Clouds into Potential Fields](https://arxiv.org/pdf/2104.01754.pdf) [`cls`, `seg`]
+  - [Group-Free 3D Object Detection via Transformers](https://arxiv.org/pdf/2104.00678.pdf) [`det`; [PyTorch](https://github.com/zeliu98/Group-Free-3D)]
   - [3D-MAN: 3D Multi-frame Attention Network for Object Detection](https://arxiv.org/pdf/2103.16054.pdf) [`det`]
   - [SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud](https://arxiv.org/pdf/2103.15396.pdf) [`det`; [Github](https://github.com/Liz66666/SIENet)]
   - [3D Point Cloud Registration with Multi-Scale Architecture and Self-supervised Fine-tuning](https://arxiv.org/pdf/2103.14533.pdf) [`registration`; [Github](https://github.com/humanpose1/MS-SVConv)]
