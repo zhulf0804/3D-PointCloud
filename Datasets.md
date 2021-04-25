@@ -29,6 +29,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [Waymo Open Dataset](https://github.com/waymo-research/waymo-open-dataset): [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf) [CVPR 2020]
 - [nuScenes](https://www.nuscenes.org): [nuScenes: A multimodal dataset for autonomous driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf) [`det`, `tracking`; CVPR 2020]
 - [SensatUrban](https://github.com/QingyongHu/SensatUrban): [Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges](https://arxiv.org/pdf/2009.03137.pdf) [CVPR 2021]
+- [WAYMO OPEN MOTION DATASET](https://arxiv.org/abs/2104.10133): [Large Scale Interactive Motion Forecasting for Autonomous Driving : The WAYMO OPEN MOTION DATASET](https://arxiv.org/pdf/2104.10133.pdf) [arXiv 2104]
 
 <hr />
 

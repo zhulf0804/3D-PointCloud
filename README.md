@@ -15,6 +15,10 @@
 ## 2021
 
 - CVPR
+  - [KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control](https://arxiv.org/pdf/2104.11224.pdf) [[Github](https://github.com/tomasjakab/keypoint_deformer/)]
+  - [Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) [`autonomous driving`; [PyTorch](https://github.com/autonomousvision/transfuser)]
+  - [Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/pdf/2104.08683.pdf) [`autonomous driving`; [Github](https://github.com/qcraftai/pillar-motion)]
+  - [Variational Relational Point Completion Network](https://arxiv.org/pdf/2104.10154.pdf) [`completion`]
   - [Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2104.06114.pdf) [`det`; [Github](https://github.com/cheng052/BRNet)]
   - [RPSRNet: End-to-End Trainable Rigid Point Set Registration Network using Barnes-Hut 2D-Tree Representation](https://arxiv.org/pdf/2104.05328.pdf) [`registration`]
   - [Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/pdf/2104.02323.pdf) [`det`; [Github](https://github.com/zhangyp15/MonoFlex)]
@@ -58,6 +62,8 @@
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
 - Others
+  - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
+  - [MonoGRNet: A General Framework for Monocular 3D Object Detection](https://arxiv.org/pdf/2104.08797.pdf) [`monocular`, `det`; TPAMI]
   - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
   - [Exploiting Local Geometry for Feature and Graph Construction for Better 3D Point Cloud Processing with Graph Neural Networks](https://arxiv.org/pdf/2103.15226.pdf) [`cls`, `seg`; [](); ICRA]
@@ -77,6 +83,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
 - arXiv
+  - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3D](https://github.com/open-mmlab/mmdetection3d)]
+  - [Boundary-Aware 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2104.10330.pdf) [`det`]
+  - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/pdf/2104.09035.pdf) [`det`]
   - [Geometry-aware data augmentation for monocular 3D object detection](https://arxiv.org/pdf/2104.05858.pdf) [`det`]
   - [OCM3D: Object-Centric Monocular 3D Object Detection](https://arxiv.org/pdf/2104.06041.pdf) [`det`]
   - [Towards Efficient Graph Convolutional Networks for Point Cloud Handling](https://arxiv.org/pdf/2104.05706.pdf) [`network`; [Github](https://github.com/ofsoundof/EfficientGCN)]
