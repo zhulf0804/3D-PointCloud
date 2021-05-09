@@ -15,6 +15,8 @@
 ## 2021
 
 - CVPR
+  - [VoxelContext-Net: An Octree based Framework for Point Cloud Compression](https://arxiv.org/pdf/2105.02158.pdf) [`compression`]
+  - [Unsupervised 3D Shape Completion through GAN Inversion](https://arxiv.org/pdf/2104.13366.pdf) [`completion`; [PyTorch](https://junzhezhang.github.io/projects/ShapeInversion/)]
   - [KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control](https://arxiv.org/pdf/2104.11224.pdf) [[Github](https://github.com/tomasjakab/keypoint_deformer/)]
   - [Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) [`autonomous driving`; [PyTorch](https://github.com/autonomousvision/transfuser)]
   - [Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/pdf/2104.08683.pdf) [`autonomous driving`; [Github](https://github.com/qcraftai/pillar-motion)]
@@ -53,7 +55,7 @@
   - [GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation](https://arxiv.org/pdf/2102.12145.pdf) [`pose estimation`; [Github](https://github.com/THU-DA-6D-Pose-Group/GDR-Net)]
   - [PCLs: Geometry-aware Neural Reconstruction of 3D Pose with Perspective Crop Layers](https://arxiv.org/pdf/2011.13607.pdf) [`reconstruction`]
   - [PREDATOR: Registration of 3D Point Clouds with Low Overlap](https://arxiv.org/pdf/2011.13005.pdf) [`registration`; [PyTorch](https://github.com/ShengyuH/OverlapPredator)]
-  - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNethttps://github.com/QingyongHu/SpinNet)]
+  - [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://arxiv.org/pdf/2011.12149.pdf) [`registration`; [Github](https://github.com/QingyongHu/SpinNet)]
   - [Categorical Depth Distribution Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.01100.pdf) [`det`]
   - [Multimodal Motion Prediction with Stacked Transformers](https://arxiv.org/pdf/2103.11624.pdf) [`motion prediction`; [Github](https://github.com/decisionforce/mmTransformer)]
   - [GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection](https://arxiv.org/pdf/2103.17202.pdf) [`det`; [PyTorch](https://github.com/abhi1kumar/groomed_nms)]
@@ -62,7 +64,9 @@
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
 - Others
+  - [PointLIE: Locally Invertible Embedding for Point Cloud Sampling and Recovery](https://arxiv.org/pdf/2104.14769.pdf) [`sampling`; [Github](https://github.com/zwb0/PointLIE); IJCAI]
   - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
+  - [Fast and Robust Iterative Closest Point](https://arxiv.org/pdf/2007.07627.pdf) [`registration`; [Github](https://github.com/yaoyx689/Fast-Robust-ICP); TPAMI]
   - [MonoGRNet: A General Framework for Monocular 3D Object Detection](https://arxiv.org/pdf/2104.08797.pdf) [`monocular`, `det`; TPAMI]
   - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
@@ -81,8 +85,10 @@
   - [Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud](https://arxiv.org/pdf/2012.10921.pdf) [`cls`, `seg`; AAAI]
   - [CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud](https://arxiv.org/pdf/2012.03015.pdf) [`det`; [PyTorch](https://github.com/Vegeta2020/CIA-SSD); AAAI]
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
-  - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labelingg tool`; CAD]
+  - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Deep Weighted Consensus (DWC) Dense correspondence confidence maps for 3D shape registration](https://arxiv.org/pdf/2105.02714.pdf) [`registration`]
+  - [M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/pdf/2104.11896.pdf) [`det`]
   - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3D](https://github.com/open-mmlab/mmdetection3d)]
   - [Boundary-Aware 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2104.10330.pdf) [`det`]
   - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/pdf/2104.09035.pdf) [`det`]
