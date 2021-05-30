@@ -15,6 +15,14 @@
 ## 2021
 
 - CVPR
+  - [Omni-supervised Point Cloud Segmentation via Gradual Receptive Field Component Reasoning](https://arxiv.org/pdf/2105.10203.pdf) [`seg`]
+  - [Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts](https://arxiv.org/pdf/2012.09165.pdf) [`seg`; [PyTorch](https://github.com/facebookresearch/ContrastiveSceneContexts)]
+  - [PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks](https://arxiv.org/pdf/1912.03264.pdf) [`upsampling`; [Tensorflow](https://github.com/guochengqian/PU-GCN)]
+  - [Self-Point-Flow: Self-Supervised Scene Flow Estimation from Points Clouds with Optimal Transport and Random Walk](https://arxiv.org/pdf/2105.08248.pdf) [`scene flow`]
+  - [SAIL-VOS 3D: A Synthetic Dataset and Baselines for Object Detection and 3D Mesh Reconstruction from Video Data](https://arxiv.org/pdf/2105.08612.pdf) [`reconstruction`]
+  - [HCRF-Flow: Scene Flow from Point Clouds with Continuous High-order CRFs and Position-aware Flow Embedding](https://arxiv.org/pdf/2105.07751.pdf) [`scene flow`]
+  - [3D Spatial Recognition without Spatially Labeled 3D](https://arxiv.org/pdf/2105.06461.pdf) [`det`, `seg`]
+  - [LASR: Learning Articulated Shape Reconstruction from a Monocular Video](https://arxiv.org/pdf/2105.02976.pdf) [`reconstruction`, `monocular`]
   - [VoxelContext-Net: An Octree based Framework for Point Cloud Compression](https://arxiv.org/pdf/2105.02158.pdf) [`compression`]
   - [Unsupervised 3D Shape Completion through GAN Inversion](https://arxiv.org/pdf/2104.13366.pdf) [`completion`; [PyTorch](https://junzhezhang.github.io/projects/ShapeInversion/)]
   - [KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control](https://arxiv.org/pdf/2104.11224.pdf) [[Github](https://github.com/tomasjakab/keypoint_deformer/)]
@@ -64,13 +72,16 @@
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
 - Others
+  - [GIDSeg: Learning 3D Segmentation from Sparse Annotations via Hierarchical Descriptors](https://arxiv.org/pdf/2105.12885.pdf) [`seg`; RAL]
   - [PointLIE: Locally Invertible Embedding for Point Cloud Sampling and Recovery](https://arxiv.org/pdf/2104.14769.pdf) [`sampling`; [Github](https://github.com/zwb0/PointLIE); IJCAI]
   - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
   - [Fast and Robust Iterative Closest Point](https://arxiv.org/pdf/2007.07627.pdf) [`registration`; [Github](https://github.com/yaoyx689/Fast-Robust-ICP); TPAMI]
   - [MonoGRNet: A General Framework for Monocular 3D Object Detection](https://arxiv.org/pdf/2104.08797.pdf) [`monocular`, `det`; TPAMI]
   - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
   - [PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds](https://arxiv.org/pdf/2103.02766.pdf) [`wireframe`; ICLR]
-  - [Exploiting Local Geometry for Feature and Graph Construction for Better 3D Point Cloud Processing with Graph Neural Networks](https://arxiv.org/pdf/2103.15226.pdf) [`cls`, `seg`; [](); ICRA]
+  - [Self-Guided Instance-Aware Network for Depth Completion and Enhancement](https://arxiv.org/pdf/2105.12186.pdf) [`depth`; ICRA]
+  - [FGR: Frustum-Aware Geometric Reasoning for Weakly Supervised 3D Vehicle Detection](https://arxiv.org/pdf/2105.07647.pdf) [`det`; [Github](https://github.com/weiyithu/FGR); ICRA]
+  - [Exploiting Local Geometry for Feature and Graph Construction for Better 3D Point Cloud Processing with Graph Neural Networks](https://arxiv.org/pdf/2103.15226.pdf) [`cls`, `seg`; ICRA]
   - [3D3L: Deep Learned 3D Keypoint Detection and Description for LiDARs](https://arxiv.org/pdf/2103.13808.pdf) [`keypoint`; [Github](https://github.com/ethz-asl/3d3l); ICRA]
   - [NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation](https://arxiv.org/pdf/2103.12292.pdf) [`localisation`; ICRA]
   - [Volumetric Propagation Network: Stereo-LiDAR Fusion for Long-Range Depth Estimation](https://arxiv.org/pdf/2103.12964.pdf) [`depth estimation`; ICRA]
@@ -87,6 +98,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](https://arxiv.org/pdf/2105.11605.pdf) [`place recognition`]
+  - [Generalisable and distinctive 3D local
+deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) [`registration`]
   - [Deep Weighted Consensus (DWC) Dense correspondence confidence maps for 3D shape registration](https://arxiv.org/pdf/2105.02714.pdf) [`registration`]
   - [M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/pdf/2104.11896.pdf) [`det`]
   - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3D](https://github.com/open-mmlab/mmdetection3d)]
