@@ -192,6 +192,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [Improving 3D Object Detection through Progressive Population Based Augmentation](https://arxiv.org/pdf/2004.00831.pdf) [`det`]
   - [An LSTM Approach to Temporal 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/pdf/2007.12392.pdf) [`det`]
   - [Rotation-robust Intersection over Union for 3D Object Detection](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650460.pdf)
+  - [DPDist: Comparing Point Clouds Using Deep Point Cloud Distance](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560528.pdf)
 - CVPR
   - [PointPainting: Sequential Fusion for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Vora_PointPainting_Sequential_Fusion_for_3D_Object_Detection_CVPR_2020_paper.pdf) [`det`]
   - [3DSSD: Point-based 3D Single Stage Object Detector](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_3DSSD_Point-Based_3D_Single_Stage_Object_Detector_CVPR_2020_paper.pdf) [`det`; [Tensorflow](https://github.com/Jia-Research-Lab/3DSSD)]
