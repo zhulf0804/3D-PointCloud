@@ -15,6 +15,7 @@
 ## 2021
 
 - CVPR
+  - [Point Cloud Upsampling via Disentangled Refinement](https://arxiv.org/pdf/2106.04779.pdf) [`upsampling`; [Github](https://github.com/liruihui/Dis-PU)]
   - [Omni-supervised Point Cloud Segmentation via Gradual Receptive Field Component Reasoning](https://arxiv.org/pdf/2105.10203.pdf) [`seg`]
   - [Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts](https://arxiv.org/pdf/2012.09165.pdf) [`seg`; [PyTorch](https://github.com/facebookresearch/ContrastiveSceneContexts)]
   - [PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks](https://arxiv.org/pdf/1912.03264.pdf) [`upsampling`; [Tensorflow](https://github.com/guochengqian/PU-GCN)]
@@ -71,7 +72,9 @@
   - [MonoRUn: Monocular 3D Object Detection by Self-Supervised Reconstruction and Uncertainty Propagation](https://arxiv.org/pdf/2103.12605.pdf) [`det`; [Github](https://github.com/tjiiv-cprg/MonoRUn)]
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
+  - [Single Image Depth Prediction with Wavelet Decomposition](https://arxiv.org/pdf/2106.02022.pdf) [`depth`; [PyTorch](https://github.com/nianticlabs/wavelet-monodepth)]
 - Others
+  - [Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline](https://arxiv.org/pdf/2106.05304.pdf) [`cls`; [PyTorch](https://github.com/princeton-vl/SimpleView); ICML]
   - [GIDSeg: Learning 3D Segmentation from Sparse Annotations via Hierarchical Descriptors](https://arxiv.org/pdf/2105.12885.pdf) [`seg`; RAL]
   - [PointLIE: Locally Invertible Embedding for Point Cloud Sampling and Recovery](https://arxiv.org/pdf/2104.14769.pdf) [`sampling`; [Github](https://github.com/zwb0/PointLIE); IJCAI]
   - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
@@ -98,6 +101,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Image2Point: 3D Point-Cloud Understanding withPretrained 2D ConvNets](https://arxiv.org/pdf/2106.04180.pdf) [`cls`, `seg`; [Github](https://github.com/chenfengxu714/image2point)]
+  - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`]
+  - [Z2P: Instant Rendering of Point Clouds](https://arxiv.org/pdf/2105.14548.pdf) [`rendering`]
   - [TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](https://arxiv.org/pdf/2105.11605.pdf) [`place recognition`]
   - [Generalisable and distinctive 3D local
 deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) [`registration`]
