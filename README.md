@@ -6,6 +6,8 @@
 
 ## Survey papers
 
+- [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/pdf/2106.10823.pdf) [arXiv 2021]
+- [Multi-Modal 3D Object Detection in Autonomous Driving: a Survey](https://arxiv.org/pdf/2106.12735.pdf) [arXiv 2021]
 - [3D Semantic Scene Completion: a Survey](https://arxiv.org/pdf/2103.07466.pdf) [arXiv 2021]
 - [Deep Learning based 3D Segmentation: A Survey](https://arxiv.org/pdf/2103.05423.pdf) [arXiv 2021]
 - [A comprehensive survey on point cloud registration](https://arxiv.org/pdf/2103.02690.pdf) [arXiv 2021]
@@ -15,6 +17,8 @@
 ## 2021
 
 - CVPR
+  - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
+  - [RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection](https://arxiv.org/pdf/2106.13365.pdf) [`det`]
   - [Point Cloud Upsampling via Disentangled Refinement](https://arxiv.org/pdf/2106.04779.pdf) [`upsampling`; [Github](https://github.com/liruihui/Dis-PU)]
   - [Omni-supervised Point Cloud Segmentation via Gradual Receptive Field Component Reasoning](https://arxiv.org/pdf/2105.10203.pdf) [`seg`]
   - [Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts](https://arxiv.org/pdf/2012.09165.pdf) [`seg`; [PyTorch](https://github.com/facebookresearch/ContrastiveSceneContexts)]
@@ -101,6 +105,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [“Zero Shot” Point Cloud Upsampling](https://arxiv.org/pdf/2106.13765.pdf) [`upsampling`]
+  - [Shape registration in the time of transformers](https://arxiv.org/pdf/2106.13679.pdf) [`registration`]
+  - [3D Shape Registration Using Spectral Graph Embedding and Probabilistic Matching](https://arxiv.org/pdf/2106.11166.pdf) [`registration`]
   - [Image2Point: 3D Point-Cloud Understanding withPretrained 2D ConvNets](https://arxiv.org/pdf/2106.04180.pdf) [`cls`, `seg`; [Github](https://github.com/chenfengxu714/image2point)]
   - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`]
   - [Z2P: Instant Rendering of Point Clouds](https://arxiv.org/pdf/2105.14548.pdf) [`rendering`]
