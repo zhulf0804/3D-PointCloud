@@ -78,10 +78,14 @@
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
   - [Single Image Depth Prediction with Wavelet Decomposition](https://arxiv.org/pdf/2106.02022.pdf) [`depth`; [PyTorch](https://github.com/nianticlabs/wavelet-monodepth)]
 - Others
+  - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
+  - [Self-Contrastive Learning with Hard Negative Sampling for Self-supervised Point Cloud Learning](https://arxiv.org/pdf/2107.01886.pdf) [`self-supervised`; ACM MM]
+  - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/pdf/2107.02493.pdf) [`monocular`, `det`; ACM MM]
   - [Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline](https://arxiv.org/pdf/2106.05304.pdf) [`cls`; [PyTorch](https://github.com/princeton-vl/SimpleView); ICML]
   - [GIDSeg: Learning 3D Segmentation from Sparse Annotations via Hierarchical Descriptors](https://arxiv.org/pdf/2105.12885.pdf) [`seg`; RAL]
   - [PointLIE: Locally Invertible Embedding for Point Cloud Sampling and Recovery](https://arxiv.org/pdf/2104.14769.pdf) [`sampling`; [Github](https://github.com/zwb0/PointLIE); IJCAI]
   - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
+  - [Learning Semantic Segmentation of Large-Scale Point Clouds with Random Sampling](https://arxiv.org/pdf/2107.02389.pdf) [`seg`; TPAMI]
   - [Fast and Robust Iterative Closest Point](https://arxiv.org/pdf/2007.07627.pdf) [`registration`; [Github](https://github.com/yaoyx689/Fast-Robust-ICP); TPAMI]
   - [MonoGRNet: A General Framework for Monocular 3D Object Detection](https://arxiv.org/pdf/2104.08797.pdf) [`monocular`, `det`; TPAMI]
   - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
@@ -105,6 +109,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Point Cloud Registration using Representative Overlapping Points](https://arxiv.org/pdf/2107.02583.pdf) [`registration`; [PyTorch](https://github.com/zhulf0804/ROPNet)]
   - [“Zero Shot” Point Cloud Upsampling](https://arxiv.org/pdf/2106.13765.pdf) [`upsampling`]
   - [Shape registration in the time of transformers](https://arxiv.org/pdf/2106.13679.pdf) [`registration`]
   - [3D Shape Registration Using Spectral Graph Embedding and Probabilistic Matching](https://arxiv.org/pdf/2106.11166.pdf) [`registration`]
