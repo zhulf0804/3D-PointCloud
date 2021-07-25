@@ -77,6 +77,7 @@
   - [Deep Implicit Moving Least-Squares Functions for 3D Reconstruction](https://arxiv.org/pdf/2103.12266.pdf) [`reconstruction`; [Tensorflow](https://github.com/Andy97/DeepMLS)]
   - [Skeleton Merger: an Unsupervised Aligned Keypoint Detector](https://arxiv.org/pdf/2103.10814.pdf) [`keypoint`; [PyTorch](https://github.com/eliphatfs/SkeletonMerger)]
   - [Single Image Depth Prediction with Wavelet Decomposition](https://arxiv.org/pdf/2106.02022.pdf) [`depth`; [PyTorch](https://github.com/nianticlabs/wavelet-monodepth)]
+  - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
   - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
   - [Self-Contrastive Learning with Hard Negative Sampling for Self-supervised Point Cloud Learning](https://arxiv.org/pdf/2107.01886.pdf) [`self-supervised`; ACM MM]
@@ -109,6 +110,11 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Unsupervised Domain Adaptation in LiDAR Semantic Segmentation with Self-Supervision and Gated Adapters](https://arxiv.org/pdf/2107.09783.pdf) [`seg`]
+  - [Dynamic Convolution for 3D Point Cloud Instance Segmentation](https://arxiv.org/pdf/2107.08392.pdf)[`seg`; [PyTorch](https://github.com/aim-uofa/DyCo3D)]
+  - [Beyond Farthest Point Sampling in Point-Wise Analysis](https://arxiv.org/pdf/2107.04291.pdf) [`sampling`]
+  - [Learn to Learn Metric Space for Few-Shot Segmentation of 3D Shapes](https://arxiv.org/pdf/2107.02972.pdf) [`seg`]
+  - [Multi-Modality Task Cascade for 3D Object Detection](https://arxiv.org/pdf/2107.04013.pdf) [`det`; [Github](https://github.com/Divadi/MTC_RCNN)]
   - [Point Cloud Registration using Representative Overlapping Points](https://arxiv.org/pdf/2107.02583.pdf) [`registration`; [PyTorch](https://github.com/zhulf0804/ROPNet)]
   - [“Zero Shot” Point Cloud Upsampling](https://arxiv.org/pdf/2106.13765.pdf) [`upsampling`]
   - [Shape registration in the time of transformers](https://arxiv.org/pdf/2106.13679.pdf) [`registration`]
