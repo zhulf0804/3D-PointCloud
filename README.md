@@ -16,6 +16,15 @@
 
 ## 2021
 
+- ICCV
+  - [VMNet: Voxel-Mesh Network for Geodesic-Aware 3D Semantic Segmentation](https://arxiv.org/pdf/2107.13824.pdf) [`seg`; [Github](https://github.com/hzykent/VMNet)]
+  - [Learning with Noisy Labels for Robust Point Cloud Segmentation](https://arxiv.org/pdf/2107.14230.pdf) [`seg`; [Github](https://github.com/pleaseconnectwifi/PNAL)]
+  - [Geometry Uncertainty Projection Network for Monocular 3D Object Detection](https://arxiv.org/pdf/2107.13774.pdf) [`det`, `monocular`]
+  - [ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2107.11769.pdf) [`seg`]
+  - [Unsupervised Point Cloud Pre-Training via View-Point Occlusion, Completion](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`; [Github](https://github.com/hansen7/OcCo)]
+  - [HRegNet: A Hierarchical Network for Large-scale Outdoor LiDAR Point Cloud Registration](https://arxiv.org/pdf/2107.11992.pdf) [`registration`; [PyTorch](https://github.com/ispc-lab/HRegNet)]
+  - [Score-Based Point Cloud Denoising](https://arxiv.org/pdf/2107.10981.pdf) [`denoising`]
+  - [Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/pdf/2107.13788.pdf) [`monocular`, `pose`; [Github](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)]
 - CVPR
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
   - [RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection](https://arxiv.org/pdf/2106.13365.pdf) [`det`]
@@ -110,6 +119,12 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Probabilistic and Geometric Depth: Detecting Objects in Perspective](https://arxiv.org/pdf/2107.14160.pdf) [`det`; [Github](https://github.com/open-mmlab/mmdetection3d)]
+  - [Learning Geometry-Guided Depth via Projective Modeling for Monocular 3D Object Detection](https://arxiv.org/pdf/2107.13931.pdf) [`det`; [Github](https://github.com/YinminZhang/MonoGeo)]
+  - [CarveNet: Carving Point-Block for Complex 3D Shape Completion](https://arxiv.org/pdf/2107.13452.pdf) [`completion`]
+  - [CKConv: Learning Feature Voxelization for Point Cloud Analysis](https://arxiv.org/pdf/2107.12655.pdf) [`cls`, `seg`]
+  - [DV-Det: Efficient 3D Point Cloud Object Detection with Dynamic Voxelization](https://arxiv.org/pdf/2107.12707.pdf) [`det`]
+  - [Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency](https://arxiv.org/pdf/2107.11355.pdf) [`det`]
   - [Unsupervised Domain Adaptation in LiDAR Semantic Segmentation with Self-Supervision and Gated Adapters](https://arxiv.org/pdf/2107.09783.pdf) [`seg`]
   - [Dynamic Convolution for 3D Point Cloud Instance Segmentation](https://arxiv.org/pdf/2107.08392.pdf)[`seg`; [PyTorch](https://github.com/aim-uofa/DyCo3D)]
   - [Beyond Farthest Point Sampling in Point-Wise Analysis](https://arxiv.org/pdf/2107.04291.pdf) [`sampling`]
