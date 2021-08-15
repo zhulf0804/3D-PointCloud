@@ -17,6 +17,12 @@
 ## 2021
 
 - ICCV
+  - [AdaFit: Rethinking Learning-based Normal Estimation on Point Clouds](https://arxiv.org/pdf/2108.05836.pdf) [`normal estimation`; [Github](https://github.com/Runsong123/AdaFit/tree/main)]
+  - [Fog Simulation on Real LiDAR Point Clouds for 3D Object Detection in Adverse Weather](https://arxiv.org/pdf/2108.05249.pdf) [`det`; [Github](https://github.com/MartinHahner/LiDAR_fog_sim)]
+  - [Box-Aware Feature Enhancement for Single Object Tracking on Point Clouds](https://arxiv.org/pdf/2108.04728.pdf) [`tracking`; [Github](https://github.com/Ghostish/BAT)]
+  - [SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with Skip-Transformer](https://arxiv.org/pdf/2108.04444.pdf) [`completion`; [Github](https://github.com/AllenXiangX/SnowflakeNet)]
+  - [DRINet: A Dual-Representation Iterative Learning Network for Point Cloud Segmentation](https://arxiv.org/pdf/2108.04023.pdf) [`seg`]
+  - [RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) [`det`; [Github](https://github.com/TuSimple/RangeDet)]
   - [Hierarchical Aggregation for 3D Instance Segmentation](https://arxiv.org/pdf/2108.02350.pdf) [`seg`; [Github](https://github.com/hustvl/HAIS)]
   - [Sparse-to-dense Feature Matching: Intra and Inter domain Cross-modal Learning in Domain Adaptation for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.14724.pdf) [`seg`; [Github](https://github.com/leolyj/DsCML)]
   - [Group-Free 3D Object Detection via Transformers](https://arxiv.org/pdf/2104.00678.pdf) [`det`; [PyTorch](https://github.com/zeliu98/Group-Free-3D)]
@@ -93,7 +99,10 @@
   - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
   - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
-  - [Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection](https://arxiv.org/pdf/2108.01971.pdf) [`det`]
+  - [Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection](https://arxiv.org/pdf/2108.01971.pdf) [`det`; ACM MM]
+  - [From Voxel to Point: IoU-guided 3D Object Detection for Point Cloud with Voxel-to-Point Decoder](https://arxiv.org/pdf/2108.03648.pdf) [`det`; [Github](https://github.com/jialeli1/From-Voxel-to-Point); ACM MM]
+  - [Anchor-free 3D Single Stage Detector with Mask-Guided Attention for Point Cloud](https://arxiv.org/pdf/2108.03634.pdf) [`det`; [Github](https://github.com/jialeli1/MGAF-3DSSD); ACM MM]
+  - [Hierarchical View Predictor: Unsupervised 3D Global Feature Learning through Hierarchical Prediction among Unordered Views](https://arxiv.org/pdf/2108.03743.pdf) [`unsupervised`; ACM MM]
   - [SSPU-Net: Self-Supervised Point Cloud Upsampling via Differentiable Rendering](https://arxiv.org/pdf/2108.00454.pdf) [`upsampling`; [Github](https://github.com/Avlon/SSPU-Net); ACM MM]
   - [Self-Contrastive Learning with Hard Negative Sampling for Self-supervised Point Cloud Learning](https://arxiv.org/pdf/2107.01886.pdf) [`self-supervised`; ACM MM]
   - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/pdf/2107.02493.pdf) [`monocular`, `det`; ACM MM]
@@ -126,6 +135,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Progressive Coordinate Transforms for Monocular 3D Object Detection](https://arxiv.org/pdf/2108.05793.pdf) [`monocular`, `det`; [Github](https://github.com/amazon-research/progressive-coordinate-transforms)]
   - [UPDesc: Unsupervised Point Descriptor Learning for Robust Registration](https://arxiv.org/pdf/2108.02740.pdf) [`registration`]
   - [Investigating Attention Mechanism in 3D Point Cloud Object Detection](https://arxiv.org/pdf/2108.00620.pdf) [`det`; [Github](https://github.com/ShiQiu0419/attentions_in_3D_detection)]
   - [Real-Time Anchor-Free Single-Stage 3D Detection with IoU-Awareness](https://arxiv.org/pdf/2107.14342.pdf) [`det`]
@@ -170,7 +180,6 @@ deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.
   - [X-view: Non-egocentric Multi-View 3D Object Detector](https://arxiv.org/pdf/2103.13001.pdf) [`det`]
   - [RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation](https://arxiv.org/pdf/2103.12978.pdf) [`seg`]
   - [3DMNDT: 3D multi-view registration method based on the normal distributions transform](https://arxiv.org/pdf/2103.11084.pdf) [`registration`]
-  - [RangeDet: In Defense of Range View for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2103.10039.pdf) [`det`]
   - [SparsePoint: Fully End-to-End Sparse 3D Object Detector](https://arxiv.org/pdf/2103.10042.pdf) [`det`]
   - [S3Net: 3D LiDAR Sparse Semantic Segmentation Network](https://arxiv.org/pdf/2103.08745.pdf) [`seg`]
   - [Lite-HDSeg: LiDAR Semantic Segmentation Using Lite Harmonic Dense Convolutions](https://arxiv.org/pdf/2103.08852.pdf) [`seg`]
