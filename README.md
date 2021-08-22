@@ -17,6 +17,19 @@
 ## 2021
 
 - ICCV
+  - [ME-PCN: Point Completion Conditioned on Mask Emptiness](https://arxiv.org/pdf/2108.08187.pdf) [`completion`]
+  - [Deep Hybrid Self-Prior for Full 3D Mesh Generation](https://arxiv.org/pdf/2108.08017.pdf) [`generation`]
+  - [Fine-grained Semantics-aware Representation Enhancement for Self-supervised Monocular Depth Estimation](https://arxiv.org/pdf/2108.08829.pdf) [`monocular`, `depth`; [Github](https://github.com/hyBlue/FSRE-Depth)]
+  - [StructDepth: Leveraging the structural regularities for self-supervised indoor depth estimation](https://arxiv.org/pdf/2108.08574.pdf) [`monocular`, `depth`; [PyTorch](https://github.com/SJTU-ViSYS/StructDepth)]
+  - [Vis2Mesh: Efficient Mesh Reconstruction from Unstructured Point Clouds of Large Scenes with Learned Virtual View Visibility](https://arxiv.org/pdf/2108.08378.pdf) [`reconstruction`; [Github](https://github.com/GDAOSU/vis2mesh)]
+  - [PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/pdf/2108.08839.pdf) [`completion`; [PyTorch](https://github.com/yuxumin/PoinTr)]
+  - [Adaptive Graph Convolution for Point Cloud Analysis](https://arxiv.org/pdf/2108.08035.pdf) [`cls`, `seg`; [PyTorch](https://github.com/hrzhou2/AdaptConv-master)]
+  - [RandomRooms: Unsupervised Pre-training from Synthetic Shapes and Randomized Layouts for 3D Object Detection](https://arxiv.org/pdf/2108.07794.pdf) [`det`]
+  - [Self-supervised Monocular Depth Estimation for All Day Images using Domain Separation](https://arxiv.org/pdf/2108.07628.pdf) [`monocular`, `depth`; [Github](https://github.com/LINA-lln/ADDS-DepthNet)]
+  - [Instance Segmentation in 3D Scenes using Semantic Superpoint Tree Networks](https://arxiv.org/pdf/2108.07478.pdf) [`seg`; [Github](https://github.com/Gorilla-Lab-SCUT/SSTNet)]
+  - [Is Pseudo-Lidar needed for Monocular 3D Object detection?](https://arxiv.org/pdf/2108.06417.pdf) [`monocular`, `det`; [Github](https://github.com/TRI-ML/dd3d)]
+  - [Towards Efficient Point Cloud Graph Neural Networks Through Architectural Simplification](https://arxiv.org/pdf/2108.06317.pdf)
+  - [Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis](https://arxiv.org/pdf/2105.01288.pdf) [`cls`, `seg`; [Github](https://github.com/tiangexiang/CurveNet)]
   - [AdaFit: Rethinking Learning-based Normal Estimation on Point Clouds](https://arxiv.org/pdf/2108.05836.pdf) [`normal estimation`; [Github](https://github.com/Runsong123/AdaFit/tree/main)]
   - [Fog Simulation on Real LiDAR Point Clouds for 3D Object Detection in Adverse Weather](https://arxiv.org/pdf/2108.05249.pdf) [`det`; [Github](https://github.com/MartinHahner/LiDAR_fog_sim)]
   - [Box-Aware Feature Enhancement for Single Object Tracking on Point Clouds](https://arxiv.org/pdf/2108.04728.pdf) [`tracking`; [Github](https://github.com/Ghostish/BAT)]
@@ -135,6 +148,8 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [GP-S3Net: Graph-based Panoptic Sparse Semantic Segmentation Network](https://arxiv.org/pdf/2108.08401.pdf) [`seg`]
+  - [SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation](https://arxiv.org/pdf/2108.06709.pdf) [`det`]
   - [Progressive Coordinate Transforms for Monocular 3D Object Detection](https://arxiv.org/pdf/2108.05793.pdf) [`monocular`, `det`; [Github](https://github.com/amazon-research/progressive-coordinate-transforms)]
   - [UPDesc: Unsupervised Point Descriptor Learning for Robust Registration](https://arxiv.org/pdf/2108.02740.pdf) [`registration`]
   - [Investigating Attention Mechanism in 3D Point Cloud Object Detection](https://arxiv.org/pdf/2108.00620.pdf) [`det`; [Github](https://github.com/ShiQiu0419/attentions_in_3D_detection)]
