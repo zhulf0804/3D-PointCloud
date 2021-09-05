@@ -17,6 +17,15 @@
 ## 2021
 
 - ICCV
+  - [Learning Inner-Group Relations on Point Clouds](https://arxiv.org/pdf/2108.12468.pdf) [`cls`, `seg`]
+  - [Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds](https://arxiv.org/pdf/2109.00179.pdf) [`self-supervised`; [Github](https://github.com/yichen928/STRL)]
+  - [4D-Net for Learned Multi-Modal Alignment](https://arxiv.org/pdf/2109.01066.pdf) [`det`]
+  - [AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection](https://arxiv.org/pdf/2108.11127.pdf) [`monocular`, `det`; [Github](https://github.com/zongdai/AutoShape)]
+  - [A Robust Loss for Point Cloud Registration](https://arxiv.org/pdf/2108.11682.pdf) [`registration`]
+  - [OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2103.00937.pdf) [`registration`]
+  - [Improving 3D Object Detection with Channel-wise Transformer](https://arxiv.org/pdf/2108.10723.pdf) [`det`; [Github](https://github.com/hlsheng1/CT3D)]
+  - [Voxel-based Network for Shape Completion by Leveraging Edge Generation](https://arxiv.org/pdf/2108.09936v1.pdf) [`completion`; [Github](https://github.com/xiaogangw/VE-PCN)]
+  - [Exploring Simple 3D Multi-Object Tracking for Autonomous Driving](https://arxiv.org/pdf/2108.10312.pdf) [`tracking`]
   - [ME-PCN: Point Completion Conditioned on Mask Emptiness](https://arxiv.org/pdf/2108.08187.pdf) [`completion`]
   - [Deep Hybrid Self-Prior for Full 3D Mesh Generation](https://arxiv.org/pdf/2108.08017.pdf) [`generation`]
   - [Fine-grained Semantics-aware Representation Enhancement for Self-supervised Monocular Depth Estimation](https://arxiv.org/pdf/2108.08829.pdf) [`monocular`, `depth`; [Github](https://github.com/hyBlue/FSRE-Depth)]
@@ -48,6 +57,7 @@
   - [HRegNet: A Hierarchical Network for Large-scale Outdoor LiDAR Point Cloud Registration](https://arxiv.org/pdf/2107.11992.pdf) [`registration`; [PyTorch](https://github.com/ispc-lab/HRegNet)]
   - [Score-Based Point Cloud Denoising](https://arxiv.org/pdf/2107.10981.pdf) [`denoising`]
   - [Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/pdf/2107.13788.pdf) [`monocular`, `pose`; [Github](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)]
+  - [A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2108.09522.pdf) [`seg`; [Github](https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster)]
 - CVPR
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
   - [RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection](https://arxiv.org/pdf/2106.13365.pdf) [`det`]
@@ -148,6 +158,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Differentiable Convolution Search for Point Cloud Processing](https://arxiv.org/pdf/2108.12856.pdf) [`cls`, `seg`]
+  - [SMAC-Seg: LiDAR Panoptic Segmentation via Sparse Multi-directional Attention Clustering](https://arxiv.org/pdf/2108.13588.pdf) [`seg`]
+  - [You Only Hypothesize Once: Point Cloud Registration with Rotation-equivariant Descriptors](https://arxiv.org/pdf/2109.00182.pdf) [`registration`; [PyTorch](https://github.com/HpWang-whu/YOHO)]
   - [GP-S3Net: Graph-based Panoptic Sparse Semantic Segmentation Network](https://arxiv.org/pdf/2108.08401.pdf) [`seg`]
   - [SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation](https://arxiv.org/pdf/2108.06709.pdf) [`det`]
   - [Progressive Coordinate Transforms for Monocular 3D Object Detection](https://arxiv.org/pdf/2108.05793.pdf) [`monocular`, `det`; [Github](https://github.com/amazon-research/progressive-coordinate-transforms)]
@@ -172,8 +185,7 @@
   - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`]
   - [Z2P: Instant Rendering of Point Clouds](https://arxiv.org/pdf/2105.14548.pdf) [`rendering`]
   - [TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](https://arxiv.org/pdf/2105.11605.pdf) [`place recognition`]
-  - [Generalisable and distinctive 3D local
-deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) [`registration`]
+  - [Generalisable and distinctive 3D local deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) [`registration`]
   - [Deep Weighted Consensus (DWC) Dense correspondence confidence maps for 3D shape registration](https://arxiv.org/pdf/2105.02714.pdf) [`registration`]
   - [M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers](https://arxiv.org/pdf/2104.11896.pdf) [`det`]
   - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3D](https://github.com/open-mmlab/mmdetection3d)]
@@ -208,7 +220,6 @@ deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.
   - [Pseudo-labeling for Scalable 3D Object Detection](https://arxiv.org/pdf/2103.02093.pdf) [`det`]
   - [LiDAR-based Recurrent 3D Semantic Segmentation with Temporal Memory Alignment](https://arxiv.org/pdf/2103.02263.pdf) [`seg`]
   - [Scalable Scene Flow from Point Clouds in the Real World](https://arxiv.org/pdf/2103.01306.pdf) [`scene flow`]
-  - [OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2103.00937.pdf) [`registration`]
   - [InstanceRefer: Cooperative Holistic Understanding for Visual Grounding on Point Clouds through Instance Multi-level Contextual Referring](https://arxiv.org/pdf/2103.01128.pdf) [`visual grounding`]
   - [FPS-Net: A Convolutional Fusion Network
   for Large-Scale LiDAR Point Cloud Segmentation](https://arxiv.org/pdf/2103.00738.pdf) [`seg`]
