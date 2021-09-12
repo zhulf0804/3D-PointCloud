@@ -17,6 +17,9 @@
 ## 2021
 
 - ICCV
+  - [Deep Hough Voting for Robust Global Registration](https://arxiv.org/pdf/2109.04310.pdf) [`registration`]
+  - [Pyramid R-CNN: Towards Better Performance and Adaptability for 3D Object Detection](https://arxiv.org/pdf/2109.02499.pdf) [`det`]
+  - [Voxel Transformer for 3D Object Detection](https://arxiv.org/pdf/2109.02497.pdf) [`det`]
   - [Learning Inner-Group Relations on Point Clouds](https://arxiv.org/pdf/2108.12468.pdf) [`cls`, `seg`]
   - [Spatio-temporal Self-Supervised Representation Learning for 3D Point Clouds](https://arxiv.org/pdf/2109.00179.pdf) [`self-supervised`; [Github](https://github.com/yichen928/STRL)]
   - [4D-Net for Learned Multi-Modal Alignment](https://arxiv.org/pdf/2109.01066.pdf) [`det`]
