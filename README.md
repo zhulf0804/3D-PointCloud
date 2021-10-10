@@ -17,6 +17,7 @@
 ## 2021
 
 - ICCV
+  - [PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds](https://arxiv.org/pdf/2110.01269.pdf) [`registration`; [PyTorch](https://github.com/valeoai/PCAM)]
   - [An End-to-End Transformer Model for 3D Object Detection](https://arxiv.org/pdf/2109.08141.pdf) [`det`; [PyTorch](https://github.com/facebookresearch/3detr)]
   - [Sampling Network Guided Cross-Entropy Method for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2109.06619.pdf) [`registration`; [Github](https://github.com/Jiang-HB/CEMNet)]
   - [Deep Hough Voting for Robust Global Registration](https://arxiv.org/pdf/2109.04310.pdf) [`registration`]
@@ -126,6 +127,7 @@
   - [Single Image Depth Prediction with Wavelet Decomposition](https://arxiv.org/pdf/2106.02022.pdf) [`depth`; [PyTorch](https://github.com/nianticlabs/wavelet-monodepth)]
   - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
+  - [DeepBBS: Deep Best Buddies for Point Cloud Registration](https://arxiv.org/pdf/2110.03016.pdf) [`registration`; [PyTorch](https://github.com/itanhe/DeepBBS); 3DV]
   - [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR-based Perception](https://arxiv.org/pdf/2109.05441.pdf) [`seg`, `det`; [PyTorch](https://github.com/xinge008/Cylinder3D); TPAMI]
   - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
   - [Cross-modality Discrepant Interaction Network for RGB-D Salient Object Detection](https://arxiv.org/pdf/2108.01971.pdf) [`det`; ACM MM]
@@ -164,6 +166,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [3D-FCT: Simultaneous 3D Object Detection and Tracking Using Feature Correlation](https://arxiv.org/pdf/2110.02531.pdf) [`det`, `tracking`]
   - [PQ-Transformer: Jointly Parsing 3D Objects and Layouts from Point Clouds](https://arxiv.org/pdf/2109.05566.pdf) [[PyTorch](https://github.com/OPEN-AIR-SUN/PQ-Transformer)]
   - [Differentiable Convolution Search for Point Cloud Processing](https://arxiv.org/pdf/2108.12856.pdf) [`cls`, `seg`]
   - [SMAC-Seg: LiDAR Panoptic Segmentation via Sparse Multi-directional Attention Clustering](https://arxiv.org/pdf/2108.13588.pdf) [`seg`]
