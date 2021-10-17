@@ -31,6 +31,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [SensatUrban](https://github.com/QingyongHu/SensatUrban): [Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges](https://arxiv.org/pdf/2009.03137.pdf) [CVPR 2021]
 - [WAYMO OPEN MOTION DATASET](https://arxiv.org/abs/2104.10133): [Large Scale Interactive Motion Forecasting for Autonomous Driving : The WAYMO OPEN MOTION DATASET](https://arxiv.org/pdf/2104.10133.pdf) [arXiv 2104]
 - [Panoptic nuScenes](https://nuscenes.org/panoptic): [Panoptic nuScenes: A Large-Scale Benchmark for LiDAR Panoptic Segmentation and Tracking](https://arxiv.org/pdf/2109.03805.pdf) [arXiv 2109]
+- [BuildingNet](https://buildingnet.org/): [BuildingNet: Learning to Label 3D Buildings](https://arxiv.org/pdf/2110.04955.pdf) [ICCV 2021 Oral]
 
 <hr />
 

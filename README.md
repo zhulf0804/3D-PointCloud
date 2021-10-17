@@ -17,6 +17,14 @@
 ## 2021
 
 - ICCV
+  - [Pyramid Point Cloud Transformer for Large-Scale Place Recognition](https://openaccess.thecvf.com/content/ICCV2021/papers/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.pdf) [`place recognition`; [Github](https://github.com/fpthink/PPT-Net)]
+  - [Distinctiveness oriented Positional Equilibrium for Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Min_Distinctiveness_Oriented_Positional_Equilibrium_for_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
+  - [Feature Interactive Representation for Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Feature_Interactive_Representation_for_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
+  - [DeepPRO: Deep Partial Point Cloud Registration of Objects](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_DeepPRO_Deep_Partial_Point_Cloud_Registration_of_Objects_ICCV_2021_paper.pdf) [`registration`]
+  - [LSG-CPD: Coherent Point Drift with Local Surface Geometry for Point Cloud Registration](https://arxiv.org/pdf/2103.15039.pdf) [`registration`; [matlab](https://github.com/ChirikjianLab/LSG-CPD)]
+  - [Provably Approximated Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Jubran_Provably_Approximated_Point_Cloud_Registration_ICCV_2021_paper.pdf)
+  - [Point Transformer](https://arxiv.org/pdf/2012.09164.pdf) [`seg`, `cls`; [PyTorch-unofficial](https://github.com/lucidrains/point-transformer-pytorch)]
+  - [Point Cloud Augmentation with Weighted Local Transformations](https://arxiv.org/pdf/2110.05379.pdf) [`augmentation`; [PyTorch](https://github.com/mlvlab/PointWOLF)]
   - [PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds](https://arxiv.org/pdf/2110.01269.pdf) [`registration`; [PyTorch](https://github.com/valeoai/PCAM)]
   - [An End-to-End Transformer Model for 3D Object Detection](https://arxiv.org/pdf/2109.08141.pdf) [`det`; [PyTorch](https://github.com/facebookresearch/3detr)]
   - [Sampling Network Guided Cross-Entropy Method for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2109.06619.pdf) [`registration`; [Github](https://github.com/Jiang-HB/CEMNet)]
@@ -65,6 +73,7 @@
   - [Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/pdf/2107.13788.pdf) [`monocular`, `pose`; [Github](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)]
   - [A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2108.09522.pdf) [`seg`; [Github](https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster)]
 - CVPR
+  - [StickyPillars: Robust and Efficient Feature Matching on Point Clouds using Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2021/papers/Fischer_StickyPillars_Robust_and_Efficient_Feature_Matching_on_Point_Clouds_Using_CVPR_2021_paper.pdf) [`registration`]
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
   - [RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection](https://arxiv.org/pdf/2106.13365.pdf) [`det`]
   - [Point Cloud Upsampling via Disentangled Refinement](https://arxiv.org/pdf/2106.04779.pdf) [`upsampling`; [Github](https://github.com/liruihui/Dis-PU)]
@@ -127,6 +136,9 @@
   - [Single Image Depth Prediction with Wavelet Decomposition](https://arxiv.org/pdf/2106.02022.pdf) [`depth`; [PyTorch](https://github.com/nianticlabs/wavelet-monodepth)]
   - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
+  - [Object DGCNN: 3D Object Detection using Dynamic Graphs](https://arxiv.org/pdf/2110.06923.pdf) [`det`; [Github](https://github.com/WangYueFt/detr3d); NeurIPS]
+  - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/pdf/2110.06922.pdf) [`det`; [Github](https://github.com/WangYueFt/detr3d); CoRL]
+  - [Self-supervised Point Cloud Prediction Using 3D Spatio-temporal Convolutional Networks](https://arxiv.org/pdf/2110.04076.pdf) [`autonomous driving`; [Github](https://github.com/PRBonn/point-cloud-prediction); CoRL]
   - [DeepBBS: Deep Best Buddies for Point Cloud Registration](https://arxiv.org/pdf/2110.03016.pdf) [`registration`; [PyTorch](https://github.com/itanhe/DeepBBS); 3DV]
   - [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR-based Perception](https://arxiv.org/pdf/2109.05441.pdf) [`seg`, `det`; [PyTorch](https://github.com/xinge008/Cylinder3D); TPAMI]
   - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
@@ -166,6 +178,9 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Improved Pillar with Fine-grained Feature for 3D Object Detection](https://arxiv.org/pdf/2110.06049.pdf) [`det`]
+  - [3D Object Detection Combining Semantic and Geometric Features from Point Clouds](https://arxiv.org/pdf/2110.04704.pdf) [`det`]
+  - [How to Build a Curb Dataset with LiDAR Data for Autonomous Driving](https://arxiv.org/pdf/2110.03968.pdf) [`autonomous driving`]
   - [3D-FCT: Simultaneous 3D Object Detection and Tracking Using Feature Correlation](https://arxiv.org/pdf/2110.02531.pdf) [`det`, `tracking`]
   - [PQ-Transformer: Jointly Parsing 3D Objects and Layouts from Point Clouds](https://arxiv.org/pdf/2109.05566.pdf) [[PyTorch](https://github.com/OPEN-AIR-SUN/PQ-Transformer)]
   - [Differentiable Convolution Search for Point Cloud Processing](https://arxiv.org/pdf/2108.12856.pdf) [`cls`, `seg`]
@@ -370,7 +385,6 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [Compositional Prototype Network with Multi-view Comparision for Few-Shot Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2012.14255.pdf) [`seg`]
   - [Geometric robust descriptor for 3D point cloud](https://arxiv.org/pdf/2012.12215.pdf) [`registration`, `cls`, `seg`]
   - [PCT: Point Cloud Transformer](https://arxiv.org/pdf/2012.09688.pdf) [`cls`, `seg`, `normal estimation`; [Jittor](https://github.com/MenghaoGuo/PCT)]
-  - [Point Transformer(Hengshuang Zhao)](https://arxiv.org/pdf/2012.09164.pdf) [`seg`, `cls`; [PyTorch-unofficial](https://github.com/lucidrains/point-transformer-pytorch)]
   - [Point Transformer(Nico)](https://arxiv.org/pdf/2011.00931.pdf) [`cls`, `seg`]
   - [Deterministic PointNetLK for Generalized Registration](https://arxiv.org/pdf/2008.09527.pdf) [`registration`]
   - [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation](https://arxiv.org/pdf/2011.10033.pdf) [`seg`; [PyTorch](https://github.com/xinge008/Cylinder3D)]
@@ -623,6 +637,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 - [https://github.com/NUAAXQ/awesome-point-cloud-analysis-2020](https://github.com/NUAAXQ/awesome-point-cloud-analysis-2020)
 - [https://github.com/QingyongHu/SoTA-Point-Cloud](https://github.com/QingyongHu/SoTA-Point-Cloud)
 - [https://github.com/timzhang642/3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)
+- [https://github.com/XuyangBai/awesome-point-cloud-registration](https://github.com/XuyangBai/awesome-point-cloud-registration)
 - [https://github.com/weiweisun2018/awesome-point-clouds-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
 
 ## Tools
