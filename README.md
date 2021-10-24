@@ -17,12 +17,13 @@
 ## 2021
 
 - ICCV
+  - [Guided Point Contrastive Learning for Semi-supervised Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2110.08188.pdf) [`seg`]
   - [Pyramid Point Cloud Transformer for Large-Scale Place Recognition](https://openaccess.thecvf.com/content/ICCV2021/papers/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.pdf) [`place recognition`; [Github](https://github.com/fpthink/PPT-Net)]
   - [Distinctiveness oriented Positional Equilibrium for Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Min_Distinctiveness_Oriented_Positional_Equilibrium_for_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
   - [Feature Interactive Representation for Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Feature_Interactive_Representation_for_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
   - [DeepPRO: Deep Partial Point Cloud Registration of Objects](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_DeepPRO_Deep_Partial_Point_Cloud_Registration_of_Objects_ICCV_2021_paper.pdf) [`registration`]
   - [LSG-CPD: Coherent Point Drift with Local Surface Geometry for Point Cloud Registration](https://arxiv.org/pdf/2103.15039.pdf) [`registration`; [matlab](https://github.com/ChirikjianLab/LSG-CPD)]
-  - [Provably Approximated Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Jubran_Provably_Approximated_Point_Cloud_Registration_ICCV_2021_paper.pdf)
+  - [Provably Approximated Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Jubran_Provably_Approximated_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
   - [Point Transformer](https://arxiv.org/pdf/2012.09164.pdf) [`seg`, `cls`; [PyTorch-unofficial](https://github.com/lucidrains/point-transformer-pytorch)]
   - [Point Cloud Augmentation with Weighted Local Transformations](https://arxiv.org/pdf/2110.05379.pdf) [`augmentation`; [PyTorch](https://github.com/mlvlab/PointWOLF)]
   - [PCAM: Product of Cross-Attention Matrices for Rigid Registration of Point Clouds](https://arxiv.org/pdf/2110.01269.pdf) [`registration`; [PyTorch](https://github.com/valeoai/PCAM)]
@@ -139,6 +140,7 @@
   - [Object DGCNN: 3D Object Detection using Dynamic Graphs](https://arxiv.org/pdf/2110.06923.pdf) [`det`; [Github](https://github.com/WangYueFt/detr3d); NeurIPS]
   - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/pdf/2110.06922.pdf) [`det`; [Github](https://github.com/WangYueFt/detr3d); CoRL]
   - [Self-supervised Point Cloud Prediction Using 3D Spatio-temporal Convolutional Networks](https://arxiv.org/pdf/2110.04076.pdf) [`autonomous driving`; [Github](https://github.com/PRBonn/point-cloud-prediction); CoRL]
+  - [DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction](https://arxiv.org/pdf/2110.08636.pdf) [`correspondence`; [PyTorch](https://github.com/dvirginz/DPC); 3DV]
   - [DeepBBS: Deep Best Buddies for Point Cloud Registration](https://arxiv.org/pdf/2110.03016.pdf) [`registration`; [PyTorch](https://github.com/itanhe/DeepBBS); 3DV]
   - [Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR-based Perception](https://arxiv.org/pdf/2109.05441.pdf) [`seg`, `det`; [PyTorch](https://github.com/xinge008/Cylinder3D); TPAMI]
   - [Similarity-Aware Fusion Network for 3D Semantic Segmentation](https://arxiv.org/pdf/2107.01579.pdf) [`seg`; [Github](https://github.com/lqzhao/SAFNet); IROS]
@@ -178,6 +180,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Deep Models with Fusion Strategies for MVP Point Cloud Registration](https://arxiv.org/pdf/2110.09129.pdf) [`registration`]
   - [Improved Pillar with Fine-grained Feature for 3D Object Detection](https://arxiv.org/pdf/2110.06049.pdf) [`det`]
   - [3D Object Detection Combining Semantic and Geometric Features from Point Clouds](https://arxiv.org/pdf/2110.04704.pdf) [`det`]
   - [How to Build a Curb Dataset with LiDAR Data for Autonomous Driving](https://arxiv.org/pdf/2110.03968.pdf) [`autonomous driving`]
