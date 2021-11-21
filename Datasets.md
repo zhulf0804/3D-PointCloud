@@ -32,6 +32,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [WAYMO OPEN MOTION DATASET](https://arxiv.org/abs/2104.10133): [Large Scale Interactive Motion Forecasting for Autonomous Driving : The WAYMO OPEN MOTION DATASET](https://arxiv.org/pdf/2104.10133.pdf) [arXiv 2104]
 - [Panoptic nuScenes](https://nuscenes.org/panoptic): [Panoptic nuScenes: A Large-Scale Benchmark for LiDAR Panoptic Segmentation and Tracking](https://arxiv.org/pdf/2109.03805.pdf) [arXiv 2109]
 - [BuildingNet](https://buildingnet.org/): [BuildingNet: Learning to Label 3D Buildings](https://arxiv.org/pdf/2110.04955.pdf) [ICCV 2021 Oral]
+- [ARKitScenes](): [ARKitScenes - A Diverse Real-World Dataset For 3D Indoor Scene Understanding Using Mobile RGB-D Data](https://arxiv.org/pdf/2111.08897.pdf) [NeurIPS 2021]
 
 <hr />
 
