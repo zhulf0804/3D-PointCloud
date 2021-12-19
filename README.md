@@ -16,11 +16,14 @@
 
 ## 2022
 
+- [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`; AAAI]
+- [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`; AAAI]
 - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet); AAAI]
 
 ## 2021
 
 - ICCV
+  - [Progressive Seed Generation Auto-encoder for Unsupervised Point Cloud Learning](https://arxiv.org/pdf/2112.05213.pdf) [`unsupervised`]
   - [Guided Point Contrastive Learning for Semi-supervised Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2110.08188.pdf) [`seg`]
   - [Pyramid Point Cloud Transformer for Large-Scale Place Recognition](https://openaccess.thecvf.com/content/ICCV2021/papers/Hui_Pyramid_Point_Cloud_Transformer_for_Large-Scale_Place_Recognition_ICCV_2021_paper.pdf) [`place recognition`; [Github](https://github.com/fpthink/PPT-Net)]
   - [Distinctiveness oriented Positional Equilibrium for Point Cloud Registration](https://openaccess.thecvf.com/content/ICCV2021/papers/Min_Distinctiveness_Oriented_Positional_Equilibrium_for_Point_Cloud_Registration_ICCV_2021_paper.pdf) [`registration`]
@@ -142,10 +145,12 @@
   - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
   - [PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis](https://arxiv.org/pdf/2112.04903.pdf) [`cls`, `seg`; [PyTorch](https://github.com/XiwuChen/PRA-Net); TIP]
+  - [On Automatic Data Augmentation for 3D Point Cloud Classification](https://arxiv.org/pdf/2112.06029.pdf) [`augmentation`, `cls`]
   - [Self-Supervised Point Cloud Completion via Inpainting](https://arxiv.org/pdf/2111.10701.pdf) [`completion`; BMVC]
   - [Two Heads are Better than One: Geometric-Latent Attention for Point Cloud Classification and Segmentation](https://arxiv.org/pdf/2111.00231.pdf) [`cls`, `seg`; BMVC]
   - [3D Object Tracking with Transformer](https://arxiv.org/pdf/2110.14921.pdf) [`tracking`; [Github](https://github.com/3bobo/lttr); BMVC]
   - [Cascading Feature Extraction for Fast Point Cloud Registration](https://arxiv.org/pdf/2110.12204.pdf) [`registration`; BMVC]
+  - [Revisiting 3D Object Detection From an Egocentric Perspective](https://arxiv.org/pdf/2112.07787.pdf) [`det`; NeurIPS]
   - [Density-aware Chamfer Distance as a Comprehensive Metric for Point Cloud Completion](https://openreview.net/pdf/e6d90c93c4adcc32b69c557d71159704b043ed4b.pdf) [`completion`; [PyTorch](https://github.com/wutong16/Density_aware_Chamfer_Distance); NeurIPS]
   - [Multimodal Virtual Point 3D Detection](https://arxiv.org/pdf/2111.06881.pdf) [`det`; [PyTorch](https://github.com/tianweiy/MVP); NeurIPS]
   - [3D Siamese Voxel-to-BEV Tracker for Sparse Point Clouds](https://arxiv.org/pdf/2111.04426.pdf) [`tracking`; [Github](https://github.com/fpthink/V2B); NeurIPS]
@@ -198,6 +203,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Embracing Single Stride 3D Object Detector with Sparse Transformer](https://arxiv.org/pdf/2112.06375.pdf) [`det`; [PyTorch](https://github.com/TuSimple/SST)]
   - [Fast Point Transformer](https://arxiv.org/pdf/2112.04702.pdf) [`seg`, `det`]
   - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [Github](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement)]
   - [PTTR: Relational 3D Point Cloud Object Tracking with Transformer](https://arxiv.org/pdf/2112.02857.pdf) [`tracking`; [Github](https://github.com/Jasonkks/PTTR)]
