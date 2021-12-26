@@ -16,6 +16,7 @@
 
 ## 2022
 
+- [AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from Point Clouds](https://arxiv.org/pdf/2112.09205.pdf) [`det`; AAAI]
 - [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`; AAAI]
 - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`; AAAI]
 - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet); AAAI]
@@ -145,7 +146,8 @@
   - [3D Shape Generation with Grid-based Implicit Functions](https://arxiv.org/pdf/2107.10607.pdf) [`generation`]
 - Others
   - [PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis](https://arxiv.org/pdf/2112.04903.pdf) [`cls`, `seg`; [PyTorch](https://github.com/XiwuChen/PRA-Net); TIP]
-  - [On Automatic Data Augmentation for 3D Point Cloud Classification](https://arxiv.org/pdf/2112.06029.pdf) [`augmentation`, `cls`]
+  - [DeepUME: Learning the Universal Manifold Embedding for Robust Point Cloud Registration](https://arxiv.org/pdf/2112.09938.pdf) [`registration`; [PyTorch](https://github.com/langnatalie/DeepUME); BMVC]
+  - [On Automatic Data Augmentation for 3D Point Cloud Classification](https://arxiv.org/pdf/2112.06029.pdf) [`augmentation`, `cls`; BMVC]
   - [Self-Supervised Point Cloud Completion via Inpainting](https://arxiv.org/pdf/2111.10701.pdf) [`completion`; BMVC]
   - [Two Heads are Better than One: Geometric-Latent Attention for Point Cloud Classification and Segmentation](https://arxiv.org/pdf/2111.00231.pdf) [`cls`, `seg`; BMVC]
   - [3D Object Tracking with Transformer](https://arxiv.org/pdf/2110.14921.pdf) [`tracking`; [Github](https://github.com/3bobo/lttr); BMVC]
@@ -172,6 +174,7 @@
   - [SSPU-Net: Self-Supervised Point Cloud Upsampling via Differentiable Rendering](https://arxiv.org/pdf/2108.00454.pdf) [`upsampling`; [Github](https://github.com/Avlon/SSPU-Net); ACM MM]
   - [Self-Contrastive Learning with Hard Negative Sampling for Self-supervised Point Cloud Learning](https://arxiv.org/pdf/2107.01886.pdf) [`self-supervised`; ACM MM]
   - [Neighbor-Vote: Improving Monocular 3D Object Detection through Neighbor Distance Voting](https://arxiv.org/pdf/2107.02493.pdf) [`monocular`, `det`; ACM MM]
+  - [Fast and Robust Registration of Partially Overlapping Point Clouds](https://arxiv.org/pdf/2112.09922.pdf) [`registration`; [PyTorch](https://github.com/eduardohenriquearnold/fastreg); RAL]
   - [Graph-Guided Deformation for Point Cloud Completion](https://arxiv.org/pdf/2112.01840.pdf) [`completion`; RAL]
   - [GIDSeg: Learning 3D Segmentation from Sparse Annotations via Hierarchical Descriptors](https://arxiv.org/pdf/2105.12885.pdf) [`seg`; RAL]
   - [Planning with Learned Dynamic Model for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2108.02613.pdf) [`registration`; IJCAI]
@@ -203,6 +206,13 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [Multi-View Partial (MVP) Point Cloud Challenge 2021 on Completion and Registration: Methods and Results](https://arxiv.org/pdf/2112.12053.pdf) [`completion`, `registration`; [PyTorch](https://github.com/paul007pl/MVP_Benchmark)]
+  - [BEVDet: High-Performance Multi-Camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/pdf/2112.11790.pdf) [`det`; [Github](https://github.com/HuangJunJie2017/BEVDet)]
+  - [Revisiting Transformation Invariant Geometric Deep Learning: Are Initial Representations All You Need?](https://arxiv.org/pdf/2112.12345.pdf) [`transformation invariant`]
+  - [High-Fidelity Point Cloud Completion with Low-Resolution Recovery and Noise-Aware Upsampling](https://arxiv.org/pdf/2112.11271.pdf) [`completion`]
+  - [EPNet++: Cascade Bi-directional Fusion for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2112.11088.pdf) [`det`]
+  - [Domain Adaptation on Point Clouds via Geometry-Aware Implicits](https://arxiv.org/pdf/2112.09343.pdf) [`domain adaptation`]
+  - [Full Transformer Framework for Robust Point Cloud Registration with Deep Information Interaction](https://arxiv.org/pdf/2112.09385.pdf) [`registration`; [Github](https://github.com/CGuangyan-BIT/DIT)]
   - [Embracing Single Stride 3D Object Detector with Sparse Transformer](https://arxiv.org/pdf/2112.06375.pdf) [`det`; [PyTorch](https://github.com/TuSimple/SST)]
   - [Fast Point Transformer](https://arxiv.org/pdf/2112.04702.pdf) [`seg`, `det`]
   - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [Github](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement)]
