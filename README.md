@@ -16,6 +16,8 @@
 
 ## 2022
 
+- [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet); AAAI]
+- [DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration](https://arxiv.org/pdf/2112.14059.pdf) [`registration`; [Github](https://github.com/ZhiChen902/DetarNet); AAAI]
 - [AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from Point Clouds](https://arxiv.org/pdf/2112.09205.pdf) [`det`; AAAI]
 - [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`; AAAI]
 - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`; AAAI]
@@ -81,6 +83,7 @@
   - [Score-Based Point Cloud Denoising](https://arxiv.org/pdf/2107.10981.pdf) [`denoising`]
   - [Probabilistic Monocular 3D Human Pose Estimation with Normalizing Flows](https://arxiv.org/pdf/2107.13788.pdf) [`monocular`, `pose`; [Github](https://github.com/twehrbein/Probabilistic-Monocular-3D-Human-Pose-Estimation-with-Normalizing-Flows)]
   - [A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2108.09522.pdf) [`seg`; [Github](https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster)]
+  - [The Devil is in the Task: Exploiting Reciprocal Appearance-Localization Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2112.14023.pdf) [`monocular`, `det`]
 - CVPR
   - [StickyPillars: Robust and Efficient Feature Matching on Point Clouds using Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2021/papers/Fischer_StickyPillars_Robust_and_Efficient_Feature_Matching_on_Point_Clouds_Using_CVPR_2021_paper.pdf) [`registration`]
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
@@ -206,6 +209,8 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [COTReg: Coupled Optimal Transport based Point Cloud Registration](https://arxiv.org/pdf/2112.14381.pdf) [`registration`]
+  - [iSeg3D: An Interactive 3D Shape Segmentation Tool](https://arxiv.org/pdf/2112.12988.pdf) [`seg`, `annotation tool`]
   - [Multi-View Partial (MVP) Point Cloud Challenge 2021 on Completion and Registration: Methods and Results](https://arxiv.org/pdf/2112.12053.pdf) [`completion`, `registration`; [PyTorch](https://github.com/paul007pl/MVP_Benchmark)]
   - [BEVDet: High-Performance Multi-Camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/pdf/2112.11790.pdf) [`det`; [Github](https://github.com/HuangJunJie2017/BEVDet)]
   - [Revisiting Transformation Invariant Geometric Deep Learning: Are Initial Representations All You Need?](https://arxiv.org/pdf/2112.12345.pdf) [`transformation invariant`]
@@ -272,7 +277,6 @@
   - [Shape registration in the time of transformers](https://arxiv.org/pdf/2106.13679.pdf) [`registration`]
   - [3D Shape Registration Using Spectral Graph Embedding and Probabilistic Matching](https://arxiv.org/pdf/2106.11166.pdf) [`registration`]
   - [Image2Point: 3D Point-Cloud Understanding withPretrained 2D ConvNets](https://arxiv.org/pdf/2106.04180.pdf) [`cls`, `seg`; [Github](https://github.com/chenfengxu714/image2point)]
-  - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`]
   - [Z2P: Instant Rendering of Point Clouds](https://arxiv.org/pdf/2105.14548.pdf) [`rendering`]
   - [TransLoc3D : Point Cloud based Large-scale Place Recognition using Adaptive Receptive Fields](https://arxiv.org/pdf/2105.11605.pdf) [`place recognition`]
   - [Generalisable and distinctive 3D local deep descriptors for point cloud registration](https://arxiv.org/pdf/2105.10382.pdf) [`registration`]
