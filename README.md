@@ -16,12 +16,17 @@
 
 ## 2022
 
-- [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet); AAAI]
-- [DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration](https://arxiv.org/pdf/2112.14059.pdf) [`registration`; [Github](https://github.com/ZhiChen902/DetarNet); AAAI]
-- [AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from Point Clouds](https://arxiv.org/pdf/2112.09205.pdf) [`det`; AAAI]
-- [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`; AAAI]
-- [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`; AAAI]
-- [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet); AAAI]
+- AAAI
+  - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet)]
+  - [DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration](https://arxiv.org/pdf/2112.14059.pdf) [`registration`; [Github](https://github.com/ZhiChen902/DetarNet)]
+  - [AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from Point Clouds](https://arxiv.org/pdf/2112.09205.pdf) [`det`]
+  - [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`]
+  - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
+  - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
+
+- arXiv
+  - [Box2Seg: Learning Semantics of 3D Point Clouds with Box-Level Supervision](https://arxiv.org/pdf/2201.02963.pdf) [`seg`]
+  - [SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection](https://arxiv.org/pdf/2201.01976.pdf) [`det`; [Github](https://github.com/blakechen97/SASA)]
 
 ## 2021
 

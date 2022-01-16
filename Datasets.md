@@ -28,11 +28,11 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [Argoverses](https://www.argoverse.org/): [Argoverse: 3D Tracking and Forecasting with Rich Maps](https://openaccess.thecvf.com/content_CVPR_2019/papers/Chang_Argoverse_3D_Tracking_and_Forecasting_With_Rich_Maps_CVPR_2019_paper.pdf) [CVPR 2019]
 - [Waymo Open Dataset](https://github.com/waymo-research/waymo-open-dataset): [Scalability in Perception for Autonomous Driving: Waymo Open Dataset](https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Scalability_in_Perception_for_Autonomous_Driving_Waymo_Open_Dataset_CVPR_2020_paper.pdf) [CVPR 2020]
 - [nuScenes](https://www.nuscenes.org): [nuScenes: A multimodal dataset for autonomous driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Caesar_nuScenes_A_Multimodal_Dataset_for_Autonomous_Driving_CVPR_2020_paper.pdf) [`det`, `tracking`; CVPR 2020]
-- [SensatUrban](https://github.com/QingyongHu/SensatUrban): [Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges](https://arxiv.org/pdf/2009.03137.pdf) [CVPR 2021]
+- [SensatUrban](https://github.com/QingyongHu/SensatUrban): [Towards Semantic Segmentation of Urban-Scale 3D Point Clouds: A Dataset, Benchmarks and Challenges](https://arxiv.org/pdf/2009.03137.pdf) [CVPR 2021], [SensatUrban: Learning Semantics from Urban-Scale Photogrammetric Point Clouds](https://arxiv.org/pdf/2201.04494.pdf) [IJCV 2022]
 - [WAYMO OPEN MOTION DATASET](https://arxiv.org/abs/2104.10133): [Large Scale Interactive Motion Forecasting for Autonomous Driving : The WAYMO OPEN MOTION DATASET](https://arxiv.org/pdf/2104.10133.pdf) [arXiv 2104]
 - [Panoptic nuScenes](https://nuscenes.org/panoptic): [Panoptic nuScenes: A Large-Scale Benchmark for LiDAR Panoptic Segmentation and Tracking](https://arxiv.org/pdf/2109.03805.pdf) [arXiv 2109]
 - [BuildingNet](https://buildingnet.org/): [BuildingNet: Learning to Label 3D Buildings](https://arxiv.org/pdf/2110.04955.pdf) [ICCV 2021 Oral]
-- [ARKitScenes](): [ARKitScenes - A Diverse Real-World Dataset For 3D Indoor Scene Understanding Using Mobile RGB-D Data](https://arxiv.org/pdf/2111.08897.pdf) [NeurIPS 2021]
+- [ARKitScenes](https://github.com/apple/ARKitScenes): [ARKitScenes - A Diverse Real-World Dataset For 3D Indoor Scene Understanding Using Mobile RGB-D Data](https://arxiv.org/pdf/2111.08897.pdf) [NeurIPS 2021]
 
 <hr />
 
