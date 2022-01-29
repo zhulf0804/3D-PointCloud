@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Survey and Systematization of 3D Object Detection Models and Methods](https://arxiv.org/pdf/2201.09354v1.pdf) [arXiv 2022]
 - [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/pdf/2106.10823.pdf) [arXiv 2021]
 - [Multi-Modal 3D Object Detection in Autonomous Driving: a Survey](https://arxiv.org/pdf/2106.12735.pdf) [arXiv 2021]
 - [3D Semantic Scene Completion: a Survey](https://arxiv.org/pdf/2103.07466.pdf) [arXiv 2021]
@@ -17,14 +18,20 @@
 ## 2022
 
 - AAAI
+  - [Sparse Cross-scale Attention Network for Efficient LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2201.05972.pdf) [`seg`]
   - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet)]
   - [DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration](https://arxiv.org/pdf/2112.14059.pdf) [`registration`; [Github](https://github.com/ZhiChen902/DetarNet)]
   - [AFDetV2: Rethinking the Necessity of the Second Stage for Object Detection from Point Clouds](https://arxiv.org/pdf/2112.09205.pdf) [`det`]
   - [Joint 3D Object Detection and Tracking Using Spatio-Temporal Representation of Camera Image and LiDAR Point Clouds](https://arxiv.org/pdf/2112.07116.pdf) [`det`, `tracking`]
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
-
+- Others
+  - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
 - arXiv
+  - [ShapeFormer: Transformer-based Shape Completion via Sparse Representation](https://arxiv.org/pdf/2201.10326.pdf) [`completion`; [Github](https://github.com/qheldiv/shapeformer)]
+  - [Self-supervised Point Cloud Registration with Deep Versatile Descriptors](https://arxiv.org/pdf/2201.10034.pdf) [`registration`]
+  - [CP-Net: Contour-Perturbed Reconstruction Network for Self-Supervised Point Cloud Learning](https://arxiv.org/pdf/2201.08215v1.pdf) [`self-supervised`]
+  - [AutoAlign: Pixel-Instance Feature Aggregation for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2201.06493.pdf) [`det`]
   - [Box2Seg: Learning Semantics of 3D Point Clouds with Box-Level Supervision](https://arxiv.org/pdf/2201.02963.pdf) [`seg`]
   - [SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection](https://arxiv.org/pdf/2201.01976.pdf) [`det`; [Github](https://github.com/blakechen97/SASA)]
 
@@ -107,7 +114,7 @@
   - [KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control](https://arxiv.org/pdf/2104.11224.pdf) [[Github](https://github.com/tomasjakab/keypoint_deformer/)]
   - [Multi-Modal Fusion Transformer for End-to-End Autonomous Driving](https://arxiv.org/pdf/2104.09224.pdf) [`autonomous driving`; [PyTorch](https://github.com/autonomousvision/transfuser)]
   - [Self-Supervised Pillar Motion Learning for Autonomous Driving](https://arxiv.org/pdf/2104.08683.pdf) [`autonomous driving`; [Github](https://github.com/qcraftai/pillar-motion)]
-  - [Variational Relational Point Completion Network](https://arxiv.org/pdf/2104.10154.pdf) [`completion`]
+  - [Variational Relational Point Completion Network](https://arxiv.org/pdf/2104.10154.pdf) [`completion`; [PyTorch](https://github.com/paul007pl/VRCNet)]
   - [Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2104.06114.pdf) [`det`; [Github](https://github.com/cheng052/BRNet)]
   - [RPSRNet: End-to-End Trainable Rigid Point Set Registration Network using Barnes-Hut 2D-Tree Representation](https://arxiv.org/pdf/2104.05328.pdf) [`registration`]
   - [Objects are Different: Flexible Monocular 3D Object Detection](https://arxiv.org/pdf/2104.02323.pdf) [`det`; [Github](https://github.com/zhangyp15/MonoFlex)]
@@ -171,6 +178,7 @@
   - [Multi-modal Trajectory Prediction for Autonomous Driving with Semantic Map and Dynamic Graph Attention Network](https://arxiv.org/pdf/2103.16273.pdf) [`autonomous driving`; NeurIPS]
   - [DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries](https://arxiv.org/pdf/2110.06922.pdf) [`det`; [Github](https://github.com/WangYueFt/detr3d); CoRL]
   - [Self-supervised Point Cloud Prediction Using 3D Spatio-temporal Convolutional Networks](https://arxiv.org/pdf/2110.04076.pdf) [`autonomous driving`; [Github](https://github.com/PRBonn/point-cloud-prediction); CoRL]
+  - [GASCN: Graph Attention Shape Completion Network](https://arxiv.org/pdf/2201.07937v1.pdf) [`completion`; 3DV]
   - [Learning Iterative Robust Transformation Synchronization](https://arxiv.org/pdf/2111.00728.pdf) [`transformation synchronization`; [Github](https://github.com/yewzijian/MultiReg); 3DV]
   - [DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction](https://arxiv.org/pdf/2110.08636.pdf) [`correspondence`; [PyTorch](https://github.com/dvirginz/DPC); 3DV]
   - [DeepBBS: Deep Best Buddies for Point Cloud Registration](https://arxiv.org/pdf/2110.03016.pdf) [`registration`; [PyTorch](https://github.com/itanhe/DeepBBS); 3DV]
