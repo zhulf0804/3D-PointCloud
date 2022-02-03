@@ -27,6 +27,7 @@
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
+  - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E)]
 - arXiv
   - [ShapeFormer: Transformer-based Shape Completion via Sparse Representation](https://arxiv.org/pdf/2201.10326.pdf) [`completion`; [Github](https://github.com/qheldiv/shapeformer)]
   - [Self-supervised Point Cloud Registration with Deep Versatile Descriptors](https://arxiv.org/pdf/2201.10034.pdf) [`registration`]
