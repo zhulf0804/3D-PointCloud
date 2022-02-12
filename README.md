@@ -6,6 +6,8 @@
 
 ## Survey papers
 
+- [Multi-modal Sensor Fusion for Auto Driving Perception: A Survey](https://arxiv.org/pdf/2202.02703.pdf) [arXiv 2022]
+- [3D Object Detection from Images for Autonomous Driving: A Survey](https://arxiv.org/pdf/2202.02980.pdf) [arXiv 2022]
 - [Survey and Systematization of 3D Object Detection Models and Methods](https://arxiv.org/pdf/2201.09354v1.pdf) [arXiv 2022]
 - [3D Object Detection for Autonomous Driving: A Survey](https://arxiv.org/pdf/2106.10823.pdf) [arXiv 2021]
 - [Multi-Modal 3D Object Detection in Autonomous Driving: a Survey](https://arxiv.org/pdf/2106.12735.pdf) [arXiv 2021]
@@ -28,7 +30,11 @@
 - Others
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
+  - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
 - arXiv
+  - [Distillation with Contrast is All You Need for Self-Supervised Point Cloud Representation Learning](https://arxiv.org/pdf/2202.04241.pdf) [`self-supervised`]
+  - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`classification`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C)]
+  - [Edge-Selective Feature Weaving for Point Cloud Matching](https://arxiv.org/pdf/2202.02149.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/yanarin/ESFW)]
   - [Neighborhood-aware Geometric Encoding Network for Point Cloud Registration](https://arxiv.org/pdf/2201.12094v1.pdf) [`registration`; [Github](https://github.com/zhulf0804/NgeNet)]
   - [Boosting Monocular Depth Estimation with Sparse Guided Points](https://arxiv.org/pdf/2202.01470.pdf) [`monocular`, `depth estimation`; [Github](https://github.com/aim-uofa/AdelaiDepth)]
   - [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/pdf/2202.01478.pdf) [`autonomous platforms`]
@@ -102,6 +108,7 @@
   - [A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2108.09522.pdf) [`seg`; [Github](https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster)]
   - [The Devil is in the Task: Exploiting Reciprocal Appearance-Localization Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2112.14023.pdf) [`monocular`, `det`]
 - CVPR
+  - [CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/pdf/2012.15638.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/ZENGYIMING-EAMON/CorrNet3D)]
   - [StickyPillars: Robust and Efficient Feature Matching on Point Clouds using Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2021/papers/Fischer_StickyPillars_Robust_and_Efficient_Feature_Matching_on_Point_Clouds_Using_CVPR_2021_paper.pdf) [`registration`]
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
   - [RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection](https://arxiv.org/pdf/2106.13365.pdf) [`det`]
@@ -469,7 +476,6 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [Multi-Modality Cut and Paste for 3D Object Detection](https://arxiv.org/pdf/2012.12741.pdf) [`det`; [PyTorch](https://github.com/open-mmlab/mmdetection3d)]
   - [Self-Supervised Learning for Domain Adaptation on Point Clouds](https://arxiv.org/pdf/2003.12641v3.pdf) [`cls`, `seg`]
   - [SALA: Soft Assignment Local Aggregation for 3D Semantic Segmentation](https://arxiv.org/pdf/2012.14929.pdf) [`seg`]
-  - [CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/pdf/2012.15638.pdf) [`correspondence`]
   - [Compositional Prototype Network with Multi-view Comparision for Few-Shot Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2012.14255.pdf) [`seg`]
   - [Geometric robust descriptor for 3D point cloud](https://arxiv.org/pdf/2012.12215.pdf) [`registration`, `cls`, `seg`]
   - [PCT: Point Cloud Transformer](https://arxiv.org/pdf/2012.09688.pdf) [`cls`, `seg`, `normal estimation`; [Jittor](https://github.com/MenghaoGuo/PCT)]
