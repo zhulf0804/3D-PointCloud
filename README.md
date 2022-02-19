@@ -28,10 +28,14 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/pdf/2202.07123.pdf) [`cls`, `seg`; [PyTorch](https://github.com/ma-xu/pointMLP-pytorch); ICLR]
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
+  - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [LighTN: Light-weight Transformer Network for Performance-overhead Tradeoff in Point Cloud Downsampling](https://arxiv.org/pdf/2202.06263.pdf) [`downsampling`]
+  - [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/pdf/2202.06688.pdf) [`registration`; [PyTorch](https://github.com/qinzheng93/GeoTransformer)]
   - [Distillation with Contrast is All You Need for Self-Supervised Point Cloud Representation Learning](https://arxiv.org/pdf/2202.04241.pdf) [`self-supervised`]
   - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`classification`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C)]
   - [Edge-Selective Feature Weaving for Point Cloud Matching](https://arxiv.org/pdf/2202.02149.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/yanarin/ESFW)]
