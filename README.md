@@ -20,6 +20,7 @@
 ## 2022
 
 - AAAI
+  - [Reliable Inlier Evaluation for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2202.11292.pdf) [`registration`; [Github](https://github.com/supersyq/RIENet)]
   - [Sparse Cross-scale Attention Network for Efficient LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2201.05972.pdf) [`seg`]
   - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet)]
   - [DetarNet: Decoupling Translation and Rotation by Siamese Network for Point Cloud Registration](https://arxiv.org/pdf/2112.14059.pdf) [`registration`; [Github](https://github.com/ZhiChen902/DetarNet)]
@@ -28,12 +29,18 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [PyTorch](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement); ICLR]
   - [Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/pdf/2202.07123.pdf) [`cls`, `seg`; [PyTorch](https://github.com/ma-xu/pointMLP-pytorch); ICLR]
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT)]
+  - [Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors](https://arxiv.org/pdf/2202.11660.pdf) [`anomaly detection`]
+  - [PointMatch: A Consistency Training Framework for Weakly Supervised Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/2202.10705.pdf) [`seg`]
+  - [Snowflake Point Deconvolution for Point Cloud Completion and Generation with Skip-Transformer](https://arxiv.org/pdf/2202.09367.pdf) [`completion`; [PyTorch](https://github.com/AllenXiangX/SnowflakeNet)]
+  - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net)]
   - [LighTN: Light-weight Transformer Network for Performance-overhead Tradeoff in Point Cloud Downsampling](https://arxiv.org/pdf/2202.06263.pdf) [`downsampling`]
   - [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/pdf/2202.06688.pdf) [`registration`; [PyTorch](https://github.com/qinzheng93/GeoTransformer)]
   - [Distillation with Contrast is All You Need for Self-Supervised Point Cloud Representation Learning](https://arxiv.org/pdf/2202.04241.pdf) [`self-supervised`]
@@ -112,6 +119,7 @@
   - [A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2108.09522.pdf) [`seg`; [Github](https://github.com/placeforyiming/ICCVW21-LiDAR-Panoptic-Segmentation-TradiCV-Survey-of-Point-Cloud-Cluster)]
   - [The Devil is in the Task: Exploiting Reciprocal Appearance-Localization Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2112.14023.pdf) [`monocular`, `det`]
 - CVPR
+  - [PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths](https://arxiv.org/pdf/2012.03408.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net)]
   - [CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds](https://arxiv.org/pdf/2012.15638.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/ZENGYIMING-EAMON/CorrNet3D)]
   - [StickyPillars: Robust and Efficient Feature Matching on Point Clouds using Graph Neural Networks](https://openaccess.thecvf.com/content/CVPR2021/papers/Fischer_StickyPillars_Robust_and_Efficient_Feature_Matching_on_Point_Clouds_Using_CVPR_2021_paper.pdf) [`registration`]
   - [To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels](https://arxiv.org/pdf/2106.13381.pdf) [`det`]
@@ -250,7 +258,6 @@
   - [Full Transformer Framework for Robust Point Cloud Registration with Deep Information Interaction](https://arxiv.org/pdf/2112.09385.pdf) [`registration`; [Github](https://github.com/CGuangyan-BIT/DIT)]
   - [Embracing Single Stride 3D Object Detector with Sparse Transformer](https://arxiv.org/pdf/2112.06375.pdf) [`det`; [PyTorch](https://github.com/TuSimple/SST)]
   - [Fast Point Transformer](https://arxiv.org/pdf/2112.04702.pdf) [`seg`, `det`]
-  - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [Github](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement)]
   - [PTTR: Relational 3D Point Cloud Object Tracking with Transformer](https://arxiv.org/pdf/2112.02857.pdf) [`tracking`; [Github](https://github.com/Jasonkks/PTTR)]
   - [Immortal Tracker: Tracklet Never Dies](https://arxiv.org/pdf/2111.13672.pdf) [`tracking`; [Github](https://github.com/ImmortalTracker/ImmortalTracker)]
   - [FCAF3D: Fully Convolutional Anchor-Free 3D Object Detection](https://arxiv.org/pdf/2112.00322v1.pdf) [`det`; [PyTorch](https://github.com/samsunglabs/fcaf3d)]
