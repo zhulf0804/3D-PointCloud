@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Comprehensive Review of Deep Learning-Based 3D Point Clouds Completion Processing and Analysis](https://arxiv.org/pdf/2203.03311.pdf) [arXiv 2022]
 - [Unsupervised Representation Learning for Point Clouds: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [arXiv 2022]
 - [Multi-modal Sensor Fusion for Auto Driving Perception: A Survey](https://arxiv.org/pdf/2202.02703.pdf) [arXiv 2022]
 - [3D Object Detection from Images for Autonomous Driving: A Survey](https://arxiv.org/pdf/2202.02980.pdf) [arXiv 2022]
@@ -21,6 +22,15 @@
 ## 2022
 
 - CVPR
+  - [Contrastive Boundary Learning for Point Cloud Segmentation](https://arxiv.org/pdf/2203.05272.pdf) [`seg`; [Github](https://github.com/LiyaoTang/contrastBoundary)]
+  - [Back to Reality: Weakly-supervised 3D Object Detection with Shape-guided Label Enhancement](https://arxiv.org/pdf/2203.05238.pdf) [`det`; [PyTorch](https://github.com/xuxw98/BackToReality)]
+  - [Shape-invariant 3D Adversarial Point Clouds](https://arxiv.org/pdf/2203.04041.pdf) [`adversarial`; [Github](https://github.com/shikiw/SI-Adv)]
+  - [Iterative Corresponding Geometry: Fusing Region and Depth for Highly Efficient 3D Tracking of Textureless Objects](https://arxiv.org/pdf/2203.05334.pdf) [`tracking`; [Github](https://github.com/DLR-RM/3DObjectTracking)]
+  - [ART-Point: Improving Rotation Robustness of Point Cloud Classifiers via Adversarial Rotation](https://arxiv.org/pdf/2203.03888.pdf) [`cls`; [Github](https://github.com/robinwang1/ART-Point)]
+  - [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/pdf/2202.06688.pdf) [`registration`; [PyTorch](https://github.com/qinzheng93/GeoTransformer)]
+  - [Lepard: Learning partial point cloud matching in rigid and deformable scenes](https://arxiv.org/pdf/2111.12591.pdf) [`registration`; [PyTorch](https://github.com/rabbityl/lepard)]
+  - [Pseudo-Stereo for Monocular 3D Object Detection in Autonomous Driving](https://arxiv.org/pdf/2203.02112.pdf) [`det`, `monocular`; [Github](https://github.com/revisitq/Pseudo-Stereo-3D)]
+  - [A Versatile Multi-View Framework for LiDAR-based 3D Object Detection with Guidance from Panoptic Segmentation](https://arxiv.org/pdf/2203.02133.pdf) [`det`]
   - [Embracing Single Stride 3D Object Detector with Sparse Transformer](https://arxiv.org/pdf/2112.06375.pdf) [`det`; [PyTorch](https://github.com/TuSimple/SST)]
   - [Canonical Voting: Towards Robust Oriented Bounding Box Detection in 3D Scenes](https://arxiv.org/pdf/2011.12001.pdf) [`det`; [PyTorch](https://github.com/qq456cvb/CanonicalVoting)]
   - [CrossPoint: Self-Supervised Cross-Modal Contrastive Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2203.00680.pdf) [`cross-modal learning`; [PyTorch](https://github.com/MohamedAfham/CrossPoint)]
@@ -30,6 +40,7 @@
   - [A Unified Query-based Paradigm for Point Cloud Understanding](https://arxiv.org/pdf/2203.01252.pdf) [`det`, `seg`, `cls`]
 - AAAI
   - [SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection](https://arxiv.org/pdf/2201.01976.pdf) [`det`; [PyTorch](https://github.com/blakechen97/SASA)]
+  - [DuMLP-Pin: A Dual-MLP-dot-product Permutation-invariant Network for Set Feature Extraction](https://arxiv.org/pdf/2203.04007.pdf) [`cls`, `seg`; [PyTorch](https://github.com/JaronTHU/DuMLP-Pin)]
   - [Reliable Inlier Evaluation for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2202.11292.pdf) [`registration`; [Github](https://github.com/supersyq/RIENet)]
   - [Sparse Cross-scale Attention Network for Efficient LiDAR Panoptic Segmentation](https://arxiv.org/pdf/2201.05972.pdf) [`seg`]
   - [FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration](https://arxiv.org/pdf/2106.03479.pdf) [`registration`; [Github](https://github.com/hxwork/FINet)]
@@ -39,9 +50,11 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net); TPAMI]
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
   - [Variable Rate Compression for Raw 3D Point Clouds](https://arxiv.org/pdf/2202.13862.pdf) [`compression`; [Github](https://github.com/robotic-vision-lab/Variable-Rate-Compression-For-Raw-3D-Point-Clouds); ICRA]
+  - [Partial Wasserstein Adversarial Network for Non-rigid Point Set Registration](https://arxiv.org/pdf/2203.02227.pdf) [`non-rigid`, `registration`; ICLR]
   - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [PyTorch](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement); ICLR]
   - [Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/pdf/2202.07123.pdf) [`cls`, `seg`; [PyTorch](https://github.com/ma-xu/pointMLP-pytorch); ICLR]
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
@@ -49,15 +62,15 @@
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [An Empirical Investigation of 3D Anomaly Detection and Segmentation](https://arxiv.org/pdf/2203.05550.pdf) [`anomaly detection`]
+  - [A Lightweight and Detector-free 3D Single Object Tracker on Point Clouds](https://arxiv.org/pdf/2203.04232.pdf) [`tracking`]
   - [DisARM: Displacement Aware Relation Module for 3D Detection](https://arxiv.org/pdf/2203.01152.pdf) [`det`]
   - [Dense Voxel Fusion for 3D Object Detection](https://arxiv.org/pdf/2203.00871.pdf) [`det`]
   - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT)]
   - [Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors](https://arxiv.org/pdf/2202.11660.pdf) [`anomaly detection`]
   - [PointMatch: A Consistency Training Framework for Weakly Supervised Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/2202.10705.pdf) [`seg`]
   - [Snowflake Point Deconvolution for Point Cloud Completion and Generation with Skip-Transformer](https://arxiv.org/pdf/2202.09367.pdf) [`completion`; [PyTorch](https://github.com/AllenXiangX/SnowflakeNet)]
-  - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net)]
   - [LighTN: Light-weight Transformer Network for Performance-overhead Tradeoff in Point Cloud Downsampling](https://arxiv.org/pdf/2202.06263.pdf) [`downsampling`]
-  - [Geometric Transformer for Fast and Robust Point Cloud Registration](https://arxiv.org/pdf/2202.06688.pdf) [`registration`; [PyTorch](https://github.com/qinzheng93/GeoTransformer)]
   - [Distillation with Contrast is All You Need for Self-Supervised Point Cloud Representation Learning](https://arxiv.org/pdf/2202.04241.pdf) [`self-supervised`]
   - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`classification`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C)]
   - [Edge-Selective Feature Weaving for Point Cloud Matching](https://arxiv.org/pdf/2202.02149.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/yanarin/ESFW)]
@@ -280,7 +293,6 @@
   - [Multi-instance Point Cloud Registration by Efficient Correspondence Clustering](https://arxiv.org/pdf/2111.14582.pdf) [`registration`]
   - [Multiway Non-rigid Point Cloud Registration via Learned Functional Map Synchronization](https://arxiv.org/pdf/2111.12878.pdf) [`registration`, `non-rigid`; [Github](https://github.com/huangjh-pub/synorim)]
   - [PU-Transformer: Point Cloud Upsampling Transformer](https://arxiv.org/pdf/2111.12242.pdf) [`upsampling`]
-  - [Lepard: Learning partial point cloud matching in rigid and deformable scenes](https://arxiv.org/pdf/2111.12591.pdf) [`registration`; [PyTorch](https://github.com/rabbityl/lepard)]
   - [GenReg: Deep Generative Method for Fast Point Cloud Registration](https://arxiv.org/pdf/2111.11783.pdf) [`registration`]
   - [Deep Point Cloud Reconstruction](https://arxiv.org/pdf/2111.11704.pdf) [`reconstruction`]
   - [MFM-Net: Unpaired Shape Completion Network with Multi-stage Feature Matching](https://arxiv.org/pdf/2111.11976.pdf) [`completion`]
