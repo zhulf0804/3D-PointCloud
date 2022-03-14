@@ -274,6 +274,7 @@
   - [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI]
   - [labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2103.04970.pdf) [`labeling tool`; CAD]
 - arXiv
+  - [ConDA: Unsupervised Domain Adaptation for LiDAR Segmentation via Regularized Domain Concatenation](https://arxiv.org/pdf/2111.15242.pdf) [`seg`, `unsupervised domain adaptation`; [Github](https://github.com/ldkong1205/ConDA)]
   - [COTReg: Coupled Optimal Transport based Point Cloud Registration](https://arxiv.org/pdf/2112.14381.pdf) [`registration`]
   - [iSeg3D: An Interactive 3D Shape Segmentation Tool](https://arxiv.org/pdf/2112.12988.pdf) [`seg`, `annotation tool`]
   - [Multi-View Partial (MVP) Point Cloud Challenge 2021 on Completion and Registration: Methods and Results](https://arxiv.org/pdf/2112.12053.pdf) [`completion`, `registration`; [PyTorch](https://github.com/paul007pl/MVP_Benchmark)]
