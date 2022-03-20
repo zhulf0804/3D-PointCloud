@@ -33,6 +33,9 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [Panoptic nuScenes](https://nuscenes.org/panoptic): [Panoptic nuScenes: A Large-Scale Benchmark for LiDAR Panoptic Segmentation and Tracking](https://arxiv.org/pdf/2109.03805.pdf) [arXiv 2109]
 - [BuildingNet](https://buildingnet.org/): [BuildingNet: Learning to Label 3D Buildings](https://arxiv.org/pdf/2110.04955.pdf) [ICCV 2021 Oral]
 - [ARKitScenes](https://github.com/apple/ARKitScenes): [ARKitScenes - A Diverse Real-World Dataset For 3D Indoor Scene Understanding Using Mobile RGB-D Data](https://arxiv.org/pdf/2111.08897.pdf) [NeurIPS 2021]
+- [CODA](https://coda-dataset.github.io): [CODA: A Real-World Road Corner Case Dataset for Object Detection in Autonomous Driving](https://arxiv.org/pdf/2203.07724.pdf) [arXiv 2203]
+- [STPLS3D](https://www.stpls3d.com): [STPLS3D: A Large-Scale Synthetic and Real Aerial Photogrammetry 3D Point Cloud Dataset](https://arxiv.org/pdf/2203.09065v1.pdf) [arXiv 2203]
+- [TO-Scene: A Large-scale Dataset for Understanding 3D Tabletop Scenes](https://arxiv.org/pdf/2203.09440v1.pdf) [arXiv 2203]
 
 <hr />
 
