@@ -23,6 +23,15 @@
 ## 2022
 
 - CVPR
+  - [AziNorm: Exploiting the Radial Symmetry of Point Cloud for Azimuth-Normalized 3D Perception](https://arxiv.org/pdf/2203.13090v1.pdf) [`det`, `seg`; [Github](https://github.com/hustvl/AziNorm)]
+  - [IDEA-Net: Dynamic 3D Point Cloud Interpolation via Deep Embedding Alignment](https://arxiv.org/pdf/2203.11590v1.pdf) [`interpolation`; [Github](https://github.com/ZENGYIMING-EAMON/IDEA-Net)]
+  - [TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers](https://arxiv.org/pdf/2203.11496v1.pdf) [`det`; [PyTorch](https://github.com/XuyangBai/TransFusion/)]
+  - [Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds](https://arxiv.org/pdf/2203.11139v1.pdf) [`det`; [PyTorch](https://github.com/yifanzhang713/IA-SSD)]
+  - [No Pain, Big Gain: Classify Dynamic Point Cloud Sequences with Static Models by Fitting Feature-level Space-time Surfaces](https://arxiv.org/pdf/2203.11113v1.pdf) [`cls`; [Github](https://github.com/jx-zhong-for-academic-purpose/Kinet)]
+  - [MonoDTR: Monocular 3D Object Detection with Depth-Aware Transformer](https://arxiv.org/pdf/2203.10981v1.pdf) [`det`, `monocular`; [Github](https://github.com/kuanchihhuang/MonoDTR)]
+  - [Voxel Set Transformer: A Set-to-Set Approach to 3D Object Detection from Point Clouds](https://arxiv.org/pdf/2203.10314v1.pdf) [`det`; [PyTorch](https://github.com/skyhehe123/VoxSeT)]
+  - [VISTA: Boosting 3D Object Detection via Dual Cross-VIew SpaTial Attention](https://arxiv.org/pdf/2203.09704v1.pdf) [`det`; [PyTorch](https://github.com/Gorilla-Lab-SCUT/VISTA)]
+  - [Sparse Fuse Dense: Towards High Quality 3D Detection with Depth Completion](https://arxiv.org/pdf/2203.09780v1.pdf) [`det`]
   - [AutoSDF: Shape Priors for 3D Completion, Reconstruction and Generation](https://arxiv.org/pdf/2203.09516v1.pdf) [`completion`, `reconstruction`, `generation`]
   - [DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2203.08195v1.pdf) [`det`; [Tensorflow](https://github.com/tensorflow/lingvo/tree/master/lingvo)]
   - [Scribble-Supervised LiDAR Semantic Segmentation](https://arxiv.org/pdf/2203.08537v1.pdf) [`seg`; [Github](https://github.com/ouenal/scribblekitti)]
@@ -58,10 +67,12 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Refine-Net: Normal Refinement Neural Network for Noisy Point Clouds](https://arxiv.org/pdf/2203.12514v1.pdf) [`normal refinement`; [PyTorch](https://github.com/hrzhou2/refinenet); TPAMI]
   - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net); TPAMI]
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
   - [Variable Rate Compression for Raw 3D Point Clouds](https://arxiv.org/pdf/2202.13862.pdf) [`compression`; [Github](https://github.com/robotic-vision-lab/Variable-Rate-Compression-For-Raw-3D-Point-Clouds); ICRA]
+  - [Hindsight is 2020: Leveraging Past Traversals to Aid 3D Perception](https://arxiv.org/pdf/2203.11405v1.pdf) [`det`; [PyTorch](https://github.com/YurongYou/Hindsight); ICLR]
   - [WeakM3D: Towards Weakly Supervised Monocular 3D Object Detection](https://arxiv.org/pdf/2203.08332v1.pdf) [`det`, `monocular`; [Github](https://github.com/SPengLiang/WeakM3D); ICLR]
   - [Partial Wasserstein Adversarial Network for Non-rigid Point Set Registration](https://arxiv.org/pdf/2203.02227.pdf) [`non-rigid`, `registration`; ICLR]
   - [A Conditional Point Diffusion-Refinement Paradigm for 3D Point Cloud Completion](https://arxiv.org/pdf/2112.03530.pdf) [`completion`; [PyTorch](https://github.com/ZhaoyangLyu/Point_Diffusion_Refinement); ICLR]
@@ -71,6 +82,13 @@
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [Towards 3D Scene Understanding by Referring Synthetic Models](https://arxiv.org/pdf/2203.10546v1.pdf) [`transfer learning`]
+  - [Unsupervised Learning of 3D Semantic Keypoints with Mutual Reconstruction](https://arxiv.org/pdf/2203.10212v1.pdf) [`keypoints`]
+  - [Self-supervised Point Cloud Completion on Real Traffic Scenes via Scene-concerned Bottom-up Mechanism](https://arxiv.org/pdf/2203.10569v1.pdf) [`completion`]
+  - [Masked Discrimination for Self-Supervised Learning on Point Clouds](https://arxiv.org/pdf/2203.11183v1.pdf) [`self-Supervised`; [Github](https://github.com/haotian-liu/MaskPoint)]
+  - [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/pdf/2203.10642v1.pdf) [`det`]
+  - [3DAC: Learning Attribute Compression for Point Clouds](https://arxiv.org/pdf/2203.09931v1.pdf) [`compression`]
+  - [CodedVTR: Codebook-based Sparse Voxel Transformer with Geometric Guidance](https://arxiv.org/pdf/2203.09887v1.pdf) [`seg`]
   - [DetMatch: Two Teachers are Better Than One for Joint 2D and 3D Semi-Supervised Object Detection](https://arxiv.org/pdf/2203.09510v1.pdf) [`det`; [Github](https://github.com/Divadi/DetMatch)]
   - [PointAttN: You Only Need Attention for Point Cloud Completion](https://arxiv.org/pdf/2203.08485v1.pdf) [`completion`; [PyTorch](https://github.com/ohhhyeahhh/PointAttN)]
   - [Deep learning for radar data exploitation of autonomous vehicle](https://arxiv.org/pdf/2203.08038.pdf) [`radar`, `autonomous vehicle`]
