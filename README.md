@@ -23,6 +23,18 @@
 ## 2022
 
 - CVPR
+  - [Learning to Detect Mobile Objects from LiDAR Scans Without Labels](https://arxiv.org/pdf/2203.15882.pdf) [`det`; [PyTorch](https://github.com/YurongYou/MODEST)]
+  - [Learning Local Displacements for Point Cloud Completion](https://arxiv.org/pdf/2203.16600.pdf) [`completion`]
+  - [Deformation and Correspondence Aware Unsupervised Synthetic-to-Real Scene Flow Estimation for Point Clouds](https://arxiv.org/pdf/2203.16895.pdf) [`scene flow`; [Github](https://github.com/leolyj/DCA-SRSFE)]
+  - [LiDAR Snowfall Simulation for Robust 3D Object Detection](https://arxiv.org/pdf/2203.15118.pdf) [`det`; [Github](https://github.com/SysCV/LiDAR_snow_sim)]
+  - [Text2Pos: Text-to-Point-Cloud Cross-Modal Localization](https://arxiv.org/pdf/2203.15125.pdf) [`localization`; [PyTorch](https://github.com/mako443/Text2Pos-CVPR2022)]
+  - [Stratified Transformer for 3D Point Cloud Segmentation](https://arxiv.org/pdf/2203.14508.pdf) [`seg`; [PyTorch](https://github.com/dvlab-research/Stratified-Transformer)]
+  - [REGTR: End-to-end Point Cloud Correspondences with Transformers](https://arxiv.org/pdf/2203.14517.pdf) [`registration`; [PyTorch](https://github.com/yewzijian/RegTR)]
+  - [Equivariant Point Cloud Analysis via Learning Orientations for Message Passing](https://arxiv.org/pdf/2203.14486.pdf) [`cls`, `seg`, `normal estimation`; [Github](https://github.com/luost26/Equivariant-OrientedMP)]
+  - [SC^2-PCR: A Second Order Spatial Compatibility for Efficient and Robust Point Cloud Registration](https://arxiv.org/pdf/2203.14453.pdf) [`registration`; [Github](https://github.com/ZhiChen902/SC2-PCR)]
+  - [Towards Implicit Text-Guided 3D Shape Generation](https://arxiv.org/pdf/2203.14622.pdf) [`generation`; [PyTorch](https://github.com/liuzhengzhe/Towards-Implicit-Text-Guided-Shape-Generation)]
+  - [Point2Seq: Detecting 3D Objects as Sequences](https://arxiv.org/pdf/2203.13394v1.pdf) [`det`; [PyTorch](https://github.com/ocNflag/point2seq)]
+  - [MonoDETR: Depth-aware Transformer for Monocular 3D Object Detection](https://arxiv.org/pdf/2203.13310v1.pdf) [`det`, `monocular`; [Github](https://github.com/ZrrSkywalker/MonoDETR)]
   - [AziNorm: Exploiting the Radial Symmetry of Point Cloud for Azimuth-Normalized 3D Perception](https://arxiv.org/pdf/2203.13090v1.pdf) [`det`, `seg`; [Github](https://github.com/hustvl/AziNorm)]
   - [IDEA-Net: Dynamic 3D Point Cloud Interpolation via Deep Embedding Alignment](https://arxiv.org/pdf/2203.11590v1.pdf) [`interpolation`; [Github](https://github.com/ZENGYIMING-EAMON/IDEA-Net)]
   - [TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers](https://arxiv.org/pdf/2203.11496v1.pdf) [`det`; [PyTorch](https://github.com/XuyangBai/TransFusion/)]
@@ -82,6 +94,12 @@
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [Meta-Sampler: Almost-Universal yet Task-Oriented Sampling for Point Clouds](https://arxiv.org/pdf/2203.16001.pdf) [`sampling`]
+  - [ImpDet: Exploring Implicit Fields for 3D Object Detection](https://arxiv.org/pdf/2203.17240.pdf) [`det`]
+  - [Learning a Structured Latent Space for Unsupervised Point Cloud Completion](https://arxiv.org/pdf/2203.15580.pdf) [`completion`]
+  - [Self-Supervised Point Cloud Representation Learning with Occlusion Auto-Encoder](https://arxiv.org/pdf/2203.14084.pdf) [`self-Supervised`; [Github](https://github.com/junshengzhou/3D-OAE)]
+  - [MaskGroup: Hierarchical Point Grouping and Masking for 3D Instance Segmentation](https://arxiv.org/pdf/2203.14662.pdf) [`seg`]
+  - [LiDAR Distillation: Bridging the Beam-Induced Domain Gap for 3D Object Detection](https://arxiv.org/pdf/2203.14956.pdf) [`det`; [PyTorch](https://github.com/weiyithu/LiDAR-Distillation)]
   - [Towards 3D Scene Understanding by Referring Synthetic Models](https://arxiv.org/pdf/2203.10546v1.pdf) [`transfer learning`]
   - [Unsupervised Learning of 3D Semantic Keypoints with Mutual Reconstruction](https://arxiv.org/pdf/2203.10212v1.pdf) [`keypoints`]
   - [Self-supervised Point Cloud Completion on Real Traffic Scenes via Scene-concerned Bottom-up Mechanism](https://arxiv.org/pdf/2203.10569v1.pdf) [`completion`]
