@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [A Survey of Robust LiDAR-based 3D Object Detection Methods for Autonomous Driving](https://arxiv.org/pdf/2204.00106.pdf) [arXiv 2022]
 - [A Survey of Non-Rigid 3D Registration](https://arxiv.org/pdf/2203.07858.pdf) [Eurographics 2022]
 - [Comprehensive Review of Deep Learning-Based 3D Point Clouds Completion Processing and Analysis](https://arxiv.org/pdf/2203.03311.pdf) [arXiv 2022]
 - [Unsupervised Representation Learning for Point Clouds: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [arXiv 2022]
@@ -23,6 +24,9 @@
 ## 2022
 
 - CVPR
+  - [Exploiting Temporal Relations on Radar Perception for Autonomous Driving](https://arxiv.org/pdf/2204.01184.pdf) [`autonomous driving`]
+  - [Homography Loss for Monocular 3D Object Detection](https://arxiv.org/pdf/2204.00754.pdf) [`det`]
+  - [CAT-Det: Contrastively Augmented Transformer for Multi-modal 3D Object Detection](https://arxiv.org/pdf/2204.00325.pdf) [`det`]
   - [Learning to Detect Mobile Objects from LiDAR Scans Without Labels](https://arxiv.org/pdf/2203.15882.pdf) [`det`; [PyTorch](https://github.com/YurongYou/MODEST)]
   - [Learning Local Displacements for Point Cloud Completion](https://arxiv.org/pdf/2203.16600.pdf) [`completion`]
   - [Deformation and Correspondence Aware Unsupervised Synthetic-to-Real Scene Flow Estimation for Point Clouds](https://arxiv.org/pdf/2203.16895.pdf) [`scene flow`; [Github](https://github.com/leolyj/DCA-SRSFE)]
@@ -81,8 +85,10 @@
 - Others
   - [Refine-Net: Normal Refinement Neural Network for Noisy Point Clouds](https://arxiv.org/pdf/2203.12514v1.pdf) [`normal refinement`; [PyTorch](https://github.com/hrzhou2/refinenet); TPAMI]
   - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net); TPAMI]
+  - [WSDesc: Weakly Supervised 3D Local Descriptor Learning for Point Cloud Registration](https://arxiv.org/pdf/2108.02740.pdf) [`registration`; [PyTorch](https://github.com/craigleili/WSDesc); TVCG]
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
+  - [RMS-FlowNet: Efficient and Robust Multi-Scale Scene Flow Estimation for Large-Scale Point Clouds](https://arxiv.org/pdf/2204.00354.pdf) [`scene flow`; ICRA]
   - [Variable Rate Compression for Raw 3D Point Clouds](https://arxiv.org/pdf/2202.13862.pdf) [`compression`; [Github](https://github.com/robotic-vision-lab/Variable-Rate-Compression-For-Raw-3D-Point-Clouds); ICRA]
   - [Hindsight is 2020: Leveraging Past Traversals to Aid 3D Perception](https://arxiv.org/pdf/2203.11405v1.pdf) [`det`; [PyTorch](https://github.com/YurongYou/Hindsight); ICLR]
   - [WeakM3D: Towards Weakly Supervised Monocular 3D Object Detection](https://arxiv.org/pdf/2203.08332v1.pdf) [`det`, `monocular`; [Github](https://github.com/SPengLiang/WeakM3D); ICLR]
@@ -94,6 +100,11 @@
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [DSGN++: Exploiting Visual-Spatial Relation for Stereo-based 3D Detectors](https://arxiv.org/pdf/2204.03039.pdf) [`det`; [Github](https://github.com/chenyilun95/DSGN2)]
+  - [RBGNet: Ray-based Grouping for 3D Object Detection](https://arxiv.org/pdf/2204.02251.pdf) [`det`; [Github](https://github.com/Haiyang-W/RBGNet)]
+  - [POS-BERT: Point Cloud One-Stage BERT Pre-Training](https://arxiv.org/pdf/2204.00989.pdf) [`cls`, `seg`; [Github](https://github.com/fukexue/POS-BERT)]
+  - [DODA: Data-oriented Sim-to-Real Domain Adaptation for 3D Indoor Semantic Segmentation](https://arxiv.org/pdf/2204.01599.pdf) [`seg`]
+  - [BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers](https://arxiv.org/pdf/2203.17270.pdf) [`det`, `seg`; [Github](https://github.com/zhiqi-li/BEVFormer)]
   - [Meta-Sampler: Almost-Universal yet Task-Oriented Sampling for Point Clouds](https://arxiv.org/pdf/2203.16001.pdf) [`sampling`]
   - [ImpDet: Exploring Implicit Fields for 3D Object Detection](https://arxiv.org/pdf/2203.17240.pdf) [`det`]
   - [Learning a Structured Latent Space for Unsupervised Point Cloud Completion](https://arxiv.org/pdf/2203.15580.pdf) [`completion`]
@@ -341,7 +352,7 @@
   - [Fast Point Transformer](https://arxiv.org/pdf/2112.04702.pdf) [`seg`, `det`]
   - [Immortal Tracker: Tracklet Never Dies](https://arxiv.org/pdf/2111.13672.pdf) [`tracking`; [Github](https://github.com/ImmortalTracker/ImmortalTracker)]
   - [FCAF3D: Fully Convolutional Anchor-Free 3D Object Detection](https://arxiv.org/pdf/2112.00322v1.pdf) [`det`; [PyTorch](https://github.com/samsunglabs/fcaf3d)]
-  - [Robust Partial-to-Partial Point Cloud Registration in a Full Range](https://arxiv.org/pdf/2111.15606.pdf) [`registration`; [Github](https://github.com/paul007pl/GMCNet)]
+  - [Robust Partial-to-Partial Point Cloud Registration in a Full Range](https://arxiv.org/pdf/2111.15606.pdf) [`registration`; [PyTorch](https://github.com/paul007pl/GMCNet)]
   - [Semi-supervised Implicit Scene Completion from Sparse LiDAR](https://arxiv.org/pdf/2111.14798.pdf) [`completion`; [PyTorch](https://github.com/OPEN-AIR-SUN/SISC)]
   - [Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/pdf/2111.14819.pdf) [[PyTorch](https://github.com/lulutang0608/Point-BERT)]
   - [Multi-instance Point Cloud Registration by Efficient Correspondence Clustering](https://arxiv.org/pdf/2111.14582.pdf) [`registration`]
