@@ -24,6 +24,9 @@
 ## 2022
 
 - CVPR
+  - [OccAM's Laser: Occlusion-based Attribution Maps for 3D Object Detectors on LiDAR Data](https://arxiv.org/pdf/2204.06577.pdf) [`det`; [PyTorch](https://github.com/dschinagl/occam)]
+  - [3DeformRS: Certifying Spatial Deformations on Point Clouds](https://arxiv.org/pdf/2204.05687.pdf) [`robustness`; [Github](https://github.com/gaperezsa/3DeformRS)]
+  - [HyperDet3D: Learning a Scene-conditioned 3D Object Detector](https://arxiv.org/pdf/2204.05599.pdf) [`det`]
   - [Exploiting Temporal Relations on Radar Perception for Autonomous Driving](https://arxiv.org/pdf/2204.01184.pdf) [`autonomous driving`]
   - [Homography Loss for Monocular 3D Object Detection](https://arxiv.org/pdf/2204.00754.pdf) [`det`]
   - [CAT-Det: Contrastively Augmented Transformer for Multi-modal 3D Object Detection](https://arxiv.org/pdf/2204.00325.pdf) [`det`]
@@ -72,6 +75,7 @@
   - [Beyond 3D Siamese Tracking: A Motion-Centric Paradigm for 3D Single Object Tracking in Point Clouds](https://arxiv.org/pdf/2203.01730v1.pdf) [`tracking`; [PyTorch](https://github.com/Ghostish/Open3DSOT)]
   - [A Unified Query-based Paradigm for Point Cloud Understanding](https://arxiv.org/pdf/2203.01252.pdf) [`det`, `seg`, `cls`]
 - AAAI
+  - [Semantic Segmentation for Point Cloud Scenes via Dilated Graph Feature Aggregation and Pyramid Decoders](https://arxiv.org/pdf/2204.04944.pdf) [`seg`]
   - [SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection](https://arxiv.org/pdf/2201.01976.pdf) [`det`; [PyTorch](https://github.com/blakechen97/SASA)]
   - [DuMLP-Pin: A Dual-MLP-dot-product Permutation-invariant Network for Set Feature Extraction](https://arxiv.org/pdf/2203.04007.pdf) [`cls`, `seg`; [PyTorch](https://github.com/JaronTHU/DuMLP-Pin)]
   - [Reliable Inlier Evaluation for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2202.11292.pdf) [`registration`; [Github](https://github.com/supersyq/RIENet)]
@@ -88,6 +92,7 @@
   - [WSDesc: Weakly Supervised 3D Local Descriptor Learning for Point Cloud Registration](https://arxiv.org/pdf/2108.02740.pdf) [`registration`; [PyTorch](https://github.com/craigleili/WSDesc); TVCG]
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
+  - [HiTPR: Hierarchical Transformer for Place Recognition in Point Cloud](https://arxiv.org/pdf/2204.05481.pdf) [`place recognition`; ICRA]
   - [RMS-FlowNet: Efficient and Robust Multi-Scale Scene Flow Estimation for Large-Scale Point Clouds](https://arxiv.org/pdf/2204.00354.pdf) [`scene flow`; ICRA]
   - [Variable Rate Compression for Raw 3D Point Clouds](https://arxiv.org/pdf/2202.13862.pdf) [`compression`; [Github](https://github.com/robotic-vision-lab/Variable-Rate-Compression-For-Raw-3D-Point-Clouds); ICRA]
   - [Hindsight is 2020: Leveraging Past Traversals to Aid 3D Perception](https://arxiv.org/pdf/2203.11405v1.pdf) [`det`; [PyTorch](https://github.com/YurongYou/Hindsight); ICLR]
@@ -100,6 +105,7 @@
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
 - arXiv
+  - [M^2BEV: Multi-Camera Joint 3D Detection and Segmentation with Unified Birds-Eye View Representation](https://arxiv.org/pdf/2204.05088.pdf) [`det`, `seg`]
   - [DSGN++: Exploiting Visual-Spatial Relation for Stereo-based 3D Detectors](https://arxiv.org/pdf/2204.03039.pdf) [`det`; [Github](https://github.com/chenyilun95/DSGN2)]
   - [RBGNet: Ray-based Grouping for 3D Object Detection](https://arxiv.org/pdf/2204.02251.pdf) [`det`; [Github](https://github.com/Haiyang-W/RBGNet)]
   - [POS-BERT: Point Cloud One-Stage BERT Pre-Training](https://arxiv.org/pdf/2204.00989.pdf) [`cls`, `seg`; [Github](https://github.com/fukexue/POS-BERT)]
