@@ -25,6 +25,15 @@
 ## 2022
 
 - CVPR
+  - [Deep Orientation-Aware Functional Maps: Tackling Symmetry Issues in Shape Matching](https://arxiv.org/pdf/2204.13453.pdf) [`matching`; [PyTorch](https://github.com/nicolasdonati/DUO-FM)]
+  - [Rotationally Equivariant 3D Object Detection](https://arxiv.org/pdf/2204.13630.pdf) [`det`; [Project](https://kovenyu.com/eon/)]
+  - [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://arxiv.org/pdf/2204.12667.pdf) [`seg`; [Project](https://www.nec-labs.com/~mas/MM-TTA/)]
+  - [Density-preserving Deep Point Cloud Compression](https://arxiv.org/pdf/2204.12684.pdf) [`compression`; [PyTorch](https://github.com/yunhe20/D-PCC)]
+  - [Coupled Iterative Refinement for 6D Multi-Object Pose Estimation](https://arxiv.org/pdf/2204.12516.pdf) [`pose estimation`; [PyTorch](https://github.com/princeton-vl/Coupled-Iterative-Refinement)]
+  - [A Scalable Combinatorial Solver for Elastic Geometrically Consistent 3D Shape Matching](https://arxiv.org/pdf/2204.12805.pdf) [`match`; [Github](https://github.com/paul0noah/sm-comb)]
+  - [Focal Sparse Convolutional Networks for 3D Object Detection](https://arxiv.org/pdf/2204.12463.pdf) [`det`; [PyTorch](https://github.com/dvlab-research/FocalsConv)]
+  - [Surface Reconstruction from Point Clouds by Learning Predictive Context Priors](https://arxiv.org/pdf/2204.11015.pdf) [`reconstruction`; [Tensorflow](https://github.com/mabaorui/PredictableContextPrior)]
+  - [Reconstructing Surfaces for Sparse Point Clouds with On-Surface Priors](https://arxiv.org/pdf/2204.10603.pdf) [`reconstruction`; [Tensorflow](https://github.com/mabaorui/OnSurfacePrior)]
   - [Forecasting from LiDAR via Future Object Detection](https://arxiv.org/pdf/2203.16297.pdf) [`forecasting`; [PyTorch](https://github.com/neeharperi/FutureDet)]
   - [Fast Point Transformer](https://arxiv.org/pdf/2112.04702.pdf) [`seg`, `det`; [PyTorch](https://github.com/POSTECH-CVLab/FastPointTransformer)]
   - [Proposal-free Lidar Panoptic Segmentation with Pillar-level Affinity](https://arxiv.org/pdf/2204.08744.pdf) [`seg`; CVPRW]
@@ -93,6 +102,8 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
+  - [PVNAS: 3D Neural Architecture Search with Point-Voxel Convolution](https://arxiv.org/pdf/2204.11797.pdf) [`seg`, `det`; TPAMI]
   - [Pixel2Mesh++: 3D Mesh Generation and Refinement from Multi-View Images](https://arxiv.org/pdf/2204.09866.pdf) [`generation`, `mesh`; TPAMI]
   - [Refine-Net: Normal Refinement Neural Network for Noisy Point Clouds](https://arxiv.org/pdf/2203.12514v1.pdf) [`normal refinement`; [PyTorch](https://github.com/hrzhou2/refinenet); TPAMI]
   - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net); TPAMI]
@@ -114,6 +125,9 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [PointInst3D: Segmenting 3D Instances by Points](https://arxiv.org/pdf/2204.11402.pdf) [`seg`]
+  - [Unsupervised Domain Adaptation for Monocular 3D Object Detection via Self-Training](https://arxiv.org/pdf/2204.11590.pdf) [`det`, `monocular`]
+  - [Graph-DETR3D: Rethinking Overlapping Regions for Multi-View 3D Object Detection](https://arxiv.org/pdf/2204.11582.pdf) [`det`]
   - [CPGNet: Cascade Point-Grid Fusion Network for Real-Time LiDAR Semantic Segmentation](https://arxiv.org/pdf/2204.09914.pdf) [`seg`]
   - [RangeUDF: Semantic Surface Reconstruction from 3D Point Clouds](https://arxiv.org/pdf/2204.09138.pdf) [`reconstruction`; [Github](https://github.com/vLAR-group/RangeUDF)]
   - [Dynamic Point Cloud Denoising via Gradient Fields](https://arxiv.org/pdf/2204.08755.pdf) [`denoising`]
@@ -486,6 +500,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 ## 2020
 
 - ECCV
+  - [Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots](https://arxiv.org/pdf/1912.12791.pdf?ref=https://githubhelp.com) [`det`]
   - [PointMixup: Augmentation for point cloud](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480341.pdf) [`augmentation`, `cls`; [PyTorch](https://github.com/yunlu-chen/PointMixup)]
   - [Deformable PV-RCNN: Improving 3D Object Detection with Learned Deformations](https://arxiv.org/pdf/2008.08766.pdf) [`det`; [PyTorch](https://github.com/AutoVision-cloud/Deformable-PV-RCNN)]
   - [Unsupervised Learning of Category-Specific Symmetric 3D Keypoints from Point Sets](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700545.pdf) [`keypoints`]
@@ -651,6 +666,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/1904.09664.pdf) [`det`; [PyTorch](https://github.com/facebookresearch/votenet)]
   - [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf) [`autonomous driving`; [Pytorch](https://github.com/felipecode/coiltraine)]
 - CVPR
+  - [Multi-Task Multi-Sensor Fusion for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liang_Multi-Task_Multi-Sensor_Fusion_for_3D_Object_Detection_CVPR_2019_paper.pdf) [`det`]
   - [LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yin_LiDAR-Based_Online_3D_Video_Object_Detection_With_Graph-Based_Message_Passing_CVPR_2020_paper.pdf) [`det`; [Github](https://github.com/yinjunbo/3DVID)]
   - [TopNet: Structural Point Cloud Decoder](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf) [`completion`; [Github](https://github.com/lynetcha/completion3d)]
   - [FlowNet3D: Learning Scene Flow in 3D Point Clouds](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_FlowNet3D_Learning_Scene_Flow_in_3D_Point_Clouds_CVPR_2019_paper.pdf) [`scene flow`; [Tensorflow](https://github.com/xingyul/flownet3d)]
@@ -695,6 +711,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [L3-Net: Towards Learning based LiDAR Localization for Autonomous Driving](https://songshiyu01.github.io/pdf/L3Net_W.Lu_Y.Zhou_S.Song_CVPR2019.pdf) [`autonomous driving`]
   - [Iterative Transformer Network for 3D Point Cloud](https://arxiv.org/pdf/1811.11209.pdf) [`pose`, `cls`, `seg`; [Tensorflow](https://github.com/wentaoyuan/it-net)]
 - Others
+  - [End-to-End Multi-View Fusion for 3D Object Detection in LiDAR Point Clouds](http://proceedings.mlr.press/v100/zhou20a/zhou20a.pdf) [`det`; CoRL]
   - [PointDAN: A Multi-Scale 3D Domain Adaption Network for Point Cloud Representation](https://arxiv.org/pdf/1911.02744.pdf) [`domain adaptation`; [PyTorch](https://github.com/canqin001/PointDAN); NeurIPS]
   - [Learning elementary structures for 3D shape generation and matching](https://papers.nips.cc/paper/2019/file/d360a502598a4b64b936683b44a5523a-Paper.pdf) [`generation`, `matching`; NeurIPS]
   - [Self-Supervised Deep Learning on Point Clouds by Reconstructing Space](https://papers.nips.cc/paper/2019/file/993edc98ca87f7e08494eec37fa836f7-Paper.pdf) [`self-supervised, cls, seg`; NeurIPS]
@@ -745,6 +762,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [3D-RCNN: Instance-Level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) [`reconstruction`]
   - [Multi-Level Fusion Based 3D Object Detection From Monocular Images](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Multi-Level_Fusion_Based_CVPR_2018_paper.pdf) [`det`]
 - ECCV
+  - [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199) [`det`; [PyTorch](https://github.com/AI-liu/Complex-YOLO); ECCVW]
   - [3D-CODED : 3D Correspondences by Deep Deformation](http://www.vovakim.com/papers/18_ECCV_3DCODED.pdf) [`matching`; [PyTorch](https://github.com/ThibaultGROUEIX/3D-CODED)]
   - [SpiderCNN: Deep Learning on Point Sets with Parameterized Convolutional Filters](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yifan_Xu_SpiderCNN_Deep_Learning_ECCV_2018_paper.pdf) [`cls`, `seg`; [Tensorflow](https://github.com/xyf513/SpiderCNN)]
   - [3DContextNet: K-d Tree Guided Hierarchical Learning of Point Clouds Using Local and Global Contextual Cues](https://openaccess.thecvf.com/content_ECCVW_2018/papers/11131/Zeng_3DContextNet_K-d_Tree_Guided_Hierarchical_Learning_of_Point_Clouds_Using_ECCVW_2018_paper.pdf) [`seg`, `cls`]
@@ -785,7 +803,6 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/1807.00652.pdf) [`seg`; [Tensorflow](https://github.com/MVIG-SJTU/pointSIFT)]
   - [Point Cloud GAN](https://arxiv.org/pdf/1810.05795.pdf) [`generation`; [PyTorch](https://github.com/chunliangli/Point-Cloud-GAN)]
   - [Roarnet: A robust 3d object detection based on region approximation refinement](https://arxiv.org/pdf/1811.03818.pdf) [`det`]
-  - [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199) [`det`; [PyTorch](https://github.com/AI-liu/Complex-YOLO)]
   - [Classification of Point Cloud Scenes with Multiscale Voxel Deep Network](https://arxiv.org/pdf/1804.03583.pdf) [`seg`]
 
 ## 2017
@@ -839,6 +856,8 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 - 2014
   - [Are Cars Just 3D Boxes? - Jointly Estimating the 3D Shape of Multiple Objects](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Zia_Are_Cars_Just_2014_CVPR_paper.pdf) [CVPR]
   - [Sliding shapes for 3d object detection in depth images](https://pdfs.semanticscholar.org/832e/eaede4f697f005b007798fe0d04829f656b7.pdf) [ECCV]
+- 2013
+  - [Vision meets robotics: The kitti dataset](https://journals.sagepub.com/doi/full/10.1177/0278364913491297) [IJRR]
 - 2012
   - [Are we ready for autonomous driving? the kitti vision benchmark suite](http://www.webmail.cvlibs.net/publications/Geiger2012CVPR.pdf) [CVPR]
 - 2009
