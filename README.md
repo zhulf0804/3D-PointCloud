@@ -335,6 +335,7 @@
   - [Self-supervised Point Cloud Prediction Using 3D Spatio-temporal Convolutional Networks](https://arxiv.org/pdf/2110.04076.pdf) [`autonomous driving`; [Github](https://github.com/PRBonn/point-cloud-prediction); CoRL]
   - [Semi-supervised 3D Object Detection via Temporal Graph Neural Networks](https://arxiv.org/pdf/2202.00182.pdf) [`det`]
   - [GASCN: Graph Attention Shape Completion Network](https://arxiv.org/pdf/2201.07937v1.pdf) [`completion`; 3DV]
+  - [DurLAR: A High-Fidelity 128-Channel LiDAR Dataset with Panoramic Ambient and Reflectivity Imagery for Multi-Modal Autonomous Driving Applications](http://dro.dur.ac.uk/34293/1/34293.pdf?DDD4+DDC116+DDD280+vbdv77) [`monocular`, `autonomous driving`; [Github](https://github.com/l1997i/DurLAR); 3DV]
   - [Learning Iterative Robust Transformation Synchronization](https://arxiv.org/pdf/2111.00728.pdf) [`transformation synchronization`; [Github](https://github.com/yewzijian/MultiReg); 3DV]
   - [DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction](https://arxiv.org/pdf/2110.08636.pdf) [`correspondence`; [PyTorch](https://github.com/dvirginz/DPC); 3DV]
   - [DeepBBS: Deep Best Buddies for Point Cloud Registration](https://arxiv.org/pdf/2110.03016.pdf) [`registration`; [PyTorch](https://github.com/itanhe/DeepBBS); 3DV]
