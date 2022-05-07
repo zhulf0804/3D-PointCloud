@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Surface Reconstruction from Point Clouds: A Survey and a Benchmark](https://arxiv.org/pdf/2205.02413.pdf) [arXiv 2022]
 - [Sequential Point Clouds: A Survey](https://arxiv.org/pdf/2204.09337.pdf) [arXiv 2022]
 - [A Survey of Robust LiDAR-based 3D Object Detection Methods for Autonomous Driving](https://arxiv.org/pdf/2204.00106.pdf) [arXiv 2022]
 - [A Survey of Non-Rigid 3D Registration](https://arxiv.org/pdf/2203.07858.pdf) [Eurographics 2022]
@@ -125,6 +126,10 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Cost-Aware Comparison of LiDAR-based 3D Object Detectors](https://arxiv.org/pdf/2205.01142.pdf) [`det`]
+  - [Open-Set Semi-Supervised Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2205.01006.pdf) [`cls`, `seg`]
+  - [APP-Net: Auxiliary-point-based Push and Pull Operations for Efficient Point Cloud Classification](https://arxiv.org/pdf/2205.00847.pdf) [`cls`]
+  - [Point Cloud Compression with Sibling Context and Surface Priors](https://arxiv.org/pdf/2205.00760.pdf) [`compression`]
   - [PointInst3D: Segmenting 3D Instances by Points](https://arxiv.org/pdf/2204.11402.pdf) [`seg`]
   - [Unsupervised Domain Adaptation for Monocular 3D Object Detection via Self-Training](https://arxiv.org/pdf/2204.11590.pdf) [`det`, `monocular`]
   - [Graph-DETR3D: Rethinking Overlapping Regions for Multi-View 3D Object Detection](https://arxiv.org/pdf/2204.11582.pdf) [`det`]
