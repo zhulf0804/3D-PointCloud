@@ -26,6 +26,8 @@
 ## 2022
 
 - CVPR
+  - [Surface Representation for Point Clouds](https://arxiv.org/pdf/2205.05740.pdf) [`cls`, `seg`, `det`; [PyTorch](https://github.com/hancyran/RepSurf)]
+  - [Topologically-Aware Deformation Fields for Single-View 3D Reconstruction](https://arxiv.org/pdf/2205.06267.pdf) [`reconstruction`; [Project](https://shivamduggal4.github.io/tars-3D/)]
   - [Deep Orientation-Aware Functional Maps: Tackling Symmetry Issues in Shape Matching](https://arxiv.org/pdf/2204.13453.pdf) [`matching`; [PyTorch](https://github.com/nicolasdonati/DUO-FM)]
   - [Rotationally Equivariant 3D Object Detection](https://arxiv.org/pdf/2204.13630.pdf) [`det`; [Project](https://kovenyu.com/eon/)]
   - [MM-TTA: Multi-Modal Test-Time Adaptation for 3D Semantic Segmentation](https://arxiv.org/pdf/2204.12667.pdf) [`seg`; [Project](https://www.nec-labs.com/~mas/MM-TTA/)]
@@ -103,6 +105,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation](https://arxiv.org/pdf/2205.03536.pdf) [`pose estimation`; IJCAI]
   - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
   - [PVNAS: 3D Neural Architecture Search with Point-Voxel Convolution](https://arxiv.org/pdf/2204.11797.pdf) [`seg`, `det`; TPAMI]
   - [Pixel2Mesh++: 3D Mesh Generation and Refinement from Multi-View Images](https://arxiv.org/pdf/2204.09866.pdf) [`generation`, `mesh`; TPAMI]
@@ -110,7 +113,10 @@
   - [PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths](https://arxiv.org/pdf/2202.09507.pdf) [`completion`; [PyTorch](https://github.com/diviswen/PMP-Net); TPAMI]
   - [WSDesc: Weakly Supervised 3D Local Descriptor Learning for Point Cloud Registration](https://arxiv.org/pdf/2108.02740.pdf) [`registration`; [PyTorch](https://github.com/craigleili/WSDesc); TVCG]
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
+  - [SoftPool++: An Encoder-Decoder Network for Point Cloud Completion](https://arxiv.org/pdf/2205.03899.pdf) [`completion`; IJCV]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
+  - [Multi-Class 3D Object Detection with Single-Class Supervision](https://arxiv.org/pdf/2205.05703.pdf) [`det`; ICRA]
+  - [Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions](https://arxiv.org/pdf/2205.04028.pdf) [`pose estimation`; [Project](https://baboon527.github.io/lang_6d/); ICRA]
   - [HiTPR: Hierarchical Transformer for Place Recognition in Point Cloud](https://arxiv.org/pdf/2204.05481.pdf) [`place recognition`; ICRA]
   - [RMS-FlowNet: Efficient and Robust Multi-Scale Scene Flow Estimation for Large-Scale Point Clouds](https://arxiv.org/pdf/2204.00354.pdf) [`scene flow`; ICRA]
   - [Variable Rate Compression for Raw 3D Point Clouds](https://arxiv.org/pdf/2202.13862.pdf) [`compression`; [Github](https://github.com/robotic-vision-lab/Variable-Rate-Compression-For-Raw-3D-Point-Clouds); ICRA]
@@ -126,6 +132,8 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [MPPNet: Multi-Frame Feature Intertwining with Proxy Points for 3D Temporal Object Detection](https://arxiv.org/pdf/2205.05979.pdf) [`det`]
+  - [Weakly Supervised 3D Point Cloud Segmentation via Multi-Prototype Learning](https://arxiv.org/pdf/2205.03137.pdf) [`seg`]
   - [Cost-Aware Comparison of LiDAR-based 3D Object Detectors](https://arxiv.org/pdf/2205.01142.pdf) [`det`]
   - [Open-Set Semi-Supervised Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2205.01006.pdf) [`cls`, `seg`]
   - [APP-Net: Auxiliary-point-based Push and Pull Operations for Efficient Point Cloud Classification](https://arxiv.org/pdf/2205.00847.pdf) [`cls`]
