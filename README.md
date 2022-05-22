@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/pdf/2205.07417.pdf) [arXiv 2022]
 - [Surface Reconstruction from Point Clouds: A Survey and a Benchmark](https://arxiv.org/pdf/2205.02413.pdf) [arXiv 2022]
 - [Sequential Point Clouds: A Survey](https://arxiv.org/pdf/2204.09337.pdf) [arXiv 2022]
 - [A Survey of Robust LiDAR-based 3D Object Detection Methods for Autonomous Driving](https://arxiv.org/pdf/2204.00106.pdf) [arXiv 2022]
@@ -26,7 +27,9 @@
 ## 2022
 
 - CVPR
+  - [Diversity Matters: Fully Exploiting Depth Clues for Reliable Monocular 3D Object Detection](https://arxiv.org/pdf/2205.09373.pdf) [`det`]
   - [Surface Representation for Point Clouds](https://arxiv.org/pdf/2205.05740.pdf) [`cls`, `seg`, `det`; [PyTorch](https://github.com/hancyran/RepSurf)]
+  - [FvOR: Robust Joint Shape and Pose Optimization for Few-view Object Reconstruction](https://arxiv.org/pdf/2205.07763.pdf) [`reconstruction`; [PyTorch](https://github.com/zhenpeiyang/FvOR/)]
   - [Topologically-Aware Deformation Fields for Single-View 3D Reconstruction](https://arxiv.org/pdf/2205.06267.pdf) [`reconstruction`; [Project](https://shivamduggal4.github.io/tars-3D/)]
   - [Deep Orientation-Aware Functional Maps: Tackling Symmetry Issues in Shape Matching](https://arxiv.org/pdf/2204.13453.pdf) [`matching`; [PyTorch](https://github.com/nicolasdonati/DUO-FM)]
   - [Rotationally Equivariant 3D Object Detection](https://arxiv.org/pdf/2204.13630.pdf) [`det`; [Project](https://kovenyu.com/eon/)]
@@ -132,6 +135,11 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/pdf/2205.09743.pdf) [`autonomous driving`; [Github](https://github.com/zhangyp15/BEVerse)]
+  - [Continual learning on 3D point clouds with random compressed rehearsal](https://arxiv.org/pdf/2205.08013.pdf) [`continual learning`]
+  - [Panoptic-PHNet: Towards Real-Time and High-Precision LiDAR Panoptic Segmentation via Clustering Pseudo Heatmap](https://arxiv.org/pdf/2205.07002.pdf) [`seg`]
+  - [A New Outlier Removal Strategy Based on Reliability of Correspondence Graph for Fast Point Cloud Registration](https://arxiv.org/pdf/2205.07404.pdf) [`registration`; [Github](https://github.com/WPC-WHU/GROR)]
+  - [PillarNet: High-Performance Pillar-based 3D Object Detection](https://arxiv.org/pdf/2205.07403.pdf) [`det`]
   - [MPPNet: Multi-Frame Feature Intertwining with Proxy Points for 3D Temporal Object Detection](https://arxiv.org/pdf/2205.05979.pdf) [`det`]
   - [Weakly Supervised 3D Point Cloud Segmentation via Multi-Prototype Learning](https://arxiv.org/pdf/2205.03137.pdf) [`seg`]
   - [Cost-Aware Comparison of LiDAR-based 3D Object Detectors](https://arxiv.org/pdf/2205.01142.pdf) [`det`]
