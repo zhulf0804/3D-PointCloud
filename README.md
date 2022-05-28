@@ -27,6 +27,9 @@
 ## 2022
 
 - CVPR
+  - [SemAffiNet: Semantic-Affine Transformation for Point Cloud Segmentation](https://arxiv.org/pdf/2205.13490.pdf) [`seg`; [PyTorch](https://github.com/wangzy22/SemAffiNet)]
+  - [Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives](https://arxiv.org/pdf/2205.12627.pdf) [`cls`]
+  - [RCP: Recurrent Closest Point for Scene Flow Estimation on 3D Point Clouds](https://arxiv.org/pdf/2205.11028.pdf) [`scene flow`; [Github](https://github.com/gxd1994/RCP)]
   - [Diversity Matters: Fully Exploiting Depth Clues for Reliable Monocular 3D Object Detection](https://arxiv.org/pdf/2205.09373.pdf) [`det`]
   - [Surface Representation for Point Clouds](https://arxiv.org/pdf/2205.05740.pdf) [`cls`, `seg`, `det`; [PyTorch](https://github.com/hancyran/RepSurf)]
   - [FvOR: Robust Joint Shape and Pose Optimization for Few-view Object Reconstruction](https://arxiv.org/pdf/2205.07763.pdf) [`reconstruction`; [PyTorch](https://github.com/zhenpeiyang/FvOR/)]
@@ -108,6 +111,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`cls`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C); ICML]
   - [BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation](https://arxiv.org/pdf/2205.03536.pdf) [`pose estimation`; IJCAI]
   - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
   - [PVNAS: 3D Neural Architecture Search with Point-Voxel Convolution](https://arxiv.org/pdf/2204.11797.pdf) [`seg`, `det`; TPAMI]
@@ -118,6 +122,7 @@
   - [Point Set Self-Embedding](https://arxiv.org/pdf/2202.13577.pdf) [`embedding`; [Github](https://github.com/liruihui/Self-Embedding); TVCG]
   - [SoftPool++: An Encoder-Decoder Network for Point Cloud Completion](https://arxiv.org/pdf/2205.03899.pdf) [`completion`; IJCV]
   - [RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning](https://arxiv.org/pdf/2202.13094.pdf) [`cls`, `seg`, `retrieval`; IJCV]
+  - [Enhanced Prototypical Learning for Unsupervised Domain Adaptation in LiDAR Semantic Segmentation](https://arxiv.org/pdf/2205.11419.pdf) [`seg`; ICRA]
   - [Multi-Class 3D Object Detection with Single-Class Supervision](https://arxiv.org/pdf/2205.05703.pdf) [`det`; ICRA]
   - [Learning 6-DoF Object Poses to Grasp Category-level Objects by Language Instructions](https://arxiv.org/pdf/2205.04028.pdf) [`pose estimation`; [Project](https://baboon527.github.io/lang_6d/); ICRA]
   - [HiTPR: Hierarchical Transformer for Place Recognition in Point Cloud](https://arxiv.org/pdf/2204.05481.pdf) [`place recognition`; ICRA]
@@ -135,6 +140,10 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation](https://arxiv.org/pdf/2205.13542.pdf) [`autonomous driving`; [Project](https://bevfusion.mit.edu/)]
+  - [Non-rigid Point Cloud Registration with Neural Deformation Pyramid](https://arxiv.org/pdf/2205.12796.pdf) [`non-rigid`, `registration`; [PyTorch](https://github.com/rabbityl/DeformationPyramid)]
+  - [Robust 3D Object Detection in Cold Weather Conditions](https://arxiv.org/pdf/2205.11925.pdf) [`det`]
+  - [PointDistiller: Structured Knowledge Distillation Towards Efficient and Compact 3D Detection](https://arxiv.org/pdf/2205.11098.pdf) [`det`; [Github](https://github.com/RunpeiDong/PointDistiller)]
   - [BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving](https://arxiv.org/pdf/2205.09743.pdf) [`autonomous driving`; [Github](https://github.com/zhangyp15/BEVerse)]
   - [Continual learning on 3D point clouds with random compressed rehearsal](https://arxiv.org/pdf/2205.08013.pdf) [`continual learning`]
   - [Panoptic-PHNet: Towards Real-Time and High-Precision LiDAR Panoptic Segmentation via Clustering Pseudo Heatmap](https://arxiv.org/pdf/2205.07002.pdf) [`seg`]
@@ -192,7 +201,6 @@
   - [Snowflake Point Deconvolution for Point Cloud Completion and Generation with Skip-Transformer](https://arxiv.org/pdf/2202.09367.pdf) [`completion`; [PyTorch](https://github.com/AllenXiangX/SnowflakeNet)]
   - [LighTN: Light-weight Transformer Network for Performance-overhead Tradeoff in Point Cloud Downsampling](https://arxiv.org/pdf/2202.06263.pdf) [`downsampling`]
   - [Distillation with Contrast is All You Need for Self-Supervised Point Cloud Representation Learning](https://arxiv.org/pdf/2202.04241.pdf) [`self-supervised`]
-  - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`classification`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C)]
   - [Edge-Selective Feature Weaving for Point Cloud Matching](https://arxiv.org/pdf/2202.02149.pdf) [`correspondence`; [PyTorch-lightning](https://github.com/yanarin/ESFW)]
   - [Neighborhood-aware Geometric Encoding Network for Point Cloud Registration](https://arxiv.org/pdf/2201.12094v1.pdf) [`registration`; [PyTorch](https://github.com/zhulf0804/NgeNet)]
   - [Boosting Monocular Depth Estimation with Sparse Guided Points](https://arxiv.org/pdf/2202.01470.pdf) [`monocular`, `depth estimation`; [Github](https://github.com/aim-uofa/AdelaiDepth)]
@@ -830,6 +838,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 ## 2017
 
 - CVPR
+  - [Fine-To-Coarse Global Registration of RGB-D Scans](https://openaccess.thecvf.com/content_cvpr_2017/papers/Halber_Fine-To-Coarse_Global_Registration_CVPR_2017_paper.pdf) [`registration`; [Github](https://github.com/mhalber/Fine-To-Coarse-Registration)]
   - [Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis](https://arxiv.org/pdf/1612.00101.pdf) [`completion`; [Torch7](https://github.com/angeladai/cnncomplete)]
   - [SyncSpecCNN: Synchronized Spectral CNN for 3D Shape Segmentation](https://openaccess.thecvf.com/content_cvpr_2017/papers/Yi_SyncSpecCNN_Synchronized_Spectral_CVPR_2017_paper.pdf) [`seg`, `keypoints`; [Github](https://github.com/ericyi/SyncSpecCNN)]
   - [A Point Set Generation Network for 3D Object Reconstruction From a Single Image](https://openaccess.thecvf.com/content_cvpr_2017/papers/Fan_A_Point_Set_CVPR_2017_paper.pdf) [`reconstruction`; [Tensorflow](https://github.com/fanhqme/PointSetGeneration)]
@@ -899,6 +908,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 - [https://github.com/timzhang642/3D-Machine-Learning](https://github.com/timzhang642/3D-Machine-Learning)
 - [https://github.com/XuyangBai/awesome-point-cloud-registration](https://github.com/XuyangBai/awesome-point-cloud-registration)
 - [https://github.com/weiweisun2018/awesome-point-clouds-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
+- [https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras](https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras)
 
 ## Tools
 
