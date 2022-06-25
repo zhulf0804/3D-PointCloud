@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [3D Object Detection for Autonomous Driving: A Review and New Outlooks](https://arxiv.org/pdf/2206.09474.pdf) [arXiv 2022]
 - [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/pdf/2205.07417.pdf) [arXiv 2022]
 - [Surface Reconstruction from Point Clouds: A Survey and a Benchmark](https://arxiv.org/pdf/2205.02413.pdf) [arXiv 2022]
 - [Sequential Point Clouds: A Survey](https://arxiv.org/pdf/2204.09337.pdf) [arXiv 2022]
@@ -155,6 +156,13 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Unseen Object 6D Pose Estimation: A Benchmark and Baselines](https://arxiv.org/pdf/2206.11808.pdf) [`pose estimation`; [Project](http://www.graspnet.net/unseen6d)]
+  - [LidarMutliNet: Unifying LiDAR Semantic Segmentation, 3D Object Detection, and Panoptic Segmentation in a Single Multi-task Network](https://arxiv.org/pdf/2206.11428.pdf) [`seg`, `det`]
+  - [Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/pdf/2206.10965.pdf) [`det`; [Github](https://github.com/hustvl/PolarDETR)]
+  - [Reconstruct from Top View: A 3D Lane Detection Approach based on Geometry Structure Prior](https://arxiv.org/pdf/2206.10098.pdf) [`autonomous driving`]
+  - [Voxel-MAE: Masked Autoencoders for Pre-training Large-scale Point Clouds](https://arxiv.org/pdf/2206.09900.pdf) [`det`; [Github](https://github.com/chaytonmin/Voxel-MAE)]
+  - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`]
+  - [VectorMapNet: End-to-end Vectorized HD Map Learning](https://arxiv.org/pdf/2206.08920.pdf) [`autonomous driving`; [Github](https://github.com/Tsinghua-MARS-Lab/vectormapnet)]
   - [A Simple Baseline for BEV Perception Without LiDAR](https://arxiv.org/pdf/2206.07959.pdf) [`autonomous driving`; [Project](http://www.cs.cmu.edu/~aharley/bev/)]
   - [Level 2 Autonomous Driving on a Single Device: Diving into the Devils of Openpilot](https://arxiv.org/pdf/2206.08176.pdf) [`autonomous driving`; [Github](https://github.com/OpenPerceptionX/Openpilot-Deepdive)]
   - [Online Segmentation of LiDAR Sequences: Dataset and Algorithm](https://arxiv.org/pdf/2206.08194.pdf) [`seg`; [Project](https://romainloiseau.fr/helixnet/)]
@@ -746,6 +754,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
   - [Deep Hough Voting for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/1904.09664.pdf) [`det`; [PyTorch](https://github.com/facebookresearch/votenet)]
   - [Exploring the Limitations of Behavior Cloning for Autonomous Driving](https://arxiv.org/pdf/1904.08980.pdf) [`autonomous driving`; [Pytorch](https://github.com/felipecode/coiltraine)]
 - CVPR
+  - [Deep Fitting Degree Scoring Network for Monocular 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Deep_Fitting_Degree_Scoring_Network_for_Monocular_3D_Object_Detection_CVPR_2019_paper.pdf) [`det`, `monocular`]
   - [Multi-Task Multi-Sensor Fusion for 3D Object Detection](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liang_Multi-Task_Multi-Sensor_Fusion_for_3D_Object_Detection_CVPR_2019_paper.pdf) [`det`]
   - [LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yin_LiDAR-Based_Online_3D_Video_Object_Detection_With_Graph-Based_Message_Passing_CVPR_2020_paper.pdf) [`det`; [Github](https://github.com/yinjunbo/3DVID)]
   - [TopNet: Structural Point Cloud Decoder](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf) [`completion`; [Github](https://github.com/lynetcha/completion3d)]
@@ -961,6 +970,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 - [https://github.com/XuyangBai/awesome-point-cloud-registration](https://github.com/XuyangBai/awesome-point-cloud-registration)
 - [https://github.com/weiweisun2018/awesome-point-clouds-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
 - [https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras](https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras)
+- [https://github.com/dragonlong/Trending-in-3D-Vision](https://github.com/dragonlong/Trending-in-3D-Vision)
 
 ## Tools
 
