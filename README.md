@@ -28,6 +28,7 @@
 ## 2022
 
 - CVPR
+  - [Boosting 3D Object Detection by Simulating Multimodality on Point Clouds](https://arxiv.org/pdf/2206.14971.pdf) [`det`]
   - [MonoGround: Detecting Monocular 3D Objects from the Ground](https://arxiv.org/pdf/2206.07372.pdf) [`det`, `monocular`; [Github](https://github.com/cfzd/MonoGround)]
   - [PlanarRecon: Real-time 3D Plane Detection and Reconstruction from Posed Monocular Videos](https://arxiv.org/pdf/2206.07710.pdf) [`reconstruction`; [PyTorch](https://github.com/neu-vi/planarrecon)]
   - [Learning 3D Object Shape and Layout without 3D Supervision](https://arxiv.org/pdf/2206.07028.pdf) [`shape`, `layout`; [Project](https://gkioxari.github.io/usl/)]
@@ -113,6 +114,7 @@
   - [Beyond 3D Siamese Tracking: A Motion-Centric Paradigm for 3D Single Object Tracking in Point Clouds](https://arxiv.org/pdf/2203.01730v1.pdf) [`tracking`; [PyTorch](https://github.com/Ghostish/Open3DSOT)]
   - [A Unified Query-based Paradigm for Point Cloud Understanding](https://arxiv.org/pdf/2203.01252.pdf) [`det`, `seg`, `cls`]
 - AAAI
+  - [SRCN3D: Sparse R-CNN 3D Surround-View Camera Object Detection and Tracking for Autonomous Driving](https://arxiv.org/pdf/2206.14451.pdf) [`det`, `tracking`; [PyTorch](https://github.com/synsin0/SRCN3D)]
   - [Static-Dynamic Co-Teaching for Class-Incremental 3D Object Detection](https://arxiv.org/pdf/2112.07241.pdf) [`det`; [PyTorch](https://github.com/Na-Z/SDCoT)]
   - [Semantic Segmentation for Point Cloud Scenes via Dilated Graph Feature Aggregation and Pyramid Decoders](https://arxiv.org/pdf/2204.04944.pdf) [`seg`]
   - [SASA: Semantics-Augmented Set Abstraction for Point-based 3D Object Detection](https://arxiv.org/pdf/2201.01976.pdf) [`det`; [PyTorch](https://github.com/blakechen97/SASA)]
@@ -126,6 +128,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR](https://arxiv.org/pdf/2206.15154.pdf) [`place recognition`; IROS]
   - [Benchmarking and Analyzing Point Cloud Classification under Corruptions](https://arxiv.org/pdf/2202.03377.pdf) [`cls`; [PyTorch](https://github.com/jiawei-ren/ModelNet-C); ICML]
   - [BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation](https://arxiv.org/pdf/2205.03536.pdf) [`pose estimation`; IJCAI]
   - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
@@ -150,12 +153,19 @@
   - [Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/pdf/2202.07123.pdf) [`cls`, `seg`; [PyTorch](https://github.com/ma-xu/pointMLP-pytorch); ICLR]
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
+  - [BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling](https://arxiv.org/pdf/2206.12648.pdf) [`upsampling`; RAL]
   - [Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://arxiv.org/pdf/2206.04129.pdf) [`seg`; [Github](https://github.com/PRBonn/4DMOS); RAL]
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
   - [Semi-supervised 3D shape segmentation with multilevel consistency and part substitution](https://arxiv.org/pdf/2204.08824.pdf) [`seg`; [Tensorflow](https://github.com/isunchy/semi_supervised_3d_segmentation); CVM]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Category-Level 6D Object Pose Estimation in the Wild: A Semi-Supervised Learning Approach and A New Dataset](https://arxiv.org/pdf/2206.15436.pdf) [`pose estimation`; [Project](https://oasisyang.github.io/semi-pose/)]
+  - [PolarFormer: Multi-camera 3D Object Detection with Polar Transformer](https://arxiv.org/pdf/2206.15398.pdf) [`det`; [Github](https://github.com/fudan-zvg/PolarFormer)]
+  - [SARNet: Semantic Augmented Registration of Large-Scale Urban Point Clouds](https://arxiv.org/pdf/2206.13117.pdf) [`registration`; [PyTorch](https://github.com/WinterCodeForEverything/SARNet)]
+  - [HM3D-ABO: A Photo-realistic Dataset for Object-centric Multi-view 3D Reconstruction](https://arxiv.org/pdf/2206.12356.pdf) [`reconstruction`; [Github](https://github.com/zhenpeiyang/HM3D-ABO)]
+  - [SSL-Lanes: Self-Supervised Learning for Motion Forecasting in Autonomous Driving](https://arxiv.org/pdf/2206.14116.pdf) [`motion forecasting`; [PyTorch](https://github.com/AutoVision-cloud/SSL-Lanes)]
+  - [NeuRIS: Neural Reconstruction of Indoor Scenes Using Normal Priors](https://arxiv.org/pdf/2206.13597.pdf) [`reconstruction`; [Project](https://jiepengwang.github.io/NeuRIS/)]
   - [Unseen Object 6D Pose Estimation: A Benchmark and Baselines](https://arxiv.org/pdf/2206.11808.pdf) [`pose estimation`; [Project](http://www.graspnet.net/unseen6d)]
   - [LidarMutliNet: Unifying LiDAR Semantic Segmentation, 3D Object Detection, and Panoptic Segmentation in a Single Multi-task Network](https://arxiv.org/pdf/2206.11428.pdf) [`seg`, `det`]
   - [Polar Parametrization for Vision-based Surround-View 3D Detection](https://arxiv.org/pdf/2206.10965.pdf) [`det`; [Github](https://github.com/hustvl/PolarDETR)]
@@ -266,6 +276,7 @@
 ## 2021
 
 - ICCV
+  - [MGNet: Monocular Geometric Scene Understanding for Autonomous Driving](https://openaccess.thecvf.com/content/ICCV2021/papers/Schon_MGNet_Monocular_Geometric_Scene_Understanding_for_Autonomous_Driving_ICCV_2021_paper.pdf) [`autonomous driving`; [PyTorch](https://github.com/markusschoen/MGNet)]
   - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3d](https://github.com/open-mmlab/mmdetection3d)]
   - [Progressive Seed Generation Auto-encoder for Unsupervised Point Cloud Learning](https://arxiv.org/pdf/2112.05213.pdf) [`unsupervised`]
   - [Guided Point Contrastive Learning for Semi-supervised Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2110.08188.pdf) [`seg`]
