@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Vision-Centric BEV Perception: A Survey](https://arxiv.org/pdf/2208.02797.pdf) [arXiv 2022; [Github](https://github.com/4DVLab/Vision-Centric-BEV-Perception)]
 - [3D Object Detection for Autonomous Driving: A Review and New Outlooks](https://arxiv.org/pdf/2206.09474.pdf) [arXiv 2022]
 - [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/pdf/2205.07417.pdf) [arXiv 2022]
 - [Surface Reconstruction from Point Clouds: A Survey and a Benchmark](https://arxiv.org/pdf/2205.02413.pdf) [arXiv 2022]
@@ -28,6 +29,9 @@
 ## 2022
 
 - ECCV
+  - [Point Primitive Transformer for Long-Term 4D Point Cloud Video Understanding](https://arxiv.org/pdf/2208.00281.pdf) [`4D`]
+  - [Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network](https://arxiv.org/pdf/2208.00183.pdf) [`reconstruction`]
+  - [PolarMOT: How Far Can Geometric Relations Take Us in 3D Multi-Object Tracking?](https://arxiv.org/pdf/2208.01957.pdf) [`tracking`]
   - [MonteBoxFinder: Detecting and Filtering Primitives to Fit a Noisy Point Cloud](https://arxiv.org/pdf/2207.14268.pdf) [`representation`]
   - [Large-displacement 3D Object Tracking with Hybrid Non-local Optimization](https://arxiv.org/pdf/2207.12620.pdf) [`tracking`; [Github](https://github.com/cvbubbles/nonlocal-3dtracking)]
   - [ProposalContrast: Unsupervised Pre-training for LiDAR-based 3D Object Detection](https://arxiv.org/pdf/2207.12654.pdf) [`det`; [Github](https://github.com/yinjunbo/ProposalContrast)]
@@ -50,7 +54,7 @@
   - [CoSMix: Compositional Semantic Mix for Domain Adaptation in 3D LiDAR Segmentation](https://arxiv.org/pdf/2207.09778.pdf) [`seg`; [PyTorch](https://github.com/saltoricristiano/cosmix-uda)]
   - [GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation](https://arxiv.org/pdf/2207.09763.pdf) [`seg`; [PyTorch](https://github.com/saltoricristiano/gipso-sfouda)]
   - [Densely Constrained Depth Estimator for Monocular 3D Object Detection](https://arxiv.org/pdf/2207.10047.pdf) [`det`, `monocular`; [PyTorch](https://github.com/BraveGroup/DCD)]
-  - [SuperLine3D: Self-supervised Line Segmentation and Description for LiDAR Point Cloud]() [``; [Tensorflow](https://github.com/zxrzju/SuperLine3D)]
+  - [SuperLine3D: Self-supervised Line Segmentation and Description for LiDAR Point Cloud](https://arxiv.org/pdf/2208.01925.pdf) [`registration`; [Tensorflow](https://github.com/zxrzju/SuperLine3D)]
   - [What Matters for 3D Scene Flow Network](https://arxiv.org/pdf/2207.09143.pdf) [`scene flow`; [PyTorch](https://github.com/IRMVLab/3DFlow)]
   - [Dual Adaptive Transformations for Weakly Supervised Point Cloud Segmentation](https://arxiv.org/pdf/2207.09084.pdf) [`seg`]
   - [Towards High-Fidelity Single-view Holistic Reconstruction of Indoor Scenes](https://arxiv.org/pdf/2207.08656.pdf) [`reconstruction`; [Github](https://github.com/UncleMEDM/InstPIFu)]
@@ -221,6 +225,8 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [PolarMix: A General Data Augmentation Technique for LiDAR Point Clouds](https://arxiv.org/pdf/2208.00223.pdf) [`augmentation`]
+  - [P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting](https://arxiv.org/pdf/2208.02812.pdf) [`pre-training`; [PyTorch](https://github.com/wangzy22/P2P)]
   - [Point-McBert: A Multi-choice Self-supervised Framework for Point Cloud Pre-training](https://arxiv.org/pdf/2207.13226.pdf) [`self-supervised`]
   - [DETRs with Hybrid Matching](https://arxiv.org/pdf/2207.13080.pdf) [`det`; [Github](https://github.com/HDETR)]
   - [MV-FCOS3D++: Multi-View Camera-Only 4D Object Detection with Pretrained Monocular Backbones](https://arxiv.org/pdf/2207.12716.pdf) [`det`; [PyTorch](https://github.com/Tai-Wang/Depth-from-Motion)]
