@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [3D Vision with Transformers: A Survey](https://arxiv.org/pdf/2208.04309.pdf) [arXiv 2022; [Github](https://github.com/lahoud/3d-vision-transformers)]
 - [Vision-Centric BEV Perception: A Survey](https://arxiv.org/pdf/2208.02797.pdf) [arXiv 2022; [Github](https://github.com/4DVLab/Vision-Centric-BEV-Perception)]
 - [3D Object Detection for Autonomous Driving: A Review and New Outlooks](https://arxiv.org/pdf/2206.09474.pdf) [arXiv 2022]
 - [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/pdf/2205.07417.pdf) [arXiv 2022]
@@ -29,6 +30,10 @@
 ## 2022
 
 - ECCV
+  - [PointTree: Transformation-Robust Point Cloud Encoder with Relaxed K-D Trees](https://arxiv.org/pdf/2208.05962.pdf) [`cls`, `seg`; [PyTorch](https://github.com/immortalCO/PointTree)]
+  - [diffConv: Analyzing Irregular Point Clouds with an Irregular View](https://arxiv.org/pdf/2111.14658.pdf) [`cls`, `seg`; [PyTorch](https://github.com/mmmmimic/diffConvNet)]
+  - [SLiDE: Self-supervised LiDAR De-snowing through Reconstruction Difficulty](https://arxiv.org/pdf/2208.04043.pdf) [`de-snowing`]
+  - [Graph R-CNN: Towards Accurate 3D Object Detection with Semantic-Decorated Local Graph](https://arxiv.org/pdf/2208.03624.pdf) [`det`; [PyTorch](https://github.com/Nightmare-n/GraphRCNN)]
   - [Point Primitive Transformer for Long-Term 4D Point Cloud Video Understanding](https://arxiv.org/pdf/2208.00281.pdf) [`4D`]
   - [Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network](https://arxiv.org/pdf/2208.00183.pdf) [`reconstruction`]
   - [PolarMOT: How Far Can Geometric Relations Take Us in 3D Multi-Object Tracking?](https://arxiv.org/pdf/2208.01957.pdf) [`tracking`]
@@ -184,6 +189,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Arbitrary Point Cloud Upsampling with Spherical Mixture of Gaussians](https://arxiv.org/pdf/2208.05274.pdf) [`upsampling`; 3DV]
   - [CENet: Toward Concise and Efficient LiDAR Semantic Segmentation for Autonomous Driving](https://arxiv.org/pdf/2207.12691.pdf) [`seg`; [PyTorch](https://github.com/huixiancheng/CENet); ICME]
   - [ImLoveNet: Misaligned Image-supported Registration Network for Low-overlap Point Cloud Pairs](https://arxiv.org/pdf/2207.00826.pdf) [`registration`; SIGGRAPH]
   - [Paint and Distill: Boosting 3D Object Detection with Semantic Passing Network](https://arxiv.org/pdf/2207.05497.pdf) [`det`; [Github](https://github.com/jb892/SPNet); ACM MM]
@@ -221,10 +227,17 @@
   - [BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling](https://arxiv.org/pdf/2206.12648.pdf) [`upsampling`; RAL]
   - [Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://arxiv.org/pdf/2206.04129.pdf) [`seg`; [Github](https://github.com/PRBonn/4DMOS); RAL]
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
+  - [Semantic Segmentation-Assisted Instance Feature Fusion for Multi-Level 3D Part Instance Segmentation](https://arxiv.org/pdf/2208.04766.pdf) [`seg`; [Tensorflow](https://github.com/isunchy/3d_instance_segmentation); CVM]
   - [Semi-supervised 3D shape segmentation with multilevel consistency and part substitution](https://arxiv.org/pdf/2204.08824.pdf) [`seg`; [Tensorflow](https://github.com/isunchy/semi_supervised_3d_segmentation); CVM]
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [RWSeg: Cross-graph Competing Random Walks for Weakly Supervised 3D Instance Segmentation](https://arxiv.org/pdf/2208.05110.pdf) [`seg`]
+  - [Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer](https://arxiv.org/pdf/2208.05216.pdf) [`tracking`; [PyTorch](https://github.com/Jasonkks/PTTR)]
+  - [RadSegNet: A Reliable Approach to Radar Camera Fusion](https://arxiv.org/pdf/2208.03849.pdf) [`autonomous driving`]
+  - [Aerial Monocular 3D Object Detection](https://arxiv.org/pdf/2208.03974.pdf) [`det`; [Project](https://sjtu-magic.github.io/dataset/AM3D)]
+  - [Learning to Generate 3D Shapes from a Single Example](https://arxiv.org/pdf/2208.02946.pdf) [`generation`; [PyTorch](https://github.com/ChrisWu1997/SingleShapeGen)]
+  - [TransPillars: Coarse-to-Fine Aggregation for Multi-Frame 3D Object Detection](https://arxiv.org/pdf/2208.03141.pdf) [`det`]
   - [PolarMix: A General Data Augmentation Technique for LiDAR Point Clouds](https://arxiv.org/pdf/2208.00223.pdf) [`augmentation`]
   - [P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting](https://arxiv.org/pdf/2208.02812.pdf) [`pre-training`; [PyTorch](https://github.com/wangzy22/P2P)]
   - [Point-McBert: A Multi-choice Self-supervised Framework for Point Cloud Pre-training](https://arxiv.org/pdf/2207.13226.pdf) [`self-supervised`]
