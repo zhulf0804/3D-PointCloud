@@ -189,6 +189,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Bidirectional Feature Globalization for Few-shot Semantic Segmentation of 3D Point Cloud Scenes](https://arxiv.org/pdf/2208.06671.pdf) [`seg`; 3DV]
   - [Arbitrary Point Cloud Upsampling with Spherical Mixture of Gaussians](https://arxiv.org/pdf/2208.05274.pdf) [`upsampling`; 3DV]
   - [CENet: Toward Concise and Efficient LiDAR Semantic Segmentation for Autonomous Driving](https://arxiv.org/pdf/2207.12691.pdf) [`seg`; [PyTorch](https://github.com/huixiancheng/CENet); ICME]
   - [ImLoveNet: Misaligned Image-supported Registration Network for Low-overlap Point Cloud Pairs](https://arxiv.org/pdf/2207.00826.pdf) [`registration`; SIGGRAPH]
@@ -203,6 +204,7 @@
   - [BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation](https://arxiv.org/pdf/2205.03536.pdf) [`pose estimation`; IJCAI]
   - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
   - [Graph Neural Network and Spatiotemporal Transformer Attention for 3D Video Object Detection from Point Clouds](https://arxiv.org/pdf/2207.12659.pdf) [`det`; TPAMI]
+  - [Ret3D: Rethinking Object Relations for Efficient 3D Object Detection in Driving Scenes](https://arxiv.org/pdf/2208.08621.pdf) [`det`; TPAMI]
   - [PVNAS: 3D Neural Architecture Search with Point-Voxel Convolution](https://arxiv.org/pdf/2204.11797.pdf) [`seg`, `det`; TPAMI]
   - [Pixel2Mesh++: 3D Mesh Generation and Refinement from Multi-View Images](https://arxiv.org/pdf/2204.09866.pdf) [`generation`, `mesh`; TPAMI]
   - [Refine-Net: Normal Refinement Neural Network for Noisy Point Clouds](https://arxiv.org/pdf/2203.12514v1.pdf) [`normal refinement`; [PyTorch](https://github.com/hrzhou2/refinenet); TPAMI]
@@ -232,6 +234,8 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [InterTrack: Interaction Transformer for 3D Multi-Object Tracking](https://arxiv.org/pdf/2208.08041.pdf) [`tracking`]
+  - [An Empirical Study of Pseudo-Labeling for Image-based 3D Object Detection](https://arxiv.org/pdf/2208.07137.pdf) [`det`]
   - [RWSeg: Cross-graph Competing Random Walks for Weakly Supervised 3D Instance Segmentation](https://arxiv.org/pdf/2208.05110.pdf) [`seg`]
   - [Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer](https://arxiv.org/pdf/2208.05216.pdf) [`tracking`; [PyTorch](https://github.com/Jasonkks/PTTR)]
   - [RadSegNet: A Reliable Approach to Radar Camera Fusion](https://arxiv.org/pdf/2208.03849.pdf) [`autonomous driving`]
@@ -1080,6 +1084,7 @@ Segmentation](https://arxiv.org/pdf/2102.08009.pdf) [`seg`]
 - [https://github.com/weiweisun2018/awesome-point-clouds-registration](https://github.com/weiweisun2018/awesome-point-clouds-registration)
 - [https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras](https://github.com/chaytonmin/Awesome-BEV-Perception-Multi-Cameras)
 - [https://github.com/dragonlong/Trending-in-3D-Vision](https://github.com/dragonlong/Trending-in-3D-Vision)
+- [https://github.com/4DVLab/Vision-Centric-BEV-Perception](https://github.com/4DVLab/Vision-Centric-BEV-Perception)
 
 ## Tools
 
