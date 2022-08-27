@@ -30,6 +30,7 @@
 ## 2022
 
 - ECCV
+  - [Objects Can Move: 3D Change Detection by Geometric Transformation Constistency](https://arxiv.org/pdf/2208.09870.pdf) [`change detection`; [Github](https://github.com/katadam/ObjectsCanMove)]
   - [PointTree: Transformation-Robust Point Cloud Encoder with Relaxed K-D Trees](https://arxiv.org/pdf/2208.05962.pdf) [`cls`, `seg`; [PyTorch](https://github.com/immortalCO/PointTree)]
   - [diffConv: Analyzing Irregular Point Clouds with an Irregular View](https://arxiv.org/pdf/2111.14658.pdf) [`cls`, `seg`; [PyTorch](https://github.com/mmmmimic/diffConvNet)]
   - [SLiDE: Self-supervised LiDAR De-snowing through Reconstruction Difficulty](https://arxiv.org/pdf/2208.04043.pdf) [`de-snowing`]
@@ -234,6 +235,16 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding](https://arxiv.org/pdf/2208.12259.pdf) [`pretraining`; [Github](https://github.com/guochengqian/Pix4Point)]
+  - [Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection](https://arxiv.org/pdf/2208.12079.pdf) [`det`]
+  - [AGO-Net: Association-Guided 3D Point Cloud Object Detection Network](https://arxiv.org/pdf/2208.11658.pdf) [`det`]
+  - [PeRFception: Perception using Radiance Fields](https://arxiv.org/pdf/2208.11537.pdf) [`NeRF`; [PyTorch](https://github.com/POSTECH-CVLab/PeRFception)]
+  - [Quality Matters: Embracing Quality Clues for Robust 3D Multi-Object Tracking](https://arxiv.org/pdf/2208.10976.pdf) [`tracking`]
+  - [DeepInteraction: 3D Object Detection via Modality Interaction](https://arxiv.org/pdf/2208.11112.pdf) [`det`; [Github](https://github.com/fudan-zvg/DeepInteraction)]
+  - [STS: Surround-view Temporal Stereo for Multi-view 3D Detection](https://arxiv.org/pdf/2208.10145.pdf) [`det`]
+  - [A Simple Baseline for Multi-Camera 3D Object Detection](https://arxiv.org/pdf/2208.10035.pdf) [`det`; [Github](https://github.com/zhangyp15/SimMOD)]
+  - [PointDP: Diffusion-driven Purification against Adversarial Attacks on 3D Point Cloud Recognition](https://arxiv.org/pdf/2208.09801.pdf) [`adversarial attack`]
+  - [PersDet: Monocular 3D Detection in Perspective Bird’s-Eye-View](https://arxiv.org/pdf/2208.09394.pdf) [`det`]
   - [InterTrack: Interaction Transformer for 3D Multi-Object Tracking](https://arxiv.org/pdf/2208.08041.pdf) [`tracking`]
   - [An Empirical Study of Pseudo-Labeling for Image-based 3D Object Detection](https://arxiv.org/pdf/2208.07137.pdf) [`det`]
   - [RWSeg: Cross-graph Competing Random Walks for Weakly Supervised 3D Instance Segmentation](https://arxiv.org/pdf/2208.05110.pdf) [`seg`]
