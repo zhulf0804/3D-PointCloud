@@ -30,6 +30,7 @@
 ## 2022
 
 - ECCV
+  - [MORE: Multi-Order RElation Mining for Dense Captioning in 3D Scenes](https://arxiv.org/abs/2203.05203) [`dense captioning`; [Github](https://github.com/SxJyJay/MORE)]
   - [Objects Can Move: 3D Change Detection by Geometric Transformation Constistency](https://arxiv.org/pdf/2208.09870.pdf) [`change detection`; [Github](https://github.com/katadam/ObjectsCanMove)]
   - [PointTree: Transformation-Robust Point Cloud Encoder with Relaxed K-D Trees](https://arxiv.org/pdf/2208.05962.pdf) [`cls`, `seg`; [PyTorch](https://github.com/immortalCO/PointTree)]
   - [diffConv: Analyzing Irregular Point Clouds with an Irregular View](https://arxiv.org/pdf/2111.14658.pdf) [`cls`, `seg`; [PyTorch](https://github.com/mmmmimic/diffConvNet)]
