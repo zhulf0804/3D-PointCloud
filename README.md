@@ -30,6 +30,10 @@
 ## 2022
 
 - ECCV
+  - [PointCLM: A Contrastive Learning-based Framework for Multi-instance Point Cloud Registration](https://arxiv.org/pdf/2209.00219.pdf) [`registration`; [Github](https://github.com/phdymz/PointCLM)]
+  - [SimpleRecon: 3D Reconstruction Without 3D Convolutions](https://arxiv.org/pdf/2208.14743.pdf) [`reconstruction`; [Project](https://nianticlabs.github.io/simplerecon/)]
+  - [Improving RGB-D Point Cloud Registration by Learning Multi-scale Local Linear Transformation](https://arxiv.org/pdf/2208.14893.pdf) [`registration`; [Github](https://github.com/514DNA/LLT)]
+  - [Masked Discrimination for Self-Supervised Learning on Point Clouds](https://arxiv.org/pdf/2203.11183v1.pdf) [`self-supervised`; [PyTorch](https://github.com/haotian-liu/MaskPoint)]
   - [MORE: Multi-Order RElation Mining for Dense Captioning in 3D Scenes](https://arxiv.org/abs/2203.05203) [`dense captioning`; [Github](https://github.com/SxJyJay/MORE)]
   - [Objects Can Move: 3D Change Detection by Geometric Transformation Constistency](https://arxiv.org/pdf/2208.09870.pdf) [`change detection`; [Github](https://github.com/katadam/ObjectsCanMove)]
   - [PointTree: Transformation-Robust Point Cloud Encoder with Relaxed K-D Trees](https://arxiv.org/pdf/2208.05962.pdf) [`cls`, `seg`; [PyTorch](https://github.com/immortalCO/PointTree)]
@@ -88,8 +92,8 @@
   - [PETR: Position Embedding Transformation for Multi-View 3D Object Detection](https://arxiv.org/pdf/2203.05625.pdf) [`det`; [PyTorch](https://github.com/megvii-research/PETR)]
   - [Learning Ego 3D Representation as Ray Tracing](https://arxiv.org/pdf/2206.04042.pdf) [`autonomous driving`; [PyTorch](https://github.com/fudan-zvg/Ego3RT)]
   - [AutoAlignV2: Deformable Feature Aggregation for Dynamic Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2207.10316.pdf) [`det`; [Github](https://github.com/zehuichen123/AutoAlignV2)]
-
 - CVPR
+  - [ShapeFormer: Transformer-based Shape Completion via Sparse Representation](https://arxiv.org/pdf/2201.10326.pdf) [`completion`; [PyTorch](https://github.com/qheldiv/shapeformer)]
   - [RBGNet: Ray-based Grouping for 3D Object Detection](https://arxiv.org/pdf/2204.02251.pdf) [`det`; [Github](https://github.com/Haiyang-W/RBGNet)]
   - [Boosting 3D Object Detection by Simulating Multimodality on Point Clouds](https://arxiv.org/pdf/2206.14971.pdf) [`det`]
   - [MonoGround: Detecting Monocular 3D Objects from the Ground](https://arxiv.org/pdf/2206.07372.pdf) [`det`, `monocular`; [Github](https://github.com/cfzd/MonoGround)]
@@ -228,6 +232,7 @@
   - [Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework](https://arxiv.org/pdf/2202.07123.pdf) [`cls`, `seg`; [PyTorch](https://github.com/ma-xu/pointMLP-pytorch); ICLR]
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
+  - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT); RAL]
   - [BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling](https://arxiv.org/pdf/2206.12648.pdf) [`upsampling`; RAL]
   - [Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://arxiv.org/pdf/2206.04129.pdf) [`seg`; [Github](https://github.com/PRBonn/4DMOS); RAL]
   - [Temporal Point Cloud Completion with Pose Disturbance](https://arxiv.org/pdf/2202.03084.pdf) [`completion`; RAL]
@@ -236,6 +241,10 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Scatter Points in Space: 3D Detection from Multi-view Monocular Images](https://arxiv.org/pdf/2208.14738.pdf) [`det`]
+  - [Towards Accurate Reconstruction of 3D Scene Shape from A Single Monocular Image](https://arxiv.org/pdf/2208.13241.pdf) [`reconstruction`; [PyTorch](https://github.com/aim-uofa/AdelaiDepth)]
+  - [PV-RCNN++: Semantical Point-Voxel Feature Interaction for 3D Object Detection](https://arxiv.org/pdf/2208.13414.pdf) [`det`]
+  - [Voxurf: Voxel-based Efficient and Accurate Neural Surface Reconstruction](https://arxiv.org/pdf/2208.12697.pdf) [`reconstruction`]
   - [Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding](https://arxiv.org/pdf/2208.12259.pdf) [`pretraining`; [Github](https://github.com/guochengqian/Pix4Point)]
   - [Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection](https://arxiv.org/pdf/2208.12079.pdf) [`det`]
   - [AGO-Net: Association-Guided 3D Point Cloud Object Detection Network](https://arxiv.org/pdf/2208.11658.pdf) [`det`]
@@ -359,7 +368,6 @@
   - [Towards 3D Scene Understanding by Referring Synthetic Models](https://arxiv.org/pdf/2203.10546v1.pdf) [`transfer learning`]
   - [Unsupervised Learning of 3D Semantic Keypoints with Mutual Reconstruction](https://arxiv.org/pdf/2203.10212v1.pdf) [`keypoints`]
   - [Self-supervised Point Cloud Completion on Real Traffic Scenes via Scene-concerned Bottom-up Mechanism](https://arxiv.org/pdf/2203.10569v1.pdf) [`completion`]
-  - [Masked Discrimination for Self-Supervised Learning on Point Clouds](https://arxiv.org/pdf/2203.11183v1.pdf) [`self-Supervised`; [Github](https://github.com/haotian-liu/MaskPoint)]
   - [FUTR3D: A Unified Sensor Fusion Framework for 3D Detection](https://arxiv.org/pdf/2203.10642v1.pdf) [`det`]
   - [3DAC: Learning Attribute Compression for Point Clouds](https://arxiv.org/pdf/2203.09931v1.pdf) [`compression`]
   - [CodedVTR: Codebook-based Sparse Voxel Transformer with Geometric Guidance](https://arxiv.org/pdf/2203.09887v1.pdf) [`seg`]
@@ -373,7 +381,6 @@
   - [A Lightweight and Detector-free 3D Single Object Tracker on Point Clouds](https://arxiv.org/pdf/2203.04232.pdf) [`tracking`]
   - [DisARM: Displacement Aware Relation Module for 3D Detection](https://arxiv.org/pdf/2203.01152.pdf) [`det`]
   - [Dense Voxel Fusion for 3D Object Detection](https://arxiv.org/pdf/2203.00871.pdf) [`det`]
-  - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT)]
   - [Anomaly Detection in 3D Point Clouds using Deep Geometric Descriptors](https://arxiv.org/pdf/2202.11660.pdf) [`anomaly detection`]
   - [PointMatch: A Consistency Training Framework for Weakly Supervised Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/2202.10705.pdf) [`seg`]
   - [Snowflake Point Deconvolution for Point Cloud Completion and Generation with Skip-Transformer](https://arxiv.org/pdf/2202.09367.pdf) [`completion`; [PyTorch](https://github.com/AllenXiangX/SnowflakeNet)]
@@ -384,7 +391,6 @@
   - [Boosting Monocular Depth Estimation with Sparse Guided Points](https://arxiv.org/pdf/2202.01470.pdf) [`monocular`, `depth estimation`; [Github](https://github.com/aim-uofa/AdelaiDepth)]
   - [Trajectory Forecasting from Detection with Uncertainty-Aware Motion Encoding](https://arxiv.org/pdf/2202.01478.pdf) [`autonomous platforms`]
   - [TPC: Transformation-Specific Smoothing for Point Cloud Models](https://arxiv.org/pdf/2201.12733v1.pdf) [`attack`]
-  - [ShapeFormer: Transformer-based Shape Completion via Sparse Representation](https://arxiv.org/pdf/2201.10326.pdf) [`completion`; [Github](https://github.com/qheldiv/shapeformer)]
   - [Self-supervised Point Cloud Registration with Deep Versatile Descriptors](https://arxiv.org/pdf/2201.10034.pdf) [`registration`]
   - [CP-Net: Contour-Perturbed Reconstruction Network for Self-Supervised Point Cloud Learning](https://arxiv.org/pdf/2201.08215v1.pdf) [`self-supervised`]
   - [AutoAlign: Pixel-Instance Feature Aggregation for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2201.06493.pdf) [`det`]
