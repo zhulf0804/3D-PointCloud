@@ -30,6 +30,7 @@
 ## 2022
 
 - ECCV
+  - [Learning to Generate Realistic LiDAR Point Clouds](https://arxiv.org/pdf/2209.03954.pdf) [`generation`; [Project](https://www.zyrianov.org/lidargen/)]
   - [PointCLM: A Contrastive Learning-based Framework for Multi-instance Point Cloud Registration](https://arxiv.org/pdf/2209.00219.pdf) [`registration`; [Github](https://github.com/phdymz/PointCLM)]
   - [SimpleRecon: 3D Reconstruction Without 3D Convolutions](https://arxiv.org/pdf/2208.14743.pdf) [`reconstruction`; [Project](https://nianticlabs.github.io/simplerecon/)]
   - [Improving RGB-D Point Cloud Registration by Learning Multi-scale Local Linear Transformation](https://arxiv.org/pdf/2208.14893.pdf) [`registration`; [Github](https://github.com/514DNA/LLT)]
@@ -195,6 +196,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Real-time 3D Single Object Tracking with Transformer](https://arxiv.org/pdf/2209.00860.pdf) [`tracking`; [PyTorch](https://github.com/shanjiayao/PTT); TMM]
   - [Bidirectional Feature Globalization for Few-shot Semantic Segmentation of 3D Point Cloud Scenes](https://arxiv.org/pdf/2208.06671.pdf) [`seg`; 3DV]
   - [Arbitrary Point Cloud Upsampling with Spherical Mixture of Gaussians](https://arxiv.org/pdf/2208.05274.pdf) [`upsampling`; 3DV]
   - [CENet: Toward Concise and Efficient LiDAR Semantic Segmentation for Autonomous Driving](https://arxiv.org/pdf/2207.12691.pdf) [`seg`; [PyTorch](https://github.com/huixiancheng/CENet); ICME]
@@ -241,6 +243,10 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [CAMO-MOT: Combined Appearance-Motion Optimization for 3D Multi-Object Tracking with Camera-LiDAR Fusion](https://arxiv.org/pdf/2209.02540.pdf) [`tracking`]
+  - [SEFormer: Structure Embedding Transformer for 3D Object Detection](https://arxiv.org/pdf/2209.01745.pdf) [`det`]
+  - [MSMDFusion: Fusing LiDAR and Camera at Multiple Scales with Multi-Depth Seeds for 3D Object Detection](https://arxiv.org/pdf/2209.03102.pdf) [`det`; [Github](https://github.com/SxJyJay/MSMDFusion)]
+  - [Benchmarking Robustness of 3D Point Cloud Recognition Against Common Corruptions](https://arxiv.org/pdf/2201.12296.pdf) [`robustness`; [PyTorch](https://github.com/jiachens/ModelNet40-C)]
   - [Scatter Points in Space: 3D Detection from Multi-view Monocular Images](https://arxiv.org/pdf/2208.14738.pdf) [`det`]
   - [Towards Accurate Reconstruction of 3D Scene Shape from A Single Monocular Image](https://arxiv.org/pdf/2208.13241.pdf) [`reconstruction`; [PyTorch](https://github.com/aim-uofa/AdelaiDepth)]
   - [PV-RCNN++: Semantical Point-Voxel Feature Interaction for 3D Object Detection](https://arxiv.org/pdf/2208.13414.pdf) [`det`]
