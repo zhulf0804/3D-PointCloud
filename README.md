@@ -28,9 +28,16 @@
 - [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/pdf/1912.12033.pdf) [TPAMI 2020]
 - [A Comprehensive Performance Evaluation of 3D Local Feature Descriptors](https://www.researchgate.net/profile/Yulan_Guo/publication/274387466_A_Comprehensive_Performance_Evaluation_of_3D_Local_Feature_Descriptors/links/552b4a5b0cf29b22c9c1a6d2/A-Comprehensive-Performance-Evaluation-of-3D-Local-Feature-Descriptors.pdf) [IJCV 2016]
 
+## 2023
+
+- [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
+
 ## 2022
 
 - ECCV
+  - [LidarNAS: Unifying and Searching Neural Architectures for 3D Point Clouds](https://arxiv.org/pdf/2210.05018.pdf) [`NAS`]
+  - [FBNet: Feedback Network for Point Cloud Completion](https://arxiv.org/pdf/2210.03974.pdf) [`completion`; [PyTorch](https://github.com/hikvision-research/3DVision/)]
+  - [INT: Towards Infinite-frames 3D Detection with An Efficient Framework](https://arxiv.org/pdf/2209.15215.pdf) [`det`]
   - [MPPNet: Multi-Frame Feature Intertwining with Proxy Points for 3D Temporal Object Detection](https://arxiv.org/pdf/2205.05979.pdf) [`det`; [Github](https://github.com/open-mmlab/OpenPCDet)]
   - [PointInst3D: Segmenting 3D Instances by Points](https://arxiv.org/pdf/2204.11402.pdf) [`seg`; [Github](https://github.com/tonghe90/PointInst3D)]
   - [PillarNet: Real-Time and High-Performance Pillar-based 3D Object Detection](https://arxiv.org/pdf/2205.07403.pdf) [`det`; [PyTorch](https://github.com/agent-sgs/PillarNet)]
@@ -106,6 +113,7 @@
   - [Learning Ego 3D Representation as Ray Tracing](https://arxiv.org/pdf/2206.04042.pdf) [`autonomous driving`; [PyTorch](https://github.com/fudan-zvg/Ego3RT)]
   - [AutoAlignV2: Deformable Feature Aggregation for Dynamic Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2207.10316.pdf) [`det`; [Github](https://github.com/zehuichen123/AutoAlignV2)]
 - CVPR
+  - [Bridged Transformer for Vision and Point Cloud 3D Object Detection](https://arxiv.org/pdf/2210.01391.pdf) [`det`]
   - [ShapeFormer: Transformer-based Shape Completion via Sparse Representation](https://arxiv.org/pdf/2201.10326.pdf) [`completion`; [PyTorch](https://github.com/qheldiv/shapeformer)]
   - [RBGNet: Ray-based Grouping for 3D Object Detection](https://arxiv.org/pdf/2204.02251.pdf) [`det`; [Github](https://github.com/Haiyang-W/RBGNet)]
   - [Boosting 3D Object Detection by Simulating Multimodality on Point Clouds](https://arxiv.org/pdf/2206.14971.pdf) [`det`]
@@ -208,6 +216,15 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [HSurf-Net: Normal Estimation for 3D Point Clouds by Learning Hyper Surfaces](https://arxiv.org/pdf/2210.07158.pdf) [`normal estimation`; [Github](https://github.com/LeoQLi/HSurf-Net); NeurIPS]
+  - [LION: Latent Point Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2210.06978.pdf) [`generation`; [Github](https://github.com/nv-tlabs/LION); NeurIPS]
+  - [SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/pdf/2210.06944.pdf) [`augmentation`; [Github](https://github.com/mlvlab/SageMix); NeurIPS]
+  - [Prototypical VoteNet for Few-Shot 3D Point Cloud Object Detection](https://arxiv.org/pdf/2210.05593.pdf) [`det`; [Github](https://github.com/CVMI-Lab/FS3D); NeurIPS]
+  - [Point Transformer V2: Grouped Vector Attention and Partition-based Pooling](https://arxiv.org/pdf/2210.05666.pdf) [`cls`, `seg`; [Github](https://github.com/Gofinge/PointTransformerV2); NeurIPS]
+  - [Let Images Give You More:Point Cloud Cross-Modal Training for Shape Analysis](https://arxiv.org/pdf/2210.04208.pdf) [`cross-modality`; [Github](https://github.com/ZhanHeshen/PointCMT); NeurIPS]
+  - [OGC: Unsupervised 3D Object Segmentation from Rigid Dynamics of Point Clouds](https://arxiv.org/pdf/2210.04458.pdf) [`seg`; [PyTorch](https://github.com/vLAR-group/OGC); NeurIPS]
+  - [CAGroup3D: Class-Aware Grouping for 3D Object Detection on Point Clouds](https://arxiv.org/pdf/2210.04264.pdf) [`det`; [Github](https://github.com/Haiyang-W/CAGroup3D); NeurIPS]
+  - [Learning Consistency-Aware Unsigned Distance Functions Progressively from Raw Point Clouds](https://arxiv.org/pdf/2210.02757.pdf) [`reconstruction`; [PyTorch](https://github.com/junshengzhou/CAP-UDF); NeurIPS]
   - [PolarMix: A General Data Augmentation Technique for LiDAR Point Clouds](https://arxiv.org/pdf/2208.00223.pdf) [`augmentation`; [PyTorch](https://github.com/xiaoaoran/polarmix); NeurIPS]
   - [Fully Convolutional One-Stage 3D Object Detection on LiDAR Range Images](https://arxiv.org/pdf/2205.13764.pdf) [`det`; NeurIPS]
   - [P2P: Tuning Pre-trained Image Models for Point Cloud Analysis with Point-to-Pixel Prompting](https://arxiv.org/pdf/2208.02812.pdf) [`pre-training`; [PyTorch](https://github.com/wangzy22/P2P); NeurIPS]
@@ -221,6 +238,11 @@
   - [Spatial Pruned Sparse Convolution for Efficient 3D Object Detection](https://arxiv.org/pdf/2209.14201.pdf) [`det`; NeurIPS]
   - [Rethinking the compositionality of point clouds through regularization in the hyperbolic space](https://arxiv.org/pdf/2209.10318.pdf) [`cls`; [Github](https://github.com/diegovalsesia/HyCoRe); NeurIPS]
   - [Cross-modal Learning for Image-Guided Point Cloud Shape Completion](https://arxiv.org/pdf/2209.09552.pdf) [`completion`; [Github](https://github.com/diegovalsesia/XMFnet); NeurIPS]
+  - [Learning Inter-Superpoint Affinity for Weakly Supervised 3D Instance Segmentation](https://arxiv.org/pdf/2210.05534.pdf) [`seg`; [PyTorch](https://github.com/fpthink/3D-WSIS); ACCV]
+  - [Point Cloud Upsampling via Cascaded Refinement Network](https://arxiv.org/pdf/2210.03942.pdf) [`upsampling`; [Github](https://github.com/hikvision-research/3DVision); ACCV]
+  - [APSNet: Attention Based Point Cloud Sampling](https://arxiv.org/pdf/2210.05638.pdf) [`sampling`; [PyTorch](https://github.com/Yangyeeee/APSNet); BMVC]
+  - [Data Augmentation-free Unsupervised Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2210.02798.pdf) [`unsupervised`; [PyTorch](https://github.com/gfmei/softclu); BMVC]
+  - [COARSE3D: Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud Segmentation](https://arxiv.org/pdf/2210.01784.pdf) [`seg`; [PyTorch](https://github.com/cv-rits/COARSE3D); BMVC]
   - [Real-time 3D Single Object Tracking with Transformer](https://arxiv.org/pdf/2209.00860.pdf) [`tracking`; [PyTorch](https://github.com/shanjiayao/PTT); TMM]
   - [SRFeat: Learning Locally Accurate and Globally Consistent Non-Rigid Shape Correspondence](https://arxiv.org/pdf/2209.07806.pdf) [`non-rigid`, `matching`; [Github](https://github.com/craigleili/SRFeat); 3DV]
   - [SVNet: Where SO(3) Equivariance Meets Binarization on Point Cloud Representation](https://arxiv.org/pdf/2209.05924.pdf) [`cls`, `seg`; [Github](https://github.com/zhuoinoulu/svnet); 3DV]
@@ -273,6 +295,7 @@
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [Robust 3D Object Detection in Cold Weather Conditions](https://arxiv.org/pdf/2205.11925.pdf) [`det`; IV]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
+  - [Exploiting More Information in Sparse Point Cloud for 3D Single Object Tracking](https://arxiv.org/pdf/2210.00519.pdf) [`tracking`; [Github](https://github.com/3bobo/smat); RAL]
   - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT); RAL]
   - [BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling](https://arxiv.org/pdf/2206.12648.pdf) [`upsampling`; RAL]
   - [Receding Moving Object Segmentation in 3D LiDAR Data Using Sparse 4D Convolutions](https://arxiv.org/pdf/2206.04129.pdf) [`seg`; [Github](https://github.com/PRBonn/4DMOS); RAL]
@@ -282,6 +305,8 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [Common Corruption Robustness of Point Cloud Detectors: Benchmark and Enhancement](https://arxiv.org/pdf/2210.05896.pdf) [`det`]
+  - [Mask3D for 3D Semantic Instance Segmentation](https://arxiv.org/pdf/2210.03105.pdf) [`seg`]
   - [CrossDTR: Cross-view and Depth-guided Transformers for 3D Object Detection](https://arxiv.org/pdf/2209.13507.pdf) [`det`; [Github](https://github.com/sty61010/CrossDTR)]
   - [STD: Stable Triangle Descriptor for 3D place recognition](https://arxiv.org/pdf/2209.12435.pdf) [`place recognition`; [Github](https://github.com/hku-mars/STD)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
