@@ -35,6 +35,12 @@
 ## 2022
 
 - ECCV
+  - [Homogeneous Multi-modal Feature Fusion and Interaction for 3D Object Detection](https://arxiv.org/pdf/2210.09615.pdf) [`det`]
+  - [Improving the Intra-class Long-tail in 3D Detection via Rare Example Mining](https://arxiv.org/pdf/2210.08375.pdf) [`det`]
+  - [CramNet: Camera-Radar Fusion with Ray-Constrained Cross-Attention for Robust 3D Object Detection](https://arxiv.org/pdf/2210.09267.pdf) [`det`]
+  - [LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds](https://arxiv.org/pdf/2210.08064.pdf) [`seg`]
+  - [Autoregressive Uncertainty Modeling for 3D Bounding Box Prediction](https://arxiv.org/pdf/2210.07424.pdf) [`det`; [PyTorch](https://github.com/wyndwarrior/autoregressive-bbox)]
+  - [SWFormer: Sparse Window Transformer for 3D Object Detection in Point Clouds](https://arxiv.org/pdf/2210.07372.pdf) [`det`]
   - [LidarNAS: Unifying and Searching Neural Architectures for 3D Point Clouds](https://arxiv.org/pdf/2210.05018.pdf) [`NAS`]
   - [FBNet: Feedback Network for Point Cloud Completion](https://arxiv.org/pdf/2210.03974.pdf) [`completion`; [PyTorch](https://github.com/hikvision-research/3DVision/)]
   - [INT: Towards Infinite-frames 3D Detection with An Efficient Framework](https://arxiv.org/pdf/2209.15215.pdf) [`det`]
@@ -216,6 +222,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Analyzing Deep Learning Representations of Point Clouds for Real-Time In-Vehicle LiDAR Perception](https://arxiv.org/pdf/2210.14612.pdf) [`autonomous driving`; NeurIPSW]
   - [HSurf-Net: Normal Estimation for 3D Point Clouds by Learning Hyper Surfaces](https://arxiv.org/pdf/2210.07158.pdf) [`normal estimation`; [Github](https://github.com/LeoQLi/HSurf-Net); NeurIPS]
   - [LION: Latent Point Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2210.06978.pdf) [`generation`; [Github](https://github.com/nv-tlabs/LION); NeurIPS]
   - [SageMix: Saliency-Guided Mixup for Point Clouds](https://arxiv.org/pdf/2210.06944.pdf) [`augmentation`; [Github](https://github.com/mlvlab/SageMix); NeurIPS]
@@ -268,6 +275,7 @@
   - [AutoAlign: Pixel-Instance Feature Aggregation for Multi-Modal 3D Object Detection](https://arxiv.org/pdf/2201.06493.pdf) [`det`; IJCAI]
   - [BiCo-Net: Regress Globally, Match Locally for Robust 6D Pose Estimation](https://arxiv.org/pdf/2205.03536.pdf) [`pose estimation`; IJCAI]
   - [Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds](https://arxiv.org/pdf/2204.10688.pdf) [`captioning`; [Github](https://github.com/heng-hw/SpaCap3D); IJCAI]
+  - [Robust Point Cloud Registration Framework Based on Deep Graph Matching](https://arxiv.org/pdf/2211.04696.pdf) [`registration`; [PyTorch](https://github.com/fukexue/RGM); TPAMI]
   - [TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving](https://arxiv.org/pdf/2205.15997.pdf) [`autonomous driving`; [PyTorch](https://github.com/autonomousvision/transfuser); TPAMI]
   - [RIGA: Rotation-Invariant and Globally-Aware Descriptors for Point Cloud Registration](https://arxiv.org/pdf/2209.13252.pdf) [`registration`; TPAMI]
   - [Detecting Rotated Objects as Gaussian Distributions and Its 3-D Generalization](https://arxiv.org/pdf/2209.10839.pdf) [`det`; TPAMI]
@@ -305,6 +313,12 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [3D Reconstruction of Multiple Objects by mmWave Radar on UAV](https://arxiv.org/pdf/2211.02150.pdf) [`reconstruction`]
+  - [Ground Plane Matters: Picking Up Ground Plane Prior in Monocular 3D Object Detection](https://arxiv.org/pdf/2211.01556.pdf) [`det`]
+  - [Point-Voxel Adaptive Feature Abstraction for Robust Point Cloud Classification](https://arxiv.org/pdf/2210.15514.pdf) [`cls`; [PyTorch](https://github.com/zhulf0804/PV-Ada)]
+  - [LidarAugment: Searching for Scalable 3D LiDAR Data Augmentations](https://arxiv.org/pdf/2210.13488.pdf) [`augmentation`]
+  - [Domain Adaptation in 3D Object Detection with Gradual Batch Alternation Training](https://arxiv.org/pdf/2210.10180.pdf) [`det`]
+  - [Zero-shot Point Cloud Segmentation by Transferring Geometric Primitives](https://arxiv.org/pdf/2210.09923.pdf) [`seg`]
   - [Common Corruption Robustness of Point Cloud Detectors: Benchmark and Enhancement](https://arxiv.org/pdf/2210.05896.pdf) [`det`]
   - [Mask3D for 3D Semantic Instance Segmentation](https://arxiv.org/pdf/2210.03105.pdf) [`seg`]
   - [CrossDTR: Cross-view and Depth-guided Transformers for 3D Object Detection](https://arxiv.org/pdf/2209.13507.pdf) [`det`; [Github](https://github.com/sty61010/CrossDTR)]
