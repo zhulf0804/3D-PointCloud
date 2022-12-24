@@ -43,6 +43,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [Ithaca365](https://ithaca365.mae.cornell.edu): [Ithaca365: Dataset and Driving Perception under Repeated and Challenging Weather Conditions](https://arxiv.org/pdf/2208.01166.pdf) [CVPR 2022]
 - [OpenLane](https://github.com/OpenPerceptionX/OpenLane): [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/pdf/2203.11089v1.pdf) [ECCV 2022]
 - [HM3DSEM](https://arxiv.org/pdf/2210.05633.pdf): [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/pdf/2210.05633.pdf) [arXiv 2210]
+- [Objaverse](https://objaverse.allenai.org): [Objaverse: A Universe of Annotated 3D Objects](https://arxiv.org/pdf/2212.08051.pdf) [arXiv 2212]
 
 <hr />
 
