@@ -31,6 +31,8 @@
 ## 2023
 
 - AAAI
+  - [StereoDistill: Pick the Cream from LiDAR for Distilling Stereo-based 3D Object Detection](https://arxiv.org/pdf/2301.01615v1.pdf) [`det`]
+  - [Rethinking Rotation Invariance with Point Cloud Registration](https://arxiv.org/pdf/2301.00149v1.pdf) [`cls`, `seg`, `retrieval`; [PyTorch](https://github.com/Crane-YU/rethink_rotation)]
   - [SSDA3D: Semi-supervised Domain Adaptation for 3D Object Detection from Point Cloud](https://arxiv.org/pdf/2212.02845.pdf) [`det`; [Github](https://github.com/yinjunbo/SSDA3D)]
   - [CL3D: Unsupervised Domain Adaptation for Cross-LiDAR 3D Detection](https://arxiv.org/pdf/2212.00244.pdf) [`det`; [Github](https://github.com/4DVLab/CL3D)]
   - [MGTANet: Encoding Sequential LiDAR Points Using Long Short-Term Motion-Guided Temporal Attention for 3D Object Detection](https://arxiv.org/pdf/2212.00442.pdf) [`det`; [PyTorch](https://github.com/HYjhkoh/MGTANet)]
@@ -46,6 +48,11 @@
 - Others
   - [Far3Det: Towards Far-Field 3D Detection](https://arxiv.org/pdf/2211.13858.pdf) [`det`; WACV]
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
+- arXiv
+  - [Ponder: Point Cloud Pre-training via Neural Rendering](https://arxiv.org/pdf/2301.00157v1.pdf) [`self-supervised learning`; [Github](https://dihuangdh.github.io/ponder/)]
+  - [Cross Modal Transformer via Coordinates Encoding for 3D Object Dectection](https://arxiv.org/pdf/2301.01283v1.pdf) [`det`; [Github](https://github.com/junjie18/CMT)]
+  - [Benchmarking the Robustness of LiDAR Semantic Segmentation Models](https://arxiv.org/pdf/2301.00970v1.pdf) [`seg`]
+  - [MonoEdge: Monocular 3D Object Detection Using Local Perspectives](https://arxiv.org/pdf/2301.01802v1.pdf) [`det`]
 
 ## 2022
 
@@ -117,7 +124,7 @@
   - [TransGrasp: Grasp Pose Estimation of a Category of Objects by Transferring Grasps from Only One Labeled Instance](https://arxiv.org/pdf/2207.07861.pdf) [`pose estimation`; [PyTorch](https://github.com/yanjh97/TransGrasp)]
   - [CATRE: Iterative Point Clouds Alignment for Category-level Object Pose Refinement](https://arxiv.org/pdf/2207.08082.pdf) [`pose estimation`; [PyTorch](https://github.com/THU-DA-6D-Pose-Group/CATRE)]
   - [Lidar Point Cloud Guided Monocular 3D Object Detection](https://arxiv.org/pdf/2104.09035.pdf) [`det`, `monocular`; [PyTorch](https://github.com/SPengLiang/LPCG)]
-  - [DID-M3D: Decoupling Instance Depth for Monocular 3D Object Detection](https://arxiv.org/pdf/2207.08531.pdf) [`seg`, `monocular`; [PyTorch](https://github.com/SPengLiang/DID-M3D)]
+  - [DID-M3D: Decoupling Instance Depth for Monocular 3D Object Detection](https://arxiv.org/pdf/2207.08531.pdf) [`det`, `monocular`; [PyTorch](https://github.com/SPengLiang/DID-M3D)]
   - [ST-P3: End-to-end Vision-based Autonomous Driving via Spatial-Temporal Feature Learning](https://arxiv.org/pdf/2207.07601.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenPerceptionX/ST-P3)]
   - [3D Instances as 1D Kernels](https://arxiv.org/pdf/2207.07372.pdf) [`seg`; [PyTorch](https://github.com/W1zheng/DKNet)]
   - [Bi-PointFlowNet: Bidirectional Learning for Point Cloud Based Scene Flow Estimation](https://arxiv.org/pdf/2207.07522.pdf) [`scene flow`; [PyTorch](https://github.com/cwc1260/BiFlow)]
@@ -274,6 +281,7 @@
   - [COARSE3D: Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud Segmentation](https://arxiv.org/pdf/2210.01784.pdf) [`seg`; [PyTorch](https://github.com/cv-rits/COARSE3D); BMVC]
   - [3D Cascade RCNN: High Quality Object Detection in Point Clouds](https://arxiv.org/pdf/2211.08248.pdf) [`det`; [PyTorch](https://github.com/caiqi/Cascasde-3D); TIP]
   - [Real-time 3D Single Object Tracking with Transformer](https://arxiv.org/pdf/2209.00860.pdf) [`tracking`; [PyTorch](https://github.com/shanjiayao/PTT); TMM]
+  - [Push-the-Boundary: Boundary-aware Feature Propagation for Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/2212.12402.pdf) [`seg`; [Github](https://github.com/shenglandu/PushBoundary); 3DV]
   - [SRFeat: Learning Locally Accurate and Globally Consistent Non-Rigid Shape Correspondence](https://arxiv.org/pdf/2209.07806.pdf) [`non-rigid`, `matching`; [Github](https://github.com/craigleili/SRFeat); 3DV]
   - [SVNet: Where SO(3) Equivariance Meets Binarization on Point Cloud Representation](https://arxiv.org/pdf/2209.05924.pdf) [`cls`, `seg`; [Github](https://github.com/zhuoinoulu/svnet); 3DV]
   - [Bidirectional Feature Globalization for Few-shot Semantic Segmentation of 3D Point Cloud Scenes](https://arxiv.org/pdf/2208.06671.pdf) [`seg`; 3DV]
@@ -330,6 +338,7 @@
   - [MonoDistill: Learning Spatial Features for Monocular 3D Object Detection](https://arxiv.org/pdf/2201.10830v1.pdf) [`det`, `monocular`; [Github](https://github.com/monster-ghost/MonoDistill); ICLR]
   - [Robust 3D Object Detection in Cold Weather Conditions](https://arxiv.org/pdf/2205.11925.pdf) [`det`; IV]
   - [urban_road_filter: A real-time LIDAR-based urban road and sidewalk detection algorithm for autonomous vehicles](https://www.mdpi.com/1424-8220/22/1/194/pdf) [`det`, `autonomous driving`; [Github](https://github.com/jkk-research/urban_road_filter); [Video](https://www.youtube.com/watch?v=T2qi4pldR-E); Sensors]
+  - [GraffMatch: Global Matching of 3D Lines and Planes for Wide Baseline LiDAR Registration](https://arxiv.org/pdf/2212.12745.pdf) [`registration`; RAL]
   - [Exploiting More Information in Sparse Point Cloud for 3D Single Object Tracking](https://arxiv.org/pdf/2210.00519.pdf) [`tracking`; [Github](https://github.com/3bobo/smat); RAL]
   - [DeepFusionMOT: A 3D Multi-Object Tracking Framework Based on Camera-LiDAR Fusion with Deep Association](https://arxiv.org/pdf/2202.12100.pdf) [`tracking`; [Github](https://github.com/wangxiyang2022/DeepFusionMOT); RAL]
   - [BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling](https://arxiv.org/pdf/2206.12648.pdf) [`upsampling`; RAL]
@@ -340,6 +349,7 @@
   - [Point cloud completion on structured feature map with feedback network](https://arxiv.org/pdf/2202.08583.pdf) [`completion`; CVM]
   - [TorchSparse: Efficient Point Cloud Inference Engine](https://arxiv.org/pdf/2204.10319.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse); MLSys]
 - arXiv
+  - [TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning](https://arxiv.org/pdf/2212.13979.pdf) [`det`; [Github](https://github.com/ADLab3Ds/TiG-BEV)]
   - [MM-3DScene: 3D Scene Understanding by Customizing Masked Modeling with Informative-Preserved Reconstruction and Self-Distilled Consistency](https://arxiv.org/pdf/2212.09948.pdf) [`seg`, `det`]
   - [ADAS: A Simple Active-and-Adaptive Baseline for Cross-Domain 3D Semantic Segmentation](https://arxiv.org/pdf/2212.10390.pdf) [`seg`; [PyTorch](https://github.com/Fayeben/ADAS)]
   - [OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection](https://arxiv.org/pdf/2212.10049.pdf) [`det`; [Github](https://github.com/mrsempress/OBMO)]
@@ -529,6 +539,8 @@
 ## 2021
 
 - ICCV
+  - [erception-Aware Multi-Sensor Fusion for 3D LiDAR Semantic Segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhuang_Perception-Aware_Multi-Sensor_Fusion_for_3D_LiDAR_Semantic_Segmentation_ICCV_2021_paper.pdf) [`seg`]
+  - [MVTN: Multi-View Transformation Network for 3D Shape Recognition](https://arxiv.org/pdf/2011.13244.pdf) [`cls`, `retrieval`; [PyTorch](https://github.com/ajhamdi/MVTN)]
   - [Self-Supervised Pretraining of 3D Features on any Point-Cloud](https://arxiv.org/pdf/2101.02691.pdf) [`self-supervised`; [PyTorch](https://github.com/facebookresearch/DepthContrast)]
   - [MGNet: Monocular Geometric Scene Understanding for Autonomous Driving](https://openaccess.thecvf.com/content/ICCV2021/papers/Schon_MGNet_Monocular_Geometric_Scene_Understanding_for_Autonomous_Driving_ICCV_2021_paper.pdf) [`autonomous driving`; [PyTorch](https://github.com/markusschoen/MGNet)]
   - [FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection](https://arxiv.org/pdf/2104.10956.pdf) [`monocular`, `det`; [mmdet3d](https://github.com/open-mmlab/mmdetection3d)]
