@@ -44,6 +44,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [OpenLane](https://github.com/OpenPerceptionX/OpenLane): [PersFormer: 3D Lane Detection via Perspective Transformer and the OpenLane Benchmark](https://arxiv.org/pdf/2203.11089v1.pdf) [ECCV 2022]
 - [HM3DSEM](https://arxiv.org/pdf/2210.05633.pdf): [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/pdf/2210.05633.pdf) [arXiv 2210]
 - [Objaverse](https://objaverse.allenai.org): [Objaverse: A Universe of Annotated 3D Objects](https://arxiv.org/pdf/2212.08051.pdf) [arXiv 2212]
+- [OmniObject3D](https://omniobject3d.github.io): [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/pdf/2301.07525v1.pdf) [arXiv 2301]
 
 <hr />
 

@@ -46,13 +46,25 @@
   - [GLT-T: Global-Local Transformer Voting for 3D Single Object Tracking in Point Clouds](https://arxiv.org/pdf/2211.10927.pdf) [`tracking`; [Github](https://github.com/haooozi/GLT-T)]
   - [Normal Transformer: Extracting Surface Geometry from LiDAR Points Enhanced by Visual Semantics](https://arxiv.org/pdf/2211.10580.pdf) [`normal estimation`]
 - Others
+  - [SCARP: 3D Shape Completion in ARbitrary Poses for Improved Grasping](https://arxiv.org/pdf/2301.07213v1.pdf) [`completion`; [PyTorch](https://github.com/vanhalen42/SCARP); ICRA]
+  - [MonoEdge: Monocular 3D Object Detection Using Local Perspectives](https://arxiv.org/pdf/2301.01802v1.pdf) [`det`; WACV]
   - [Far3Det: Towards Far-Field 3D Detection](https://arxiv.org/pdf/2211.13858.pdf) [`det`; WACV]
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
 - arXiv
+  - [ Joint Representation Learning for Text and 3D Point Cloud](https://arxiv.org/pdf/2301.07584v1.pdf) [`pre-training`; [Github](https://github.com/LeapLabTHU/Text4Point)]
+  - [Long Range Pooling for 3D Large-Scale Scene Understanding](https://arxiv.org/pdf/2301.06962v1.pdf) [`seg`]
+  - [OA-BEV: Bringing Object Awareness to Bird’s-Eye-View Representation for Multi-Camera 3D Object Detection](https://arxiv.org/pdf/2301.05711v1.pdf) [`det`]
+  - [SAT: Size-Aware Transformer for 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2301.06869v1.pdf) [`seg`]
+  - [CLIP2Scene: Towards Label-efficient 3D Scene Understanding by CLIP](https://arxiv.org/pdf/2301.04926v1.pdf) [`pre-training`]
+  - [FrustumFormer: Adaptive Instance-aware Resampling for Multi-view 3D Detection](https://arxiv.org/pdf/2301.04467v1.pdf) [`det`]
+  - [AdaPoinTr: Diverse Point Cloud Completion with Adaptive Geometry-Aware Transformers](https://arxiv.org/pdf/2301.04545v1.pdf) [`completion`]
+  - [Anchor3DLane: Learning to Regress 3D Anchors for Monocular 3D Lane Detection](https://arxiv.org/pdf/2301.02371v1.pdf) [`lane det`]
+  - [Object as Query: Equipping Any 2D Object Detector with 3D Detection Ability](https://arxiv.org/pdf/2301.02364v1.pdf) [`det`]
+  - [Super Sparse 3D Object Detection](https://arxiv.org/pdf/2301.02562v1.pdf) [`det`; [PyTorch](https://github.com/tusen-ai/SST)]
+  - [Model-Agnostic Hierarchical Attention for 3D Object Detection](https://arxiv.org/pdf/2301.02650v1.pdf) [`det`; [Github](https://github.com/salesforce/Hierarchical_Point_Attention)]
   - [Ponder: Point Cloud Pre-training via Neural Rendering](https://arxiv.org/pdf/2301.00157v1.pdf) [`self-supervised learning`; [Github](https://dihuangdh.github.io/ponder/)]
   - [Cross Modal Transformer via Coordinates Encoding for 3D Object Dectection](https://arxiv.org/pdf/2301.01283v1.pdf) [`det`; [Github](https://github.com/junjie18/CMT)]
   - [Benchmarking the Robustness of LiDAR Semantic Segmentation Models](https://arxiv.org/pdf/2301.00970v1.pdf) [`seg`]
-  - [MonoEdge: Monocular 3D Object Detection Using Local Perspectives](https://arxiv.org/pdf/2301.01802v1.pdf) [`det`]
 
 ## 2022
 
@@ -247,6 +259,7 @@
   - [Attention-based Transformation from Latent Features to Point Clouds](https://arxiv.org/pdf/2112.05324.pdf) [`generation`]
   - [Behind the Curtain: Learning Occluded Shapes for 3D Object Detection](https://arxiv.org/pdf/2112.02205.pdf) [`det`; [PyTorch](https://github.com/Xharlie/BtcDet)]
 - Others
+  - [Fast-BEV: Towards Real-time On-vehicle Bird’s-Eye View Perception](https://arxiv.org/pdf/2301.07870v1.pdf) [`det`; [Github](https://github.com/Sense-GVT/Fast-BEV); NeurIPSW]
   - [Sparse2Dense: Learning to Densify 3D Features for 3D Object Detection](https://arxiv.org/pdf/2211.13067.pdf) [`det`; [Github](https://github.com/stevewongv/Sparse2Dense); NeurIPS]
   - [Language Conditioned Spatial Relation Reasoning for 3D Object Grounding](https://arxiv.org/pdf/2211.09646.pdf) [`localizing`; [PyTorch](https://github.com/cshizhe/vil3dref); NeurIPS]
   - [A Benchmark for Out of Distribution Detection in Point Cloud 3D Semantic Segmentation](https://arxiv.org/pdf/2211.06241.pdf) [`seg`; NeurIPSW]
