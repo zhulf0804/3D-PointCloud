@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
 - [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/pdf/2209.05324.pdf) [arXiv 2022; [Github](https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe)]
 - [3D Vision with Transformers: A Survey](https://arxiv.org/pdf/2208.04309.pdf) [arXiv 2022; [Github](https://github.com/lahoud/3d-vision-transformers)]
 - [Vision-Centric BEV Perception: A Survey](https://arxiv.org/pdf/2208.02797.pdf) [arXiv 2022; [Github](https://github.com/4DVLab/Vision-Centric-BEV-Perception)]
@@ -31,6 +32,7 @@
 ## 2023
 
 - AAAI
+  - [PUPS: Point Cloud Unified Panoptic Segmentation](https://arxiv.org/pdf/2302.06185.pdf) [`seg`]
   - [StereoDistill: Pick the Cream from LiDAR for Distilling Stereo-based 3D Object Detection](https://arxiv.org/pdf/2301.01615v1.pdf) [`det`]
   - [Rethinking Rotation Invariance with Point Cloud Registration](https://arxiv.org/pdf/2301.00149v1.pdf) [`cls`, `seg`, `retrieval`; [PyTorch](https://github.com/Crane-YU/rethink_rotation)]
   - [SSDA3D: Semi-supervised Domain Adaptation for 3D Object Detection from Point Cloud](https://arxiv.org/pdf/2212.02845.pdf) [`det`; [Github](https://github.com/yinjunbo/SSDA3D)]
@@ -46,6 +48,7 @@
   - [GLT-T: Global-Local Transformer Voting for 3D Single Object Tracking in Point Clouds](https://arxiv.org/pdf/2211.10927.pdf) [`tracking`; [Github](https://github.com/haooozi/GLT-T)]
   - [Normal Transformer: Extracting Surface Geometry from LiDAR Points Enhanced by Visual Semantics](https://arxiv.org/pdf/2211.10580.pdf) [`normal estimation`]
 - Others
+  - [RoReg: Pairwise Point Cloud Registration with Oriented Descriptors and Local Rotations](https://ieeexplore.ieee.org/abstract/document/10044259) [`registration`; [PyTorch](https://github.com/HpWang-whu/RoReg); TPAMI]
   - [CircNet: Meshing 3D Point Clouds with Circumcenter Detection](https://arxiv.org/pdf/2301.09253.pdf) [`triangulation`; [Github](https://github.com/Ruitao-L/CircNet); ICLR]
   - [Bidirectional Propagation for Cross-Modal 3D Object Detection](https://arxiv.org/pdf/2301.09077.pdf) [`det`; [PyTorch](https://github.com/Eaphan/BiProDet); ICLR]
   - [Exploring Active 3D Object Detection from a Generalization Perspective](https://arxiv.org/pdf/2301.09249.pdf) [`det`; [PyTorch](https://github.com/Luoyadan/CRB-active-3Ddet); ICLR]
@@ -54,6 +57,12 @@
   - [Far3Det: Towards Far-Field 3D Detection](https://arxiv.org/pdf/2211.13858.pdf) [`det`; WACV]
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
 - arXiv
+  - [Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction](https://arxiv.org/pdf/2302.07817.pdf) [`autonomous driving`; [PyTorch](https://github.com/wzzheng/TPVFormer)]
+  - [PointWavelet: Learning in Spectral Domain for 3D Point Cloud Analysis](https://arxiv.org/pdf/2302.05201.pdf) [`cls`, `seg`]
+  - [Standing Between Past and Future: Spatio-Temporal Modeling for Multi-Camera 3D Multi-Object Tracking](https://arxiv.org/pdf/2302.03802.pdf) [`tracking`; [Github](https://github.com/TRI-ML/PF-Track)]
+  - [Top-Down Beats Bottom-Up in 3D Instance Segmentation](https://arxiv.org/pdf/2302.02871.pdf) [`seg`; [PyTorch](https://github.com/SamsungLabs/td3d)]
+  - [TR3D: Towards Real-Time Indoor 3D Object Detection](https://arxiv.org/pdf/2302.02858.pdf) [`det`; [PyTorch](https://github.com/SamsungLabs/tr3d)]
+  - [CVTNet: A Cross-View Transformer Network for Place Recognition Using LiDAR Data](https://arxiv.org/pdf/2302.01665.pdf) [`place recognition`; [Github](https://github.com/BIT-MJY/CVTNet)]
   - [AOP-Net: All-in-One Perception Network for Joint LiDAR-based 3D Object Detection and Panoptic Segmentation](https://arxiv.org/pdf/2302.00885.pdf) [`det`, `seg`]
   - [Fast-BEV: A Fast and Strong Bird’s-Eye View Perception Baseline](https://arxiv.org/pdf/2301.12511v1.pdf) [`det`; [PyTorch](https://github.com/Sense-GVT/Fast-BEV)]
   - [On the Adversarial Robustness of Camera-based 3D Object Detection](https://arxiv.org/pdf/2301.10766.pdf) [`det`]
