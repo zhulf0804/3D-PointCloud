@@ -45,6 +45,9 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [HM3DSEM](https://arxiv.org/pdf/2210.05633.pdf): [Habitat-Matterport 3D Semantics Dataset](https://arxiv.org/pdf/2210.05633.pdf) [arXiv 2210]
 - [Objaverse](https://objaverse.allenai.org): [Objaverse: A Universe of Annotated 3D Objects](https://arxiv.org/pdf/2212.08051.pdf) [arXiv 2212]
 - [OmniObject3D](https://omniobject3d.github.io): [OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation](https://arxiv.org/pdf/2301.07525v1.pdf) [arXiv 2301]
+- [OpenOccupancy](https://github.com/JeffWang987/OpenOccupancy): [OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception](https://arxiv.org/pdf/2303.03991v1.pdf) [arXiv 2303]
+- [V2V4Real](https://github.com/ucla-mobility/V2V4Real): [V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception](https://arxiv.org/pdf/2303.07601v1.pdf) [CVPR 2023]
+- [CVPR2023-Occupancy-Prediction-Challenge](https://opendrivelab.com/AD23Challenge.html#Track3): [https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction](https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction) [CVPR2023 Challenge]
 
 <hr />
 
