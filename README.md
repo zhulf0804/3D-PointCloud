@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v1.pdf) [arXiv 2023; [Project](https://xjtlu-vec.github.io/Radar-Camera-Fusion/)]
 - [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
 - [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [TPAMI 2023; [Github](https://github.com/xiaoaoran/3d_url_survey)]
 - [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/pdf/2209.05324.pdf) [arXiv 2022; [Github](https://github.com/OpenDriveLab/BEVPerception-Survey-Recipe)]
@@ -32,6 +33,9 @@
 ## 2023
 
 - CVPR
+  - [Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions](https://arxiv.org/pdf/2304.11846v1.pdf) [`upsampling`; [PyTorch](https://github.com/yunhe20/Grad-PU)]
+  - [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](https://arxiv.org/pdf/2304.11379v1.pdf) [`seg`; [Github](https://github.com/songw-zju/LiDAR2Map)]
+  - [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](https://arxiv.org/pdf/2304.09446v1.pdf) [`det`; [PyTorch](https://github.com/WoodwindHu/DTS)]
   - [Curricular Object Manipulation in LiDAR-based Object Detection](https://arxiv.org/pdf/2304.04248v1.pdf) [`det`; [PyTorch](https://github.com/ZZY816/COM)]
   - [Exploiting the Complementarity of 2D and 3D Networks to Address Domain-Shift in 3D Semantic Segmentation](https://arxiv.org/pdf/2304.02991v1.pdf) [CVPRW]
   - [Hierarchical Supervision and Shuffle Data Augmentation for 3D Semi-Supervised Object Detection](https://arxiv.org/pdf/2304.01464v1.pdf) [`det`; [PyTorch](https://github.com/azhuantou/HSSDA)]
@@ -118,9 +122,12 @@
   - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVDepth)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
 - Others
+  - [OSP2B: One-Stage Point-to-Box Network for 3D Siamese Tracking](https://arxiv.org/pdf/2304.11584v1.pdf) [`tracking`; IJCAI]
   - [A Closer Look at Few-Shot 3D Point Cloud Classification](https://arxiv.org/pdf/2303.18210v1.pdf) [`cls`; [Github](https://github.com/cgye96/A_Closer_Look_At_3DFSL); IJCV]
   - [HybridPoint: Point Cloud Registration Based on Hybrid Point Sampling and Matching](https://arxiv.org/pdf/2303.16526.pdf) [`registration`; [Github](https://github.com/liyih/HybridPoint); ICME]
+  - [Variational Relational Point Completion Network for Robust 3D Classification](https://arxiv.org/pdf/2304.09131v1.pdf) [`completion`; TPAMI]
   - [RoReg: Pairwise Point Cloud Registration with Oriented Descriptors and Local Rotations](https://ieeexplore.ieee.org/abstract/document/10044259) [`registration`; [PyTorch](https://github.com/HpWang-whu/RoReg); TPAMI]
+  - [Analogy-Forming Transformers for Few-Shot 3D Parsing](https://arxiv.org/pdf/2304.14382v1.pdf) [`seg`; [Project](https://analogicalnets.github.io); ICLR]
   - [Joint 2D-3D multi-task scene understanding on Cityscapes-3D: 3D detection, segmentation, and depth estimation](https://openreview.net/pdf?id=-CwPopPJda) [`seg`, `det`, `depth estimation`; [PyTorch](https://github.com/prismformore/Multi-Task-Transformer/tree/main/TaskPrompter); ICLR]
   - [CircNet: Meshing 3D Point Clouds with Circumcenter Detection](https://arxiv.org/pdf/2301.09253.pdf) [`triangulation`; [Github](https://github.com/Ruitao-L/CircNet); ICLR]
   - [BEVDistill: Cross-Modal BEV Distillation for Multi-View 3D Object Detection](https://arxiv.org/pdf/2211.09386.pdf) [`det`; [Github](https://github.com/zehuichen123/BEVDistill); ICLR]
@@ -143,6 +150,16 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection](https://arxiv.org/pdf/2304.14340v1.pdf) [`det`; [Github](https://github.com/yichen928/SparseFusion)]
+  - [DQS3D: Densely-matched Quantization-aware Semi-supervised 3D Detection](https://arxiv.org/pdf/2304.13031v1.pdf) [`det`; [PyTorch](https://github.com/AIR-DISCOVER/DQS3D)]
+  - [ContrastMotion: Self-supervised Scene Motion Learning for Large-Scale LiDAR Point Clouds](https://arxiv.org/pdf/2304.12589v1.pdf) [`scene motion`]
+  - [Segment Anything in 3D with NeRFs](https://arxiv.org/pdf/2304.12308v1.pdf) [`seg`; [Github](https://github.com/Jumpat/SegmentAnythingin3D)]
+  - [You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation](https://arxiv.org/pdf/2304.11762v1.pdf) [`annotation`; [PyTorch](https://github.com/nerminsamet/seedal)]
+  - [Fully Sparse Fusion for 3D Object Detection](https://arxiv.org/pdf/2304.12310v1.pdf) [`det`; [Github](https://github.com/BraveGroup/FullySparseFusion)]
+  - [Once Detected, Never Lost: Surpassing Human Performance in Offline LiDAR based 3D Object Detection](https://arxiv.org/pdf/2304.12315v1.pdf) [`det`; [PyTorch](https://github.com/tusen-ai/SST)]
+  - [MetaBEV: Solving Sensor Failures for BEV Detection and Map Segmentation](https://arxiv.org/pdf/2304.09801v1.pdf) [`det`, `seg`; [Github](https://github.com/ChongjianGE/MetaBEV)]
+  - [3D Feature Prediction for Masked-AutoEncoder-Based Point Cloud Pretraining](https://arxiv.org/pdf/2304.06911v1.pdf) [`pre-training`]
+  - [Swin3D: A Pretrained Transformer Backbone for 3D Indoor Scene Understanding](https://arxiv.org/pdf/2304.06906v1.pdf) [`seg`, `det`; [Github](https://github.com/microsoft/Swin3D)]
   - [RoboBEV: Towards Robust Bird's Eye View Perception under Corruptions](https://arxiv.org/pdf/2304.06719v1.pdf) [`autonomous driving`; [Github](https://github.com/Daniel-xsy/RoboBEV)]
   - [OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction](https://arxiv.org/pdf/2304.05316v1.pdf) [`semantic occupancy prediction`; [PyTorch](https://github.com/zhangyp15/OccFormer)]
   - [Sparse Dense Fusion for 3D Object Detection](https://arxiv.org/pdf/2304.04179v1.pdf) [`det`]

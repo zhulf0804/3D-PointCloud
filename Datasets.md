@@ -49,6 +49,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [V2V4Real](https://github.com/ucla-mobility/V2V4Real): [V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception](https://arxiv.org/pdf/2303.07601v1.pdf) [CVPR 2023]
 - [CVPR2023-Occupancy-Prediction-Challenge](https://opendrivelab.com/AD23Challenge.html#Track3): [https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction](https://github.com/CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction) [CVPR2023 Challenge]
 - [WOMD-LiDAR](https://waymo.com/open/data/motion/): [WOMD-LiDAR: Raw Sensor Dataset Benchmark for Motion Forecasting](https://arxiv.org/pdf/2304.03834v1.pdf) [arXiv 2304]
+- [Occ3D](https://tsinghua-mars-lab.github.io/Occ3D/): [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/pdf/2304.14365v1.pdf) [arXiv 2304]
 
 <hr />
 
