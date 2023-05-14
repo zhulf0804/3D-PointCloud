@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Self-supervised Learning for Pre-Training 3D Point Clouds: A Survey](https://arxiv.org/pdf/2305.04691.pdf) [arXiv 2023]
 - [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v1.pdf) [arXiv 2023; [Project](https://xjtlu-vec.github.io/Radar-Camera-Fusion/)]
 - [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
 - [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [TPAMI 2023; [Github](https://github.com/xiaoaoran/3d_url_survey)]
@@ -33,6 +34,13 @@
 ## 2023
 
 - CVPR
+  - [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](https://arxiv.org/pdf/2305.06621.pdf) [`det`; [Github](https://github.com/Nightmare-n/PVT-SSD)]
+  - [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](https://arxiv.org/pdf/2305.05873.pdf) [`normal estimation`; [PyTorch](https://github.com/LeoQLi/SHS-Net)]
+  - [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](https://arxiv.org/pdf/2305.06242.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/ThinkTwice)]
+  - [Self-supervised Pre-training with Masked Shape Prediction for 3D Scene Understanding](https://arxiv.org/pdf/2305.05026.pdf) [`self-supervised`]
+  - [PointCMP: Contrastive Mask Prediction for Self-supervised Learning on Point Cloud Videos](https://arxiv.org/pdf/2305.04075.pdf) [`self-supervised`]
+  - [PillarNeXt: Rethinking Network Designs for 3D Object Detection in LiDAR Point Clouds](https://arxiv.org/pdf/2305.04925.pdf) [`det`]
+  - [Self-Supervised 3D Scene Flow Estimation Guided by Superpoints](https://arxiv.org/pdf/2305.02528.pdf) [`scene flow`; [Github](https://github.com/supersyq/SPFlowNet)]
   - [Grad-PU: Arbitrary-Scale Point Cloud Upsampling via Gradient Descent with Learned Distance Functions](https://arxiv.org/pdf/2304.11846v1.pdf) [`upsampling`; [PyTorch](https://github.com/yunhe20/Grad-PU)]
   - [LiDAR2Map: In Defense of LiDAR-Based Semantic Map Construction Using Online Camera Distillation](https://arxiv.org/pdf/2304.11379v1.pdf) [`seg`; [Github](https://github.com/songw-zju/LiDAR2Map)]
   - [Density-Insensitive Unsupervised Domain Adaption on 3D Object Detection](https://arxiv.org/pdf/2304.09446v1.pdf) [`det`; [PyTorch](https://github.com/WoodwindHu/DTS)]
@@ -122,6 +130,8 @@
   - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVDepth)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
 - Others
+  - [OctFormer: Octree-based Transformers for 3D Point Clouds](https://arxiv.org/pdf/2305.03045.pdf) [`seg`, `det`; [Github](https://github.com/octree-nn/octformer); TOG]
+  - [APR: Online Distant Point Cloud Registration Through Aggregated Point Cloud Reconstruction](https://arxiv.org/pdf/2305.02893.pdf) [`registration`; [Github](https://github.com/liuQuan98/APR); IJCAI]
   - [OSP2B: One-Stage Point-to-Box Network for 3D Siamese Tracking](https://arxiv.org/pdf/2304.11584v1.pdf) [`tracking`; IJCAI]
   - [A Closer Look at Few-Shot 3D Point Cloud Classification](https://arxiv.org/pdf/2303.18210v1.pdf) [`cls`; [Github](https://github.com/cgye96/A_Closer_Look_At_3DFSL); IJCV]
   - [HybridPoint: Point Cloud Registration Based on Hybrid Point Sampling and Matching](https://arxiv.org/pdf/2303.16526.pdf) [`registration`; [Github](https://github.com/liyih/HybridPoint); ICME]
@@ -150,6 +160,7 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [DSPDet3D: Dynamic Spatial Pruning for 3D Small Object Detection](https://arxiv.org/pdf/2305.03716.pdf) [`det`; [PyTorch](https://github.com/xuxw98/DSPDet3D)]
   - [SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection](https://arxiv.org/pdf/2304.14340v1.pdf) [`det`; [Github](https://github.com/yichen928/SparseFusion)]
   - [DQS3D: Densely-matched Quantization-aware Semi-supervised 3D Detection](https://arxiv.org/pdf/2304.13031v1.pdf) [`det`; [PyTorch](https://github.com/AIR-DISCOVER/DQS3D)]
   - [ContrastMotion: Self-supervised Scene Motion Learning for Large-Scale LiDAR Point Clouds](https://arxiv.org/pdf/2304.12589v1.pdf) [`scene motion`]
