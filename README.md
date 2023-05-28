@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [Self-Supervised Learning for Point Clouds Data: A Survey](https://arxiv.org/pdf/2305.11881.pdf) [`arXiv 2023`]
 - [Self-supervised Learning for Pre-Training 3D Point Clouds: A Survey](https://arxiv.org/pdf/2305.04691.pdf) [arXiv 2023]
 - [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v1.pdf) [arXiv 2023; [Project](https://xjtlu-vec.github.io/Radar-Camera-Fusion/)]
 - [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
@@ -34,6 +35,9 @@
 ## 2023
 
 - CVPR
+  - [3D Registration with Maximal Cliques](https://arxiv.org/pdf/2305.10854.pdf) [`registration`; [Github](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques)]
+  - [DynStatF: An Efficient Feature Fusion Strategy for LiDAR 3D Object Detection](https://arxiv.org/pdf/2305.15219.pdf) [`det`; CVPRW]
+  - [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](https://arxiv.org/pdf/2305.08808.pdf) [`self-supervised`; [Github](https://github.com/Tsinghua-MARS-Lab/GeoMAE)]
   - [PVT-SSD: Single-Stage 3D Object Detector with Point-Voxel Transformer](https://arxiv.org/pdf/2305.06621.pdf) [`det`; [Github](https://github.com/Nightmare-n/PVT-SSD)]
   - [SHS-Net: Learning Signed Hyper Surfaces for Oriented Normal Estimation of Point Clouds](https://arxiv.org/pdf/2305.05873.pdf) [`normal estimation`; [PyTorch](https://github.com/LeoQLi/SHS-Net)]
   - [Think Twice before Driving: Towards Scalable Decoders for End-to-End Autonomous Driving](https://arxiv.org/pdf/2305.06242.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/ThinkTwice)]
@@ -130,6 +134,9 @@
   - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVDepth)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
 - Others
+  - [Energy-based Detection of Adverse Weather Effects in LiDAR Data](https://arxiv.org/pdf/2305.16129.pdf) [`autonomous driving`; [Github](https://github.com/aldipiroli/semantic_spray_dataset); RAL]
+  - [Prototype Adaption and Projection for Few- and Zero-shot 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2305.14335.pdf) [`seg`; [Github](https://github.com/heshuting555/PAP-FZS3D); TIP]
+  - [Cross-source Point Cloud Registration: Challenges, Progress and Prospects](https://arxiv.org/pdf/2305.13570.pdf) [`registration`; Neurocomputing]
   - [OctFormer: Octree-based Transformers for 3D Point Clouds](https://arxiv.org/pdf/2305.03045.pdf) [`seg`, `det`; [Github](https://github.com/octree-nn/octformer); TOG]
   - [APR: Online Distant Point Cloud Registration Through Aggregated Point Cloud Reconstruction](https://arxiv.org/pdf/2305.02893.pdf) [`registration`; [Github](https://github.com/liuQuan98/APR); IJCAI]
   - [OSP2B: One-Stage Point-to-Box Network for 3D Siamese Tracking](https://arxiv.org/pdf/2304.11584v1.pdf) [`tracking`; IJCAI]
@@ -160,6 +167,14 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [Banana: Banach Fixed-Point Network for Pointcloud Segmentation with Inter-Part Equivariance](https://arxiv.org/pdf/2305.16314.pdf) [`seg`]
+  - [All Points Matter: Entropy-Regularized Distribution Alignment for Weakly-supervised 3D Segmentation](https://arxiv.org/pdf/2305.15832.pdf) [`seg`]
+  - [Learning Occupancy for Monocular 3D Object Detection](https://arxiv.org/pdf/2305.15694.pdf) [`det`; [Github](https://github.com/SPengLiang/OccupancyM3D)]
+  - [SAD: Segment Any RGBD](https://arxiv.org/pdf/2305.14207.pdf) [`seg`; [PyTorch](https://github.com/Jun-CEN/SegmentAnyRGBD)]
+  - [Real-Aug: Realistic Scene Synthesis for LiDAR Augmentation in 3D Object Detection](https://arxiv.org/pdf/2305.12853.pdf) [`augmentation`]
+  - [PointGPT: Auto-regressively Generative Pre-training from Point Clouds](https://arxiv.org/pdf/2305.11487.pdf) [`pre-training`; [Github](https://github.com/CGuangyan-BIT/PointGPT)]
+  - [SUG: Single-dataset Unified Generalization for 3D Point Cloud Classification](https://arxiv.org/pdf/2305.09160.pdf) [`cls`; [PyTorch](https://github.com/SiyuanHuang95/SUG)]
+  - [Multi-Modal 3D Object Detection by Box Matching](https://arxiv.org/pdf/2305.07713.pdf) [`det`; [Github](https://github.com/happinesslz/FBMNet)]
   - [DSPDet3D: Dynamic Spatial Pruning for 3D Small Object Detection](https://arxiv.org/pdf/2305.03716.pdf) [`det`; [PyTorch](https://github.com/xuxw98/DSPDet3D)]
   - [SparseFusion: Fusing Multi-Modal Sparse Representations for Multi-Sensor 3D Object Detection](https://arxiv.org/pdf/2304.14340v1.pdf) [`det`; [Github](https://github.com/yichen928/SparseFusion)]
   - [DQS3D: Densely-matched Quantization-aware Semi-supervised 3D Detection](https://arxiv.org/pdf/2304.13031v1.pdf) [`det`; [PyTorch](https://github.com/AIR-DISCOVER/DQS3D)]
