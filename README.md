@@ -6,15 +6,16 @@
 
 ## Survey papers
 
-- [Self-Supervised Learning for Point Clouds Data: A Survey](https://arxiv.org/pdf/2305.11881.pdf) [`arXiv 2023`]
+- [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/pdf/2206.09474.pdf) [IJCV 2023; [Github](https://github.com/pointscoder/awesome-3d-object-detection-for-autonomous-driving)]
+- [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [TPAMI 2023; [Github](https://github.com/xiaoaoran/3d_url_survey)]
+- [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/pdf/2305.19812.pdf) [arXiv 2023; [Github](https://github.com/xiaoaoran/3D_label_efficient_learning)]
+- [Self-Supervised Learning for Point Clouds Data: A Survey](https://arxiv.org/pdf/2305.11881.pdf) [arXiv 2023]
 - [Self-supervised Learning for Pre-Training 3D Point Clouds: A Survey](https://arxiv.org/pdf/2305.04691.pdf) [arXiv 2023]
 - [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v1.pdf) [arXiv 2023; [Project](https://xjtlu-vec.github.io/Radar-Camera-Fusion/)]
 - [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
-- [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [TPAMI 2023; [Github](https://github.com/xiaoaoran/3d_url_survey)]
 - [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/pdf/2209.05324.pdf) [arXiv 2022; [Github](https://github.com/OpenDriveLab/BEVPerception-Survey-Recipe)]
 - [3D Vision with Transformers: A Survey](https://arxiv.org/pdf/2208.04309.pdf) [arXiv 2022; [Github](https://github.com/lahoud/3d-vision-transformers)]
 - [Vision-Centric BEV Perception: A Survey](https://arxiv.org/pdf/2208.02797.pdf) [arXiv 2022; [Github](https://github.com/4DVLab/Vision-Centric-BEV-Perception)]
-- [3D Object Detection for Autonomous Driving: A Review and New Outlooks](https://arxiv.org/pdf/2206.09474.pdf) [arXiv 2022; [Github](https://github.com/pointscoder/awesome-3d-object-detection-for-autonomous-driving)]
 - [Transformers in 3D Point Clouds: A Survey](https://arxiv.org/pdf/2205.07417.pdf) [arXiv 2022]
 - [Surface Reconstruction from Point Clouds: A Survey and a Benchmark](https://arxiv.org/pdf/2205.02413.pdf) [arXiv 2022]
 - [Sequential Point Clouds: A Survey](https://arxiv.org/pdf/2204.09337.pdf) [arXiv 2022]
@@ -35,6 +36,11 @@
 ## 2023
 
 - CVPR
+  - [MoDAR: Using Motion Forecasting for 3D Object Detection in Point Cloud Sequences](https://arxiv.org/pdf/2306.03206.pdf) [`det`]
+  - [TorchSparse++: Efficient Point Cloud Engine](https://openaccess.thecvf.com/content/CVPR2023W/WAD/papers/Tang_TorchSparse_Efficient_Point_Cloud_Engine_CVPRW_2023_paper.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse)]
+  - [Bi-LRFusion: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection](https://arxiv.org/pdf/2306.01438.pdf) [`det`; [PyTorch](https://github.com/JessieW0806/Bi-LRFusion)]
+  - [NeurOCS: Neural NOCS Supervision for Monocular 3D Object Localization](https://arxiv.org/pdf/2305.17763.pdf) [`localization`]
+  - [GrowSP: Unsupervised Semantic Segmentation of 3D Point Clouds](https://arxiv.org/pdf/2305.16404.pdf) [`seg`; [PyTorch](https://github.com/vLAR-group/GrowSP)]
   - [3D Registration with Maximal Cliques](https://arxiv.org/pdf/2305.10854.pdf) [`registration`; [Github](https://github.com/zhangxy0517/3D-Registration-with-Maximal-Cliques)]
   - [DynStatF: An Efficient Feature Fusion Strategy for LiDAR 3D Object Detection](https://arxiv.org/pdf/2305.15219.pdf) [`det`; CVPRW]
   - [GeoMAE: Masked Geometric Target Prediction for Self-supervised Point Cloud Pre-Training](https://arxiv.org/pdf/2305.08808.pdf) [`self-supervised`; [Github](https://github.com/Tsinghua-MARS-Lab/GeoMAE)]
@@ -167,6 +173,15 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [SAM3D: Segment Anything in 3D Scenes](https://arxiv.org/pdf/2306.03908.pdf) [`seg`; [PyTorch](https://github.com/Pointcept/SegmentAnything3D)]
+  - [SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model](https://arxiv.org/pdf/2306.02245.pdf) [`det`; [PyTorch](https://github.com/DYZhang09/SAM3D)]
+  - [Scene as Occupancy](https://arxiv.org/pdf/2306.02851.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/OccNet)]
+  - [Collect-and-Distribute Transformer for 3D Point Cloud Analysis](https://arxiv.org/pdf/2306.01257.pdf) [`cls`, `seg`; [PyTorch](https://github.com/haibo-qiu/CDFormer)]
+  - [OCBEV: Object-Centric BEV Transformer for Multi-View 3D Object Detection](https://arxiv.org/pdf/2306.01738.pdf) [`det`]
+  - [AD-PT: Autonomous Driving Pre-Training with Large-scale Point Cloud Dataset](https://arxiv.org/pdf/2306.00612.pdf) [`pre-training`; [PyTorch](https://github.com/PJLab-ADG/3DTrans)]
+  - [Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast](https://arxiv.org/pdf/2305.19623.pdf) [`self-supervised learning`; [Github](https://github.com/Asterisci/Point-GCC)]
+  - [Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction](https://arxiv.org/pdf/2305.18829.pdf) [`det`, `semantic occupancy prediction`; [PyTorch](https://github.com/chaytonmin/Occ-BEV)]
+  - [BEV-IO: Enhancing Bird's-Eye-View 3D Detection with Instance Occupancy](https://arxiv.org/pdf/2305.16829.pdf) [`det`]
   - [Banana: Banach Fixed-Point Network for Pointcloud Segmentation with Inter-Part Equivariance](https://arxiv.org/pdf/2305.16314.pdf) [`seg`]
   - [All Points Matter: Entropy-Regularized Distribution Alignment for Weakly-supervised 3D Segmentation](https://arxiv.org/pdf/2305.15832.pdf) [`seg`]
   - [Learning Occupancy for Monocular 3D Object Detection](https://arxiv.org/pdf/2305.15694.pdf) [`det`; [Github](https://github.com/SPengLiang/OccupancyM3D)]
