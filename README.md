@@ -36,6 +36,7 @@
 ## 2023
 
 - CVPR
+  - [Planning-oriented Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/UniAD)]
   - [MoDAR: Using Motion Forecasting for 3D Object Detection in Point Cloud Sequences](https://arxiv.org/pdf/2306.03206.pdf) [`det`]
   - [TorchSparse++: Efficient Point Cloud Engine](https://openaccess.thecvf.com/content/CVPR2023W/WAD/papers/Tang_TorchSparse_Efficient_Point_Cloud_Engine_CVPRW_2023_paper.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse)]
   - [Bi-LRFusion: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection](https://arxiv.org/pdf/2306.01438.pdf) [`det`; [PyTorch](https://github.com/JessieW0806/Bi-LRFusion)]
@@ -140,10 +141,13 @@
   - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVDepth)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
 - Others
+  - [Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning](https://arxiv.org/pdf/2306.11406.pdf) [`analysis`; ICML]
+  - [Concavity-Induced Distance for Unoriented Point Cloud Decomposition](https://arxiv.org/pdf/2306.11051.pdf) [`analysis`; [Project](https://ai4ce.github.io/CID/); RAL]
   - [Energy-based Detection of Adverse Weather Effects in LiDAR Data](https://arxiv.org/pdf/2305.16129.pdf) [`autonomous driving`; [Github](https://github.com/aldipiroli/semantic_spray_dataset); RAL]
   - [Prototype Adaption and Projection for Few- and Zero-shot 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2305.14335.pdf) [`seg`; [Github](https://github.com/heshuting555/PAP-FZS3D); TIP]
   - [Cross-source Point Cloud Registration: Challenges, Progress and Prospects](https://arxiv.org/pdf/2305.13570.pdf) [`registration`; Neurocomputing]
   - [OctFormer: Octree-based Transformers for 3D Point Clouds](https://arxiv.org/pdf/2305.03045.pdf) [`seg`, `det`; [Github](https://github.com/octree-nn/octformer); TOG]
+  - [PowerBEV: A Powerful Yet Lightweight Framework for Instance Prediction in Bird's-Eye View](https://arxiv.org/pdf/2306.10761.pdf) [`autonomous driving`; [PyTorch](https://github.com/EdwardLeeLPZ/PowerBEV); IJCAI]
   - [APR: Online Distant Point Cloud Registration Through Aggregated Point Cloud Reconstruction](https://arxiv.org/pdf/2305.02893.pdf) [`registration`; [Github](https://github.com/liuQuan98/APR); IJCAI]
   - [OSP2B: One-Stage Point-to-Box Network for 3D Siamese Tracking](https://arxiv.org/pdf/2304.11584v1.pdf) [`tracking`; IJCAI]
   - [A Closer Look at Few-Shot 3D Point Cloud Classification](https://arxiv.org/pdf/2303.18210v1.pdf) [`cls`; [Github](https://github.com/cgye96/A_Closer_Look_At_3DFSL); IJCV]
@@ -173,6 +177,14 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [Frame Fusion with Vehicle Motion Prediction for 3D Object Detection](https://arxiv.org/pdf/2306.10699.pdf) [`det`]
+  - [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/pdf/2306.10013.pdf) [`semantic occupancy prediction`; [Github](https://github.com/Robertwyq/PanoOcc)]
+  - [Explore In-Context Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2306.08659.pdf) [`in-context learning`; [Github](https://github.com/fanglaosi/Point-In-Context)]
+  - [Segment Any Point Cloud Sequences by Distilling Vision Foundation Models](https://arxiv.org/pdf/2306.09347.pdf) [`seg`; [Github](https://github.com/youquanl/Segment-Any-Point-Cloud)]
+  - [UniOcc: Unifying Vision-Centric 3D Occupancy Prediction with Geometric and Semantic Rendering](https://arxiv.org/pdf/2306.09117.pdf) [`occupancy prediction`]
+  - [Efficient 3D Semantic Segmentation with Superpoint Transformer](https://arxiv.org/pdf/2306.08045.pdf) [`seg`; [PyTorch](https://github.com/drprojects/superpoint_transformer)]
+  - [TrajectoryFormer: 3D Object Tracking Transformer with Predictive Trajectory Hypotheses](https://arxiv.org/pdf/2306.05888.pdf) [`tracking`]
+  - [DetZero: Rethinking Offboard 3D Object Detection with Long-term Sequential Point Clouds](https://arxiv.org/pdf/2306.06023.pdf) [`det`; [Github](https://github.com/PJLab-ADG/DetZero)]
   - [SAM3D: Segment Anything in 3D Scenes](https://arxiv.org/pdf/2306.03908.pdf) [`seg`; [PyTorch](https://github.com/Pointcept/SegmentAnything3D)]
   - [SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model](https://arxiv.org/pdf/2306.02245.pdf) [`det`; [PyTorch](https://github.com/DYZhang09/SAM3D)]
   - [Scene as Occupancy](https://arxiv.org/pdf/2306.02851.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/OccNet)]
