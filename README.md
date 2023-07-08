@@ -6,6 +6,7 @@
 
 ## Survey papers
 
+- [End-to-end Autonomous Driving: Challenges and Frontiers](https://arxiv.org/pdf/2306.16927.pdf) [arXiv 2023; [Github](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving)]
 - [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/pdf/2206.09474.pdf) [IJCV 2023; [Github](https://github.com/pointscoder/awesome-3d-object-detection-for-autonomous-driving)]
 - [Unsupervised Point Cloud Representation Learning with Deep Neural Networks: A Survey](https://arxiv.org/pdf/2202.13589.pdf) [TPAMI 2023; [Github](https://github.com/xiaoaoran/3d_url_survey)]
 - [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/pdf/2305.19812.pdf) [arXiv 2023; [Github](https://github.com/xiaoaoran/3D_label_efficient_learning)]
@@ -36,6 +37,7 @@
 ## 2023
 
 - CVPR
+  - [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://arxiv.org/pdf/2307.01492.pdf) [`semantic occupancy prediction`; [Github](https://github.com/NVlabs/FB-BEV); CVPRW]
   - [Planning-oriented Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/UniAD)]
   - [MoDAR: Using Motion Forecasting for 3D Object Detection in Point Cloud Sequences](https://arxiv.org/pdf/2306.03206.pdf) [`det`]
   - [TorchSparse++: Efficient Point Cloud Engine](https://openaccess.thecvf.com/content/CVPR2023W/WAD/papers/Tang_TorchSparse_Efficient_Point_Cloud_Engine_CVPRW_2023_paper.pdf) [`engine`; [PyTorch](https://github.com/mit-han-lab/torchsparse)]
@@ -141,7 +143,11 @@
   - [BEVDepth: Acquisition of Reliable Depth for Multi-view 3D Object Detection](https://arxiv.org/pdf/2206.10092.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVDepth)]
   - [BEVStereo: Enhancing Depth Estimation in Multi-view 3D Object Detection with Dynamic Temporal Stereo](https://arxiv.org/pdf/2209.10248.pdf) [`det`; [PyTorch](https://github.com/Megvii-BaseDetection/BEVStereo)]
 - Others
+  - [SUIT: Learning Significance-guided Information for 3D Temporal Detection](https://arxiv.org/pdf/2307.01807.pdf) [`det`; IROS]
+  - [PANet: LiDAR Panoptic Segmentation with Sparse Instance Proposal and Aggregation](https://arxiv.org/pdf/2306.15348.pdf) [`seg`; [PyTorch](https://github.com/Jieqianyu/PANet); IROS]
+  - [SSC-RS: Elevate LiDAR Semantic Scene Completion with Representation Separation and BEV Fusion](https://arxiv.org/pdf/2306.15349.pdf) [`semantic scene completion`; [PyTorch](https://github.com/Jieqianyu/SSC-RS); IROS]
   - [Stable and Consistent Prediction of 3D Characteristic Orientation via Invariant Residual Learning](https://arxiv.org/pdf/2306.11406.pdf) [`analysis`; ICML]
+  - [STTracker: Spatio-Temporal Tracker for 3D Single Object Tracking](https://arxiv.org/pdf/2306.17440.pdf) [`det`; RAL]
   - [Concavity-Induced Distance for Unoriented Point Cloud Decomposition](https://arxiv.org/pdf/2306.11051.pdf) [`analysis`; [Project](https://ai4ce.github.io/CID/); RAL]
   - [Energy-based Detection of Adverse Weather Effects in LiDAR Data](https://arxiv.org/pdf/2305.16129.pdf) [`autonomous driving`; [Github](https://github.com/aldipiroli/semantic_spray_dataset); RAL]
   - [Prototype Adaption and Projection for Few- and Zero-shot 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2305.14335.pdf) [`seg`; [Github](https://github.com/heshuting555/PAP-FZS3D); TIP]
@@ -177,6 +183,9 @@
   - [Centroid Distance Keypoint Detector for Colored Point Clouds](https://arxiv.org/pdf/2210.01298.pdf) [`keypoint`; [Github](https://github.com/UCR-Robotics/CED_Detector); WACV]
   - [NeuralBF: Neural Bilateral Filtering for Top-down Instance Segmentation on Point Clouds](https://arxiv.org/pdf/2207.09978.pdf) [`seg`; [Project](https://neuralbf.github.io); WACV]
 - arXiv
+  - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/pdf/2307.01831.pdf) [`generation`; [Github](https://github.com/DiT-3D/DiT-3D)]
+  - [DiffComplete: Diffusion-based Generative 3D Shape Completion](https://arxiv.org/pdf/2306.16329.pdf) [`completion`; [Project](https://ruihangchu.com/diffcomplete.html)]
+  - [Symphonize 3D Semantic Scene Completion with Contextual Instance Queries](https://arxiv.org/pdf/2306.15670.pdf) [`semantic scene completion`; [PyTorch](https://github.com/hustvl/Symphonies)]
   - [Frame Fusion with Vehicle Motion Prediction for 3D Object Detection](https://arxiv.org/pdf/2306.10699.pdf) [`det`]
   - [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/pdf/2306.10013.pdf) [`semantic occupancy prediction`; [Github](https://github.com/Robertwyq/PanoOcc)]
   - [Explore In-Context Learning for 3D Point Cloud Understanding](https://arxiv.org/pdf/2306.08659.pdf) [`in-context learning`; [Github](https://github.com/fanglaosi/Point-In-Context)]
