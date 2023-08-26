@@ -52,6 +52,7 @@ Hierarchical Part-level 3D Object Understanding](https://arxiv.org/pdf/1812.0271
 - [Occ3D](https://tsinghua-mars-lab.github.io/Occ3D/): [Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving](https://arxiv.org/pdf/2304.14365v1.pdf) [arXiv 2304]
 - [SSCBench](https://github.com/ai4ce/SSCBench): [SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving](https://arxiv.org/pdf/2306.09001.pdf) [arXiv 2306]
 - [UniG3D](https://unig3d.github.io): [UniG3D: A Unified 3D Object Generation Dataset](https://arxiv.org/pdf/2306.10730.pdf) [arXiv 2306]
+- [WaterScenes](https://waterscenes.github.io): [WaterScenes: A Multi-Task 4D Radar-Camera Fusion Dataset for Autonomous Driving on Water Surfaces](https://arxiv.org/abs/2307.06505) [arXiv 2307]
 
 <hr />
 
