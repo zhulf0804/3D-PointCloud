@@ -12,7 +12,7 @@
 - [A Survey of Label-Efficient Deep Learning for 3D Point Clouds](https://arxiv.org/pdf/2305.19812.pdf) [arXiv 2023; [Github](https://github.com/xiaoaoran/3D_label_efficient_learning)]
 - [Self-Supervised Learning for Point Clouds Data: A Survey](https://arxiv.org/pdf/2305.11881.pdf) [arXiv 2023]
 - [Self-supervised Learning for Pre-Training 3D Point Clouds: A Survey](https://arxiv.org/pdf/2305.04691.pdf) [arXiv 2023]
-- [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v1.pdf) [arXiv 2023; [Project](https://xjtlu-vec.github.io/Radar-Camera-Fusion/)]
+- [Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review](https://arxiv.org/pdf/2304.10410v2.pdf) [IEEE T-IV 2023; [Project](https://radar-camera-fusion.github.io)]
 - [Perception Datasets for Anomaly Detection in Autonomous Driving: A Survey](https://arxiv.org/pdf/2302.02790.pdf) [arXiv 2023]
 - [Delving into the Devils of Bird's-eye-view Perception: A Review, Evaluation and Recipe](https://arxiv.org/pdf/2209.05324.pdf) [arXiv 2022; [Github](https://github.com/OpenDriveLab/BEVPerception-Survey-Recipe)]
 - [3D Vision with Transformers: A Survey](https://arxiv.org/pdf/2208.04309.pdf) [arXiv 2022; [Github](https://github.com/lahoud/3d-vision-transformers)]
