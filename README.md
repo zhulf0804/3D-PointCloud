@@ -36,6 +36,9 @@
 
 ## 2023
 
+- ICCV
+  - [Point-TTA: Test-Time Adaptation for Point Cloud Registration Using Multitask Meta-Auxiliary Learning](https://arxiv.org/pdf/2308.16481.pdf) [`registration`]
+  - [RegFormer: An Efficient Projection-Aware Transformer Network for Large-Scale Point Cloud Registration](https://arxiv.org/pdf/2303.12384.pdf) [`registration`; [PyTorch](https://github.com/IRMVLab/RegFormer)]
 - CVPR
   - [FB-OCC: 3D Occupancy Prediction based on Forward-Backward View Transformation](https://arxiv.org/pdf/2307.01492.pdf) [`semantic occupancy prediction`; [Github](https://github.com/NVlabs/FB-BEV); CVPRW]
   - [Planning-oriented Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.pdf) [`autonomous driving`; [PyTorch](https://github.com/OpenDriveLab/UniAD)]
