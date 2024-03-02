@@ -37,9 +37,17 @@
 
 ## 2024
 
+- CVPR
+  - [Point Transformer V3: Simpler, Faster, Stronger](https://arxiv.org/pdf/2312.10035v1.pdf) [`seg`, `det`; [Github](https://github.com/pointcept/pointtransformerv3)]
+  - [OneFormer3D: One Transformer for Unified Point Cloud Segmentation](https://arxiv.org/pdf/2311.14405.pdf) [`seg`; [Github](https://github.com/filaPro/oneformer3d)]
+  - [Coupled Laplacian Eigenmaps for Locally-Aware 3D Rigid Point Cloud Matching](https://arxiv.org/pdf/2402.17372v1.pdf) [`matching`]
+  - [Symphonize 3D Semantic Scene Completion with Contextual Instance Queries](https://arxiv.org/pdf/2306.15670.pdf) [`semantic scene completion`; [PyTorch](https://github.com/hustvl/Symphonies)]
+  - [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/pdf/2306.10013.pdf) [`semantic occupancy prediction`; [Github](https://github.com/Robertwyq/PanoOcc)]
+  - [Visual Point Cloud Forecasting enables Scalable Autonomous Driving](https://arxiv.org/pdf/2312.17655.pdf) [`autonomous driving`; [Github](https://github.com/OpenDriveLab/ViDAR)]
 - AAAI
   - [iDet3D: Towards Efficient Interactive Object Detection for LiDAR Point Clouds](https://arxiv.org/pdf/2312.15449.pdf) [`det`]
   - [SimDistill: Simulated Multi-modal Distillation for BEV 3D Object Detection](https://arxiv.org/pdf/2303.16818.pdf) [`det`; [Github](https://github.com/ViTAE-Transformer/BEVSimDet)]
+  - [PointCVaR: Risk-optimized Outlier Removal for Robust 3D Point Cloud Classification](https://arxiv.org/pdf/2307.10875.pdf) [`cls`; [PyTorch](https://github.com/shinke-li/pointcvar)]
   - [NeRF-LiDAR: Generating Realistic LiDAR Point Clouds with Neural Radiance Fields](https://arxiv.org/pdf/2304.14811.pdf) [`autonomous driving`; [Github](https://github.com/fudan-zvg/NeRF-LiDAR)]
   - [CMG-Net: Robust Normal Estimation for Point Clouds via Chamfer Normal Distance and Multi-scale Geometry](https://arxiv.org/pdf/2312.09154v1.pdf) [`normal estimation`]
   - [3D Visibility-aware Generalizable Neural Radiance Fields for Interacting Hands](https://arxiv.org/pdf/2401.00979v1.pdf) [`NeRF`]
@@ -52,6 +60,8 @@
   - [Top-Down Beats Bottom-Up in 3D Instance Segmentation](https://arxiv.org/pdf/2302.02871.pdf) [`seg`; [PyTorch](https://github.com/SamsungLabs/td3d); WACV]
   - [End-to-End Trainable Point Cloud Registration with Surface Curvature](https://arxiv.org/pdf/2309.16023.pdf) [`registration`; 3DV]
   - [Q-REG: End-to-End Trainable Point Cloud Registration with Surface Curvature](https://arxiv.org/pdf/2309.16023.pdf) [`registration`; [Github](https://github.com/jinsz/Q-REG); 3DV]
+  - [Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding](https://arxiv.org/pdf/2208.12259.pdf) [`pretraining`; [Github](https://github.com/guochengqian/Pix4Point); 3DV]
+  - [Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction](https://arxiv.org/pdf/2305.18829.pdf) [`det`, `semantic occupancy prediction`; [PyTorch](https://github.com/chaytonmin/Occ-BEV); RAL]
   - [POS-BERT: Point Cloud One-Stage BERT Pre-Training](https://arxiv.org/pdf/2204.00989.pdf) [`pre-training`; [Github](https://github.com/fukexue/POS-BERT); ESWA]
 - arXiv
   - [Diff-PCR: Diffusion-Based Correspondence Searching in Doubly Stochastic Matrix Space for Point Cloud Registration](https://arxiv.org/pdf/2401.00436.pdf) [`registration`]
@@ -242,6 +252,7 @@
   - [You Only Label Once: 3D Box Adaptation From Point Cloud to Image With Semi-Supervised Learning](https://arxiv.org/pdf/2211.09302.pdf) [`det`; RAL]
   - [Prototype Adaption and Projection for Few- and Zero-shot 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2305.14335.pdf) [`seg`; [Github](https://github.com/heshuting555/PAP-FZS3D); TIP]
   - [APP-Net: Auxiliary-point-based Push and Pull Operations for Efficient Point Cloud Classification](https://arxiv.org/pdf/2205.00847.pdf) [`cls`; [PyTorch](https://github.com/MCG-NJU/APP-Net); TIP]
+  - [OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection](https://arxiv.org/pdf/2212.10049.pdf) [`det`; [Github](https://github.com/mrsempress/OBMO); TIP]
   - [OctFormer: Octree-based Transformers for 3D Point Clouds](https://arxiv.org/pdf/2305.03045.pdf) [`seg`, `det`; [Github](https://github.com/octree-nn/octformer); TOG]
   - [Point Cloud Registration-Driven Robust Feature Matching for 3D Siamese Object Tracking](https://arxiv.org/pdf/2209.06395.pdf) [`tracking`; TNNLS]
   - [Full Transformer Framework for Robust Point Cloud Registration with Deep Information Interaction](https://arxiv.org/pdf/2112.09385.pdf) [`registration`; [Github](https://github.com/CGuangyan-BIT/DIT); TNNLS]
@@ -285,16 +296,13 @@
 - arXiv
   - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/pdf/2307.01831.pdf) [`generation`; [Github](https://github.com/DiT-3D/DiT-3D)]
   - [DiffComplete: Diffusion-based Generative 3D Shape Completion](https://arxiv.org/pdf/2306.16329.pdf) [`completion`; [Project](https://ruihangchu.com/diffcomplete.html)]
-  - [Symphonize 3D Semantic Scene Completion with Contextual Instance Queries](https://arxiv.org/pdf/2306.15670.pdf) [`semantic scene completion`; [PyTorch](https://github.com/hustvl/Symphonies)]
   - [Frame Fusion with Vehicle Motion Prediction for 3D Object Detection](https://arxiv.org/pdf/2306.10699.pdf) [`det`]
-  - [PanoOcc: Unified Occupancy Representation for Camera-based 3D Panoptic Segmentation](https://arxiv.org/pdf/2306.10013.pdf) [`semantic occupancy prediction`; [Github](https://github.com/Robertwyq/PanoOcc)]
   - [UniOcc: Unifying Vision-Centric 3D Occupancy Prediction with Geometric and Semantic Rendering](https://arxiv.org/pdf/2306.09117.pdf) [`occupancy prediction`]
   - [TrajectoryFormer: 3D Object Tracking Transformer with Predictive Trajectory Hypotheses](https://arxiv.org/pdf/2306.05888.pdf) [`tracking`]
   - [SAM3D: Zero-Shot 3D Object Detection via Segment Anything Model](https://arxiv.org/pdf/2306.02245.pdf) [`det`; [PyTorch](https://github.com/DYZhang09/SAM3D)]
   - [Collect-and-Distribute Transformer for 3D Point Cloud Analysis](https://arxiv.org/pdf/2306.01257.pdf) [`cls`, `seg`; [PyTorch](https://github.com/haibo-qiu/CDFormer)]
   - [OCBEV: Object-Centric BEV Transformer for Multi-View 3D Object Detection](https://arxiv.org/pdf/2306.01738.pdf) [`det`]
   - [Point-GCC: Universal Self-supervised 3D Scene Pre-training via Geometry-Color Contrast](https://arxiv.org/pdf/2305.19623.pdf) [`self-supervised learning`; [Github](https://github.com/Asterisci/Point-GCC)]
-  - [Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction](https://arxiv.org/pdf/2305.18829.pdf) [`det`, `semantic occupancy prediction`; [PyTorch](https://github.com/chaytonmin/Occ-BEV)]
   - [BEV-IO: Enhancing Bird's-Eye-View 3D Detection with Instance Occupancy](https://arxiv.org/pdf/2305.16829.pdf) [`det`]
   - [Banana: Banach Fixed-Point Network for Pointcloud Segmentation with Inter-Part Equivariance](https://arxiv.org/pdf/2305.16314.pdf) [`seg`]
   - [All Points Matter: Entropy-Regularized Distribution Alignment for Weakly-supervised 3D Segmentation](https://arxiv.org/pdf/2305.15832.pdf) [`seg`]
@@ -358,7 +366,6 @@
   - [Overlap Bias Matching is Necessary for Point Cloud Registration](https://arxiv.org/pdf/2308.09364.pdf) [`registration`]
   - [One-Nearest Neighborhood Guides Inlier Estimation for Unsupervised Point Cloud Registration](https://arxiv.org/pdf/2307.14019.pdf) [`registration`]
   - [Direct Superpoints Matching for Fast and Robust Point Cloud Registration](https://arxiv.org/pdf/2307.01362.pdf) [`registration`]
-  - [Point Transformer V3: Simpler, Faster, Stronger](https://arxiv.org/pdf/2312.10035v1.pdf) [`seg`, `det`; [Github](https://github.com/pointcept/pointtransformerv3)]
 
 ## 2022
 
@@ -689,7 +696,6 @@
   - [TiG-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning](https://arxiv.org/pdf/2212.13979.pdf) [`det`; [Github](https://github.com/ADLab3Ds/TiG-BEV)]
   - [MM-3DScene: 3D Scene Understanding by Customizing Masked Modeling with Informative-Preserved Reconstruction and Self-Distilled Consistency](https://arxiv.org/pdf/2212.09948.pdf) [`seg`, `det`]
   - [ADAS: A Simple Active-and-Adaptive Baseline for Cross-Domain 3D Semantic Segmentation](https://arxiv.org/pdf/2212.10390.pdf) [`seg`; [PyTorch](https://github.com/Fayeben/ADAS)]
-  - [OBMO: One Bounding Box Multiple Objects for Monocular 3D Object Detection](https://arxiv.org/pdf/2212.10049.pdf) [`det`; [Github](https://github.com/mrsempress/OBMO)]
   - [3D Point Cloud Pre-training with Knowledge Distillation from 2D Images](https://arxiv.org/pdf/2212.08974.pdf) [`pre-training`]
   - [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/pdf/2212.08751.pdf) [`generation`; [PyTorch](https://github.com/openai/point-e)]
   - [DETR4D: Direct Multi-View 3D Object Detection with Sparse Attention](https://arxiv.org/pdf/2212.07849.pdf) [`det`]
@@ -728,7 +734,6 @@
   - [Benchmarking Robustness of 3D Point Cloud Recognition Against Common Corruptions](https://arxiv.org/pdf/2201.12296.pdf) [`robustness`; [PyTorch](https://github.com/jiachens/ModelNet40-C)]
   - [Scatter Points in Space: 3D Detection from Multi-view Monocular Images](https://arxiv.org/pdf/2208.14738.pdf) [`det`]
   - [Voxurf: Voxel-based Efficient and Accurate Neural Surface Reconstruction](https://arxiv.org/pdf/2208.12697.pdf) [`reconstruction`]
-  - [Pix4Point: Image Pretrained Transformers for 3D Point Cloud Understanding](https://arxiv.org/pdf/2208.12259.pdf) [`pretraining`; [Github](https://github.com/guochengqian/Pix4Point)]
   - [Bridging the View Disparity of Radar and Camera Features for Multi-modal Fusion 3D Object Detection](https://arxiv.org/pdf/2208.12079.pdf) [`det`]
   - [AGO-Net: Association-Guided 3D Point Cloud Object Detection Network](https://arxiv.org/pdf/2208.11658.pdf) [`det`]
   - [Quality Matters: Embracing Quality Clues for Robust 3D Multi-Object Tracking](https://arxiv.org/pdf/2208.10976.pdf) [`tracking`]
