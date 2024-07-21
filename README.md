@@ -38,6 +38,29 @@
 
 ## 2024
 
+- ECCV
+  - [Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene](https://arxiv.org/pdf/2407.08569v1) [`det`]
+  - [Global-Local Collaborative Inference with LLM for Lidar-Based Open-Vocabulary Detection](https://arxiv.org/pdf/2407.08931v1) [`det`]
+  - [OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](https://arxiv.org/pdf/2407.10753v1) [`det`]
+  - [SEED: A Simple and Effective 3D DETR in Point Clouds](https://arxiv.org/pdf/2407.10749v1) [`det`]
+  - [General Geometry-aware Weakly Supervised 3D Object Detection](https://arxiv.org/pdf/2407.13748v1) [`det`; [PyTorch](https://github.com/gwenzhang/GGA)]
+  - [SegPoint: Segment Any Point Cloud via Large Language Model](https://arxiv.org/pdf/2407.13761v1) [`seg`]
+  - [Open-Vocabulary 3D Semantic Segmentation with Text-to-Image Diffusion Models](https://arxiv.org/pdf/2407.13642v1) [`seg`]
+  - [ItTakesTwo: Leveraging Peer Representations for Semi-supervised LiDAR Semantic Segmentation](https://arxiv.org/pdf/2407.07171v1) [`seg`]
+  - [RAPiD-Seg: Range-Aware Pointwise Distance Distribution Networks for 3D LiDAR Segmentation](https://arxiv.org/pdf/2407.10159v1) [`seg`]
+  - [3×2: 3D Object Part Segmentation by 2D Semantic Correspondences](https://arxiv.org/pdf/2407.09648v1) [`seg`]
+  - [Dual-level Adaptive Self-Labeling for Novel Class Discovery in Point Cloud Segmentation](https://arxiv.org/pdf/2407.12489v1) [`seg`]
+  - [SFPNet: Sparse Focal Point Network for Semantic Segmentation on General LiDAR Point Clouds](https://arxiv.org/pdf/2407.11569v1) [`seg`]
+  - [HGL: Hierarchical Geometry Learning for Test-time Adaptation in 3D Point Cloud Segmentation](https://arxiv.org/pdf/2407.12387v1) [`seg`; [PyTorch](https://github.com/tpzou/HGL)]
+  - [Part2Object: Hierarchical Unsupervised 3D Instance Segmentation](https://arxiv.org/pdf/2407.10084v1) [`seg`; [PyTorch](https://arxiv.org/pdf/2407.10084v1)]
+  - [4D Contrastive Superflows are Dense 3D Representation Learners](https://arxiv.org/pdf/2407.06190v1) [`pre-training`]
+  - [Shape2Scene: 3D Scene Representation Learning Through Pre-training on Shape Data](https://arxiv.org/pdf/2407.10200v1) [`pre-training`]
+  - [Explicitly Guided Information Interaction Network for Cross-modal Point Cloud Completion](https://arxiv.org/pdf/2407.02887) [`completion`; [PyTorch](https://github.com/WHU-USI3DV/EGIInet)]
+  - [T-CorresNet: Template Guided 3D Point Cloud Completion with Correspondence Pooling Query Generation Strategy](https://arxiv.org/pdf/2407.05008) [`completion`; [Github](https://github.com/df-boy/T-CorresNet)]
+  - [GaussReg: Fast 3D Registration with Gaussian Splatting](https://arxiv.org/pdf/2407.05254v1) [`registration`]
+  - [ML-SemReg: Boosting Point Cloud Registration with Multi-level Semantic Consistency](https://arxiv.org/pdf/2407.09862v1) [`registration`; [PyTorch](https://github.com/Laka-3DV/ML-SemReg)]
+  - [Transferable 3D Adversarial Shape Completion using Diffusion Models](https://arxiv.org/pdf/2407.10077v1) [`adversarial attack`]
+  - [R3D-AD: Reconstruction via Diffusion for 3D Anomaly Detection](https://arxiv.org/pdf/2407.10862v1) [`anomaly detection`]
 - CVPR
   - [Dynamic Adapter Meets Prompt Tuning: Parameter-Efficient Transfer Learning for Point Cloud Analysis](https://arxiv.org/pdf/2403.01439.pdf) [`pre-training`; [PyTorch](https://github.com/LMD0311/DAPT)]
   - [HUNTER: Unsupervised Human-centric 3D Detection via Transferring Knowledge from Synthetic Instances to Real Scenes](https://arxiv.org/pdf/2403.02769v1.pdf) [`det`]
@@ -47,6 +70,7 @@
   - [Rethinking Few-shot 3D Point Cloud Semantic Segmentation](https://arxiv.org/pdf/2403.00592.pdf) [`seg`; [PyTorch](https://github.com/ZhaochongAn/COSeg)]
   - [CurveCloudNet: Processing Point Clouds with 1D Structure](https://arxiv.org/pdf/2303.12050v1.pdf) [`seg`]
   - [No Time to Train: Empowering Non-Parametric Networks for Few-shot 3D Scene Segmentation](https://arxiv.org/pdf/2404.04050.pdf) [`seg`; [PyTorch](https://github.com/yangyangyang127/Seg-NN)]
+  - [TASeg: Temporal Aggregation Network for LiDAR Semantic Segmentation](https://arxiv.org/pdf/2407.09751v1) [`seg`]
   - [GeoAuxNet: Towards Universal 3D Representation Learning for Multi-sensor Point Clouds](https://arxiv.org/pdf/2403.19220) [`seg`; [PyTorch](https://github.com/zhangshengjun2019/GeoAuxNet)]
   - [Multi-Space Alignments Towards Universal LiDAR Segmentation](https://arxiv.org/pdf/2405.01538v1) [`seg`; [Github](https://github.com/youquanl/M3Net)]
   - [KPConvX: Modernizing Kernel Point Convolution with Kernel Attention](https://arxiv.org/pdf/2405.13194) [`cls`, `seg`]
@@ -77,6 +101,7 @@
   - [iDet3D: Towards Efficient Interactive Object Detection for LiDAR Point Clouds](https://arxiv.org/pdf/2312.15449.pdf) [`det`]
   - [CMDA: Cross-Modal and Domain Adversarial Adaptation for LiDAR-Based 3D Object Detection](https://arxiv.org/pdf/2403.03721v1.pdf) [`det`]
   - [SimDistill: Simulated Multi-modal Distillation for BEV 3D Object Detection](https://arxiv.org/pdf/2303.16818.pdf) [`det`; [Github](https://github.com/ViTAE-Transformer/BEVSimDet)]
+  - [Semi-supervised 3D Object Detection with PatchTeacher and PillarMix](https://arxiv.org/pdf/2407.09787v1) [`det`]
   - [PointCVaR: Risk-optimized Outlier Removal for Robust 3D Point Cloud Classification](https://arxiv.org/pdf/2307.10875.pdf) [`cls`; [PyTorch](https://github.com/shinke-li/pointcvar)]
   - [NeRF-LiDAR: Generating Realistic LiDAR Point Clouds with Neural Radiance Fields](https://arxiv.org/pdf/2304.14811.pdf) [`autonomous driving`; [Github](https://github.com/fudan-zvg/NeRF-LiDAR)]
   - [CMG-Net: Robust Normal Estimation for Point Clouds via Chamfer Normal Distance and Multi-scale Geometry](https://arxiv.org/pdf/2312.09154v1.pdf) [`normal estimation`]
@@ -90,6 +115,7 @@
   - [DeepPointMap: Advancing LiDAR SLAM with Unified Neural Descriptors](https://arxiv.org/pdf/2312.02684.pdf) [`matching`; [Github](https://github.com/ZhangXiaze/DeepPointMap)]
   - [Arbitrary-Scale Point Cloud Upsampling by Voxel-Based Network with Latent Geometric-Consistent Learning](https://arxiv.org/pdf/2403.05117.pdf) [`upsampling`]
 - Others
+  - [3D Geometric Shape Assembly via Efficient Point Cloud Matching](https://arxiv.org/pdf/2407.10542v1) [`assembly`; ICML]
   - [An Effective Motion-Centric Paradigm for 3D Single Object Tracking in Point Clouds](https://arxiv.org/pdf/2303.12535v1.pdf) [`tracking`; [PyTorch](https://github.com/Ghostish/Open3DSOT); TPAMI]
   - [Exploring Point-BEV Fusion for 3D Point Cloud Object Tracking with Transformer](https://arxiv.org/pdf/2208.05216.pdf) [`tracking`; [PyTorch](https://github.com/Jasonkks/PTTR)]
   - [Efficient and Robust Point Cloud Registration via Heuristics-guided Parameter Search](https://arxiv.org/pdf/2404.06155v1.pdf) [`registration`; [Github](https://github.com/tyhuang98/HERE-release); TPAMI]
@@ -104,11 +130,13 @@
   - [MAELi -- Masked Autoencoder for Large-Scale LiDAR Point Clouds](https://arxiv.org/pdf/2212.07207.pdf) [`self-supervised`; WACV]
   - [FF-LOGO: Cross-Modality Point Cloud Registration with Feature Filtering and Local to Global Optimization](https://arxiv.org/pdf/2309.08966.pdf) [`registration`; ICRA]
   - [3D-OAE: Occlusion Auto-Encoders for Self-Supervised Learning on Point Clouds](https://arxiv.org/pdf/2203.14084.pdf) [`self-supervised`; [Github](https://github.com/junshengzhou/3D-OAE); ICRA]
+  - [V2I-Calib: A Novel Calibration Approach for Collaborative Vehicle and Infrastructure LiDAR Systems](https://arxiv.org/pdf/2407.10195v1) [`calibration`; IROS]
   - [Occ-BEV: Multi-Camera Unified Pre-training via 3D Scene Reconstruction](https://arxiv.org/pdf/2305.18829.pdf) [`det`, `semantic occupancy prediction`; [PyTorch](https://github.com/chaytonmin/Occ-BEV); RAL]
   - [Robust Partial-to-Partial Point Cloud Registration in a Full Range](https://arxiv.org/pdf/2111.15606.pdf) [`registration`; [PyTorch](https://github.com/paul007pl/GMCNet); RAL]
   - [POS-BERT: Point Cloud One-Stage BERT Pre-Training](https://arxiv.org/pdf/2204.00989.pdf) [`pre-training`; [Github](https://github.com/fukexue/POS-BERT); ESWA]
 - arXiv
   - [Diff-PCR: Diffusion-Based Correspondence Searching in Doubly Stochastic Matrix Space for Point Cloud Registration](https://arxiv.org/pdf/2401.00436.pdf) [`registration`]
+  - [BiEquiFormer: Bi-Equivariant Representations for Global Point Cloud Registration](https://arxiv.org/pdf/2407.08729v1) [`registration`]
 
 ## 2023
 
