@@ -43,7 +43,7 @@
   - [Global-Local Collaborative Inference with LLM for Lidar-Based Open-Vocabulary Detection](https://arxiv.org/pdf/2407.08931v1) [`det`]
   - [OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](https://arxiv.org/pdf/2407.10753v1) [`det`]
   - [SEED: A Simple and Effective 3D DETR in Point Clouds](https://arxiv.org/pdf/2407.10749v1) [`det`]
-  - [General Geometry-aware Weakly Supervised 3D Object Detection](https://arxiv.org/pdf/2407.13748v1) [`det`; [PyTorch](https://arxiv.org/pdf/2407.13748v1)]
+  - [General Geometry-aware Weakly Supervised 3D Object Detection](https://arxiv.org/pdf/2407.13748v1) [`det`; [PyTorch](https://github.com/gwenzhang/GGA)]
   - [SegPoint: Segment Any Point Cloud via Large Language Model](https://arxiv.org/pdf/2407.13761v1) [`seg`]
   - [Open-Vocabulary 3D Semantic Segmentation with Text-to-Image Diffusion Models](https://arxiv.org/pdf/2407.13642v1) [`seg`]
   - [ItTakesTwo: Leveraging Peer Representations for Semi-supervised LiDAR Semantic Segmentation](https://arxiv.org/pdf/2407.07171v1) [`seg`]
