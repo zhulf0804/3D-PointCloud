@@ -39,6 +39,7 @@
 ## 2024
 
 - ECCV
+  - [OpenIns3D: Snap and Lookup for 3D Open-vocabulary Instance Segmentation](https://arxiv.org/abs/2309.00616)[`open-vocabulary`; [Github](https://github.com/Pointcept/OpenIns3D)]
   - [Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene](https://arxiv.org/pdf/2407.08569v1) [`det`]
   - [Global-Local Collaborative Inference with LLM for Lidar-Based Open-Vocabulary Detection](https://arxiv.org/pdf/2407.08931v1) [`det`]
   - [OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](https://arxiv.org/pdf/2407.10753v1) [`det`]
